@@ -48,6 +48,7 @@ Start at [[00_Home/index|the Home hub]] for the reading order.
 - [[MOC - Best Practices]]
 - [[MOC - Anti-Patterns]]
 - [[MOC - Research Papers]]
+- [[MOC - Domain Applications]]
 - [[MOC - Meta]]
 
 ## Related Maps

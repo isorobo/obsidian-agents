@@ -55,7 +55,7 @@ AI-agents domain, with the Anthropic ecosystem as the primary lens.
 `concept`, `architecture`, `pattern`, `anti-pattern`, `guide`, `source`,
 `person`, `organisation`, `release`, `moc`, `draft`, `glossary`, `meta`.
 
-### 2.3 `topic` controlled vocabulary (22)
+### 2.3 `topic` controlled vocabulary (23)
 
 `topic/foundations`, `topic/concepts`, `topic/architectures`,
 `topic/claude-sdk`, `topic/claude-code`, `topic/mcp`, `topic/tool-use`,
@@ -63,7 +63,15 @@ AI-agents domain, with the Anthropic ecosystem as the primary lens.
 `topic/agent-patterns`, `topic/multi-agent`, `topic/deployment`,
 `topic/observability`, `topic/evaluation`, `topic/security`,
 `topic/best-practices`, `topic/anti-patterns`, `topic/release-notes`,
-`topic/boris-cherny`, `topic/research-papers`, `topic/meta`.
+`topic/boris-cherny`, `topic/research-papers`, `topic/domain-applications`,
+`topic/meta`.
+
+`topic/domain-applications` (added 2026-07-10) covers agent and NLP research
+scoped to one professional domain rather than general agent engineering —
+for example agentic and NLP systems applied to law. The vocabulary graduated
+directly from a five-plus-paper cluster rather than through the tag layer,
+per section 4. Papers in this topic carry a second, general topic (most often
+`topic/research-papers`) so they also surface under the general reading path.
 
 ### 2.4 Source notes
 
