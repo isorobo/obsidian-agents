@@ -1,6 +1,6 @@
 {
   "TTS_PROVIDER": "polly",
-  "VOICE": "Stephen",
+  "VOICE": "Emma",
   "SPEED": 1,
   "AWS_REGION": "eu-central-1",
   "AWS_ACCESS_KEY_ID": "",
