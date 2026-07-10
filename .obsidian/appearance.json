@@ -1,1 +1,11 @@
-{}
+{
+  "theme": "obsidian",
+  "accentColor": "#5cf2f5",
+  "cssTheme": "Darkyan",
+  "baseFontSizeAction": true,
+  "nativeMenus": true,
+  "interfaceFontFamily": "New century",
+  "textFontFamily": "New century",
+  "monospaceFontFamily": "Calibri",
+  "baseFontSize": 28
+}
