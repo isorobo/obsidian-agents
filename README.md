@@ -1,2 +1,2 @@
 # obsidian-agents
-An obsidian vault collating on a cron schedule all things interesting about AI Agents
+An obsidian vault on a cron schedule collating all things interesting about AI Agents
