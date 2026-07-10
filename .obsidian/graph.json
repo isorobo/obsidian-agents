@@ -1,22 +1,79 @@
 {
-  "collapse-filter": true,
-  "search": "",
+  "collapse-filter": false,
+  "search": "-path:90_Templates",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
+  "colorGroups": [
+    {
+      "query": "path:50_MOCs",
+      "color": {
+        "a": 1,
+        "rgb": 2783446
+      }
+    },
+    {
+      "query": "path:30_Concepts",
+      "color": {
+        "a": 1,
+        "rgb": 1814394
+      }
+    },
+    {
+      "query": "path:10_Sources",
+      "color": {
+        "a": 1,
+        "rgb": 15573248
+      }
+    },
+    {
+      "query": "path:20_People",
+      "color": {
+        "a": 1,
+        "rgb": 33536
+      }
+    },
+    {
+      "query": "path:40_Guides",
+      "color": {
+        "a": 1,
+        "rgb": 4864679
+      }
+    },
+    {
+      "query": "path:60_Drafts OR path:70_Research",
+      "color": {
+        "a": 1,
+        "rgb": 14895432
+      }
+    },
+    {
+      "query": "path:99_Meta",
+      "color": {
+        "a": 1,
+        "rgb": 15236004
+      }
+    },
+    {
+      "query": "path:00_Home OR path:00_Inbox",
+      "color": {
+        "a": 1,
+        "rgb": 15427636
+      }
+    }
+  ],
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 1,
+  "textFadeMultiplier": -1.1,
+  "nodeSizeMultiplier": 0.801822916666667,
+  "lineSizeMultiplier": 1.31223958333333,
+  "collapse-forces": false,
+  "centerStrength": 0.5234375,
+  "repelStrength": 11.5104166666667,
+  "linkStrength": 0.341145833333333,
+  "linkDistance": 83,
+  "scale": 0.36288736930120974,
   "close": true
 }
