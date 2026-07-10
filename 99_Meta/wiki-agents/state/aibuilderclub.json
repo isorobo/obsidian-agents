@@ -9,6 +9,11 @@
       "date": "2026-07-11",
       "note": "Manual seed run, not the automated monitor. Chapter 1 (Fundamentals, lessons 1.2-1.12) ingested as 11 source notes plus the ai-builder-club and andrej-karpathy profiles and a synthesis guide. sources_added left at 0 / last_status pending so the first automated monitor run treats the channel as unrun and checks for new chapters rather than assuming full coverage.",
       "sources_added": 11
+    },
+    {
+      "date": "2026-07-11",
+      "note": "Manual seed run, not the automated monitor. Chapter 2 (Build From Scratch, 2.1-2.4) and Chapter 3 (Tools & Infrastructure, 3.1-3.13) ingested as 17 source notes plus one combined synthesis guide. Noted a title/content mismatch: the course index labels 3.4 'Why MCP is Dead & Skills Replace It' but the page is Anthropic's Claude Code Skills playbook; filed under its actual title. sources_added left at 0 / last_status pending, same rationale as the prior run.",
+      "sources_added": 17
     }
   ]
 }
