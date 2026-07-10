@@ -1,0 +1,9 @@
+flowchart TD
+    U[User goal] --> Sup[Supervisor]
+    Sup --> W1[Worker: research]
+    Sup --> W2[Worker: code]
+    Sup --> W3[Worker: verify]
+    W1 --> Sup
+    W2 --> Sup
+    W3 --> Sup
+    Sup --> Out[Synthesised result]

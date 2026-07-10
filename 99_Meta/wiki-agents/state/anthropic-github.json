@@ -1,0 +1,8 @@
+{
+  "channel": "anthropic-github",
+  "last_run_at": null,
+  "target_per_run": 5,
+  "sources_added": 0,
+  "last_status": "pending",
+  "history": []
+}

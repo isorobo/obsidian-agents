@@ -1,0 +1,11 @@
+flowchart TD
+    A[Goal] --> B[Perceive context]
+    B --> C[Reason / plan next step]
+    C --> D{Tool needed?}
+    D -- yes --> E[Call tool]
+    E --> F[Observe result]
+    F --> C
+    D -- no --> G[Produce answer]
+    G --> H{Goal met?}
+    H -- no --> C
+    H -- yes --> I[Stop]

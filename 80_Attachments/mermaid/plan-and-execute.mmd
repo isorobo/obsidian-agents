@@ -1,0 +1,9 @@
+flowchart TD
+    G[Goal] --> P[Planner: build step list]
+    P --> S1[Step 1]
+    S1 --> S2[Step 2]
+    S2 --> Sn[Step n]
+    Sn --> R{Plan complete?}
+    R -- no --> RP[Replan]
+    RP --> S1
+    R -- yes --> Done[Result]

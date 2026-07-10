@@ -1,0 +1,8 @@
+flowchart LR
+    T[Task] --> Th[Thought]
+    Th --> Ac[Action]
+    Ac --> Ob[Observation]
+    Ob --> Th
+    Ob --> Fin{Done?}
+    Fin -- yes --> Ans[Answer]
+    Fin -- no --> Th

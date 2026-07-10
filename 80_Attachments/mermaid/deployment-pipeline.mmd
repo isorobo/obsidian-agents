@@ -1,0 +1,8 @@
+flowchart LR
+    Dev[Develop] --> Test[Test + eval]
+    Test --> CI[CI/CD]
+    CI --> Cont[Containerise]
+    Cont --> Deploy[Deploy: cloud / local / edge]
+    Deploy --> Obs[Observe: logs + traces]
+    Obs --> Eval[Evaluate in production]
+    Eval --> Dev
