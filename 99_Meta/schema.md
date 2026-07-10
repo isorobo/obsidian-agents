@@ -55,7 +55,7 @@ AI-agents domain, with the Anthropic ecosystem as the primary lens.
 `concept`, `architecture`, `pattern`, `anti-pattern`, `guide`, `source`,
 `person`, `organisation`, `release`, `moc`, `draft`, `glossary`, `meta`.
 
-### 2.3 `topic` controlled vocabulary (23)
+### 2.3 `topic` controlled vocabulary (24)
 
 `topic/foundations`, `topic/concepts`, `topic/architectures`,
 `topic/claude-sdk`, `topic/claude-code`, `topic/mcp`, `topic/tool-use`,
@@ -63,8 +63,15 @@ AI-agents domain, with the Anthropic ecosystem as the primary lens.
 `topic/agent-patterns`, `topic/multi-agent`, `topic/deployment`,
 `topic/observability`, `topic/evaluation`, `topic/security`,
 `topic/best-practices`, `topic/anti-patterns`, `topic/release-notes`,
-`topic/boris-cherny`, `topic/research-papers`, `topic/domain-applications`,
-`topic/meta`.
+`topic/boris-cherny`, `topic/karpathy`, `topic/research-papers`,
+`topic/domain-applications`, `topic/meta`.
+
+`topic/karpathy` (added 2026-07-11) covers Andrej Karpathy's public talks,
+posts, and third-party commentary on them, mirroring the `topic/boris-cherny`
+pattern for a second named individual. A source in this topic carries a
+second, general topic alongside it (for example `topic/best-practices` or
+`topic/memory`) so it also surfaces under the general reading path, per the
+same rule stated for `topic/domain-applications` below.
 
 `topic/domain-applications` (added 2026-07-10) covers agent and NLP research
 scoped to one professional domain rather than general agent engineering —

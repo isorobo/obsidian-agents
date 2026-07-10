@@ -22,6 +22,7 @@ Start at [[00_Home/index|the Home hub]] for the reading order.
 - [[MOC - Concepts]]
 - [[MOC - Architectures]]
 - [[MOC - Agent Patterns]]
+- [[MOC - Karpathy]]
 
 ## Anthropic band
 

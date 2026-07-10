@@ -36,6 +36,7 @@ The monitor reads this table on every `run all` and `weekly-refresh`.
 | claude-code-changelog | Claude Code Changelog | Release-Notes | weekly | 5 | active |
 | arxiv-agents | arXiv cs.AI and cs.MA agent tags | Papers | weekly | 6 | active |
 | boris-cherny | Boris Cherny talks, posts, interviews | Talks | irregular | 3 | active |
+| aibuilderclub | AI Builder Club — Build AI Agents Course and blog | Blog | irregular | 5 | active |
 
 ## Promote to active
 
@@ -58,3 +59,10 @@ ships one clean cycle, promote `anthropic-engineering` and `anthropic-docs`.
   `agent`, `tool use`, `planning`, `multi-agent`, `reflexion`, `ReAct`.
 - **boris-cherny** — talks, interviews, and posts where Boris Cherny is a named
   speaker or author. Extract engineering principles, not only links.
+- **aibuilderclub** — base URL: `https://www.aibuilderclub.com/blog`. Publisher
+  of the numbered "Build AI Agents Course" (Chapter 1 seeded 2026-07-11, lessons
+  1.2–1.12) plus a running blog. Includes AI Builder Club's own commentary on
+  Andrej Karpathy's public talks and posts — tag those `topic/karpathy` in
+  addition to their general topic, per `99_Meta/schema.md` section 2.3. Watch
+  for new numbered chapters and standalone posts; skip video-only lessons with
+  no companion article.

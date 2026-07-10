@@ -1,0 +1,14 @@
+{
+  "channel": "aibuilderclub",
+  "last_run_at": "2026-07-11",
+  "target_per_run": 5,
+  "sources_added": 0,
+  "last_status": "pending",
+  "history": [
+    {
+      "date": "2026-07-11",
+      "note": "Manual seed run, not the automated monitor. Chapter 1 (Fundamentals, lessons 1.2-1.12) ingested as 11 source notes plus the ai-builder-club and andrej-karpathy profiles and a synthesis guide. sources_added left at 0 / last_status pending so the first automated monitor run treats the channel as unrun and checks for new chapters rather than assuming full coverage.",
+      "sources_added": 11
+    }
+  ]
+}
