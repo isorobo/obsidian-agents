@@ -30,12 +30,14 @@ Start at [[00_Home/index|the Home hub]] for the reading order.
 - [[MOC - Claude Code]]
 - [[MOC - MCP]]
 - [[MOC - Tool Use]]
+- [[MOC - Agent Skills]]
 - [[MOC - Release Notes]]
 - [[MOC - Boris Cherny]]
 
 ## Engineering band
 
 - [[MOC - Memory]]
+- [[MOC - Retrieval]]
 - [[MOC - Planning]]
 - [[MOC - Prompt Engineering]]
 - [[MOC - Multi-Agent Systems]]

@@ -9,3 +9,5 @@
 
 # Ignore Smart Environment folder
 .smart-env
+# PDF extraction staging (working artefact, not a wiki note)
+70_Research/_extracted/

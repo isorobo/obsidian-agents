@@ -55,7 +55,7 @@ AI-agents domain, with the Anthropic ecosystem as the primary lens.
 `concept`, `architecture`, `pattern`, `anti-pattern`, `guide`, `source`,
 `person`, `organisation`, `release`, `moc`, `draft`, `glossary`, `meta`.
 
-### 2.3 `topic` controlled vocabulary (24)
+### 2.3 `topic` controlled vocabulary (26)
 
 `topic/foundations`, `topic/concepts`, `topic/architectures`,
 `topic/claude-sdk`, `topic/claude-code`, `topic/mcp`, `topic/tool-use`,
@@ -63,8 +63,21 @@ AI-agents domain, with the Anthropic ecosystem as the primary lens.
 `topic/agent-patterns`, `topic/multi-agent`, `topic/deployment`,
 `topic/observability`, `topic/evaluation`, `topic/security`,
 `topic/best-practices`, `topic/anti-patterns`, `topic/release-notes`,
-`topic/boris-cherny`, `topic/karpathy`, `topic/research-papers`,
-`topic/domain-applications`, `topic/meta`.
+`topic/boris-cherny`, `topic/karpathy`, `topic/agent-skills`,
+`topic/retrieval`, `topic/research-papers`, `topic/domain-applications`,
+`topic/meta`.
+
+`topic/retrieval` (added 2026-08-12) covers the retrieval substrate an agent
+depends on: vector and hybrid search, knowledge graph construction, graph
+databases, and GraphRAG. It is distinct from `topic/memory`, which covers what
+an agent retains across turns and sessions. Retrieval is the lookup mechanism;
+memory is the retained state. A source may carry both. The vocabulary
+graduated from a five-source cluster (Neo4j's graph database and knowledge
+graph guides, Manning's `Essential GraphRAG`, Elastic's semantic search
+whitepaper, and Graphwise's `The Semantic Advantage`) under the rule stated
+for `topic/domain-applications`. Each source in this topic carries a second,
+general topic alongside it, matching the `topic/karpathy` and
+`topic/agent-skills` convention.
 
 `topic/karpathy` (added 2026-07-11) covers Andrej Karpathy's public talks,
 posts, and third-party commentary on them, mirroring the `topic/boris-cherny`
@@ -72,6 +85,16 @@ pattern for a second named individual. A source in this topic carries a
 second, general topic alongside it (for example `topic/best-practices` or
 `topic/memory`) so it also surfaces under the general reading path, per the
 same rule stated for `topic/domain-applications` below.
+
+`topic/agent-skills` (added 2026-07-11) covers the Agent Skills pattern
+itself — what a Skill is, how it is authored, packaged, distributed, and
+installed — as distinct from any one skill's subject matter. Graduated from
+a four-source cluster (Anthropic's Claude Code Skills playbook, `google/
+skills`, `last30days-skill`, `davidondrej/skills`) via the same rule stated
+for `topic/domain-applications`: a tag recurring across many notes earns a
+controlled slot. Each source in this topic carries a second, general topic
+alongside it, matching the `topic/karpathy` and `topic/domain-applications`
+convention.
 
 `topic/domain-applications` (added 2026-07-10) covers agent and NLP research
 scoped to one professional domain rather than general agent engineering —
@@ -132,6 +155,14 @@ Set by tooling. Not edited by hand.
 | `wiki_role` | `wiki`, `meta`, `index`, `moc`, `source`, `person`, `organisation`, `concept`. |
 | `nlm_last_sync` | ISO timestamp of last NotebookLM round-trip. |
 | `watchlist_channel` | Slug of the watchlist channel that surfaced this source. |
+
+### 2.8 Agent-authorship marker
+
+Set by an agent on any note it writes. Absent on human-authored notes.
+
+| Field | Enum values | Notes |
+|---|---|---|
+| `authored_by` | `agens` | Present only on agent-written notes; its presence alone marks a note as agent-authored. Absent on a note written by hand. |
 
 ---
 
