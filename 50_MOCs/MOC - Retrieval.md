@@ -25,11 +25,18 @@ The first notes to read in this topic. Read the three concepts before the source
 
 Curated wikilinks, grouped by sub-theme.
 
-### Concepts
+### Concepts, retrieval
 
 - [[retrieval-augmented-generation]] - retriever plus generator, chunking, hybrid search
-- [[knowledge-graph]] - property graph model, entity resolution, ontologies
 - [[graphrag]] - graph traversal joined to vector retrieval for multi-hop questions
+
+### Concepts, graph substrate
+
+- [[knowledge-graph]] - property graph model, entity resolution, ontologies
+- [[graph-database]] - native graph storage, traversal cost, deployment shapes
+- [[index-free-adjacency]] - direct pointers between nodes, why traversal holds at depth
+- [[cypher-query-language]] - declarative pattern syntax, and text-to-Cypher as a tool
+- [[polyglot-persistence]] - several stores per system, and the synchronisation cost
 
 ### Knowledge graph foundations
 

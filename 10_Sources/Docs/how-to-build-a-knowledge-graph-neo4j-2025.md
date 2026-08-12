@@ -127,10 +127,10 @@ RETURN *;
 
 ## Related Concepts
 
-- [[knowledge-graph]]
+- [[knowledge-graph]] - covers entity resolution, the property graph model, and ontologies
 - [[graphrag]]
-- [[entity-resolution]]
 - [[cypher-query-language]]
+- [[graph-database]]
 - [[memory]]
 
 ## Future Work

@@ -107,8 +107,9 @@ The paper carries no code. The single concrete API detail is the reuse of the `_
 
 - [[evaluation]]
 - [[memory]]
-- [[retrieval-augmented-generation]] (no note in the vault yet)
-- [[hybrid-search]] (no note in the vault yet)
+- [[retrieval-augmented-generation]] - covers hybrid search, rank fusion, and reranking
+- [[knowledge-graph]]
+- [[graphrag]]
 
 ## Future Work
 
