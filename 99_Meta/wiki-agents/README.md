@@ -1,6 +1,6 @@
 ---
 type: meta
-title: wiki-agents Pipeline — Index
+title: wiki-agents Pipeline - Index
 status: permanent
 created: 2026-07-10
 topic:
@@ -9,7 +9,7 @@ tags:
 - wiki-agents
 ---
 
-# wiki-agents Pipeline — Index
+# wiki-agents Pipeline - Index
 
 The research pipeline that grows the vault. Self-contained; independent of the
 sibling thinkers and tokenise scripts.
@@ -25,10 +25,10 @@ sibling thinkers and tokenise scripts.
 
 ## Workflows
 
-- [[Workflow — Daily Research]]
-- [[Workflow — Weekly Maintenance]]
-- [[Workflow — Release-Note Ingestion]]
-- [[Workflow — NotebookLM Ingestion]]
+- [[99_Meta/wiki-agents/workflows/daily-research|Workflow - Daily Research]]
+- [[99_Meta/wiki-agents/workflows/weekly-maintenance|Workflow - Weekly Maintenance]]
+- [[99_Meta/wiki-agents/workflows/release-note-ingestion|Workflow - Release-Note Ingestion]]
+- [[99_Meta/wiki-agents/workflows/notebooklm-ingestion|Workflow - NotebookLM Ingestion]]
 
 ## Bridges
 

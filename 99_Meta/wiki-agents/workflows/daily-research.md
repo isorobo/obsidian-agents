@@ -1,8 +1,8 @@
 ---
 type: meta
-title: Workflow — Daily Research
+title: Workflow - Daily Research
 aliases:
-- "Workflow — Daily Research"
+- "Workflow - Daily Research"
 status: permanent
 created: 2026-07-10
 topic:
@@ -12,7 +12,7 @@ tags:
 - workflow
 ---
 
-# Workflow — Daily Research
+# Workflow - Daily Research
 
 A short daily loop that keeps the vault current.
 
@@ -36,5 +36,5 @@ Twenty minutes. The loop favours consistency over volume.
 
 ## Related
 
-- [[Workflow — Weekly Maintenance]]
+- [[99_Meta/wiki-agents/workflows/weekly-maintenance|Workflow - Weekly Maintenance]]
 - [[monitor-spec]]

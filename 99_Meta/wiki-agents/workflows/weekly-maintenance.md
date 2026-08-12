@@ -1,8 +1,8 @@
 ---
 type: meta
-title: Workflow — Weekly Maintenance
+title: Workflow - Weekly Maintenance
 aliases:
-- "Workflow — Weekly Maintenance"
+- "Workflow - Weekly Maintenance"
 status: permanent
 created: 2026-07-10
 topic:
@@ -12,7 +12,7 @@ tags:
 - workflow
 ---
 
-# Workflow — Weekly Maintenance
+# Workflow - Weekly Maintenance
 
 A weekly loop that runs every active channel and keeps the graph healthy.
 
@@ -33,6 +33,6 @@ A weekly loop that runs every active channel and keeps the graph healthy.
 
 ## Related
 
-- [[Workflow — Daily Research]]
-- [[Workflow — Release-Note Ingestion]]
-- [[Workflow — NotebookLM Ingestion]]
+- [[99_Meta/wiki-agents/workflows/daily-research|Workflow - Daily Research]]
+- [[99_Meta/wiki-agents/workflows/release-note-ingestion|Workflow - Release-Note Ingestion]]
+- [[99_Meta/wiki-agents/workflows/notebooklm-ingestion|Workflow - NotebookLM Ingestion]]

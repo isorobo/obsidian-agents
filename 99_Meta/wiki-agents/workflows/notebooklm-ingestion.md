@@ -1,8 +1,8 @@
 ---
 type: meta
-title: Workflow — NotebookLM Ingestion
+title: Workflow - NotebookLM Ingestion
 aliases:
-- "Workflow — NotebookLM Ingestion"
+- "Workflow - NotebookLM Ingestion"
 status: permanent
 created: 2026-07-10
 topic:
@@ -12,7 +12,7 @@ tags:
 - workflow
 ---
 
-# Workflow — NotebookLM Ingestion
+# Workflow - NotebookLM Ingestion
 
 The loop that treats NotebookLM as the primary research corpus. See
 [[99_Meta/NotebookLM-bridge.md|the NotebookLM bridge]] for the field contract.
@@ -40,4 +40,4 @@ research papers, conference talks. Reject low-quality opinion pieces.
 ## Related
 
 - [[99_Meta/NotebookLM-bridge.md|NotebookLM Bridge]]
-- [[Workflow — Weekly Maintenance]]
+- [[99_Meta/wiki-agents/workflows/weekly-maintenance|Workflow - Weekly Maintenance]]

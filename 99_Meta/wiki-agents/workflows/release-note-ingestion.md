@@ -1,8 +1,8 @@
 ---
 type: meta
-title: Workflow — Release-Note Ingestion
+title: Workflow - Release-Note Ingestion
 aliases:
-- "Workflow — Release-Note Ingestion"
+- "Workflow - Release-Note Ingestion"
 status: permanent
 created: 2026-07-10
 topic:
@@ -12,7 +12,7 @@ tags:
 - workflow
 ---
 
-# Workflow — Release-Note Ingestion
+# Workflow - Release-Note Ingestion
 
 The loop that records each Anthropic release chronologically.
 
@@ -41,5 +41,5 @@ MCP update.
 
 ## Related
 
-- [[Workflow — Weekly Maintenance]]
+- [[99_Meta/wiki-agents/workflows/weekly-maintenance|Workflow - Weekly Maintenance]]
 - [[99_Meta/roadmap.md|Roadmap]]
