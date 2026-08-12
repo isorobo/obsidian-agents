@@ -15,14 +15,21 @@ wiki_role: moc
 
 ## Start Here
 
-The first notes to read in this topic.
+The first notes to read in this topic. Read the three concepts before the sources.
 
-- [[10_Sources/Books/essential-graphrag-bratanic-2025|Essential GraphRAG]]
-- [[10_Sources/Docs/how-to-build-a-knowledge-graph-neo4j-2025|How to Build a Knowledge Graph]]
+1. [[retrieval-augmented-generation]]
+2. [[knowledge-graph]]
+3. [[graphrag]]
 
 ## Core Notes
 
 Curated wikilinks, grouped by sub-theme.
+
+### Concepts
+
+- [[retrieval-augmented-generation]] - retriever plus generator, chunking, hybrid search
+- [[knowledge-graph]] - property graph model, entity resolution, ontologies
+- [[graphrag]] - graph traversal joined to vector retrieval for multi-hop questions
 
 ### Knowledge graph foundations
 
