@@ -12,6 +12,10 @@
 # PDF extraction staging (working artefact, not a wiki note)
 70_Research/_extracted/
 
+# Claudian working state: settings, session metadata, conversation titles.
+# Local to this machine, and this repo is public.
+.claudian/
+
 # Plugin configs that hold API credentials. This repo is public.
 # Note: an already-tracked file ignores these rules until it is untracked
 # with `git rm --cached <path>`.
