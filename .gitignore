@@ -11,3 +11,10 @@
 .smart-env
 # PDF extraction staging (working artefact, not a wiki note)
 70_Research/_extracted/
+
+# Plugin configs that hold API credentials. This repo is public.
+# Note: an already-tracked file ignores these rules until it is untracked
+# with `git rm --cached <path>`.
+.obsidian/plugins/real-chat/data.json
+.obsidian/plugins/voice/data.json
+.obsidian/plugins/whisper/data.json
