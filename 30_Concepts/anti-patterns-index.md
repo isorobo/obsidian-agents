@@ -57,7 +57,7 @@ Some complexity earns its keep. A multi-agent system suits a genuinely parallel 
 ## Sources
 
 - [[10_Sources/Blog/anthropic-building-effective-agents|Building Effective Agents]] — https://www.anthropic.com/engineering/building-effective-agents
-- [[10_Sources/Interview/boris-cherny-pragmatic-engineer|Building Claude Code with Boris Cherny]] — https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny
+- [[10_Sources/Interviews/boris-cherny-pragmatic-engineer|Building Claude Code with Boris Cherny]] — https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny
 
 ## See also
 
