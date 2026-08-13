@@ -26,6 +26,20 @@ already loaded. No hooks, no daemon, no configuration.
 conventions, and `99_Meta/learning/ledger.md` for learner state. Delete a
 reference and its file stops reaching context.
 
+## Opening it in Obsidian
+
+Two community plugins carry weight. Dataview renders the maps: without it every
+note in `50_MOCs/` shows an empty code block where its list should be. Claudian
+runs the Claude Code CLI in a side panel with the vault as its working
+directory, which is what loads the contract. Running `claude` in a terminal from
+the vault root does the same job.
+
+The rest of `.obsidian/` is one person's preference: a theme, a graph view,
+folder colours, a few capture tools. Obsidian stores plugin code inside the
+vault, so a clone carries all of it. Delete what you do not want. Plugin
+settings files stay out of the repo, since a plugin can hold an API key or a
+chat transcript in one.
+
 ## The contract
 
 Five standing rules, always on:
