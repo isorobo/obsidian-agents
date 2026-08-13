@@ -6,5 +6,11 @@
   "realclaudian",
   "3d-graph-new",
   "voice",
-  "whisper"
+  "whisper",
+  "claude-code-ide",
+  "export-to-html",
+  "print",
+  "color-folders-files",
+  "real-chat",
+  "smart-lookup"
 ]
