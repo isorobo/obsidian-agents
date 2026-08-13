@@ -16,12 +16,21 @@
 # Local to this machine, and this repo is public.
 .claudian/
 
-# Plugin configs that hold API credentials. This repo is public.
+# Plugin configs. This repo is public, and a plugin can store an API key or a
+# chat transcript in data.json without saying so. Ignore every one by default,
+# then allow back only a config read and found clean. A new plugin is therefore
+# private until someone checks it.
 # Note: an already-tracked file ignores these rules until it is untracked
 # with `git rm --cached <path>`.
-.obsidian/plugins/real-chat/data.json
-.obsidian/plugins/voice/data.json
-.obsidian/plugins/whisper/data.json
+.obsidian/plugins/*/data.json
+
+# Read on 13 August 2026 and found free of credentials.
+!.obsidian/plugins/3d-graph-new/data.json
+!.obsidian/plugins/dataview/data.json
+!.obsidian/plugins/obsidian-minimal-settings/data.json
+!.obsidian/plugins/realclaudian/data.json
+!.obsidian/plugins/smart-connections/data.json
+!.obsidian/plugins/templater-obsidian/data.json
 
 # Personal Claude Code permission grants. Machine-specific, not shared.
 .claude/settings.local.json
@@ -29,3 +38,7 @@
 # Live learning state. Names what the operator has and has not learned, so it
 # stays private. The schema and seed rows ship as ledger.template.md.
 99_Meta/learning/ledger.md
+
+# Plugin-generated help text, rewritten on every plugin update. Not a note, and
+# it carries no frontmatter, so it fails the vault schema.
+_memory/
