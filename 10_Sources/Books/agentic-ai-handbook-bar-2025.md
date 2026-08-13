@@ -13,7 +13,6 @@ year: 2025
 date_published: 2025-12-29
 anthropic: false
 topic:
-- topic/agent-patterns
 - topic/foundations
 tags: [agentic-ai, cognitive-architecture, agent-design-patterns, multi-agent-systems, agi]
 nlm_id: 
@@ -75,3 +74,7 @@ Part V sets out the book's forward-looking agenda: pathways to artificial genera
 ## References
 
 - Full bibliography included in the book's appendix (pages beyond the fetched range).
+
+## See also
+
+- [[agent-patterns-index]] — consolidated pattern reference

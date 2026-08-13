@@ -13,7 +13,6 @@ year: 2025
 date_published: 
 anthropic: false
 topic:
-- topic/agent-patterns
 - topic/architectures
 tags: [prompt-chaining, multi-agent, mcp, rag, guardrails, evaluation]
 nlm_id: 
@@ -84,3 +83,7 @@ The preface's "Future of Agents" section sets out five hypotheses beyond the 21 
 - Cloudera, Inc. (April 2025). "96% of enterprises are increasing their use of AI agents." https://www.cloudera.com/about/news-and-blogs/press-releases/2025-04-16-96-percent-of-enterprises-are-expanding-use-of-ai-agents-according-to-latest-data-from-cloudera.html
 - Deloitte. "Autonomous generative AI agents: still under development." https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2025/autonomous-generative-ai-agents-still-under-development.html
 - Market.us. "Global Agentic AI Market Size, Trends and Forecast 2025-2034." https://market.us/report/agentic-ai-market/
+
+## See also
+
+- [[agent-patterns-index]] — consolidated pattern reference

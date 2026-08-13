@@ -6,7 +6,6 @@ name: ReAct
 slug: react
 topic:
 - topic/architectures
-- topic/agent-patterns
 tags: [react, reasoning, tool-use, agent-loop]
 synonyms: [reason-and-act, reasoning and acting, thought-action-observation]
 defined_in: "[[10_Sources/Papers/react-yao-2022|ReAct (Yao et al., 2022)]]"
@@ -98,5 +97,6 @@ cost. Cap the step budget to stop runaway loops.
 
 ## See also
 
+- [[agent-patterns-index]] — consolidated pattern reference
 - [[MOC - Architectures]]
 - [[MOC - Agent Patterns]]

@@ -5,7 +5,7 @@ created: 2026-07-10
 name: Agentic Design Patterns — Plain English Guide
 slug: agentic-design-patterns-plain-english
 topic:
-- topic/agent-patterns
+- topic/foundations
 tags: [design-patterns, plain-english, gulli]
 synonyms: []
 related_concepts:
@@ -214,4 +214,5 @@ memorised a label, not learned a pattern.
 
 ## See also
 
+- [[agent-patterns-index]] — consolidated pattern reference
 - [[MOC - Agent Patterns]]

@@ -14,6 +14,7 @@ date_published: 2026-06-09
 anthropic: true
 topic:
 - topic/best-practices
+- topic/agent-skills
 tags:
 - agent-skills
 - claude-code

@@ -6,8 +6,6 @@ Two halves. A knowledge base of concept notes, sources, and maps, topped up on
 a cron schedule. A learning system that turns every Claude session over that
 vault into a teaching session, without asking for it.
 
-The second half is the part worth stealing.
-
 ## The problem it solves
 
 A side-panel Claude session is a semantic query. Claude retrieves a note,

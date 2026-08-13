@@ -14,6 +14,7 @@ date_published: 2026-06-09
 anthropic: false
 topic:
 - topic/tool-use
+- topic/agent-skills
 tags:
 - agent-skills
 - google-cloud

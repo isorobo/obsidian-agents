@@ -6,7 +6,6 @@ name: Workflow vs Autonomous Agent
 slug: workflow-vs-autonomous-agent
 topic:
 - topic/architectures
-- topic/agent-patterns
 tags: [workflow, autonomy, orchestration, agent-design]
 synonyms: [workflows and agents, orchestrated vs autonomous, predefined vs dynamic control]
 defined_in: "[[best-practices-index]]"
@@ -107,5 +106,6 @@ any high-stakes agent action.
 
 ## See also
 
+- [[agent-patterns-index]] — consolidated pattern reference
 - [[MOC - Architectures]]
 - [[MOC - Agent Patterns]]

@@ -15,7 +15,6 @@ date_published: 2024-12-19
 anthropic: true
 topic:
 - topic/foundations
-- topic/agent-patterns
 tags:
 - agents
 - workflows
@@ -81,3 +80,7 @@ The post flags reliability across long horizons and tool design as open ground.
 
 - Building Effective Agents — https://www.anthropic.com/research/building-effective-agents
 - Writing effective tools for AI agents — https://www.anthropic.com/engineering/writing-tools-for-agents
+
+## See also
+
+- [[agent-patterns-index]] — consolidated pattern reference

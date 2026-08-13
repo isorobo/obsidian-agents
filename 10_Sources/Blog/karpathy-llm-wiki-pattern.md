@@ -61,7 +61,7 @@ None as runnable code; the lesson instead gives a getting-started sequence: crea
 - Start small; the wiki compounds value from the first source ingested, not after a large upfront population effort.
 - Keep raw sources immutable and separate from the LLM-owned wiki layer; do not let the model edit its own evidence.
 - Use `index.md` as the first-read catalogue and `log.md` as the append-only audit trail so the model stays oriented as the corpus grows.
-- Reach for a local BM25 or vector re-ranking tool such as `qmd` only once the wiki passes a few hundred pages — not before.
+- Reach for a local BM25 or vector re-ranking tool such as [[10_Sources/Repos/qmd-local-hybrid-search|qmd]] only once the wiki passes a few hundred pages — not before.
 - Keep the human role to curation, direction, and meaning; keep the LLM role to bookkeeping and consistency.
 
 ## Warnings and Anti-Patterns
