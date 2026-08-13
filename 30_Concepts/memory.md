@@ -43,6 +43,8 @@ Memory splits by horizon. Short-term memory lives in the context window and hold
 
 MemGPT models the store as tiers, like an operating system paging between memory and disk. The agent moves data between the window and the store as the task demands. Reflexion adds a second use. An agent writes verbal reflections on past failures to an episodic buffer. It reads those reflections on the next trial and improves its decisions.
 
+Gulli cuts the same store on a second axis, into working, episodic, semantic, procedural, and meta-memory. Horizon asks how long a fact survives. Gulli's tiers ask what kind of fact it is. Episodic memory sits in both schemes, which is why Reflexion appears here under horizon and there under kind. See [[agent-patterns-index]].
+
 ## Trade-offs and Limits
 
 Memory lets an agent hold long tasks and learn across sessions. It also adds retrieval cost, staleness, and a chance of poisoned or wrong recall. A crowded memory buries the signal the task needs. Curated writes and sharp retrieval keep memory an asset rather than noise.
@@ -53,10 +55,12 @@ Memory lets an agent hold long tasks and learn across sessions. It also adds ret
 - [[agent-vs-llm]]
 - [[the-agent-loop]]
 - [[reflexion]]
+- [[agent-patterns-index]]
 
 ## Sources
 
 - [[10_Sources/Blog/anthropic-building-effective-agents|Building Effective Agents]]
+- [[10_Sources/Books/agentic-design-patterns-gulli-2025|Agentic Design Patterns (Gulli)]]
 - MemGPT: Towards LLMs as Operating Systems — https://arxiv.org/abs/2310.08560
 - Reflexion: Language Agents with Verbal Reinforcement Learning — https://arxiv.org/abs/2303.11366
 
