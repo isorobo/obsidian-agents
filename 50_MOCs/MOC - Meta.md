@@ -17,9 +17,16 @@ wiki_role: moc
 
 The first notes to read in this topic.
 
+- [[99_Meta/learning/README|How the learning system works]]
+
 ## Core Notes
 
 Curated wikilinks, grouped by sub-theme.
+
+### Learning system
+
+- [[99_Meta/learning/ledger|Concept Ledger]]
+- [[99_Meta/learning/failure-log|Failure Log]]
 
 ## All Notes in This Topic
 

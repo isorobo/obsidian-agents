@@ -21,6 +21,20 @@ to advanced practitioner.
 - [[99_Meta/schema.md|Schema]] — the metadata contract.
 - [[99_Meta/roadmap.md|Roadmap]] — how the vault grows.
 
+## Learning System
+
+The vault teaches as well as stores. `CLAUDE.md` at the vault root binds every
+session to the teaching frame.
+
+- [[99_Meta/learning/README|How the learning system works]]
+- [[99_Meta/learning/ledger|Concept Ledger]]: what Simon has learned, and the
+  evidence.
+- [[99_Meta/learning/failure-log|Failure Log]]: what broke, and the design
+  weakness behind it.
+
+The reading order below seeds the ledger. Reading a note advances nothing;
+status moves on evidence.
+
 ## Canonical Reading Order
 
 Read in this order to progress from foundations to practice.

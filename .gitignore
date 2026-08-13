@@ -22,3 +22,6 @@
 .obsidian/plugins/real-chat/data.json
 .obsidian/plugins/voice/data.json
 .obsidian/plugins/whisper/data.json
+
+# Personal Claude Code permission grants. Machine-specific, not shared.
+.claude/settings.local.json

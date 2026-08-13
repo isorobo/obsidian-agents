@@ -3,6 +3,9 @@
 This vault documents AI Agents with the Anthropic ecosystem as the primary lens.
 Read this before editing.
 
+`CLAUDE.md` at the vault root holds the session contract and imports this file.
+This file governs vault conventions. That file governs how a session behaves.
+
 ## Structure
 
 - Functional folder spine. Topics live as MOCs and the controlled `topic`

@@ -35,6 +35,7 @@ AI-agents domain, with the Anthropic ecosystem as the primary lens.
 | `80_Attachments/` | Images, diagrams, Mermaid source. |
 | `90_Templates/` | Templater-compatible templates. |
 | `99_Meta/` | Schema, design docs, watchlist, pipeline state, integration docs. |
+| `99_Meta/learning/` | Operator learning state: concept ledger, failure log, derived principles. |
 
 ---
 
@@ -53,9 +54,20 @@ AI-agents domain, with the Anthropic ecosystem as the primary lens.
 ### 2.2 `type` enum
 
 `concept`, `architecture`, `pattern`, `anti-pattern`, `guide`, `source`,
-`person`, `organisation`, `release`, `moc`, `draft`, `glossary`, `meta`.
+`person`, `organisation`, `release`, `moc`, `draft`, `glossary`, `meta`,
+`project`, `failure`, `principle`, `ledger`.
 
-### 2.3 `topic` controlled vocabulary (26)
+`project`, `failure`, `principle`, and `ledger` (added 2026-08-13) serve the
+learning system in `99_Meta/learning/`. A `project` note records one build:
+its learning objective, its design decisions, and what it taught. A `failure`
+note records one failure, its class, and the design weakness that allowed it.
+A `principle` note states one rule Simon derived from a project or a failure,
+and cites the source of the derivation. A `ledger` note holds learner state
+and carries no body prose beyond its table. Each of these types takes
+`topic/learning` plus at least one general topic, matching the convention
+stated for `topic/domain-applications`.
+
+### 2.3 `topic` controlled vocabulary (27)
 
 `topic/foundations`, `topic/concepts`, `topic/architectures`,
 `topic/claude-sdk`, `topic/claude-code`, `topic/mcp`, `topic/tool-use`,
@@ -65,7 +77,15 @@ AI-agents domain, with the Anthropic ecosystem as the primary lens.
 `topic/best-practices`, `topic/anti-patterns`, `topic/release-notes`,
 `topic/boris-cherny`, `topic/karpathy`, `topic/agent-skills`,
 `topic/retrieval`, `topic/research-papers`, `topic/domain-applications`,
-`topic/meta`.
+`topic/meta`, `topic/learning`.
+
+`topic/learning` (added 2026-08-13) covers the operator's own learning state
+and the artefacts that record it: the concept ledger, the failure log, project
+retrospectives, and derived principles. It describes what Simon has learned
+and how, not what an agent retains, which stays with `topic/memory`. It is
+distinct from `topic/foundations`, which describes the subject matter itself.
+A note in this topic carries a second, general topic alongside it, matching
+the `topic/karpathy` and `topic/agent-skills` convention.
 
 `topic/retrieval` (added 2026-08-12) covers the retrieval substrate an agent
 depends on: vector and hybrid search, knowledge graph construction, graph
