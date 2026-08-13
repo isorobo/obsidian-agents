@@ -1,6 +1,6 @@
 ---
 type: ledger
-title: Concept Ledger
+title: Concept Ledger Template
 status: permanent
 created: 2026-08-13
 topic:
@@ -10,20 +10,31 @@ tags: []
 wiki_role: meta
 ---
 
-# Concept Ledger
+# Concept Ledger Template
 
-Learner state for Simon. One row per concept. Seeded from the Canonical
-Reading Order in [[00_Home/index|Home]].
+Seed file. Copy this to `99_Meta/learning/ledger.md` before first use:
+
+```
+cp "99_Meta/learning/ledger.template.md" "99_Meta/learning/ledger.md"
+```
+
+The live ledger is gitignored. It holds one operator's learning state, which
+is private. This template holds the schema and the seed rows, which are not.
+`CLAUDE.md` loads `ledger.md`, not this file. Without the copy, the kernel
+loads a missing file and standing rule 1 has nothing to read.
+
+Replace the reading order below with your own. The rows are the vault's
+Canonical Reading Order in [[00_Home/index|Home]]. Keep the columns.
 
 Status advances on evidence, never on reading:
 
 | Status | Evidence required |
 |---|---|
 | `not-started` | Default. |
-| `explained` | Claude taught it and Simon restated it in his own words. |
-| `applied` | Simon built something that uses it. |
-| `debugged` | Simon fixed a failure caused by it. |
-| `taught-back` | Simon explained it without help. |
+| `explained` | Claude taught it and the learner restated it in his own words. |
+| `applied` | The learner built something that uses it. |
+| `debugged` | The learner fixed a failure caused by it. |
+| `taught-back` | The learner explained it without help. |
 
 Standing rule 1 reads this table. A concept at `not-started` is off limits as
 a solution unless it is the stated learning objective. A project may reorder
@@ -50,7 +61,7 @@ the queue. A project may not skip the gate.
 | 17 | [[best-practices-index]] | not-started | | | |
 | 18 | [[anti-patterns-index]] | not-started | | | |
 
-## Writing to this file
+## Writing to the live ledger
 
 Claude proposes rows and never writes them silently. `/ledger` shows the
 current state and asks before it edits. `/close` batches a session's changes

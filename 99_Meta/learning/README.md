@@ -33,7 +33,8 @@ Simon having to ask for it.
 | Design protocol | `.claude/skills/learn-agents/SKILL.md` | The eight gates. Loads on demand, not on every turn. |
 | References | `.claude/skills/learn-agents/references/` | Failure taxonomy, project audit, capture rules. |
 | Commands | `.claude/commands/` | `/learn`, `/design`, `/ledger`, `/gap`, `/close`. |
-| Learner state | `99_Meta/learning/ledger.md` | What Simon has learned, and the evidence. |
+| Learner state | `99_Meta/learning/ledger.md` | What Simon has learned, and the evidence. Gitignored. |
+| Ledger seed | `99_Meta/learning/ledger.template.md` | The ledger schema and reading order, without the state. Copy it to `ledger.md` on a fresh clone. |
 | Failure record | `99_Meta/learning/failure-log.md` | What broke, and the design weakness behind it. |
 
 Folders beginning with a dot are invisible in Obsidian. That is expected. The

@@ -25,3 +25,7 @@
 
 # Personal Claude Code permission grants. Machine-specific, not shared.
 .claude/settings.local.json
+
+# Live learning state. Names what the operator has and has not learned, so it
+# stays private. The schema and seed rows ship as ledger.template.md.
+99_Meta/learning/ledger.md
