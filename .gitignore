@@ -22,7 +22,9 @@
 # private until someone checks it.
 # Note: an already-tracked file ignores these rules until it is untracked
 # with `git rm --cached <path>`.
-.obsidian/plugins/*/data.json
+# The trailing wildcard catches the backups a plugin writes beside its config,
+# such as data.json.bak, which the exact name missed.
+.obsidian/plugins/*/data.json*
 
 # Read on 13 August 2026 and found free of credentials.
 !.obsidian/plugins/3d-graph-new/data.json
