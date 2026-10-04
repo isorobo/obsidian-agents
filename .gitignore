@@ -44,3 +44,6 @@
 # Plugin-generated help text, rewritten on every plugin update. Not a note, and
 # it carries no frontmatter, so it fails the vault schema.
 _memory/
+
+# wiki-engine runner logs (per machine)
+99_Meta/wiki-agents/state/logs/

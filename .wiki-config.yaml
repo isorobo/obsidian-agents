@@ -29,7 +29,6 @@ excluded_folders:
   - "_CLAUDE.md"
   - "README.md"
   - "2026-07-10.md"
-  - "Untitled.md"
 
 confidence_threshold: 0.7
 max_topics_per_note: 3
