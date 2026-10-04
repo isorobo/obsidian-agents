@@ -10,7 +10,7 @@ affiliations: [Inflect Labs]
 topic:
 - topic/foundations
 tags: [education, course, agent-engineering]
-key_sources: []
+key_sources: ["[[10_Sources/Blog/agent-modes-plan-default-auto|Plan vs Default vs Auto Mode]]", "[[10_Sources/Blog/agent-sandbox-os-level-security|Agent Sandboxes: OS-Level Security]]", "[[10_Sources/Blog/harness-six-components|The 6 Components of a Production Agent Harness]]", "[[10_Sources/Blog/how-to-evaluate-ai-agents|How to Evaluate AI Agents]]", "[[10_Sources/Blog/loop-engineering-anthropic-playbook|Loop Engineering: The Anthropic Playbook]]"]
 wiki_indexed: '2026-10-04T03:01:49Z'
 wiki_hash: 52ea52851bb11b36c79c27b97fe5eb35517e6dfad5301acdd351c4666b4de81b
 ---

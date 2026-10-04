@@ -15,8 +15,8 @@ maturity: established
 af_targets:
 - af:RSCH-04/Q29
 - af:RSCH-04/Q31
-wiki_indexed: '2026-10-04T03:01:49Z'
-wiki_hash: 185da3ce34987ba9d31eeb0a05b113050cad72aaca5ad8713ba30de876726466
+wiki_indexed: '2026-10-04T03:42:35Z'
+wiki_hash: f87339cb4fbd2df0cd4e733bfbc16778f51529e7fd0f212ee792a09f0951c62a
 ---
 
 # Plan-and-Execute
@@ -102,6 +102,7 @@ Watch the planner output format. Cap the replan count to stop cycles.
 - Wang et al., "Plan-and-Solve Prompting". ACL 2023. https://arxiv.org/abs/2305.04091
 - [[10_Sources/Papers/react-yao-2022|ReAct (Yao et al., 2022)]]
 - Anthropic, "Building effective agents". https://www.anthropic.com/engineering/building-effective-agents
+- [[10_Sources/Blog/anthropic-harness-design-long-running-apps|Harness design for long-running application development]]
 
 ## See also
 

@@ -13,8 +13,8 @@ related_concepts: ["[[the-agent-loop]]", "[[tool-use]]", "[[claude-code]]"]
 anthropic: true
 af_targets:
 - af:RSCH-01/claude-code
-wiki_indexed: '2026-10-04T03:01:49Z'
-wiki_hash: 51907d14e0a32b5331148ea6cc5bb37f801c294d5c4f31cdc61e43f508676c54
+wiki_indexed: '2026-10-04T03:42:35Z'
+wiki_hash: ef1bd9322cfa88e218141b4595aa43f297ffb30f907059f7ef4d80109b988528
 ---
 
 # Claude Agent SDK
@@ -49,6 +49,24 @@ The SDK cuts the boilerplate of a hand-written tool loop. It suits CI pipelines,
 
 - [[10_Sources/Docs/claude-agent-sdk-overview|Agent SDK overview]]
 - https://code.claude.com/docs/en/agent-sdk/overview
+- [[10_Sources/Blog/anthropic-harness-design-long-running-apps|Harness design for long-running application development]]
+- [[10_Sources/Blog/anthropic-scaling-managed-agents|Scaling Managed Agents]]
+- [[10_Sources/Docs/claude-agent-sdk-hooks|Agent SDK hooks]]
+- [[10_Sources/Docs/claude-agent-sdk-permissions|Agent SDK permissions]]
+- [[10_Sources/Docs/claude-code-headless-mode|Run Claude Code programmatically]]
+- [[10_Sources/Docs/claude-code-hooks-reference|Claude Code hooks reference]]
+- [[10_Sources/Release-Notes/claude-code-2-1-285-2026-09-29|Claude Code 2.1.285]]
+- [[10_Sources/Release-Notes/claude-code-2-1-286-2026-09-30|Claude Code 2.1.286]]
+- [[10_Sources/Release-Notes/claude-code-2-1-287-2026-10-01|Claude Code 2.1.287]]
+- [[10_Sources/Release-Notes/claude-code-2-1-288-2026-10-02|Claude Code 2.1.288]]
+- [[10_Sources/Release-Notes/claude-code-2-1-289-2026-10-03|Claude Code 2.1.289]]
+- [[10_Sources/Release-Notes/claude-fable-5-1-2026-09-01|Claude Fable 5.1]]
+- [[10_Sources/Release-Notes/claude-opus-5-5-2026-09-22|Claude Opus 5.5]]
+- [[10_Sources/Release-Notes/claude-sonnet-5-5-2026-09-28|Claude Sonnet 5.5]]
+- [[10_Sources/Repos/claude-agent-sdk-python|Claude Agent SDK for Python]]
+- [[10_Sources/Repos/claude-agent-sdk-typescript|Claude Agent SDK for TypeScript]]
+- [[10_Sources/Repos/claude-code-action|Claude Code Action]]
+- [[10_Sources/Repos/commerce-agents|Claude Commerce Agents]]
 
 ## See also
 

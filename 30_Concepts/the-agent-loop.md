@@ -24,8 +24,8 @@ af_targets:
 - af:ADR-0001
 - af:RSCH-04/Q01
 - af:RSCH-04/Q13
-wiki_indexed: '2026-10-04T03:01:49Z'
-wiki_hash: 2a8b9df7cf71e38e40355b6195ee10cf8cff0471669381b65135d01628d08155
+wiki_indexed: '2026-10-04T03:42:35Z'
+wiki_hash: 3dd04b33399ef34052378b028ca712cd025c71dafd257850724c5729bd7936f7
 ---
 
 # The Agent Loop
@@ -64,6 +64,20 @@ The loop gives recovery, since the model reads each result and adjusts. It handl
 
 - [[10_Sources/Blog/anthropic-building-effective-agents|Building Effective Agents]]
 - ReAct: Synergizing Reasoning and Acting in Language Models — https://arxiv.org/abs/2210.03629
+- [[10_Sources/Blog/anthropic-scaling-managed-agents|Scaling Managed Agents]]
+- [[10_Sources/Blog/loop-engineering-anthropic-playbook|Loop Engineering: The Anthropic Playbook]]
+- [[10_Sources/Blog/harness-six-components|The 6 Components of a Production Agent Harness]]
+- [[10_Sources/Blog/how-to-evaluate-ai-agents|How to Evaluate AI Agents]]
+- [[10_Sources/Papers/mid-harness-kang-2026|Mid-Harness (Kang et al., 2026)]]
+- [[10_Sources/Papers/coala-cognitive-architectures-sumers-2023|CoALA (Sumers et al., 2023)]]
+- [[10_Sources/Papers/refcon-contrastive-memory-prathama-2026|RefCon (Prathama et al., 2026)]]
+- [[10_Sources/Papers/swe-agent-computer-interfaces-yang-2024|SWE-agent (Yang et al., 2024)]]
+- [[10_Sources/Docs/claude-agent-sdk-hooks|Agent SDK hooks]]
+- [[10_Sources/Repos/12-factor-agents|12-Factor Agents]]
+- [[10_Sources/Repos/claude-agent-sdk-python|Claude Agent SDK for Python]]
+- [[10_Sources/Repos/learn-agent-architecture|learn-agent-architecture]]
+- [[10_Sources/Repos/mini-swe-agent|mini-SWE-agent]]
+- [[10_Sources/Repos/smolagents|smolagents]]
 
 ## See also
 

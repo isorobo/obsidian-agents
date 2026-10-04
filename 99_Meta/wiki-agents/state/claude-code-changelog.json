@@ -1,14 +1,30 @@
 {
   "channel": "claude-code-changelog",
-  "last_run_at": null,
+  "last_run_at": "2026-10-04T03:39:02Z",
   "target_per_run": 5,
-  "sources_added": 0,
-  "last_status": "pending",
-  "history": [],
-  "retrieved_urls": [],
+  "sources_added": 5,
+  "last_status": "ok",
+  "last_run_summary": "2026-10-04: first run, 1 round, 5 release notes added (2.1.285 to 2.1.289, newest five versions), 0 rejected. All dates from GitHub release records. Changelog is large (2.1.282 and older unseen, not backfilled by design). Recommend weekly cadence is too slow: Claude Code ships about one version per day, so each weekly run will flag a backlog of roughly 7 versions against a cap of 5.",
+  "since_date": "2026-09-29",
+  "history": [
+    {"run_at": "2026-10-04T03:39:02Z", "sources_added": 5, "status": "ok", "note": "First run: recorded the newest five versions 2.1.285 to 2.1.289 and set since_date to 2026-09-29."}
+  ],
+  "retrieved_urls": [
+    "https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
+    "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
+    "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
+    "https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
+    "https://github.com/anthropics/claude-code/releases/tag/v2.1.289"
+  ],
   "retrieved_arxiv_ids": [],
-  "title_index": [],
+  "title_index": [
+    "Claude Code 2.1.285",
+    "Claude Code 2.1.286",
+    "Claude Code 2.1.287",
+    "Claude Code 2.1.288",
+    "Claude Code 2.1.289"
+  ],
   "rejected": [],
   "rounds_without_yield": 0,
-  "total_sources": 0
+  "total_sources": 5
 }

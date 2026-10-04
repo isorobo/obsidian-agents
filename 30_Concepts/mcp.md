@@ -16,8 +16,8 @@ af_targets:
 - af:DELEG-02
 - af:RSCH-01/mcp
 - af:RSCH-04/Q16
-wiki_indexed: '2026-10-04T03:01:49Z'
-wiki_hash: aa4667d67ee36a27bd98068e9326b2d9412d014bd57896b41a57a3f287ec360c
+wiki_indexed: '2026-10-04T03:42:35Z'
+wiki_hash: e1b22d66ea1cb79a9aa70873e94b217d6450b410d81e805274d018fe69083af8
 ---
 
 # Model Context Protocol (MCP)
@@ -53,6 +53,16 @@ MCP removes integration sprawl and gives one surface for tools. The gain grows w
 - [[10_Sources/Docs/mcp-introduction|What is MCP?]]
 - https://www.anthropic.com/news/model-context-protocol
 - [[10_Sources/Blog/anthropic-how-we-contain-claude|How we contain Claude across products]]
+- [[10_Sources/Blog/anthropic-scaling-managed-agents|Scaling Managed Agents]]
+- [[10_Sources/Release-Notes/claude-code-2-1-285-2026-09-29|Claude Code 2.1.285]]
+- [[10_Sources/Release-Notes/claude-code-2-1-286-2026-09-30|Claude Code 2.1.286]]
+- [[10_Sources/Release-Notes/claude-code-2-1-287-2026-10-01|Claude Code 2.1.287]]
+- [[10_Sources/Release-Notes/claude-code-2-1-288-2026-10-02|Claude Code 2.1.288]]
+- [[10_Sources/Release-Notes/claude-code-2-1-289-2026-10-03|Claude Code 2.1.289]]
+- [[10_Sources/Repos/claude-agent-sdk-python|Claude Agent SDK for Python]]
+- [[10_Sources/Repos/claude-agent-sdk-typescript|Claude Agent SDK for TypeScript]]
+- [[10_Sources/Repos/sandbox-runtime|Anthropic Sandbox Runtime]]
+- [[10_Sources/Repos/smolagents|smolagents]]
 
 ## See also
 

@@ -24,8 +24,8 @@ af_targets:
 - af:ADR-0004
 - af:RSCH-04/Q06
 - af:RSCH-04/Q16
-wiki_indexed: '2026-10-04T03:01:49Z'
-wiki_hash: 73bfde81534a0725a4f456de7b510657a0f5d810a861360f63ad544b5ced3804
+wiki_indexed: '2026-10-04T03:42:35Z'
+wiki_hash: 350bf0ddfd2818bf1a43da35f560ec3534a9caae38faaf997f1708ef775a5164
 ---
 
 # Tool Use
@@ -66,6 +66,28 @@ Tools extend a model past text into live data and action. They also widen the at
 - Writing effective tools for AI agents — https://www.anthropic.com/engineering/writing-tools-for-agents
 - What is the Model Context Protocol — https://docs.anthropic.com/en/docs/agents-and-tools/mcp
 - [[10_Sources/Blog/anthropic-how-we-contain-claude|How we contain Claude across products]]
+- [[10_Sources/Blog/agent-modes-plan-default-auto|Plan vs Default vs Auto Mode]]
+- [[10_Sources/Blog/agent-sandbox-os-level-security|Agent Sandboxes: OS-Level Security]]
+- [[10_Sources/Blog/anthropic-claude-code-auto-mode|How we built Claude Code auto mode]]
+- [[10_Sources/Blog/anthropic-eval-awareness-browsecomp|Eval awareness in BrowseComp]]
+- [[10_Sources/Docs/claude-agent-sdk-hooks|Agent SDK hooks]]
+- [[10_Sources/Docs/claude-agent-sdk-permissions|Agent SDK permissions]]
+- [[10_Sources/Docs/claude-code-headless-mode|Run Claude Code programmatically]]
+- [[10_Sources/Docs/claude-code-hooks-reference|Claude Code hooks reference]]
+- [[10_Sources/Docs/claude-code-permissions|Claude Code permissions]]
+- [[10_Sources/Papers/mid-harness-kang-2026|Mid-Harness (Kang et al., 2026)]]
+- [[10_Sources/Papers/swe-agent-computer-interfaces-yang-2024|SWE-agent (Yang et al., 2024)]]
+- [[10_Sources/Release-Notes/claude-fable-5-1-2026-09-01|Claude Fable 5.1]]
+- [[10_Sources/Release-Notes/claude-opus-5-5-2026-09-22|Claude Opus 5.5]]
+- [[10_Sources/Release-Notes/claude-sonnet-5-5-2026-09-28|Claude Sonnet 5.5]]
+- [[10_Sources/Repos/12-factor-agents|12-Factor Agents]]
+- [[10_Sources/Repos/anthropic-skills-repository|Anthropic Agent Skills Repository]]
+- [[10_Sources/Repos/claude-agent-sdk-python|Claude Agent SDK for Python]]
+- [[10_Sources/Repos/commerce-agents|Claude Commerce Agents]]
+- [[10_Sources/Repos/learn-agent-architecture|learn-agent-architecture]]
+- [[10_Sources/Repos/mini-swe-agent|mini-SWE-agent]]
+- [[10_Sources/Repos/sandbox-runtime|Anthropic Sandbox Runtime]]
+- [[10_Sources/Repos/smolagents|smolagents]]
 
 ## See also
 

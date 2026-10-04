@@ -1,14 +1,32 @@
 {
   "channel": "arxiv-agents",
-  "last_run_at": null,
+  "last_run_at": "2026-10-04T03:50:00Z",
   "target_per_run": 6,
-  "sources_added": 0,
-  "last_status": "pending",
-  "history": [],
-  "retrieved_urls": [],
-  "retrieved_arxiv_ids": [],
-  "title_index": [],
+  "sources_added": 6,
+  "last_status": "ok",
+  "last_run_summary": "2026-10-04: 6 papers added (cap 6) from the arXiv cs.MA recent listing after the arXiv API timed out (503 on retry). All six filed from abstract pages; topics span delegation, authorization, harness action scaling, runtime coordination, MAS failure diagnosis and agent memory. Recommend retrying the API next run for cs.AI coverage.",
+  "since_date": "2026-07-10",
+  "history": [
+    {"run_at": "2026-10-04T03:50:00Z", "sources_added": 6, "status": "ok", "note": "First automated run. arXiv API unavailable, used cs.MA recent listing and abstract pages."}
+  ],
+  "retrieved_urls": [
+    "https://arxiv.org/abs/2610.00041",
+    "https://arxiv.org/abs/2610.00371",
+    "https://arxiv.org/abs/2609.39982",
+    "https://arxiv.org/abs/2610.00980",
+    "https://arxiv.org/abs/2609.38761",
+    "https://arxiv.org/abs/2609.39143"
+  ],
+  "retrieved_arxiv_ids": ["2610.00041", "2610.00371", "2609.39982", "2610.00980", "2609.38761", "2609.39143"],
+  "title_index": [
+    "The Delegation Danger Band: Why Mid-Capability Sub-Agents Over-Trust Inherited Stale State",
+    "Deny Without Disabling: Authorization-Paired Evaluation and Control for Multi-Agent Systems",
+    "Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents",
+    "Can AI Scientists Coordinate at Runtime?",
+    "Where Do Multi-Agent Systems Fail? Evidence-Grounded Diagnosis of Collective Mechanisms",
+    "RefCon: Iterative Refinement and Contrastive Memory Extraction for Context-Evolving Agent"
+  ],
   "rejected": [],
   "rounds_without_yield": 0,
-  "total_sources": 0
+  "total_sources": 6
 }

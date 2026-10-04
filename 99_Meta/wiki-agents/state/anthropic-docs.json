@@ -1,14 +1,30 @@
 {
   "channel": "anthropic-docs",
-  "last_run_at": null,
+  "last_run_at": "2026-10-04T03:33:30Z",
   "target_per_run": 5,
-  "sources_added": 0,
-  "last_status": "pending",
-  "history": [],
-  "retrieved_urls": [],
+  "sources_added": 5,
+  "last_status": "ok",
+  "last_run_summary": "2026-10-04: added 5 of cap 5 (first run). Resolved host: code.claude.com/docs (docs.claude.com not fetched; code.claude.com llms.txt covers Claude Code and Agent SDK). Notes cover Claude Code headless, hooks reference, permissions, and the Agent SDK permissions and hooks pages. Recommend next run covers agent-sdk subagents, sessions, custom-tools, mcp, skills, and docs.claude.com agents-and-tools pages (tool use, memory tool, MCP connector).",
+  "since_date": "2024-01-01",
+  "history": [
+    {"run_at": "2026-10-04T03:33:30Z", "sources_added": 5, "status": "ok", "note": "First automated run. Five priority-1 and priority-2 pages from code.claude.com added in one round."}
+  ],
+  "retrieved_urls": [
+    "https://code.claude.com/docs/en/headless",
+    "https://code.claude.com/docs/en/hooks",
+    "https://code.claude.com/docs/en/permissions",
+    "https://code.claude.com/docs/en/agent-sdk/permissions",
+    "https://code.claude.com/docs/en/agent-sdk/hooks"
+  ],
   "retrieved_arxiv_ids": [],
-  "title_index": [],
+  "title_index": [
+    "Run Claude Code programmatically",
+    "Claude Code Hooks Reference",
+    "Configure permissions (Claude Code)",
+    "Configure permissions (Agent SDK)",
+    "Intercept and control agent behavior with hooks (Agent SDK)"
+  ],
   "rejected": [],
   "rounds_without_yield": 0,
-  "total_sources": 0
+  "total_sources": 5
 }

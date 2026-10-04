@@ -16,8 +16,8 @@ af_targets:
 - af:DELEG-01
 - af:RSCH-04/Q17
 - af:RSCH-04/Q25
-wiki_indexed: '2026-10-04T03:01:49Z'
-wiki_hash: 21345faaeac8ca37b582c230f4e4bd805261a9b18a802addcb501e9618888cfe
+wiki_indexed: '2026-10-04T03:42:35Z'
+wiki_hash: 638deee70307e25fe216fe4a4766e632f3ae4fd2456d9dbc2873b56a471322e9
 ---
 
 # Supervisor-Worker Multi-Agent
@@ -104,6 +104,12 @@ total fan-out. Trace each worker on its own to find a fault.
 
 - Anthropic, "Building effective agents". https://www.anthropic.com/engineering/building-effective-agents
 - [[10_Sources/Papers/react-yao-2022|ReAct (Yao et al., 2022)]]
+- [[10_Sources/Blog/anthropic-harness-design-long-running-apps|Harness design for long-running application development]]
+- [[10_Sources/Docs/claude-agent-sdk-permissions|Agent SDK permissions]]
+- [[10_Sources/Papers/delegation-danger-band-hu-2026|The Delegation Danger Band (Hu and Ramachandran, 2026)]]
+- [[10_Sources/Papers/deny-without-disabling-zhang-2026|Deny Without Disabling (Zhang et al., 2026)]]
+- [[10_Sources/Papers/runtime-agent-coordination-liu-2026|Can AI Scientists Coordinate at Runtime? (Liu et al., 2026)]]
+- [[10_Sources/Papers/where-multi-agent-systems-fail-han-2026|Where Do Multi-Agent Systems Fail? (Han, 2026)]]
 
 ## See also
 

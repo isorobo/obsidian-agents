@@ -15,8 +15,8 @@ af_targets:
 - af:RSCH-01/react
 - af:RSCH-04/Q13
 - af:RSCH-04/Q14
-wiki_indexed: '2026-10-04T03:01:49Z'
-wiki_hash: 55f5094c3f93dcc3b094b6554d975be080828478a130059730ee39aba7aad43e
+wiki_indexed: '2026-10-04T03:42:35Z'
+wiki_hash: 3022fa1403f5e7d6b39a527ce4a630973c97f6d48a19582e3fa96b7ebfca1aee
 ---
 
 # ReAct
@@ -100,6 +100,8 @@ cost. Cap the step budget to stop runaway loops.
 
 - [[10_Sources/Papers/react-yao-2022|ReAct (Yao et al., 2022)]]
 - Anthropic, "Building effective agents". https://www.anthropic.com/engineering/building-effective-agents
+- [[10_Sources/Papers/coala-cognitive-architectures-sumers-2023|CoALA (Sumers et al., 2023)]]
+- [[10_Sources/Repos/smolagents|smolagents]]
 
 ## See also
 

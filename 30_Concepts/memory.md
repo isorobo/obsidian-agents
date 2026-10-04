@@ -25,8 +25,8 @@ af_targets:
 - af:RSCH-04/Q09
 - af:RSCH-04/Q11
 - af:RSCH-04/Q12
-wiki_indexed: '2026-10-04T03:01:49Z'
-wiki_hash: b2d33c06af8f677ffcc1bf0978d101451e59c07e68c822b130880623609a556b
+wiki_indexed: '2026-10-04T03:42:35Z'
+wiki_hash: a4a9dcedb346a0b10e32065ad62e1eae0eea0774080a01ef0c422ab65079c686
 ---
 
 # Memory
@@ -70,6 +70,15 @@ Memory lets an agent hold long tasks and learn across sessions. It also adds ret
 - [[10_Sources/Books/agentic-design-patterns-gulli-2025|Agentic Design Patterns (Gulli)]]
 - MemGPT: Towards LLMs as Operating Systems — https://arxiv.org/abs/2310.08560
 - Reflexion: Language Agents with Verbal Reinforcement Learning — https://arxiv.org/abs/2303.11366
+- [[10_Sources/Blog/anthropic-scaling-managed-agents|Scaling Managed Agents]]
+- [[10_Sources/Blog/harness-six-components|The 6 Components of a Production Agent Harness]]
+- [[10_Sources/Papers/coala-cognitive-architectures-sumers-2023|CoALA (Sumers et al., 2023)]]
+- [[10_Sources/Papers/delegation-danger-band-hu-2026|The Delegation Danger Band (Hu and Ramachandran, 2026)]]
+- [[10_Sources/Papers/generative-agents-park-2023|Generative Agents (Park et al., 2023)]]
+- [[10_Sources/Papers/refcon-contrastive-memory-prathama-2026|RefCon (Prathama et al., 2026)]]
+- [[10_Sources/Release-Notes/claude-fable-5-1-2026-09-01|Claude Fable 5.1]]
+- [[10_Sources/Repos/12-factor-agents|12-Factor Agents]]
+- [[10_Sources/Repos/learn-agent-architecture|learn-agent-architecture]]
 
 ## See also
 

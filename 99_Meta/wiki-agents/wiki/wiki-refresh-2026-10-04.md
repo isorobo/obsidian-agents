@@ -82,3 +82,48 @@ One monitor note was created in the window: `10_Sources/Blog/anthropic-how-we-co
 1. Commit the stamping pass.
 2. Run `/wiki-agents af-tag --all` then `digest`.
 3. Next `/wiki-agents wiki-refresh` will re-stamp only modified notes.
+
+## Second pass (headless wiki-refresh)
+
+Run later the same day with `--headless`. Plan: `apply-plan-2026-10-04-2.json`. MOC candidates file `wiki-moc-candidates-2026-10-04.json` was overwritten by this pass.
+
+| Measure | Count |
+|---|---|
+| Notes scanned | 176 |
+| Fresh before apply | 47 (44 monitor notes created since the first pass, 3 held) |
+| Stamped (existing topics confirmed, no topic change) | 44 |
+| Held | 3 (`10_Sources/Talks/source-slug.md` still a 0-byte stub; `99_Meta/schema.md` and `99_Meta/agent-factory/af-targets.md` never_write) |
+| Off-vocabulary topics | 0 |
+| Pending Topic candidates | 0 |
+| Band-topic violations | 0 |
+| Notes above 3 topics | 0 |
+
+Apply result: 44 applied, 0 unchanged, 0 failed. Dry run touched only `wiki_indexed` and `wiki_hash`. Verify: `ok: true`, no unexpected paths.
+
+### MOC candidates
+
+Suggest mode. Nothing written to `50_MOCs/`. 44 notes considered, 0 already linked from a MOC, 102 candidate placements across 20 MOCs, 0 unmapped. Every topic has a MOC.
+
+### Part A: linking pass
+
+All edits append-only. Window: monitor notes created in the last 14 days (none of the 44 was linked from any concept or profile before this pass).
+
+- Appended source bullets to the `## Sources` section of 16 concept notes: `the-agent-loop`, `tool-use`, `memory`, `claude-code`, `claude-agent-sdk`, `mcp`, `evaluation`, `supervisor-worker-multi-agent`, `workflow-vs-autonomous-agent`, `prompt-engineering`, `plan-and-execute`, `react`, `reflexion`, `planning-and-reasoning`, `what-is-an-ai-agent`, `best-practices-index`. About 130 bullets in all, one per source note and linked concept.
+- Concept bodies changed, so all 16 were re-stamped with `wiki_tool.py stamp` (hash and indexed only).
+- `20_People/ai-builder-club/profile.md`: five entries added to `key_sources`.
+- `20_People/boris-cherny/profile.md`: two entries added to `key_sources`.
+- Concepts linked by the new notes with no `## Sources` heading: none missing a heading. Concept notes linked but not edited because the new notes did not link them: none.
+
+Release-note comparison (Part A step 3): not performed in this headless run. See Pending your decision.
+
+### Housekeeping observations
+
+- `10_Sources/Talks/source-slug.md` is still a 0-byte file (carried from the first pass).
+- A multi-line `rg` command was denied by the headless allow list. The plan was built from the scan JSON read directly instead (flag `permission-denied:rg-multiline`).
+- Working tree: 105 dirty paths. Nothing committed. Suggested message: `Stamp wiki_hash on 44 monitor notes and backlink them into 16 concepts and 2 profiles`.
+
+### Pending your decision
+
+- Release notes 2.1.285 to 2.1.289, Opus 5.5, Sonnet 5.5 and Fable 5.1 have not been compared against the Summary, Detail and Trade-offs text of `claude-code`, `claude-agent-sdk` and `mcp`. Run that comparison interactively so each sentence change can be proposed and approved.
+- Delete or fill `10_Sources/Talks/source-slug.md`.
+- Standing: promote the `anthropic-news` pilot once it has a clean cycle; auto-commit on or off.

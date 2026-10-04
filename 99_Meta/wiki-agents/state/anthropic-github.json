@@ -1,14 +1,32 @@
 {
   "channel": "anthropic-github",
-  "last_run_at": null,
+  "last_run_at": "2026-10-04T03:32:23Z",
   "target_per_run": 6,
-  "sources_added": 0,
-  "last_status": "pending",
-  "history": [],
-  "retrieved_urls": [],
+  "sources_added": 6,
+  "last_status": "ok",
+  "last_run_summary": "2026-10-04: first run, 6 repo overview notes added (cap 6): both Agent SDKs, claude-code-action, skills, sandbox-runtime, commerce-agents. Release notes for the SDKs were read but not given their own notes; the 0.x versions are patch-numbered and mostly CLI bumps. Recommend next run take SDK releases with behaviour change (Python v0.2.158 verbatim_prompts, v0.2.153 snapshot; TypeScript v0.3.282, v0.3.286) and the remaining repos (knowledge-work-plugins, claude-plugins-official).",
+  "since_date": "2026-01-01",
+  "history": [
+    {"run_at": "2026-10-04T03:32:23Z", "sources_added": 6, "status": "ok", "note": "First run. Six repo overviews added, all via README fetch; no release notes written."}
+  ],
+  "retrieved_urls": [
+    "https://github.com/anthropics/claude-agent-sdk-python",
+    "https://github.com/anthropics/claude-agent-sdk-typescript",
+    "https://github.com/anthropics/commerce-agents",
+    "https://github.com/anthropics/sandbox-runtime",
+    "https://github.com/anthropics/claude-code-action",
+    "https://github.com/anthropics/skills"
+  ],
   "retrieved_arxiv_ids": [],
-  "title_index": [],
+  "title_index": [
+    "Claude Agent SDK for Python",
+    "Claude Agent SDK for TypeScript",
+    "Claude Commerce Agents",
+    "Anthropic Sandbox Runtime (srt)",
+    "Claude Code Action",
+    "Anthropic Agent Skills Repository"
+  ],
   "rejected": [],
   "rounds_without_yield": 0,
-  "total_sources": 0
+  "total_sources": 6
 }

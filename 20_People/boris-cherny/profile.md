@@ -10,7 +10,7 @@ affiliations: [Anthropic, Meta]
 topic:
 - topic/boris-cherny
 tags: [claude-code, engineering-leader]
-key_sources: ["[[10_Sources/Interviews/boris-cherny-pragmatic-engineer|Building Claude Code with Boris Cherny]]"]
+key_sources: ["[[10_Sources/Interviews/boris-cherny-pragmatic-engineer|Building Claude Code with Boris Cherny]]", "[[10_Sources/Talks/boris-cherny-building-claude-code-yc-2026|Boris Cherny: Building Claude Code]]", "[[10_Sources/Talks/boris-cherny-peterman-pod-career-claude-code|Boris Cherny on How His Career Grew]]"]
 wiki_indexed: '2026-10-04T03:01:49Z'
 wiki_hash: 457d8bd72001d313298193118421f215538bd7dcabb6704bedf117deacdca44c
 ---

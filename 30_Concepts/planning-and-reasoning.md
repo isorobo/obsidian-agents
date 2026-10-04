@@ -22,8 +22,8 @@ related_concepts:
 - "[[what-is-an-ai-agent]]"
 af_targets:
 - af:RSCH-04/Q05
-wiki_indexed: '2026-10-04T03:01:49Z'
-wiki_hash: 5a27f8cd9963f34e625734aa7324baaf6424b897d5d5c8c27e6e1f6b6df99df1
+wiki_indexed: '2026-10-04T03:42:35Z'
+wiki_hash: b90475ef9ed096d41e689cc6fcd7d43aa97d5631394a6706c7de432094c1355b
 ---
 
 # Planning and Reasoning
@@ -63,6 +63,7 @@ Explicit reasoning raises accuracy and legibility on hard, multi-step tasks. It 
 - [[10_Sources/Blog/anthropic-building-effective-agents|Building Effective Agents]]
 - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models — https://arxiv.org/abs/2201.11903
 - ReAct: Synergizing Reasoning and Acting in Language Models — https://arxiv.org/abs/2210.03629
+- [[10_Sources/Papers/generative-agents-park-2023|Generative Agents (Park et al., 2023)]]
 
 ## See also
 

@@ -1,6 +1,6 @@
 {
   "vault": "/Users/bernie/obsidian/wiki-agents",
-  "scanned_at": "2026-10-04T03:02:43Z",
+  "scanned_at": "2026-10-04T03:42:40Z",
   "config": {
     "engine": "wiki-agents",
     "vault_name": "Agents",
@@ -69,13 +69,13 @@
     }
   },
   "stats": {
-    "total_notes": 132,
+    "total_notes": 176,
     "fresh": 3,
     "modified": 0,
-    "unchanged": 129,
+    "unchanged": 173,
     "orphans": 0,
     "quarantined": 0,
-    "unique_topics": 25,
+    "unique_topics": 26,
     "unique_subjects": 0
   },
   "notes": [
@@ -107,6 +107,40 @@
       "existing_hash": "009e1d32882b0b69ab906e034f915f702d91b712e8380e407a1de8bc72b95f0f",
       "body_chars": 5507,
       "body_preview": "# Agent Memory Systems: The Complete Guide (2026)\n\n> Shirley, \"Agent Memory Systems: The Complete Guide (2026)\", AI Builder Club, Build AI Agents Course, 11 June 2026, https://www.aibuilderclub.com/blog/agent-memory-systems-guide.\n\n## Summary\n\nThis lesson deepens Part 3's memory treatment with a cognitive-science-derived taxonomy — episodic, semantic, and procedural memory — and a full write-maintain-retrieve lifecycle. Its central claim: quality is set at the write stage, not the retrieval stag",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/agent-modes-plan-default-auto.md",
+      "hash": "abb6d9c23b2bca2a7104106fef3d34b5fb24daaa337d4b5a586ef3a956890ddf",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/security",
+        "topic/claude-code"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "abb6d9c23b2bca2a7104106fef3d34b5fb24daaa337d4b5a586ef3a956890ddf",
+      "body_chars": 2659,
+      "body_preview": "# Plan vs Default vs Auto Mode: Coding Agent Trust Levels\n\n> Shirley, \"Plan vs Default vs Auto Mode: Coding Agent Trust Levels\", AI Builder Club, Build AI Agents Course, 11 June 2026, https://www.aibuilderclub.com/blog/agent-modes-plan-default-auto.\n\n## Summary\n\nThe lesson frames coding-agent permission modes as three trust levels and a gear-shifting workflow. Plan is read-only and outputs a markdown plan. Default allows reads and asks before writes or commands. Auto runs autonomously with a saf",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/agent-sandbox-os-level-security.md",
+      "hash": "db6c9607e08513a654cff48754a191aa17ad8017881ba7a4d3728ea11c07440d",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/security",
+        "topic/deployment"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "db6c9607e08513a654cff48754a191aa17ad8017881ba7a4d3728ea11c07440d",
+      "body_chars": 2996,
+      "body_preview": "# Agent Sandboxes: OS-Level Security for AI Agents (2026)\n\n> Shirley, \"Agent Sandboxes: OS-Level Security for AI Agents (2026)\", AI Builder Club, Build AI Agents Course, 11 June 2026, https://www.aibuilderclub.com/blog/agent-sandbox-os-level-security.\n\n## Summary\n\nAgents run with the user's permissions, so a successful prompt injection inherits them. Per-command approval causes approval fatigue. The lesson proposes a two-wall sandbox, filesystem and network isolation together, enforced in the OS",
       "action": null,
       "action_reason": null,
       "stub": false
@@ -225,6 +259,23 @@
       "stub": false
     },
     {
+      "path": "10_Sources/Blog/anthropic-april-23-postmortem.md",
+      "hash": "650679fefb8b9a5712ad089e94b63d804a74c60f9457680a95d72f284fbe49b4",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/claude-code",
+        "topic/best-practices"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "650679fefb8b9a5712ad089e94b63d804a74c60f9457680a95d72f284fbe49b4",
+      "body_chars": 2579,
+      "body_preview": "# An update on recent Claude Code quality reports\n\n> Anthropic, \"An update on recent Claude Code quality reports\", Anthropic Engineering, 23 April 2026, https://www.anthropic.com/engineering/april-23-postmortem.\n\n## Summary\n\nAnthropic's postmortem explains why Claude Code seemed less capable between early March and mid-April 2026, with users reporting lower intelligence, forgetfulness, repetition and faster usage-limit depletion. It traces the reports to three separate changes: the default reaso",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
       "path": "10_Sources/Blog/anthropic-building-effective-agents.md",
       "hash": "0f27b588102290bd6be60f69ebe111b318c1041f017347fa8594ac74564f11a4",
       "role": "wiki",
@@ -236,6 +287,24 @@
       "existing_hash": "0f27b588102290bd6be60f69ebe111b318c1041f017347fa8594ac74564f11a4",
       "body_chars": 2646,
       "body_preview": "# Building Effective Agents\n\n> Erik Schluntz and Barry Zhang, \"Building Effective Agents\", Anthropic Engineering, 19 December 2024, https://www.anthropic.com/research/building-effective-agents.\n\n## Summary\n\nAnthropic distils lessons from building agents with customers across many industries. The post draws one line that governs the field. A workflow orchestrates language models and tools through fixed code paths. An agent lets the model direct its own process and tool use. The augmented language",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/anthropic-claude-code-auto-mode.md",
+      "hash": "37e1e9b537e61cf0cf1d4f26aedd1c1d89c040bdd4e939e5bef435e5b47b60b5",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/claude-code",
+        "topic/security",
+        "topic/tool-use"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "37e1e9b537e61cf0cf1d4f26aedd1c1d89c040bdd4e939e5bef435e5b47b60b5",
+      "body_chars": 2859,
+      "body_preview": "# How we built Claude Code auto mode: a safer way to skip permissions\n\n> John Hughes, \"How we built Claude Code auto mode: a safer way to skip permissions\", Anthropic Engineering, 25 March 2026, https://www.anthropic.com/engineering/claude-code-auto-mode.\n\n## Summary\n\nThe post explains auto mode in Claude Code, which replaces many manual permission prompts with automated checks to reduce approval fatigue. It uses two layers: a server-side prompt-injection probe that screens tool outputs before t",
       "action": null,
       "action_reason": null,
       "stub": false
@@ -257,6 +326,41 @@
       "stub": false
     },
     {
+      "path": "10_Sources/Blog/anthropic-eval-awareness-browsecomp.md",
+      "hash": "7e3f9f6d6d991b577bed98f5fcbb3288776036ef4082d04df8ea7e0a0ed52ca3",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/evaluation",
+        "topic/security"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "7e3f9f6d6d991b577bed98f5fcbb3288776036ef4082d04df8ea7e0a0ed52ca3",
+      "body_chars": 2462,
+      "body_preview": "# Eval awareness in Claude Opus 4.6's BrowseComp performance\n\n> Russell Coleman et al., \"Eval awareness in Claude Opus 4.6's BrowseComp performance\", Anthropic Engineering, 6 March 2026, https://www.anthropic.com/engineering/eval-awareness-browsecomp.\n\n## Summary\n\nAnthropic evaluated Claude Opus 4.6 on BrowseComp (1,266 web-research problems) and found two kinds of integrity problem. Nine cases were ordinary contamination, where answers had leaked into public web content. Two were novel: the mod",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/anthropic-harness-design-long-running-apps.md",
+      "hash": "54f745423c2fef415e6ddd60b29c8f6d894568119ce0cce65d1b25b3a3edcbe1",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/multi-agent",
+        "topic/architectures",
+        "topic/evaluation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "54f745423c2fef415e6ddd60b29c8f6d894568119ce0cce65d1b25b3a3edcbe1",
+      "body_chars": 2690,
+      "body_preview": "# Harness design for long-running application development\n\n> Prithvi Rajasekaran, \"Harness design for long-running application development\", Anthropic Engineering (Anthropic Labs), 24 March 2026, https://www.anthropic.com/engineering/harness-design-long-running-apps.\n\n## Summary\n\nThe post describes a three-role harness for building full applications over hours: a planner that expands a brief prompt into a product spec, a generator that implements features, and an evaluator that tests with Playwr",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
       "path": "10_Sources/Blog/anthropic-how-we-contain-claude.md",
       "hash": "fd64ab2ac37e24b2ad1e70fca4024e03597ef39b2876c13e77e8826f8cff30fe",
       "role": "wiki",
@@ -270,6 +374,24 @@
       "existing_hash": "fd64ab2ac37e24b2ad1e70fca4024e03597ef39b2876c13e77e8826f8cff30fe",
       "body_chars": 4691,
       "body_preview": "# How we contain Claude across products\n\n> Max McGuinness, Mikaela Grace, Jiri De Jonghe, Jake Eaton and Abel Ribbink, \"How we contain Claude across products\", Anthropic Engineering, 25 May 2026, https://www.anthropic.com/engineering/how-we-contain-claude.\n\n## Summary\n\nThe post frames containment as an engineering problem: the more capable an agent is, the larger the damage from a failure. Anthropic compares two approaches, human-in-the-loop approval and environmental containment, and reports th",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/anthropic-scaling-managed-agents.md",
+      "hash": "2aa36bb936abdc770a5bea20f3050db5bb7164f654b63f725e4f14333adf8cf8",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/architectures",
+        "topic/deployment",
+        "topic/security"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "2aa36bb936abdc770a5bea20f3050db5bb7164f654b63f725e4f14333adf8cf8",
+      "body_chars": 2495,
+      "body_preview": "# Scaling Managed Agents: Decoupling the brain from the hands\n\n> Lance Martin, Gabe Cemaj and Michael Cohen, \"Scaling Managed Agents: Decoupling the brain from the hands\", Anthropic Engineering, 8 April 2026, https://www.anthropic.com/engineering/managed-agents.\n\n## Summary\n\nThe post describes Managed Agents, a hosted agent service built on three decoupled parts: the brain (Claude plus its harness), the hands (sandboxes, tools and MCP servers) and the session (a durable event log). Each part sit",
       "action": null,
       "action_reason": null,
       "stub": false
@@ -373,6 +495,23 @@
       "stub": false
     },
     {
+      "path": "10_Sources/Blog/harness-six-components.md",
+      "hash": "d6df4f121a53c4fdf7a967f1b1548a11670b491484ac0af70880eb8eb70a49ec",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/architectures",
+        "topic/observability"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "d6df4f121a53c4fdf7a967f1b1548a11670b491484ac0af70880eb8eb70a49ec",
+      "body_chars": 3062,
+      "body_preview": "# The 6 Components of a Production Agent Harness\n\n> Shirley, \"The 6 Components of a Production Agent Harness\", AI Builder Club, Build AI Agents Course, 11 June 2026 (updated 2 July 2026), https://www.aibuilderclub.com/blog/harness-six-components.\n\n## Summary\n\nThe lesson states Agent = Model + Harness, where the harness is everything around the model that makes it production-grade. It names six components: context management, tool system, orchestration, state and memory, evaluation and observabil",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
       "path": "10_Sources/Blog/hermes-self-hosted-agent.md",
       "hash": "2012ab74f7bf303c981067cb6493e6f848f51e2ea275c67c258e31e45f789671",
       "role": "wiki",
@@ -417,6 +556,23 @@
       "existing_hash": "f6e869e8928e0727caab54941360290ef3616e62bc1a2d93b4dc181bb7736b23",
       "body_chars": 6046,
       "body_preview": "# How to Build an AI Agent from Scratch: A Step-by-Step Guide\n\n> Claude Code Playbooks, \"How to Build an AI Agent from Scratch: A Step-by-Step Guide\", Claude Code Playbooks Blog, 14 April 2026. URL TBD.\n\n## Summary\n\nA seven-step tutorial for a first agent, marked TUTORIAL and Intermediate, at a\n14 minute read. The post opens with a working definition: an AI agent is an LLM\nin a loop that uses tools, reads and writes memory, and decides what to do next.\nThe steps run in order: narrow the job, pic",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/how-to-evaluate-ai-agents.md",
+      "hash": "7b5a4a47101384a6a3e4a2ec74b10766abe4a7ca05fa6c7abdfa712d0dd95eef",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/evaluation",
+        "topic/best-practices"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "7b5a4a47101384a6a3e4a2ec74b10766abe4a7ca05fa6c7abdfa712d0dd95eef",
+      "body_chars": 3196,
+      "body_preview": "# How to Evaluate AI Agents: What Works in 2026\n\n> Shirley, \"How to Evaluate AI Agents: What Works in 2026\", AI Builder Club, Build AI Agents Course, 12 June 2026, https://www.aibuilderclub.com/blog/how-to-evaluate-ai-agents.\n\n## Summary\n\nThe lesson argues that agents grading their own work produce optimistic results, because the grader shares the reasoning and blind spots of the producer. It sets out four patterns: a generator-evaluator split with a fresh-context evaluator, structured step trac",
       "action": null,
       "action_reason": null,
       "stub": false
@@ -502,6 +658,23 @@
       "existing_hash": "12ea766fa030d8f55b85195cf05786129d88af2b59c9e01a23bc055444489738",
       "body_chars": 3924,
       "body_preview": "# last30days-skill: Real-Time Research for AI Agents\n\n> Jason Zhou, \"last30days-skill: Real-Time Research for AI Agents\", AI Builder Club, Build AI Agents Course, 9 June 2026, https://www.aibuilderclub.com/blog/last30days-skill-real-time-research.\n\n## Summary\n\n`last30days-skill` is a community-built agent skill that searches Reddit, X, YouTube, Hacker News, Polymarket, GitHub, TikTok, Instagram, and Bluesky in parallel and synthesises the results into a ranked brief by actual engagement rather t",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/loop-engineering-anthropic-playbook.md",
+      "hash": "e32de28829afceb6535369f1e7b234a106d02cb8010bacf429eb9e0433825772",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/architectures",
+        "topic/best-practices"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "e32de28829afceb6535369f1e7b234a106d02cb8010bacf429eb9e0433825772",
+      "body_chars": 2498,
+      "body_preview": "# Loop Engineering: The Anthropic Playbook\n\n> Shirley, \"Loop Engineering: The Anthropic Playbook\", AI Builder Club, Build AI Agents Course, 8 July 2026 (updated 24 August 2026), https://www.aibuilderclub.com/blog/loop-engineering-anthropic-playbook.\n\n## Summary\n\nThe lesson treats the loop, not the prompt, as the primary engineering object. It distils Anthropic's published guidance into the gather-context, take-action, verify-work cycle and five load-bearing principles. This is a third-party read",
       "action": null,
       "action_reason": null,
       "stub": false
@@ -869,6 +1042,24 @@
       "stub": false
     },
     {
+      "path": "10_Sources/Docs/claude-agent-sdk-hooks.md",
+      "hash": "048c1a560a1e0ef97a29d5c07fd9ba3098b32c539ea6b8f7be6936c6212a28d7",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/claude-sdk",
+        "topic/security",
+        "topic/observability"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "048c1a560a1e0ef97a29d5c07fd9ba3098b32c539ea6b8f7be6936c6212a28d7",
+      "body_chars": 3586,
+      "body_preview": "# Intercept and control agent behavior with hooks (Agent SDK)\n\n> Anthropic, \"Intercept and customize agent behavior with hooks\", Claude Agent SDK Docs, undated (read 4 October 2026), https://code.claude.com/docs/en/agent-sdk/hooks.\n\n## Summary\n\nSDK hooks are callback functions that run application code on agent events such as a tool call, a tool result, a subagent start or stop, or session end. A callback receives the event input, a tool use ID and a context, and returns an output object that ca",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
       "path": "10_Sources/Docs/claude-agent-sdk-overview.md",
       "hash": "b0a00aaaaa489c9fd4076e953698b17671de8d00ef16a1b5b1bb57518fe785f1",
       "role": "wiki",
@@ -881,6 +1072,24 @@
       "existing_hash": "b0a00aaaaa489c9fd4076e953698b17671de8d00ef16a1b5b1bb57518fe785f1",
       "body_chars": 2030,
       "body_preview": "# Claude Agent SDK overview\n\n> Anthropic, \"Agent SDK overview\", code.claude.com, 2026. https://code.claude.com/docs/en/agent-sdk/overview\n\n## Summary\n\nThe Claude Agent SDK builds production agents with Claude Code as a library. It gives the same tools, agent loop, and context management that power Claude Code. The SDK ships in Python and TypeScript. Claude owns the loop: the SDK runs the model, executes tools, manages context, and streams messages until a final result.\n\n## Key Concepts\n\n- The SD",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Docs/claude-agent-sdk-permissions.md",
+      "hash": "aa08d0a8d63047be61085107d69edee11292ea2ebb35104890d938f401c4f273",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/claude-sdk",
+        "topic/security",
+        "topic/tool-use"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "aa08d0a8d63047be61085107d69edee11292ea2ebb35104890d938f401c4f273",
+      "body_chars": 3010,
+      "body_preview": "# Configure permissions (Agent SDK)\n\n> Anthropic, \"Configure permissions\", Claude Agent SDK Docs, undated (read 4 October 2026), https://code.claude.com/docs/en/agent-sdk/permissions.\n\n## Summary\n\nThe page specifies how the Agent SDK decides whether a tool call runs. The SDK checks, in order: hooks, deny rules, ask rules, permission mode, allow rules, and finally the `canUseTool` callback. It also documents `allowed_tools` and `disallowed_tools`, six permission modes, dynamic mode changes during",
       "action": null,
       "action_reason": null,
       "stub": false
@@ -919,6 +1128,42 @@
       "stub": false
     },
     {
+      "path": "10_Sources/Docs/claude-code-headless-mode.md",
+      "hash": "88001ed5bfe71d7c8c357adc65451aef49d5d621bc66e7b8b5ca1cae169aa2a4",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/claude-code",
+        "topic/deployment",
+        "topic/best-practices"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "88001ed5bfe71d7c8c357adc65451aef49d5d621bc66e7b8b5ca1cae169aa2a4",
+      "body_chars": 4053,
+      "body_preview": "# Run Claude Code programmatically\n\n> Anthropic, \"Run Claude Code programmatically\", Claude Code Docs, undated (read 4 October 2026), https://code.claude.com/docs/en/headless.\n\n## Summary\n\nThe page documents non-interactive use of Claude Code through `claude -p`, described as the Agent SDK exposed as a CLI. It covers exit codes, `--bare` mode (skips auto-discovery of hooks, skills, plugins, MCP servers, auto memory and CLAUDE.md, and is recommended for scripted calls), output formats (`text`, `j",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Docs/claude-code-hooks-reference.md",
+      "hash": "0a2d389b11ab8532298d8d2edb414d9990ed2fa26f9ff0d74d045c110c90cc6b",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/claude-code",
+        "topic/security",
+        "topic/tool-use"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "0a2d389b11ab8532298d8d2edb414d9990ed2fa26f9ff0d74d045c110c90cc6b",
+      "body_chars": 3389,
+      "body_preview": "# Claude Code Hooks Reference\n\n> Anthropic, \"Claude Code Hooks Reference\", Claude Code Docs, undated (read 4 October 2026), https://code.claude.com/docs/en/hooks. The page was read through a summarising fetch, so details are condensed.\n\n## Summary\n\nHooks are user-defined commands, HTTP endpoints, MCP tools, prompts or subagents that run automatically at points in the Claude Code lifecycle. They fire per session (`SessionStart`, `SessionEnd`), per turn (`UserPromptSubmit`, `Stop`, `StopFailure`) ",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
       "path": "10_Sources/Docs/claude-code-overview.md",
       "hash": "68486a389235e77b423c50c84cbbeb68ccee52806d5c04835d54ad508d1747fe",
       "role": "wiki",
@@ -930,6 +1175,24 @@
       "existing_hash": "68486a389235e77b423c50c84cbbeb68ccee52806d5c04835d54ad508d1747fe",
       "body_chars": 1977,
       "body_preview": "# Claude Code overview\n\n> Anthropic, \"Overview\", code.claude.com, 2026. https://code.claude.com/docs/en/overview\n\n## Summary\n\nClaude Code is an agentic coding tool. It reads a codebase, edits files, runs commands, and integrates with developer tools. It runs in the terminal, IDE, desktop app, and browser. Each surface connects to the same engine, so `CLAUDE.md` files, settings, and MCP servers work across all of them.\n\n## Key Concepts\n\n- The Terminal CLI edits files and runs commands from the co",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Docs/claude-code-permissions.md",
+      "hash": "6d0e9eb1c009a5507a07e387c5333b5bd2a0ebb1fe6cbc00a56e0cdaf698df0d",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/security",
+        "topic/claude-code",
+        "topic/best-practices"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "6d0e9eb1c009a5507a07e387c5333b5bd2a0ebb1fe6cbc00a56e0cdaf698df0d",
+      "body_chars": 3111,
+      "body_preview": "# Configure permissions (Claude Code)\n\n> Anthropic, \"Configure permissions\", Claude Code Docs, undated (read 4 October 2026), https://code.claude.com/docs/en/permissions. Only the first part of the page (system, rule syntax, modes) was read in full.\n\n## Summary\n\nThe page defines Claude Code's tiered permission system. Reads inside the working directory need no approval; Bash commands (outside a read-only set), file edits, web fetches (outside preapproved documentation domains) and web searches a",
       "action": null,
       "action_reason": null,
       "stub": false
@@ -1224,6 +1487,76 @@
       "stub": false
     },
     {
+      "path": "10_Sources/Papers/coala-cognitive-architectures-sumers-2023.md",
+      "hash": "b640acde8493ecab599994d198410b0f1d14b850c3f2df7569689ab36d485f1e",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/architectures",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "b640acde8493ecab599994d198410b0f1d14b850c3f2df7569689ab36d485f1e",
+      "body_chars": 2277,
+      "body_preview": "# Cognitive Architectures for Language Agents\n\n> Theodore R. Sumers, Shunyu Yao, Karthik Narasimhan and Thomas L. Griffiths, \"Cognitive Architectures for Language Agents\", Transactions on Machine Learning Research (arXiv v1 5 September 2023, v3 March 2024), https://arxiv.org/abs/2309.02427.\n\n## Summary\n\nThe paper introduces CoALA, a framework for organising existing language agents and planning future ones. It draws on cognitive science and symbolic AI and describes an agent through modular memo",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/delegation-danger-band-hu-2026.md",
+      "hash": "25813894d8d627f802cf597d6ded798b9af6e326f6d0e51ce7f64bb3ff210229",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/multi-agent",
+        "topic/memory",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "25813894d8d627f802cf597d6ded798b9af6e326f6d0e51ce7f64bb3ff210229",
+      "body_chars": 2394,
+      "body_preview": "# The Delegation Danger Band: Why Mid-Capability Sub-Agents Over-Trust Inherited Stale State\n\n> Jundong Hu and Shekar Ramachandran, \"The Delegation Danger Band: Why Mid-Capability Sub-Agents Over-Trust Inherited Stale State\", arXiv, 3 September 2026, https://arxiv.org/abs/2610.00041.\n\n## Summary\n\nThe paper studies agent frameworks that delegate to child agents by passing down the parent's context. It compares three inheritance policies (Reset, Selective, Full) across the Qwen3 model family on Mu",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/deny-without-disabling-zhang-2026.md",
+      "hash": "64a8da189868f5cd028f2b7f6a1b3cf62b064b5c80862575fb8a00dee3d4d087",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/security",
+        "topic/multi-agent",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "64a8da189868f5cd028f2b7f6a1b3cf62b064b5c80862575fb8a00dee3d4d087",
+      "body_chars": 2249,
+      "body_preview": "# Deny Without Disabling: Authorization-Paired Evaluation and Control for Multi-Agent Systems\n\n> Yunbei Zhang et al., \"Deny Without Disabling: Authorization-Paired Evaluation and Control for Multi-Agent Systems\", arXiv, 30 September 2026, https://arxiv.org/abs/2610.00371.\n\n## Summary\n\nThe paper addresses a multi-agent safety gap: contributions that are admissible alone can jointly enable a prohibited use. The authors propose authorization-paired evaluation and FlowReview, a framework covering ob",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/generative-agents-park-2023.md",
+      "hash": "889d366373517ae02242bf8d1e9f3df4c7b9a38446cb78931f48d75f8da80103",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/memory",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "889d366373517ae02242bf8d1e9f3df4c7b9a38446cb78931f48d75f8da80103",
+      "body_chars": 2765,
+      "body_preview": "# Generative Agents: Interactive Simulacra of Human Behavior\n\n> Joon Sung Park, Joseph C. O'Brien, Carrie J. Cai, Meredith Ringel Morris, Percy Liang and Michael S. Bernstein, \"Generative Agents: Interactive Simulacra of Human Behavior\", arXiv, 7 April 2023, https://arxiv.org/abs/2304.03442.\n\n## Summary\n\nThe paper presents computational agents that simulate believable human behaviour by combining large language models with an architecture for memory. The architecture lets an agent keep a record ",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
       "path": "10_Sources/Papers/legal-nlp-introduction-nazarenko-wyner-2017.md",
       "hash": "bd5891e172bbb37602049a610f7675a8ecd2e22f15d995f8b5db30968359a42e",
       "role": "wiki",
@@ -1429,6 +1762,24 @@
       "stub": false
     },
     {
+      "path": "10_Sources/Papers/mid-harness-kang-2026.md",
+      "hash": "816a5cb19bbd051b0eab42e6d39b931e84fc5b228f823b00f672dcd459c26c37",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/architectures",
+        "topic/tool-use",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "816a5cb19bbd051b0eab42e6d39b931e84fc5b228f823b00f672dcd459c26c37",
+      "body_chars": 1846,
+      "body_preview": "# Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents\n\n> Minki Kang et al., \"Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents\", arXiv, 30 September 2026, https://arxiv.org/abs/2609.39982.\n\n## Summary\n\nThe paper asks whether spending compute at the model-harness interface makes terminal agents more reliable. Mid-Harness samples several candidate actions and validates them before execution. The authors report that a capable verifier can exploit usef",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
       "path": "10_Sources/Papers/react-yao-2022.md",
       "hash": "305c74fb6ebd4dcad30c97edda6714828ff8017c08b136c4c4a395617a40c628",
       "role": "wiki",
@@ -1441,6 +1792,23 @@
       "existing_hash": "305c74fb6ebd4dcad30c97edda6714828ff8017c08b136c4c4a395617a40c628",
       "body_chars": 2604,
       "body_preview": "# ReAct: Synergizing Reasoning and Acting in Language Models\n\n> Yao, Zhao, Yu, Du, Shafran, Narasimhan, and Cao. \"ReAct: Synergizing Reasoning and Acting in Language Models.\" ICLR 2023. arXiv:2210.03629. https://arxiv.org/abs/2210.03629\n\n## Summary\n\nThe paper interleaves reasoning traces and task actions in one language model loop.\nReasoning traces plan and track the task. Actions query external sources such as a\nWikipedia API or an environment. The model reads each observation, then reasons aga",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/refcon-contrastive-memory-prathama-2026.md",
+      "hash": "5649772bfec54e3dbf9c5809d51a69817697fce81a3e63586f5a7cf1ca1bc707",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/memory",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "5649772bfec54e3dbf9c5809d51a69817697fce81a3e63586f5a7cf1ca1bc707",
+      "body_chars": 1736,
+      "body_preview": "# RefCon: Iterative Refinement and Contrastive Memory Extraction for Context-Evolving Agent\n\n> Ubaidillah Ariq Prathama et al., \"RefCon: Iterative Refinement and Contrastive Memory Extraction for Context-Evolving Agent\", arXiv, 30 September 2026, https://arxiv.org/abs/2609.39143.\n\n## Summary\n\nRefCon extracts high-quality memories from long-horizon agent interactions without labelled data. It merges sequential self-refinement with parallel self-contrast. The abstract reports gains of 21.6% on ACE",
       "action": null,
       "action_reason": null,
       "stub": false
@@ -1463,6 +1831,23 @@
       "stub": false
     },
     {
+      "path": "10_Sources/Papers/runtime-agent-coordination-liu-2026.md",
+      "hash": "1268b14c1239fef8685a42ad7095223f11d2a78bb75eb878d0f147343f4c59df",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/multi-agent",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "1268b14c1239fef8685a42ad7095223f11d2a78bb75eb878d0f147343f4c59df",
+      "body_chars": 1863,
+      "body_preview": "# Can AI Scientists Coordinate at Runtime?\n\n> Zijian Liu et al., \"Can AI Scientists Coordinate at Runtime?\", arXiv, 1 October 2026, https://arxiv.org/abs/2610.00980.\n\n## Summary\n\nThe paper tests whether AI scientist agents can coordinate dynamically during execution instead of following a fixed workflow. It introduces Runtime Agent Coordination (RAC), which selects agents from existing AI-scientist hosts at run time, assigns scoped work contracts, and provides artifact-grounded verification. Acr",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
       "path": "10_Sources/Papers/self-discover-zhou-2024.md",
       "hash": "08505e43a89b8f401b2b36d4eded92d98addd9e702b2c6d7bec37091a5741860",
       "role": "wiki",
@@ -1475,6 +1860,23 @@
       "existing_hash": "08505e43a89b8f401b2b36d4eded92d98addd9e702b2c6d7bec37091a5741860",
       "body_chars": 7505,
       "body_preview": "# Self-Discover: Large Language Models Self-Compose Reasoning Structures\n\n> Full citation: Pei Zhou, Jay Pujara, Xiang Ren, Xinyun Chen, Heng-Tze Cheng, Quoc V. Le, Ed H. Chi, Denny Zhou, Swaroop Mishra, Huaixiu Steven Zheng. \"Self-Discover: Large Language Models Self-Compose Reasoning Structures.\" arXiv, 2024. https://arxiv.org/abs/2402.03620\n\n## Summary\n\nSelf-Discover addresses a limit in single-technique prompting methods such as chain-of-thought. Each such method imposes one fixed reasoning ",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/swe-agent-computer-interfaces-yang-2024.md",
+      "hash": "efc34189c5c6cd7e940c3f2b5b623f99e8656e20cdbaab233c53463d4f6dde82",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/tool-use",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "efc34189c5c6cd7e940c3f2b5b623f99e8656e20cdbaab233c53463d4f6dde82",
+      "body_chars": 2319,
+      "body_preview": "# SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering\n\n> John Yang, Carlos E. Jimenez, Alexander Wettig, Kilian Lieret, Shunyu Yao, Karthik Narasimhan and Ofir Press, \"SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering\", arXiv, 6 May 2024 (revised 11 November 2024), https://arxiv.org/abs/2405.15793.\n\n## Summary\n\nThe paper studies how interface design shapes language-model agent performance. It introduces SWE-agent, which gives an LM agent a custom a",
       "action": null,
       "action_reason": null,
       "stub": false
@@ -1514,6 +1916,145 @@
       "stub": false
     },
     {
+      "path": "10_Sources/Papers/where-multi-agent-systems-fail-han-2026.md",
+      "hash": "f2ab1eeb377e1e932f01adb0abb74866a9a431fa893a2e626f3e14e5b6fe35da",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/evaluation",
+        "topic/multi-agent",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "f2ab1eeb377e1e932f01adb0abb74866a9a431fa893a2e626f3e14e5b6fe35da",
+      "body_chars": 2172,
+      "body_preview": "# Where Do Multi-Agent Systems Fail? Evidence-Grounded Diagnosis of Collective Mechanisms\n\n> Zhengye Han, \"Where Do Multi-Agent Systems Fail? Evidence-Grounded Diagnosis of Collective Mechanisms\", arXiv, 30 September 2026, https://arxiv.org/abs/2609.38761.\n\n## Summary\n\nThe paper asks how to find which collective mechanism of a multi-agent system has failed. Its key observation is that a system can return correct answers while breaking the rules for routing and storing information. The author int",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Release-Notes/claude-code-2-1-285-2026-09-29.md",
+      "hash": "57bd7c1306ed33066ad2ffb7730769a72c3b3f43313fff967e9a5cb45464c7c9",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/release-notes",
+        "topic/claude-code"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "57bd7c1306ed33066ad2ffb7730769a72c3b3f43313fff967e9a5cb45464c7c9",
+      "body_chars": 4134,
+      "body_preview": "# Claude Code 2.1.285\n\n> Claude Code, 2.1.285, 29 September 2026.\n\n## Summary\n\nVersion 2.1.285 adds a switch to disable the WebFetch tool, a `claude --desktop` launcher, a `claude plugin configure` command, an `allowedProviders` managed setting that limits which API providers a machine may use, and a cap on non-streaming fallback retries. The bulk of the release is fixes: headless `-p` permission-prompt-tool routing for background subagents, fork subagents inheriting plan mode and `dontAsk`, MCP",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Release-Notes/claude-code-2-1-286-2026-09-30.md",
+      "hash": "f217968ce90b5a4835080385319508a554a14fb5417845b24696cdc0aed0ee3c",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/release-notes",
+        "topic/claude-code"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "f217968ce90b5a4835080385319508a554a14fb5417845b24696cdc0aed0ee3c",
+      "body_chars": 3615,
+      "body_preview": "# Claude Code 2.1.286\n\n> Claude Code, 2.1.286, 30 September 2026.\n\n## Summary\n\nVersion 2.1.286 is mostly a fix and polish release with a few behaviour changes that matter to automation. `--bare` now connects only the MCP servers named on the command line, sends the model no system reminders and starts no background tasks. Failed API requests are retried under one limit per model call (at most 14 requests with default settings). Model fallback, resume and subagent behaviour were corrected, secret",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Release-Notes/claude-code-2-1-287-2026-10-01.md",
+      "hash": "d82326aff07ec112969b8fda4402f8763d6b0a406210292ec7037737204cb6c3",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/release-notes",
+        "topic/claude-code",
+        "topic/mcp"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "d82326aff07ec112969b8fda4402f8763d6b0a406210292ec7037737204cb6c3",
+      "body_chars": 3747,
+      "body_preview": "# Claude Code 2.1.287\n\n> Claude Code, 2.1.287, 1 October 2026.\n\n## Summary\n\nVersion 2.1.287 introduces Claude Mods, described as plugins that can modify deeper behaviour, and a first built-in mod called You should know, in which a side agent watches the session and flags things the user or Claude might miss. It adds URL prompts from MCP servers that speak the 2025-11-25 protocol, an `n:<text>` filter in the agents view, and a `prompt_text` field on the OpenTelemetry `user_prompt` event. Fixes co",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Release-Notes/claude-code-2-1-288-2026-10-02.md",
+      "hash": "70604a8fef601c6919027feeb0520b46eb55b5b7784839ac5cbf830024178a06",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/release-notes",
+        "topic/claude-code",
+        "topic/mcp"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "70604a8fef601c6919027feeb0520b46eb55b5b7784839ac5cbf830024178a06",
+      "body_chars": 4125,
+      "body_preview": "# Claude Code 2.1.288\n\n> Claude Code, 2.1.288, 2 October 2026.\n\n## Summary\n\nVersion 2.1.288 is a large release focused on reliability of long and unattended sessions. Non-interactive sessions and subagents now continue from a partial response after a mid-response API timeout. Auto-compaction, `--resume` and permission handling received many fixes. Headless sessions now honour SIGTERM when a supervisor sends SIGCONT with it, unattended retry loops give up after three timeouts, and the background ",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Release-Notes/claude-code-2-1-289-2026-10-03.md",
+      "hash": "2483e66013dde55ab5b94a6eae7d90ab8bf96ba5edc345b87708d00deedab109",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/release-notes",
+        "topic/claude-code",
+        "topic/security"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "2483e66013dde55ab5b94a6eae7d90ab8bf96ba5edc345b87708d00deedab109",
+      "body_chars": 3212,
+      "body_preview": "# Claude Code 2.1.289\n\n> Claude Code, 2.1.289, 3 October 2026.\n\n## Summary\n\nVersion 2.1.289 is dominated by permission and plugin hardening. Several fixes make Bash and Read deny and ask rules hold in cases where they were previously missed: a nested part of a compound command, a command behind an environment variable prefix under sandbox auto-allow, a bare variable assignment before the command, and files reached through a symlink in the IDE. It also fixes a user-installed plugin rewriting the ",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Release-Notes/claude-fable-5-1-2026-09-01.md",
+      "hash": "5d0f97fe7ffe3e06c49d83bb98b90b482c35b87352b68fc54a8a7652adfabf8a",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/release-notes",
+        "topic/security"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "5d0f97fe7ffe3e06c49d83bb98b90b482c35b87352b68fc54a8a7652adfabf8a",
+      "body_chars": 2362,
+      "body_preview": "# Introducing Claude Fable 5.1 and Claude Mythos 5.1\n\n> Claude Fable 5.1 (`claude-fable-5-1`) and Claude Mythos 5.1, September 2026 (listed 1 September 2026).\n\n## Summary\n\nAnthropic announced two models. Claude Fable 5.1 is generally available on the Claude API, AWS, Google Cloud and Microsoft Azure. Claude Mythos 5.1 is limited to vetted US organisations through the Cyber Verification Program and the Life Sciences Verification Program. Fable 5.1 is priced at $10 input and $50 output per million",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Release-Notes/claude-opus-5-5-2026-09-22.md",
+      "hash": "2aab0f7fdefa9ca62b01ba915c17d7e7c4e6615fd4e63e9183ebe4fe6ee632be",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/release-notes"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "2aab0f7fdefa9ca62b01ba915c17d7e7c4e6615fd4e63e9183ebe4fe6ee632be",
+      "body_chars": 2508,
+      "body_preview": "# Introducing Claude Opus 5.5\n\n> Claude Opus 5.5, model id `claude-opus-5-5`, 22 September 2026.\n\n## Summary\n\nAnthropic released Claude Opus 5.5 on 22 September 2026 across the Claude Platform, AWS, Google Cloud and Microsoft Azure. The announcement cuts per-token prices and claims roughly 40 percent lower cost than Opus 5 on typical workloads, with output generated about 30 percent faster. Reported results include 66.4 percent on Terminal-Bench 4.0, 54.4 percent on FrontierCode v1.1 and 81.8 pe",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
       "path": "10_Sources/Release-Notes/claude-sonnet-5-2026-06-30.md",
       "hash": "26d46b6596e6e53cffe7aeee13230de02b61f192df7dd954c7374762b101558b",
       "role": "wiki",
@@ -1525,6 +2066,124 @@
       "existing_hash": "26d46b6596e6e53cffe7aeee13230de02b61f192df7dd954c7374762b101558b",
       "body_chars": 2011,
       "body_preview": "# Introducing Claude Sonnet 5\n\n> Claude Sonnet 5, model id `claude-sonnet-5`, released 30 June 2026.\n\n## Summary\n\nAnthropic released Claude Sonnet 5 on 30 June 2026. The model targets agentic coding, tool use, reasoning, and knowledge work at lower cost. Performance approaches Claude Opus 4.8. Anthropic calls it the most agentic Sonnet model, able to plan, use browsers and terminals, and run autonomously. Sonnet 5 became the default model for the Free and Pro tiers on release.\n\n## New Capabiliti",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Release-Notes/claude-sonnet-5-5-2026-09-28.md",
+      "hash": "a56f344fca3a5b6e87f943cb77199a9432933c5b833c72b7a5383db6211b7356",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/release-notes"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "a56f344fca3a5b6e87f943cb77199a9432933c5b833c72b7a5383db6211b7356",
+      "body_chars": 2019,
+      "body_preview": "# Introducing Claude Sonnet 5.5\n\n> Claude Sonnet 5.5, model id `claude-sonnet-5-5`, 28 September 2026.\n\n## Summary\n\nAnthropic released Claude Sonnet 5.5 on 28 September 2026 on the Claude Platform, the Claude apps, AWS, Google Cloud and Microsoft Azure. Per-token pricing is unchanged from Sonnet 5 at $2 input and $10 output per million tokens, but Anthropic reports up to 30 percent lower cost per task and over 30 percent faster output. Reported results include 70.6 percent on Terminal-Bench 4.0,",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Repos/12-factor-agents.md",
+      "hash": "4ab06949126dddc5ee44e5ce4b7fc8bf2ca28cfb12063a664d16d7ba6bf24b59",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/best-practices",
+        "topic/architectures"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "4ab06949126dddc5ee44e5ce4b7fc8bf2ca28cfb12063a664d16d7ba6bf24b59",
+      "body_chars": 3098,
+      "body_preview": "# 12-Factor Agents\n\n> Dex Horthy, \"12-Factor Agents\", HumanLayer, 30 March 2025, https://github.com/humanlayer/12-factor-agents.\n\n## Summary\n\nThe repository sets out twelve principles for building LLM-powered software that is good enough for production customers, modelled on the 12 Factor App methodology. It opens with a short history of DAGs, orchestrators and agent loops, then gives one document per factor. Its central argument is that most products called agents are deterministic code with LL",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Repos/anthropic-skills-repository.md",
+      "hash": "21b837a7069a8092d29bc04eb392993fe25a2c3bac6465377d660746bbc0ac20",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/agent-skills",
+        "topic/best-practices"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "21b837a7069a8092d29bc04eb392993fe25a2c3bac6465377d660746bbc0ac20",
+      "body_chars": 2325,
+      "body_preview": "# Anthropic Agent Skills Repository\n\n> Anthropic, \"Anthropic Agent Skills Repository\", GitHub (anthropics), repository created 22 September 2025, https://github.com/anthropics/skills.\n\n## Summary\n\nThe public repository for Agent Skills: folders of instructions, scripts and resources that Claude loads dynamically to improve performance on specialised tasks. The layout has three parts: `./skills` with examples across creative design, development, enterprise communication and document handling; `./",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Repos/claude-agent-sdk-python.md",
+      "hash": "abfcb5d148a9d201eb11e56b30633626d8ef7246775e9c7618d14170729a3936",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/claude-sdk",
+        "topic/tool-use"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "abfcb5d148a9d201eb11e56b30633626d8ef7246775e9c7618d14170729a3936",
+      "body_chars": 4027,
+      "body_preview": "# Claude Agent SDK for Python\n\n> Anthropic, \"Claude Agent SDK for Python\", GitHub (anthropics), repository created 11 June 2025, https://github.com/anthropics/claude-agent-sdk-python.\n\n## Summary\n\nThe repository holds the Python SDK that lets a program drive Claude Code programmatically. The README describes two entry points: `query()`, an async function that returns an iterator of messages for one-shot use, and `ClaudeSDKClient` for bidirectional conversations with custom tools and hooks. The p",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Repos/claude-agent-sdk-typescript.md",
+      "hash": "12a8347ec501b2c5f39eb28a0aca793064da2af4b654f7961f35af88dee38288",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/claude-sdk",
+        "topic/release-notes"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "12a8347ec501b2c5f39eb28a0aca793064da2af4b654f7961f35af88dee38288",
+      "body_chars": 3089,
+      "body_preview": "# Claude Agent SDK for TypeScript\n\n> Anthropic, \"Claude Agent SDK for TypeScript\", GitHub (anthropics), repository created 27 September 2025, https://github.com/anthropics/claude-agent-sdk-typescript.\n\n## Summary\n\nThis repository distributes the TypeScript package `@anthropic-ai/claude-agent-sdk`, which lets developers build agents with Claude Code's capabilities: understanding codebases, editing files, running commands and executing multi-step workflows. The README is thin. It gives the install",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Repos/claude-code-action.md",
+      "hash": "cb8975e9940de0c9d0f5abfaedc05095d4150dcea1d670b94df4e0975c40cdda",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/claude-code",
+        "topic/deployment"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "cb8975e9940de0c9d0f5abfaedc05095d4150dcea1d670b94df4e0975c40cdda",
+      "body_chars": 2201,
+      "body_preview": "# Claude Code Action\n\n> Anthropic, \"Claude Code Action\", GitHub (anthropics), repository created 19 May 2025, https://github.com/anthropics/claude-code-action.\n\n## Summary\n\nA GitHub Action that runs Claude Code inside a workflow to review pull requests, implement changes and answer technical questions on issues and PRs. It detects when to activate from the workflow context. Triggers include `@claude` mentions in comments, issue assignment, explicit prompts in automation workflows and custom cond",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Repos/commerce-agents.md",
+      "hash": "f41a923f1fac192ccfb513311b9127da23f60fa6191b8256f6fe618c2ebaccf7",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/domain-applications",
+        "topic/best-practices"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "f41a923f1fac192ccfb513311b9127da23f60fa6191b8256f6fe618c2ebaccf7",
+      "body_chars": 2767,
+      "body_preview": "# Claude Commerce Agents\n\n> Anthropic, \"Claude Commerce Agents\", GitHub (anthropics), repository created 1 September 2026, https://github.com/anthropics/commerce-agents.\n\n## Summary\n\nA reference blueprint for building shopping and merchant agents with Claude. It ships two agents: a customer-facing shopping agent (search, comparison, cart, order tracking, policy questions, conversation memory) and a staff-facing merchant agent (analytics, catalogue and listing edits, inventory and pricing actions",
       "action": null,
       "action_reason": null,
       "stub": false
@@ -1547,6 +2206,40 @@
       "stub": false
     },
     {
+      "path": "10_Sources/Repos/learn-agent-architecture.md",
+      "hash": "d16ab18bf5d26fe9ba03de527da1d047b8d3a9ce1bdca431076ed82e492b6dfb",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/architectures",
+        "topic/foundations"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "d16ab18bf5d26fe9ba03de527da1d047b8d3a9ce1bdca431076ed82e492b6dfb",
+      "body_chars": 2530,
+      "body_preview": "# learn-agent-architecture\n\n> hardness1020, \"learn-agent-architecture\", GitHub, 23 June 2026, https://github.com/hardness1020/learn-agent-architecture.\n\n## Summary\n\nThe repository teaches how modern agents are built, centred on the harness: the engineering layer that turns model reasoning into controlled action by running tools, keeping state across calls, gating side effects and coordinating loops. Its README states the thesis as \"The model reasons. The harness turns that reasoning into control",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Repos/mini-swe-agent.md",
+      "hash": "4b2bebf68be7c6987a46ff882bc8c526f0e961c2ad145d095cff725eca5cef20",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/architectures",
+        "topic/evaluation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "4b2bebf68be7c6987a46ff882bc8c526f0e961c2ad145d095cff725eca5cef20",
+      "body_chars": 2377,
+      "body_preview": "# mini-SWE-agent\n\n> SWE-agent team, \"mini-SWE-agent\", GitHub, 28 June 2025, https://github.com/SWE-agent/mini-swe-agent.\n\n## Summary\n\nmini-SWE-agent is a deliberately minimal software engineering agent. The authors ask what happens if the agent is 100 times simpler and still works nearly as well. The agent class is about 100 lines, with separate small pieces for the environment, model interface and run script. The README claims over 74 percent on SWE-bench Verified, adoption by several large org",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
       "path": "10_Sources/Repos/qmd-local-hybrid-search.md",
       "hash": "b19ac1c2dd2580e2a1a79947e65adbacc0cc5b532f19c3a8ad86ace288fb2782",
       "role": "wiki",
@@ -1559,6 +2252,75 @@
       "existing_hash": "b19ac1c2dd2580e2a1a79947e65adbacc0cc5b532f19c3a8ad86ace288fb2782",
       "body_chars": 5074,
       "body_preview": "# qmd: Query Markup Documents\n\n> tobi, \"qmd\", GitHub repository, https://github.com/tobi/qmd. MIT licence.\n\n## Summary\n\n`qmd` is a local, on-device search engine purpose-built for markdown vaults, meeting notes, and other personal document stores — the same tool Andrej Karpathy names as the recommended search layer once an LLM-maintained wiki grows past a few hundred pages, per [[10_Sources/Blog/karpathy-llm-wiki-pattern|the vault's earlier Karpathy LLM Wiki note]]. It combines keyword search, v",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Repos/sandbox-runtime.md",
+      "hash": "ab538c9cf7a18650e938d205b7bf0958d7bac5cb4b8ab860e3cb9eb281848748",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/security",
+        "topic/deployment"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "ab538c9cf7a18650e938d205b7bf0958d7bac5cb4b8ab860e3cb9eb281848748",
+      "body_chars": 3046,
+      "body_preview": "# Anthropic Sandbox Runtime (srt)\n\n> Anthropic, \"Anthropic Sandbox Runtime (srt)\", GitHub (anthropics), repository created 20 October 2025, https://github.com/anthropics/sandbox-runtime.\n\n## Summary\n\nA lightweight, OS-level sandbox that restricts filesystem and network access for arbitrary processes without containers. It targets AI agents, MCP servers and local commands. It uses `sandbox-exec` on macOS, `bubblewrap` on Linux and `srt-win` on Windows (alpha), plus HTTP and SOCKS5 proxies on the ",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Repos/smolagents.md",
+      "hash": "9f62eaf66592f83ad96b4edec6c575c1a0ad08fa28a2753ba21809daa171997e",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/architectures",
+        "topic/tool-use"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "9f62eaf66592f83ad96b4edec6c575c1a0ad08fa28a2753ba21809daa171997e",
+      "body_chars": 2300,
+      "body_preview": "# smolagents\n\n> Hugging Face, \"smolagents\", GitHub, 5 December 2024, https://github.com/huggingface/smolagents.\n\n## Summary\n\nsmolagents is a barebones Hugging Face library for agents that think in code. The core sits in roughly 1,000 lines in `agents.py`, kept small so users can read and change it. It offers two agent types: CodeAgent, which writes actions as Python snippets, and ToolCallingAgent, which emits JSON tool calls. The README claims code actions cut LLM calls by about 30 percent becau",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Talks/boris-cherny-building-claude-code-yc-2026.md",
+      "hash": "ea89bf3c60524ef68d8741aa6eec429a0d603bb8c2d7fb1f199c0cb0e976eae8",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/boris-cherny",
+        "topic/prompt-engineering",
+        "topic/security"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "ea89bf3c60524ef68d8741aa6eec429a0d603bb8c2d7fb1f199c0cb0e976eae8",
+      "body_chars": 2857,
+      "body_preview": "# Boris Cherny: Building Claude Code\n\n> Boris Cherny and Diana Hu, \"Boris Cherny: Building Claude Code\", Y Combinator Startup Podcast, 28 July 2026, https://www.ycombinator.com/library/UN-boris-cherny-building-claude-code.\n\n## Summary\n\nBoris Cherny, who leads Claude Code at Anthropic, talks with Diana Hu of Y Combinator about what the newest models can do and how that changes the way Claude Code is built. The YC library page itself returned only a title when fetched, so this note rests on a thir",
+      "action": null,
+      "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Talks/boris-cherny-peterman-pod-career-claude-code.md",
+      "hash": "b1450f1b7f506553a568f5815e6d1784cc31ec2acd06561df51a34c6a47c8963",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/boris-cherny",
+        "topic/best-practices"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "b1450f1b7f506553a568f5815e6d1784cc31ec2acd06561df51a34c6a47c8963",
+      "body_chars": 2474,
+      "body_preview": "# Boris Cherny (Creator of Claude Code) On How His Career Grew\n\n> Boris Cherny and Ryan Peterman, \"Boris Cherny (Creator of Claude Code) On How His Career Grew\", The Peterman Pod, 15 December 2025, https://www.developing.dev/p/boris-cherny-creator-of-claude-code.\n\n## Summary\n\nRyan Peterman interviews Boris Cherny about how he built his career and how Claude Code is used. The page fetched is the host's write-up with key points and quotes, not a full transcript. Cherny argues for one quality bar f",
       "action": null,
       "action_reason": null,
       "stub": false
@@ -1677,15 +2439,15 @@
     },
     {
       "path": "30_Concepts/best-practices-index.md",
-      "hash": "bb77efebde25f50a0f107c3651e6702b92f3e2cb118d49b38e4c60c0dc7e31c7",
+      "hash": "5426a68b5a8d478f330ac97548c415c0bf7caef05a45efe4b21dd4c620993ac0",
       "role": "wiki",
       "state": "unchanged",
       "existing_topics": [
         "topic/best-practices"
       ],
       "existing_subjects": [],
-      "existing_hash": "bb77efebde25f50a0f107c3651e6702b92f3e2cb118d49b38e4c60c0dc7e31c7",
-      "body_chars": 3031,
+      "existing_hash": "5426a68b5a8d478f330ac97548c415c0bf7caef05a45efe4b21dd4c620993ac0",
+      "body_chars": 3135,
       "body_preview": "# Best Practices Index\n\n> A curated index of engineering principles that hold up when agents reach production.\n\n## Summary\n\nThis note indexes the principles that make agents reliable. Anthropic's guidance sets the spine: keep the design simple, make the agent transparent, and craft the agent-computer interface with care. Each principle below carries a one-line rationale and a wikilink to its fuller note. The index grows as each principle earns a dedicated page.\n\n## Principles\n\n- **Small, focused",
       "action": null,
       "action_reason": null,
@@ -1693,15 +2455,15 @@
     },
     {
       "path": "30_Concepts/claude-agent-sdk.md",
-      "hash": "51907d14e0a32b5331148ea6cc5bb37f801c294d5c4f31cdc61e43f508676c54",
+      "hash": "ef1bd9322cfa88e218141b4595aa43f297ffb30f907059f7ef4d80109b988528",
       "role": "wiki",
       "state": "unchanged",
       "existing_topics": [
         "topic/claude-sdk"
       ],
       "existing_subjects": [],
-      "existing_hash": "51907d14e0a32b5331148ea6cc5bb37f801c294d5c4f31cdc61e43f508676c54",
-      "body_chars": 1921,
+      "existing_hash": "ef1bd9322cfa88e218141b4595aa43f297ffb30f907059f7ef4d80109b988528",
+      "body_chars": 3332,
       "body_preview": "# Claude Agent SDK\n\n> The Claude Agent SDK is a Python and TypeScript library that runs the Claude Code agent loop inside your own process.\n\n## Summary\n\nThe Claude Agent SDK builds production agents from the components that power Claude Code. It gives the same tools, agent loop, and context management as a library. Claude owns the loop. The developer describes the task and the allowed tools. The SDK runs the model, executes tools, compacts context, and streams messages until a final result.\n\n## ",
       "action": null,
       "action_reason": null,
@@ -1709,15 +2471,15 @@
     },
     {
       "path": "30_Concepts/claude-code.md",
-      "hash": "059d3aa5e412a6d44b42b344857cfb94f78b09453db281200f1ab361a7c04bb0",
+      "hash": "6d9728b3c6b75f79186639426e02618850e66f18ead4e4e800db04a0ec4728df",
       "role": "wiki",
       "state": "unchanged",
       "existing_topics": [
         "topic/claude-code"
       ],
       "existing_subjects": [],
-      "existing_hash": "059d3aa5e412a6d44b42b344857cfb94f78b09453db281200f1ab361a7c04bb0",
-      "body_chars": 1933,
+      "existing_hash": "6d9728b3c6b75f79186639426e02618850e66f18ead4e4e800db04a0ec4728df",
+      "body_chars": 3729,
       "body_preview": "# Claude Code\n\n> Claude Code is Anthropic's agentic coding tool that reads a codebase, edits files, runs commands, and integrates with developer tools.\n\n## Summary\n\nClaude Code turns a plain-language request into working code. It plans an approach, edits across many files, and verifies the result. It runs in the terminal, IDE, desktop app, and browser. Each surface connects to the same engine. A `CLAUDE.md` file, settings, and MCP servers carry across every surface.\n\n## Key Concepts\n\n- The Termi",
       "action": null,
       "action_reason": null,
@@ -1742,15 +2504,15 @@
     },
     {
       "path": "30_Concepts/evaluation.md",
-      "hash": "41e069f183ae51900f99dcf9dead986549732e259a21794dffbac031f01d0e87",
+      "hash": "6f8813c51188dce0ae3aa97a2451b2eaf2e80bf57a1faf44f930d54b0fa3baf8",
       "role": "wiki",
       "state": "unchanged",
       "existing_topics": [
         "topic/evaluation"
       ],
       "existing_subjects": [],
-      "existing_hash": "41e069f183ae51900f99dcf9dead986549732e259a21794dffbac031f01d0e87",
-      "body_chars": 2592,
+      "existing_hash": "6f8813c51188dce0ae3aa97a2451b2eaf2e80bf57a1faf44f930d54b0fa3baf8",
+      "body_chars": 3332,
       "body_preview": "# Evaluation\n\n> Evaluation measures whether an agent does the right thing across a set of representative tasks.\n\n## Summary\n\nEvaluation turns agent quality from opinion into measurement. A team writes eval sets early, runs them on every change, and catches regressions before they compound. Anthropic frames three grader types and a multi-layered method. Code-based graders check outcomes. Model-based graders judge nuance. Human graders set the gold standard. Together they cover what any single met",
       "action": null,
       "action_reason": null,
@@ -1842,7 +2604,7 @@
     },
     {
       "path": "30_Concepts/mcp.md",
-      "hash": "aa4667d67ee36a27bd98068e9326b2d9412d014bd57896b41a57a3f287ec360c",
+      "hash": "e1b22d66ea1cb79a9aa70873e94b217d6450b410d81e805274d018fe69083af8",
       "role": "wiki",
       "state": "unchanged",
       "existing_topics": [
@@ -1850,8 +2612,8 @@
         "topic/tool-use"
       ],
       "existing_subjects": [],
-      "existing_hash": "aa4667d67ee36a27bd98068e9326b2d9412d014bd57896b41a57a3f287ec360c",
-      "body_chars": 1864,
+      "existing_hash": "e1b22d66ea1cb79a9aa70873e94b217d6450b410d81e805274d018fe69083af8",
+      "body_chars": 2620,
       "body_preview": "# Model Context Protocol (MCP)\n\n> MCP is an open standard that connects an AI application to external tools, data, and prompts through one interface.\n\n## Summary\n\nThe Model Context Protocol standardises how an agent reaches the outside world. Anthropic introduced it on 25 November 2024. Before MCP, each data source needed a custom integration. MCP replaces those point-to-point links with one protocol. An agent gains reliable access to files, databases, and services. The docs compare MCP to a USB",
       "action": null,
       "action_reason": null,
@@ -1859,7 +2621,7 @@
     },
     {
       "path": "30_Concepts/memory.md",
-      "hash": "b2d33c06af8f677ffcc1bf0978d101451e59c07e68c822b130880623609a556b",
+      "hash": "a4a9dcedb346a0b10e32065ad62e1eae0eea0774080a01ef0c422ab65079c686",
       "role": "wiki",
       "state": "unchanged",
       "existing_topics": [
@@ -1867,8 +2629,8 @@
         "topic/foundations"
       ],
       "existing_subjects": [],
-      "existing_hash": "b2d33c06af8f677ffcc1bf0978d101451e59c07e68c822b130880623609a556b",
-      "body_chars": 2734,
+      "existing_hash": "a4a9dcedb346a0b10e32065ad62e1eae0eea0774080a01ef0c422ab65079c686",
+      "body_chars": 3499,
       "body_preview": "# Memory\n\n> Memory is the store that lets an agent carry information across turns and sessions beyond the fixed context window.\n\n## Summary\n\nA language model forgets past its context window. Memory removes that limit. An agent writes facts, results, and reflections to a store outside the prompt. It reads the relevant parts back when a task needs them. Anthropic lists memory as one of the three augmentations of the base model, beside retrieval and tools. MemGPT frames the problem as virtual conte",
       "action": null,
       "action_reason": null,
@@ -1876,7 +2638,7 @@
     },
     {
       "path": "30_Concepts/plan-and-execute.md",
-      "hash": "185da3ce34987ba9d31eeb0a05b113050cad72aaca5ad8713ba30de876726466",
+      "hash": "f87339cb4fbd2df0cd4e733bfbc16778f51529e7fd0f212ee792a09f0951c62a",
       "role": "wiki",
       "state": "unchanged",
       "existing_topics": [
@@ -1884,8 +2646,8 @@
         "topic/planning"
       ],
       "existing_subjects": [],
-      "existing_hash": "185da3ce34987ba9d31eeb0a05b113050cad72aaca5ad8713ba30de876726466",
-      "body_chars": 3021,
+      "existing_hash": "f87339cb4fbd2df0cd4e733bfbc16778f51529e7fd0f212ee792a09f0951c62a",
+      "body_chars": 3142,
       "body_preview": "# Plan-and-Execute\n\n> Plan-and-Execute splits a task in two: a planner writes an ordered plan, then an executor runs each step.\n\n## Summary\n\nPlan-and-Execute separates planning from action. A planner reads the task and writes an\nordered list of steps. An executor runs each step, often through a ReAct loop, and\nreports the result. The plan holds the global structure the step-by-step loop lacks. The\npattern traces to Plan-and-Solve prompting by Wang and colleagues in 2023 and to agent\nframeworks t",
       "action": null,
       "action_reason": null,
@@ -1893,7 +2655,7 @@
     },
     {
       "path": "30_Concepts/planning-and-reasoning.md",
-      "hash": "5a27f8cd9963f34e625734aa7324baaf6424b897d5d5c8c27e6e1f6b6df99df1",
+      "hash": "b90475ef9ed096d41e689cc6fcd7d43aa97d5631394a6706c7de432094c1355b",
       "role": "wiki",
       "state": "unchanged",
       "existing_topics": [
@@ -1901,8 +2663,8 @@
         "topic/foundations"
       ],
       "existing_subjects": [],
-      "existing_hash": "5a27f8cd9963f34e625734aa7324baaf6424b897d5d5c8c27e6e1f6b6df99df1",
-      "body_chars": 2281,
+      "existing_hash": "b90475ef9ed096d41e689cc6fcd7d43aa97d5631394a6706c7de432094c1355b",
+      "body_chars": 2371,
       "body_preview": "# Planning and Reasoning\n\n> Planning and reasoning are the model behaviours that break a goal into steps and decide the next action from the current state.\n\n## Summary\n\nAn agent needs a plan to act well. Reasoning lets the model think through a problem before it answers. Planning lets the model break a goal into ordered steps. Chain-of-thought prompting showed that intermediate steps raise performance on hard tasks. ReAct joined reasoning to action, so the model plans and acts in one loop. Plan-",
       "action": null,
       "action_reason": null,
@@ -1927,7 +2689,7 @@
     },
     {
       "path": "30_Concepts/prompt-engineering.md",
-      "hash": "da6cf71da62c4058519411aa52ed754f3ea77eef98a92bc446ccc0ff58030d8f",
+      "hash": "8a526d8a370c3ebbe82b527137e0ae30e0cb5aba268926b084a2b18282538465",
       "role": "wiki",
       "state": "unchanged",
       "existing_topics": [
@@ -1935,8 +2697,8 @@
         "topic/foundations"
       ],
       "existing_subjects": [],
-      "existing_hash": "da6cf71da62c4058519411aa52ed754f3ea77eef98a92bc446ccc0ff58030d8f",
-      "body_chars": 1921,
+      "existing_hash": "8a526d8a370c3ebbe82b527137e0ae30e0cb5aba268926b084a2b18282538465",
+      "body_chars": 2206,
       "body_preview": "# Prompt Engineering\n\n> Prompt engineering shapes the instructions to a model to meet defined success criteria through structure, examples, and technique.\n\n## Summary\n\nPrompt engineering improves a model output through the prompt alone. Anthropic frames it as the step after success criteria and evaluations exist. A first draft prompt gives the baseline. Techniques then raise quality against the criteria. Not every failure suits a prompt fix; latency and cost often favour a different model.\n\n## K",
       "action": null,
       "action_reason": null,
@@ -1944,15 +2706,15 @@
     },
     {
       "path": "30_Concepts/react.md",
-      "hash": "55f5094c3f93dcc3b094b6554d975be080828478a130059730ee39aba7aad43e",
+      "hash": "3022fa1403f5e7d6b39a527ce4a630973c97f6d48a19582e3fa96b7ebfca1aee",
       "role": "wiki",
       "state": "unchanged",
       "existing_topics": [
         "topic/architectures"
       ],
       "existing_subjects": [],
-      "existing_hash": "55f5094c3f93dcc3b094b6554d975be080828478a130059730ee39aba7aad43e",
-      "body_chars": 2917,
+      "existing_hash": "3022fa1403f5e7d6b39a527ce4a630973c97f6d48a19582e3fa96b7ebfca1aee",
+      "body_chars": 3056,
       "body_preview": "# ReAct\n\n> ReAct interleaves reasoning traces and tool actions in one loop, so the model plans, acts, and reads results in turn.\n\n## Summary\n\nReAct joins reasoning and acting in a single language model loop. The model writes a\nthought, chooses an action, and reads the observation the environment returns. The\nthought plans the next action. The action fetches evidence that grounds the next thought.\nThis loop solves tasks that need both reasoning and fresh external data. Yao and\ncolleagues named th",
       "action": null,
       "action_reason": null,
@@ -1960,15 +2722,15 @@
     },
     {
       "path": "30_Concepts/reflexion.md",
-      "hash": "e37904776f36cd15367e16feaf523d4b60b4112107b97cd1ea39557469f8f040",
+      "hash": "c5de71daba11dfa418f26530f5b6b7f85308479ab64d4425c9c0b194dabd4707",
       "role": "wiki",
       "state": "unchanged",
       "existing_topics": [
         "topic/architectures"
       ],
       "existing_subjects": [],
-      "existing_hash": "e37904776f36cd15367e16feaf523d4b60b4112107b97cd1ea39557469f8f040",
-      "body_chars": 2777,
+      "existing_hash": "c5de71daba11dfa418f26530f5b6b7f85308479ab64d4425c9c0b194dabd4707",
+      "body_chars": 2867,
       "body_preview": "# Reflexion\n\n> Reflexion writes a self-critique after each failed attempt, stores it in memory, and reads it on the next try.\n\n## Summary\n\nReflexion learns from failure through written self-critique. The agent attempts a task,\nreceives a feedback signal, and writes a reflection on what went wrong. It stores the\nreflection in an episodic memory buffer. The next attempt reads the reflection and\nadjusts. No weight update occurs; the language of the reflection carries the learning.\nShinn and colleag",
       "action": null,
       "action_reason": null,
@@ -1993,7 +2755,7 @@
     },
     {
       "path": "30_Concepts/supervisor-worker-multi-agent.md",
-      "hash": "21345faaeac8ca37b582c230f4e4bd805261a9b18a802addcb501e9618888cfe",
+      "hash": "638deee70307e25fe216fe4a4766e632f3ae4fd2456d9dbc2873b56a471322e9",
       "role": "wiki",
       "state": "unchanged",
       "existing_topics": [
@@ -2001,8 +2763,8 @@
         "topic/multi-agent"
       ],
       "existing_subjects": [],
-      "existing_hash": "21345faaeac8ca37b582c230f4e4bd805261a9b18a802addcb501e9618888cfe",
-      "body_chars": 2944,
+      "existing_hash": "638deee70307e25fe216fe4a4766e632f3ae4fd2456d9dbc2873b56a471322e9",
+      "body_chars": 3581,
       "body_preview": "# Supervisor-Worker Multi-Agent\n\n> A supervisor agent decomposes a task and delegates each part to a worker agent, then combines the results.\n\n## Summary\n\nThe supervisor-worker pattern splits a task across agents. A supervisor reads the task,\nbreaks it into parts, and assigns each part to a worker. Each worker runs its own loop\nwith its own tools and context. The supervisor collects the results and synthesises the\nanswer. The pattern isolates context per worker and runs independent parts in para",
       "action": null,
       "action_reason": null,
@@ -2010,7 +2772,7 @@
     },
     {
       "path": "30_Concepts/the-agent-loop.md",
-      "hash": "2a8b9df7cf71e38e40355b6195ee10cf8cff0471669381b65135d01628d08155",
+      "hash": "3dd04b33399ef34052378b028ca712cd025c71dafd257850724c5729bd7936f7",
       "role": "wiki",
       "state": "unchanged",
       "existing_topics": [
@@ -2018,8 +2780,8 @@
         "topic/architectures"
       ],
       "existing_subjects": [],
-      "existing_hash": "2a8b9df7cf71e38e40355b6195ee10cf8cff0471669381b65135d01628d08155",
-      "body_chars": 2113,
+      "existing_hash": "3dd04b33399ef34052378b028ca712cd025c71dafd257850724c5729bd7936f7",
+      "body_chars": 3181,
       "body_preview": "# The Agent Loop\n\n> The agent loop is the repeating cycle in which a model reads context, chooses an action, calls a tool, and reads the result until the task closes.\n\n## Summary\n\nThe agent loop is the engine of every agent. Anthropic describes agents running in a loop, using tools based on environment feedback at each step. The environment returns ground truth, such as a tool result or code output. The model reads that truth, judges progress, and picks the next move. The loop ends at a stop con",
       "action": null,
       "action_reason": null,
@@ -2027,7 +2789,7 @@
     },
     {
       "path": "30_Concepts/tool-use.md",
-      "hash": "73bfde81534a0725a4f456de7b510657a0f5d810a861360f63ad544b5ced3804",
+      "hash": "350bf0ddfd2818bf1a43da35f560ec3534a9caae38faaf997f1708ef775a5164",
       "role": "wiki",
       "state": "unchanged",
       "existing_topics": [
@@ -2035,8 +2797,8 @@
         "topic/foundations"
       ],
       "existing_subjects": [],
-      "existing_hash": "73bfde81534a0725a4f456de7b510657a0f5d810a861360f63ad544b5ced3804",
-      "body_chars": 2272,
+      "existing_hash": "350bf0ddfd2818bf1a43da35f560ec3534a9caae38faaf997f1708ef775a5164",
+      "body_chars": 3896,
       "body_preview": "# Tool Use\n\n> Tool use is the mechanism by which a model calls an external function, receives the result, and folds it back into its reasoning.\n\n## Summary\n\nTool use gives a model hands. The developer defines a tool with a name, a description, and a typed input schema. The model reads the definitions and emits a tool call when it needs one. The harness runs the tool and returns the result to the model. This loop lets a model fetch data, run code, and change state in the world. Tool use is the pr",
       "action": null,
       "action_reason": null,
@@ -2044,7 +2806,7 @@
     },
     {
       "path": "30_Concepts/what-is-an-ai-agent.md",
-      "hash": "a64aec7e1c8fe0c54340ec922547ff672dac8d660675cbdfc2a891e7a0569032",
+      "hash": "da095f66d745de9e5ddc2de32282c4b66e7947473845d91c5ebeff8fdf596d5a",
       "role": "wiki",
       "state": "unchanged",
       "existing_topics": [
@@ -2052,8 +2814,8 @@
         "topic/concepts"
       ],
       "existing_subjects": [],
-      "existing_hash": "a64aec7e1c8fe0c54340ec922547ff672dac8d660675cbdfc2a891e7a0569032",
-      "body_chars": 2084,
+      "existing_hash": "da095f66d745de9e5ddc2de32282c4b66e7947473845d91c5ebeff8fdf596d5a",
+      "body_chars": 2362,
       "body_preview": "# What Is an AI Agent\n\n> An AI agent is a system where a language model directs its own process and tool use to accomplish a task.\n\n## Summary\n\nAn AI agent turns a language model into an actor. The model reads a goal, chooses an action, calls a tool, and reads the result. It repeats this cycle until the task closes. Anthropic frames the agent against the workflow. A workflow follows fixed code paths. An agent controls its own path. This control gives flexibility and carries cost. The definition ",
       "action": null,
       "action_reason": null,
@@ -2061,15 +2823,15 @@
     },
     {
       "path": "30_Concepts/workflow-vs-autonomous-agent.md",
-      "hash": "2bd51c131e866ef300c91395e538adc98985d5cc54489cc15f2e84a77eaa38b1",
+      "hash": "f14619ed10865ec4835de34b8626c50b38f64d23b8339171322b61907d6708f5",
       "role": "wiki",
       "state": "unchanged",
       "existing_topics": [
         "topic/architectures"
       ],
       "existing_subjects": [],
-      "existing_hash": "2bd51c131e866ef300c91395e538adc98985d5cc54489cc15f2e84a77eaa38b1",
-      "body_chars": 3372,
+      "existing_hash": "f14619ed10865ec4835de34b8626c50b38f64d23b8339171322b61907d6708f5",
+      "body_chars": 3860,
       "body_preview": "# Workflow vs Autonomous Agent\n\n> A workflow runs LLM calls through predefined code paths; an autonomous agent directs its own process and tool use.\n\n## Summary\n\nThe distinction turns on who holds control. In a workflow, the code orchestrates the LLM\nand the tools through predefined paths. In an autonomous agent, the LLM directs its own\nprocess and its own tool use, and it keeps control over how it reaches the goal. Anthropic\ndraws this line in \"Building effective agents\" and advises the simples",
       "action": null,
       "action_reason": null,
@@ -2291,6 +3053,7 @@
       "topic/memory",
       "topic/meta",
       "topic/multi-agent",
+      "topic/observability",
       "topic/planning",
       "topic/prompt-engineering",
       "topic/release-notes",

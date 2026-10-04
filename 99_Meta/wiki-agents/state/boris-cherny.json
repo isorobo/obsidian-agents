@@ -1,18 +1,30 @@
 {
   "channel": "boris-cherny",
-  "last_run_at": null,
+  "last_run_at": "2026-10-04T03:40:00Z",
   "target_per_run": 3,
-  "sources_added": 0,
-  "last_status": "pending",
-  "history": [],
+  "sources_added": 3,
+  "last_status": "ok",
+  "last_run_summary": "2026-10-04: added 2 notes (YC Startup Podcast talk as stub, Peterman Pod interview), rejected 3 (Lenny paywalled, Acquired Unplugged and YC Lightcone not usable as primary text). Recommend a plan fallback for paywalled or empty-page talks.",
+  "since_date": "2025-01-01",
+  "history": [
+    {"run_at": "2026-10-04T03:40:00Z", "sources_added": 2, "status": "ok", "note": "Two talk notes from YC and Peterman Pod; Lenny, Acquired and YC Lightcone rejected for lack of primary text."}
+  ],
   "retrieved_urls": [
-    "https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny"
+    "https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny",
+    "https://www.ycombinator.com/library/UN-boris-cherny-building-claude-code",
+    "https://www.developing.dev/p/boris-cherny-creator-of-claude-code"
   ],
   "retrieved_arxiv_ids": [],
   "title_index": [
-    "Building Claude Code with Boris Cherny"
+    "Building Claude Code with Boris Cherny",
+    "Boris Cherny: Building Claude Code",
+    "Boris Cherny (Creator of Claude Code) On How His Career Grew"
   ],
-  "rejected": [],
+  "rejected": [
+    {"url": "https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens", "id": null, "title": "Head of Claude Code: What happens after coding is solved", "reason": "Transcript paywalled; only teaser text available.", "date": "2026-10-04"},
+    {"url": "https://workos.com/blog/boris-cherny-claude-code-acquired-interview-takeaways", "id": null, "title": "Acquired Unplugged with Boris Cherny (WorkOS takeaways)", "reason": "Third-party summary; no primary page with text found.", "date": "2026-10-04"},
+    {"url": "https://www.ycombinator.com/library/NJ-inside-claude-code-with-its-creator-boris-cherny", "id": null, "title": "Inside Claude Code With Its Creator Boris Cherny", "reason": "Page returned title only and no transcript found.", "date": "2026-10-04"}
+  ],
   "rounds_without_yield": 0,
-  "total_sources": 1
+  "total_sources": 3
 }

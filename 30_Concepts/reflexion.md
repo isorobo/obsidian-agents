@@ -14,8 +14,8 @@ maturity: established
 af_targets:
 - af:DELEG-03
 - af:RSCH-01/reflexion
-wiki_indexed: '2026-10-04T03:01:49Z'
-wiki_hash: e37904776f36cd15367e16feaf523d4b60b4112107b97cd1ea39557469f8f040
+wiki_indexed: '2026-10-04T03:42:35Z'
+wiki_hash: c5de71daba11dfa418f26530f5b6b7f85308479ab64d4425c9c0b194dabd4707
 ---
 
 # Reflexion
@@ -99,6 +99,7 @@ stale lessons. Cap the trial count to bound cost.
 
 - [[10_Sources/Papers/reflexion-shinn-2023|Reflexion (Shinn et al., 2023)]]
 - [[10_Sources/Papers/react-yao-2022|ReAct (Yao et al., 2022)]]
+- [[10_Sources/Papers/generative-agents-park-2023|Generative Agents (Park et al., 2023)]]
 
 ## See also
 

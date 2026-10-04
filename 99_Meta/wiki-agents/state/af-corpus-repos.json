@@ -1,14 +1,28 @@
 {
   "channel": "af-corpus-repos",
-  "last_run_at": null,
+  "last_run_at": "2026-10-04T03:42:00Z",
   "target_per_run": 4,
-  "sources_added": 0,
-  "last_status": "pending",
-  "history": [],
-  "retrieved_urls": [],
+  "sources_added": 4,
+  "last_status": "ok",
+  "last_run_summary": "2026-10-04: added 4 repository overview notes (12-factor-agents, learn-agent-architecture, mini-swe-agent, smolagents), 0 rejected. Overviews built from README and GitHub API metadata only. Next run: factor documents, docs parts and architectural releases.",
+  "since_date": "2023-01-01",
+  "history": [
+    {"run_at": "2026-10-04T03:42:00Z", "sources_added": 4, "status": "ok", "note": "First run: four repo overview notes at cap."}
+  ],
+  "retrieved_urls": [
+    "https://github.com/humanlayer/12-factor-agents",
+    "https://github.com/hardness1020/learn-agent-architecture",
+    "https://github.com/SWE-agent/mini-swe-agent",
+    "https://github.com/huggingface/smolagents"
+  ],
   "retrieved_arxiv_ids": [],
-  "title_index": [],
+  "title_index": [
+    "12-Factor Agents",
+    "learn-agent-architecture",
+    "mini-SWE-agent",
+    "smolagents"
+  ],
   "rejected": [],
   "rounds_without_yield": 0,
-  "total_sources": 0
+  "total_sources": 4
 }

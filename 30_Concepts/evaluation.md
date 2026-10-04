@@ -16,8 +16,8 @@ af_targets:
 - af:RSCH-04/Q18
 - af:RSCH-04/Q19
 - af:RSCH-04/Q20
-wiki_indexed: '2026-10-04T03:01:49Z'
-wiki_hash: 41e069f183ae51900f99dcf9dead986549732e259a21794dffbac031f01d0e87
+wiki_indexed: '2026-10-04T03:42:35Z'
+wiki_hash: 6f8813c51188dce0ae3aa97a2451b2eaf2e80bf57a1faf44f930d54b0fa3baf8
 ---
 
 # Evaluation
@@ -60,6 +60,14 @@ Code-based graders run fast and stay objective, yet they break on valid variatio
 
 - [[10_Sources/Blog/anthropic-demystifying-evals|Demystifying Evals for AI Agents]] — https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents
 - [[10_Sources/Blog/anthropic-building-effective-agents|Building Effective Agents]] — https://www.anthropic.com/engineering/building-effective-agents
+- [[10_Sources/Blog/anthropic-april-23-postmortem|An update on recent Claude Code quality reports]]
+- [[10_Sources/Blog/anthropic-eval-awareness-browsecomp|Eval awareness in BrowseComp]]
+- [[10_Sources/Blog/anthropic-harness-design-long-running-apps|Harness design for long-running application development]]
+- [[10_Sources/Blog/harness-six-components|The 6 Components of a Production Agent Harness]]
+- [[10_Sources/Blog/how-to-evaluate-ai-agents|How to Evaluate AI Agents]]
+- [[10_Sources/Papers/deny-without-disabling-zhang-2026|Deny Without Disabling (Zhang et al., 2026)]]
+- [[10_Sources/Papers/where-multi-agent-systems-fail-han-2026|Where Do Multi-Agent Systems Fail? (Han, 2026)]]
+- [[10_Sources/Repos/mini-swe-agent|mini-SWE-agent]]
 
 ## See also
 

@@ -14,8 +14,8 @@ related_concepts: ["[[tool-use]]", "[[claude-code]]", "[[best-practices-index]]"
 anthropic: true
 af_targets:
 - none
-wiki_indexed: '2026-10-04T03:01:49Z'
-wiki_hash: da6cf71da62c4058519411aa52ed754f3ea77eef98a92bc446ccc0ff58030d8f
+wiki_indexed: '2026-10-04T03:42:35Z'
+wiki_hash: 8a526d8a370c3ebbe82b527137e0ae30e0cb5aba268926b084a2b18282538465
 ---
 
 # Prompt Engineering
@@ -50,6 +50,9 @@ Prompt engineering costs little and iterates fast. It controls tone, format, and
 
 - https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview
 - https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+- [[10_Sources/Blog/anthropic-april-23-postmortem|An update on recent Claude Code quality reports]]
+- [[10_Sources/Repos/anthropic-skills-repository|Anthropic Agent Skills Repository]]
+- [[10_Sources/Talks/boris-cherny-building-claude-code-yc-2026|Boris Cherny: Building Claude Code]]
 
 ## See also
 

@@ -14,8 +14,8 @@ maturity: established
 af_targets:
 - af:ADR-0001
 - af:RSCH-04/Q02
-wiki_indexed: '2026-10-04T03:01:49Z'
-wiki_hash: 2bd51c131e866ef300c91395e538adc98985d5cc54489cc15f2e84a77eaa38b1
+wiki_indexed: '2026-10-04T03:42:35Z'
+wiki_hash: f14619ed10865ec4835de34b8626c50b38f64d23b8339171322b61907d6708f5
 ---
 
 # Workflow vs Autonomous Agent
@@ -108,6 +108,12 @@ any high-stakes agent action.
 ## Sources
 
 - Anthropic, "Building effective agents". https://www.anthropic.com/engineering/building-effective-agents
+- [[10_Sources/Blog/anthropic-claude-code-auto-mode|How we built Claude Code auto mode]]
+- [[10_Sources/Blog/loop-engineering-anthropic-playbook|Loop Engineering: The Anthropic Playbook]]
+- [[10_Sources/Papers/runtime-agent-coordination-liu-2026|Can AI Scientists Coordinate at Runtime? (Liu et al., 2026)]]
+- [[10_Sources/Repos/12-factor-agents|12-Factor Agents]]
+- [[10_Sources/Repos/claude-code-action|Claude Code Action]]
+- [[10_Sources/Repos/commerce-agents|Claude Commerce Agents]]
 
 ## See also
 

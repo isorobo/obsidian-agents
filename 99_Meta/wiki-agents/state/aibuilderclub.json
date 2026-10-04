@@ -1,9 +1,11 @@
 {
   "channel": "aibuilderclub",
-  "last_run_at": "2026-07-11",
+  "last_run_at": "2026-10-04T03:45:00Z",
   "target_per_run": 5,
-  "sources_added": 0,
-  "last_status": "pending",
+  "sources_added": 33,
+  "last_status": "ok",
+  "last_run_summary": "2026-10-04: added 5 notes (evaluation, harness components, agent sandboxes, permission modes, loop engineering Anthropic playbook) from the Production section of the Build AI Agents course. The blog index lists about 40 more unseen agent-engineering lessons (loop/graph engineering series, Karpathy loop pieces, agent cost and ownership posts); cadence could rise or target_per_run could be raised to clear the backlog.",
+  "since_date": "2024-01-01",
   "history": [
     {
       "date": "2026-07-11",
@@ -14,6 +16,12 @@
       "date": "2026-07-11",
       "note": "Manual seed run, not the automated monitor. Chapter 2 (Build From Scratch, 2.1-2.4) and Chapter 3 (Tools & Infrastructure, 3.1-3.13) ingested as 17 source notes plus one combined synthesis guide. Noted a title/content mismatch: the course index labels 3.4 'Why MCP is Dead & Skills Replace It' but the page is Anthropic's Claude Code Skills playbook; filed under its actual title. sources_added left at 0 / last_status pending, same rationale as the prior run.",
       "sources_added": 17
+    },
+    {
+      "run_at": "2026-10-04T03:45:00Z",
+      "sources_added": 5,
+      "status": "ok",
+      "note": "Hit cap of 5 in one round from the Production section (4.1, 4.2, 4.9 and two harness/eval lessons). Large unseen backlog remains."
     }
   ],
   "retrieved_urls": [
@@ -44,7 +52,12 @@
     "https://www.aibuilderclub.com/blog/multi-agent-system-python-tutorial",
     "https://www.aibuilderclub.com/blog/prompt-engineering-guide-2026",
     "https://www.aibuilderclub.com/blog/rag-vs-long-context-vs-fine-tuning",
-    "https://www.aibuilderclub.com/blog/webmcp-complete-guide"
+    "https://www.aibuilderclub.com/blog/webmcp-complete-guide",
+    "https://www.aibuilderclub.com/blog/how-to-evaluate-ai-agents",
+    "https://www.aibuilderclub.com/blog/harness-six-components",
+    "https://www.aibuilderclub.com/blog/agent-sandbox-os-level-security",
+    "https://www.aibuilderclub.com/blog/agent-modes-plan-default-auto",
+    "https://www.aibuilderclub.com/blog/loop-engineering-anthropic-playbook"
   ],
   "retrieved_arxiv_ids": [],
   "title_index": [
@@ -75,9 +88,14 @@
     "Multi-Agent System Python Tutorial (2026)",
     "Prompt Engineering in 2026: Techniques That Work",
     "RAG vs Long Context vs Fine-Tuning: When Each Wins",
-    "WebMCP Tutorial: How Agents Use Websites as Tools"
+    "WebMCP Tutorial: How Agents Use Websites as Tools",
+    "How to Evaluate AI Agents: What Works in 2026",
+    "The 6 Components of a Production Agent Harness",
+    "Agent Sandboxes: OS-Level Security for AI Agents (2026)",
+    "Plan vs Default vs Auto Mode: Coding Agent Trust Levels",
+    "Loop Engineering: The Anthropic Playbook"
   ],
   "rejected": [],
   "rounds_without_yield": 0,
-  "total_sources": 28
+  "total_sources": 33
 }

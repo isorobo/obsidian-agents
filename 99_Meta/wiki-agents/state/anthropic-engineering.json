@@ -1,26 +1,37 @@
 {
   "channel": "anthropic-engineering",
-  "last_run_at": "2026-10-04T02:52:00Z",
+  "last_run_at": "2026-10-04T03:33:00Z",
   "target_per_run": 5,
-  "sources_added": 3,
+  "sources_added": 8,
   "last_status": "ok",
-  "last_run_summary": "2026-10-04: added 1 of cap 1 (How we contain Claude across products, 25 May 2026). Listing fetched fine, 25 posts, 23 unseen. Recommend further runs to clear the back catalogue newest first, starting with april-23-postmortem and managed-agents.",
+  "last_run_summary": "2026-10-04: added 5 of cap 5 (april-23 postmortem, Managed Agents, Claude Code auto mode, harness design for long-running apps, eval awareness in BrowseComp). Listing fetched fine, 25 posts, 17 unseen remain. Recommend further runs to clear the back catalogue newest first, starting with infrastructure-noise and building-c-compiler.",
   "since_date": "2024-01-01",
   "history": [
-    {"run_at": "2026-10-04T02:52:00Z", "sources_added": 1, "status": "ok", "note": "Capped at 1 by target_cap. Took newest unseen post; 22 unseen posts remain."}
+    {"run_at": "2026-10-04T02:52:00Z", "sources_added": 1, "status": "ok", "note": "Capped at 1 by target_cap. Took newest unseen post; 22 unseen posts remain."},
+    {"run_at": "2026-10-04T03:33:00Z", "sources_added": 5, "status": "ok", "note": "Target met in one round. Took the next five newest unseen posts; 17 unseen remain."}
   ],
   "retrieved_urls": [
     "https://www.anthropic.com/research/building-effective-agents",
     "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
-    "https://www.anthropic.com/engineering/how-we-contain-claude"
+    "https://www.anthropic.com/engineering/how-we-contain-claude",
+    "https://www.anthropic.com/engineering/april-23-postmortem",
+    "https://www.anthropic.com/engineering/managed-agents",
+    "https://www.anthropic.com/engineering/claude-code-auto-mode",
+    "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+    "https://www.anthropic.com/engineering/eval-awareness-browsecomp"
   ],
   "retrieved_arxiv_ids": [],
   "title_index": [
     "Building Effective Agents",
     "Demystifying Evals for AI Agents",
-    "How we contain Claude across products"
+    "How we contain Claude across products",
+    "An update on recent Claude Code quality reports",
+    "Scaling Managed Agents: Decoupling the brain from the hands",
+    "How we built Claude Code auto mode: a safer way to skip permissions",
+    "Harness design for long-running application development",
+    "Eval awareness in Claude Opus 4.6's BrowseComp performance"
   ],
   "rejected": [],
   "rounds_without_yield": 0,
-  "total_sources": 3
+  "total_sources": 8
 }

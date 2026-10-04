@@ -23,8 +23,8 @@ af_targets:
 - af:ADR-0001
 - af:RSCH-04/Q01
 - af:RSCH-04/Q02
-wiki_indexed: '2026-10-04T03:01:49Z'
-wiki_hash: a64aec7e1c8fe0c54340ec922547ff672dac8d660675cbdfc2a891e7a0569032
+wiki_indexed: '2026-10-04T03:42:35Z'
+wiki_hash: da095f66d745de9e5ddc2de32282c4b66e7947473845d91c5ebeff8fdf596d5a
 ---
 
 # What Is an AI Agent
@@ -63,6 +63,9 @@ Agents suit open tasks where the path resists a fixed script. They handle branch
 
 - [[10_Sources/Blog/anthropic-building-effective-agents|Building Effective Agents]]
 - ReAct: Synergizing Reasoning and Acting in Language Models — https://arxiv.org/abs/2210.03629
+- [[10_Sources/Papers/coala-cognitive-architectures-sumers-2023|CoALA (Sumers et al., 2023)]]
+- [[10_Sources/Papers/generative-agents-park-2023|Generative Agents (Park et al., 2023)]]
+- [[10_Sources/Papers/swe-agent-computer-interfaces-yang-2024|SWE-agent (Yang et al., 2024)]]
 
 ## See also
 

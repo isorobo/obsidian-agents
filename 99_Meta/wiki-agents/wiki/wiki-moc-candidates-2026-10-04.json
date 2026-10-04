@@ -2,182 +2,150 @@
   "mode": "suggest",
   "moc_dir": "50_MOCs",
   "writes": "none (hand-curated MOCs are user-owned)",
-  "considered": 122,
-  "already_linked": 28,
-  "candidates": 147,
+  "considered": 44,
+  "already_linked": 0,
+  "candidates": 102,
   "groups": {
-    "MOC - Agent Patterns": [
+    "MOC - Agent Skills": [
       {
-        "path": "30_Concepts/agent-patterns-index.md",
-        "link": "[[agent-patterns-index]]",
+        "path": "10_Sources/Repos/anthropic-skills-repository.md",
+        "link": "[[anthropic-skills-repository]]",
         "topics": [
-          "topic/agent-patterns"
-        ]
-      },
-      {
-        "path": "10_Sources/Books/ai-agents-in-action-lanham-2025.md",
-        "link": "[[ai-agents-in-action-lanham-2025]]",
-        "topics": [
-          "topic/foundations",
-          "topic/agent-patterns"
-        ]
-      },
-      {
-        "path": "10_Sources/Docs/claude-code-playbook-ai-agent-builder.md",
-        "link": "[[claude-code-playbook-ai-agent-builder]]",
-        "topics": [
-          "topic/agent-patterns",
-          "topic/tool-use"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/loop-engineering-huashu-2026.md",
-        "link": "[[loop-engineering-huashu-2026]]",
-        "topics": [
-          "topic/agent-patterns",
+          "topic/agent-skills",
           "topic/best-practices"
-        ]
-      }
-    ],
-    "MOC - Anti-Patterns": [
-      {
-        "path": "30_Concepts/anti-patterns-index.md",
-        "link": "[[anti-patterns-index]]",
-        "topics": [
-          "topic/anti-patterns"
         ]
       }
     ],
     "MOC - Architectures": [
       {
-        "path": "10_Sources/Papers/agent-architectures-landscape-masterman-2024.md",
-        "link": "[[agent-architectures-landscape-masterman-2024]]",
+        "path": "10_Sources/Repos/12-factor-agents.md",
+        "link": "[[12-factor-agents]]",
         "topics": [
-          "topic/architectures",
-          "topic/research-papers"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/agentic-ai-survey-abou-ali-2025.md",
-        "link": "[[agentic-ai-survey-abou-ali-2025]]",
-        "topics": [
-          "topic/research-papers",
+          "topic/best-practices",
           "topic/architectures"
         ]
       },
       {
-        "path": "10_Sources/Books/agentic-design-patterns-gulli-2025.md",
-        "link": "[[agentic-design-patterns-gulli-2025]]",
-        "topics": [
-          "topic/architectures"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/ai-agent-systems-survey-xu-2026.md",
-        "link": "[[ai-agent-systems-survey-xu-2026]]",
-        "topics": [
-          "topic/architectures",
-          "topic/research-papers"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/llm-autonomous-agents-survey-wang-2025.md",
-        "link": "[[llm-autonomous-agents-survey-wang-2025]]",
-        "topics": [
-          "topic/research-papers",
-          "topic/architectures"
-        ]
-      },
-      {
-        "path": "30_Concepts/plan-and-execute.md",
-        "link": "[[plan-and-execute]]",
-        "topics": [
-          "topic/architectures",
-          "topic/planning"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/react-yao-2022.md",
-        "link": "[[react-yao-2022]]",
-        "topics": [
-          "topic/architectures",
-          "topic/research-papers"
-        ]
-      },
-      {
-        "path": "30_Concepts/react.md",
-        "link": "[[react]]",
-        "topics": [
-          "topic/architectures"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/reflexion-shinn-2023.md",
-        "link": "[[reflexion-shinn-2023]]",
-        "topics": [
-          "topic/architectures",
-          "topic/research-papers"
-        ]
-      },
-      {
-        "path": "30_Concepts/reflexion.md",
-        "link": "[[reflexion]]",
-        "topics": [
-          "topic/architectures"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/six-multi-agent-architectures.md",
-        "link": "[[six-multi-agent-architectures]]",
+        "path": "10_Sources/Blog/anthropic-harness-design-long-running-apps.md",
+        "link": "[[anthropic-harness-design-long-running-apps]]",
         "topics": [
           "topic/multi-agent",
-          "topic/architectures"
+          "topic/architectures",
+          "topic/evaluation"
         ]
       },
       {
-        "path": "30_Concepts/supervisor-worker-multi-agent.md",
-        "link": "[[supervisor-worker-multi-agent]]",
+        "path": "10_Sources/Blog/anthropic-scaling-managed-agents.md",
+        "link": "[[anthropic-scaling-managed-agents]]",
         "topics": [
           "topic/architectures",
-          "topic/multi-agent"
+          "topic/deployment",
+          "topic/security"
         ]
       },
       {
-        "path": "30_Concepts/the-agent-loop.md",
-        "link": "[[the-agent-loop]]",
-        "topics": [
-          "topic/foundations",
-          "topic/architectures"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/voyager-wang-2023.md",
-        "link": "[[voyager-wang-2023]]",
+        "path": "10_Sources/Papers/coala-cognitive-architectures-sumers-2023.md",
+        "link": "[[coala-cognitive-architectures-sumers-2023]]",
         "topics": [
           "topic/architectures",
           "topic/research-papers"
         ]
       },
       {
-        "path": "30_Concepts/workflow-vs-autonomous-agent.md",
-        "link": "[[workflow-vs-autonomous-agent]]",
+        "path": "10_Sources/Blog/harness-six-components.md",
+        "link": "[[harness-six-components]]",
         "topics": [
-          "topic/architectures"
+          "topic/architectures",
+          "topic/observability"
+        ]
+      },
+      {
+        "path": "10_Sources/Repos/learn-agent-architecture.md",
+        "link": "[[learn-agent-architecture]]",
+        "topics": [
+          "topic/architectures",
+          "topic/foundations"
+        ]
+      },
+      {
+        "path": "10_Sources/Blog/loop-engineering-anthropic-playbook.md",
+        "link": "[[loop-engineering-anthropic-playbook]]",
+        "topics": [
+          "topic/architectures",
+          "topic/best-practices"
+        ]
+      },
+      {
+        "path": "10_Sources/Papers/mid-harness-kang-2026.md",
+        "link": "[[mid-harness-kang-2026]]",
+        "topics": [
+          "topic/architectures",
+          "topic/tool-use",
+          "topic/research-papers"
+        ]
+      },
+      {
+        "path": "10_Sources/Repos/mini-swe-agent.md",
+        "link": "[[mini-swe-agent]]",
+        "topics": [
+          "topic/architectures",
+          "topic/evaluation"
+        ]
+      },
+      {
+        "path": "10_Sources/Repos/smolagents.md",
+        "link": "[[smolagents]]",
+        "topics": [
+          "topic/architectures",
+          "topic/tool-use"
         ]
       }
     ],
     "MOC - Best Practices": [
       {
-        "path": "10_Sources/Books/ai-agent-handbook-10-practical-hacks.md",
-        "link": "[[ai-agent-handbook-10-practical-hacks]]",
+        "path": "10_Sources/Repos/12-factor-agents.md",
+        "link": "[[12-factor-agents]]",
         "topics": [
           "topic/best-practices",
-          "topic/deployment"
+          "topic/architectures"
         ]
       },
       {
-        "path": "10_Sources/Blog/anthropic-how-we-contain-claude.md",
-        "link": "[[anthropic-how-we-contain-claude]]",
+        "path": "10_Sources/Blog/anthropic-april-23-postmortem.md",
+        "link": "[[anthropic-april-23-postmortem]]",
+        "topics": [
+          "topic/claude-code",
+          "topic/best-practices"
+        ]
+      },
+      {
+        "path": "10_Sources/Repos/anthropic-skills-repository.md",
+        "link": "[[anthropic-skills-repository]]",
+        "topics": [
+          "topic/agent-skills",
+          "topic/best-practices"
+        ]
+      },
+      {
+        "path": "10_Sources/Talks/boris-cherny-peterman-pod-career-claude-code.md",
+        "link": "[[boris-cherny-peterman-pod-career-claude-code]]",
+        "topics": [
+          "topic/boris-cherny",
+          "topic/best-practices"
+        ]
+      },
+      {
+        "path": "10_Sources/Docs/claude-code-headless-mode.md",
+        "link": "[[claude-code-headless-mode]]",
+        "topics": [
+          "topic/claude-code",
+          "topic/deployment",
+          "topic/best-practices"
+        ]
+      },
+      {
+        "path": "10_Sources/Docs/claude-code-permissions.md",
+        "link": "[[claude-code-permissions]]",
         "topics": [
           "topic/security",
           "topic/claude-code",
@@ -185,595 +153,339 @@
         ]
       },
       {
-        "path": "30_Concepts/best-practices-index.md",
-        "link": "[[best-practices-index]]",
+        "path": "10_Sources/Repos/commerce-agents.md",
+        "link": "[[commerce-agents]]",
         "topics": [
+          "topic/domain-applications",
           "topic/best-practices"
         ]
       },
       {
-        "path": "10_Sources/Books/claude-code-for-the-rest-of-us-munro-2026.md",
-        "link": "[[claude-code-for-the-rest-of-us-munro-2026]]",
+        "path": "10_Sources/Blog/how-to-evaluate-ai-agents.md",
+        "link": "[[how-to-evaluate-ai-agents]]",
         "topics": [
-          "topic/claude-code",
+          "topic/evaluation",
           "topic/best-practices"
         ]
       },
       {
-        "path": "10_Sources/Blog/complete-guide-to-mcp-servers.md",
-        "link": "[[complete-guide-to-mcp-servers]]",
+        "path": "10_Sources/Blog/loop-engineering-anthropic-playbook.md",
+        "link": "[[loop-engineering-anthropic-playbook]]",
         "topics": [
-          "topic/mcp",
-          "topic/best-practices"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/karpathy-agentic-engineering-framework.md",
-        "link": "[[karpathy-agentic-engineering-framework]]",
-        "topics": [
-          "topic/best-practices",
-          "topic/karpathy"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/karpathy-agents-md-framework.md",
-        "link": "[[karpathy-agents-md-framework]]",
-        "topics": [
-          "topic/best-practices",
-          "topic/karpathy"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/loop-engineering-huashu-2026.md",
-        "link": "[[loop-engineering-huashu-2026]]",
-        "topics": [
-          "topic/agent-patterns",
+          "topic/architectures",
           "topic/best-practices"
         ]
       }
     ],
     "MOC - Boris Cherny": [
       {
-        "path": "10_Sources/Interviews/boris-cherny-pragmatic-engineer.md",
-        "link": "[[boris-cherny-pragmatic-engineer]]",
+        "path": "10_Sources/Talks/boris-cherny-building-claude-code-yc-2026.md",
+        "link": "[[boris-cherny-building-claude-code-yc-2026]]",
         "topics": [
           "topic/boris-cherny",
-          "topic/claude-code"
+          "topic/prompt-engineering",
+          "topic/security"
+        ]
+      },
+      {
+        "path": "10_Sources/Talks/boris-cherny-peterman-pod-career-claude-code.md",
+        "link": "[[boris-cherny-peterman-pod-career-claude-code]]",
+        "topics": [
+          "topic/boris-cherny",
+          "topic/best-practices"
         ]
       }
     ],
     "MOC - Claude Code": [
       {
-        "path": "10_Sources/Blog/anthropic-how-we-contain-claude.md",
-        "link": "[[anthropic-how-we-contain-claude]]",
+        "path": "10_Sources/Blog/agent-modes-plan-default-auto.md",
+        "link": "[[agent-modes-plan-default-auto]]",
+        "topics": [
+          "topic/security",
+          "topic/claude-code"
+        ]
+      },
+      {
+        "path": "10_Sources/Blog/anthropic-april-23-postmortem.md",
+        "link": "[[anthropic-april-23-postmortem]]",
+        "topics": [
+          "topic/claude-code",
+          "topic/best-practices"
+        ]
+      },
+      {
+        "path": "10_Sources/Blog/anthropic-claude-code-auto-mode.md",
+        "link": "[[anthropic-claude-code-auto-mode]]",
+        "topics": [
+          "topic/claude-code",
+          "topic/security",
+          "topic/tool-use"
+        ]
+      },
+      {
+        "path": "10_Sources/Release-Notes/claude-code-2-1-285-2026-09-29.md",
+        "link": "[[claude-code-2-1-285-2026-09-29]]",
+        "topics": [
+          "topic/release-notes",
+          "topic/claude-code"
+        ]
+      },
+      {
+        "path": "10_Sources/Release-Notes/claude-code-2-1-286-2026-09-30.md",
+        "link": "[[claude-code-2-1-286-2026-09-30]]",
+        "topics": [
+          "topic/release-notes",
+          "topic/claude-code"
+        ]
+      },
+      {
+        "path": "10_Sources/Release-Notes/claude-code-2-1-287-2026-10-01.md",
+        "link": "[[claude-code-2-1-287-2026-10-01]]",
+        "topics": [
+          "topic/release-notes",
+          "topic/claude-code",
+          "topic/mcp"
+        ]
+      },
+      {
+        "path": "10_Sources/Release-Notes/claude-code-2-1-288-2026-10-02.md",
+        "link": "[[claude-code-2-1-288-2026-10-02]]",
+        "topics": [
+          "topic/release-notes",
+          "topic/claude-code",
+          "topic/mcp"
+        ]
+      },
+      {
+        "path": "10_Sources/Release-Notes/claude-code-2-1-289-2026-10-03.md",
+        "link": "[[claude-code-2-1-289-2026-10-03]]",
+        "topics": [
+          "topic/release-notes",
+          "topic/claude-code",
+          "topic/security"
+        ]
+      },
+      {
+        "path": "10_Sources/Repos/claude-code-action.md",
+        "link": "[[claude-code-action]]",
+        "topics": [
+          "topic/claude-code",
+          "topic/deployment"
+        ]
+      },
+      {
+        "path": "10_Sources/Docs/claude-code-headless-mode.md",
+        "link": "[[claude-code-headless-mode]]",
+        "topics": [
+          "topic/claude-code",
+          "topic/deployment",
+          "topic/best-practices"
+        ]
+      },
+      {
+        "path": "10_Sources/Docs/claude-code-hooks-reference.md",
+        "link": "[[claude-code-hooks-reference]]",
+        "topics": [
+          "topic/claude-code",
+          "topic/security",
+          "topic/tool-use"
+        ]
+      },
+      {
+        "path": "10_Sources/Docs/claude-code-permissions.md",
+        "link": "[[claude-code-permissions]]",
         "topics": [
           "topic/security",
           "topic/claude-code",
           "topic/best-practices"
         ]
-      },
-      {
-        "path": "10_Sources/Interviews/boris-cherny-pragmatic-engineer.md",
-        "link": "[[boris-cherny-pragmatic-engineer]]",
-        "topics": [
-          "topic/boris-cherny",
-          "topic/claude-code"
-        ]
-      },
-      {
-        "path": "40_Guides/choosing-a-layer-in-the-claude-agent-stack.md",
-        "link": "[[choosing-a-layer-in-the-claude-agent-stack]]",
-        "topics": [
-          "topic/claude-sdk",
-          "topic/claude-code"
-        ]
-      },
-      {
-        "path": "10_Sources/Books/claude-code-for-the-rest-of-us-munro-2026.md",
-        "link": "[[claude-code-for-the-rest-of-us-munro-2026]]",
-        "topics": [
-          "topic/claude-code",
-          "topic/best-practices"
-        ]
-      },
-      {
-        "path": "10_Sources/Docs/claude-code-overview.md",
-        "link": "[[claude-code-overview]]",
-        "topics": [
-          "topic/claude-code"
-        ]
-      },
-      {
-        "path": "10_Sources/Docs/claude-code-playbook-parallel-task-agents.md",
-        "link": "[[claude-code-playbook-parallel-task-agents]]",
-        "topics": [
-          "topic/multi-agent",
-          "topic/claude-code"
-        ]
-      },
-      {
-        "path": "30_Concepts/claude-code.md",
-        "link": "[[claude-code]]",
-        "topics": [
-          "topic/claude-code"
-        ]
       }
     ],
     "MOC - Claude SDK": [
       {
-        "path": "40_Guides/choosing-a-layer-in-the-claude-agent-stack.md",
-        "link": "[[choosing-a-layer-in-the-claude-agent-stack]]",
+        "path": "10_Sources/Docs/claude-agent-sdk-hooks.md",
+        "link": "[[claude-agent-sdk-hooks]]",
         "topics": [
           "topic/claude-sdk",
-          "topic/claude-code"
+          "topic/security",
+          "topic/observability"
         ]
       },
       {
-        "path": "10_Sources/Docs/claude-agent-sdk-overview.md",
-        "link": "[[claude-agent-sdk-overview]]",
+        "path": "10_Sources/Docs/claude-agent-sdk-permissions.md",
+        "link": "[[claude-agent-sdk-permissions]]",
+        "topics": [
+          "topic/claude-sdk",
+          "topic/security",
+          "topic/tool-use"
+        ]
+      },
+      {
+        "path": "10_Sources/Repos/claude-agent-sdk-python.md",
+        "link": "[[claude-agent-sdk-python]]",
         "topics": [
           "topic/claude-sdk",
           "topic/tool-use"
         ]
       },
       {
-        "path": "30_Concepts/claude-agent-sdk.md",
-        "link": "[[claude-agent-sdk]]",
+        "path": "10_Sources/Repos/claude-agent-sdk-typescript.md",
+        "link": "[[claude-agent-sdk-typescript]]",
         "topics": [
-          "topic/claude-sdk"
-        ]
-      }
-    ],
-    "MOC - Concepts": [
-      {
-        "path": "30_Concepts/agent-vs-llm.md",
-        "link": "[[agent-vs-llm]]",
-        "topics": [
-          "topic/foundations",
-          "topic/concepts"
-        ]
-      },
-      {
-        "path": "10_Sources/Books/ai-agents-illustrated-guidebook-chawla-pachaar-2025.md",
-        "link": "[[ai-agents-illustrated-guidebook-chawla-pachaar-2025]]",
-        "topics": [
-          "topic/foundations",
-          "topic/concepts"
-        ]
-      },
-      {
-        "path": "10_Sources/Docs/claude-code-dynamic-workflows.md",
-        "link": "[[claude-code-dynamic-workflows]]",
-        "topics": [
-          "topic/concepts"
-        ]
-      },
-      {
-        "path": "30_Concepts/glossary.md",
-        "link": "[[glossary]]",
-        "topics": [
-          "topic/concepts"
-        ]
-      },
-      {
-        "path": "10_Sources/Books/llms-in-100-images-bamania.md",
-        "link": "[[llms-in-100-images-bamania]]",
-        "topics": [
-          "topic/foundations",
-          "topic/concepts"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/mindstudio-claude-code-5-workflow-patterns.md",
-        "link": "[[mindstudio-claude-code-5-workflow-patterns]]",
-        "topics": [
-          "topic/concepts"
-        ]
-      },
-      {
-        "path": "30_Concepts/what-is-an-ai-agent.md",
-        "link": "[[what-is-an-ai-agent]]",
-        "topics": [
-          "topic/foundations",
-          "topic/concepts"
+          "topic/claude-sdk",
+          "topic/release-notes"
         ]
       }
     ],
     "MOC - Deployment": [
       {
-        "path": "10_Sources/Books/ai-agent-handbook-10-practical-hacks.md",
-        "link": "[[ai-agent-handbook-10-practical-hacks]]",
+        "path": "10_Sources/Blog/agent-sandbox-os-level-security.md",
+        "link": "[[agent-sandbox-os-level-security]]",
         "topics": [
-          "topic/best-practices",
+          "topic/security",
           "topic/deployment"
         ]
       },
       {
-        "path": "10_Sources/Blog/ai-agents-101-deploy-to-production.md",
-        "link": "[[ai-agents-101-deploy-to-production]]",
+        "path": "10_Sources/Blog/anthropic-scaling-managed-agents.md",
+        "link": "[[anthropic-scaling-managed-agents]]",
         "topics": [
+          "topic/architectures",
+          "topic/deployment",
+          "topic/security"
+        ]
+      },
+      {
+        "path": "10_Sources/Repos/claude-code-action.md",
+        "link": "[[claude-code-action]]",
+        "topics": [
+          "topic/claude-code",
           "topic/deployment"
         ]
       },
       {
-        "path": "10_Sources/Blog/gemma4-local-agents.md",
-        "link": "[[gemma4-local-agents]]",
+        "path": "10_Sources/Docs/claude-code-headless-mode.md",
+        "link": "[[claude-code-headless-mode]]",
         "topics": [
+          "topic/claude-code",
+          "topic/deployment",
+          "topic/best-practices"
+        ]
+      },
+      {
+        "path": "10_Sources/Repos/sandbox-runtime.md",
+        "link": "[[sandbox-runtime]]",
+        "topics": [
+          "topic/security",
           "topic/deployment"
         ]
       }
     ],
     "MOC - Domain Applications": [
       {
-        "path": "10_Sources/Papers/legal-text-summarization-survey-vijay-kumar-2025.md",
-        "link": "[[legal-text-summarization-survey-vijay-kumar-2025]]",
+        "path": "10_Sources/Repos/commerce-agents.md",
+        "link": "[[commerce-agents]]",
         "topics": [
-          "topic/research-papers",
-          "topic/domain-applications"
+          "topic/domain-applications",
+          "topic/best-practices"
         ]
       }
     ],
     "MOC - Evaluation": [
       {
-        "path": "10_Sources/Blog/anthropic-demystifying-evals.md",
-        "link": "[[anthropic-demystifying-evals]]",
-        "topics": [
-          "topic/evaluation"
-        ]
-      },
-      {
-        "path": "30_Concepts/evaluation.md",
-        "link": "[[evaluation]]",
-        "topics": [
-          "topic/evaluation"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/llm-agent-evaluation-survey-yehudai-2025.md",
-        "link": "[[llm-agent-evaluation-survey-yehudai-2025]]",
+        "path": "10_Sources/Blog/anthropic-eval-awareness-browsecomp.md",
+        "link": "[[anthropic-eval-awareness-browsecomp]]",
         "topics": [
           "topic/evaluation",
+          "topic/security"
+        ]
+      },
+      {
+        "path": "10_Sources/Blog/anthropic-harness-design-long-running-apps.md",
+        "link": "[[anthropic-harness-design-long-running-apps]]",
+        "topics": [
+          "topic/multi-agent",
+          "topic/architectures",
+          "topic/evaluation"
+        ]
+      },
+      {
+        "path": "10_Sources/Blog/how-to-evaluate-ai-agents.md",
+        "link": "[[how-to-evaluate-ai-agents]]",
+        "topics": [
+          "topic/evaluation",
+          "topic/best-practices"
+        ]
+      },
+      {
+        "path": "10_Sources/Repos/mini-swe-agent.md",
+        "link": "[[mini-swe-agent]]",
+        "topics": [
+          "topic/architectures",
+          "topic/evaluation"
+        ]
+      },
+      {
+        "path": "10_Sources/Papers/where-multi-agent-systems-fail-han-2026.md",
+        "link": "[[where-multi-agent-systems-fail-han-2026]]",
+        "topics": [
+          "topic/evaluation",
+          "topic/multi-agent",
           "topic/research-papers"
         ]
       }
     ],
     "MOC - Foundations": [
       {
-        "path": "30_Concepts/agent-vs-llm.md",
-        "link": "[[agent-vs-llm]]",
+        "path": "10_Sources/Repos/learn-agent-architecture.md",
+        "link": "[[learn-agent-architecture]]",
         "topics": [
-          "topic/foundations",
-          "topic/concepts"
-        ]
-      },
-      {
-        "path": "10_Sources/Books/agentic-ai-handbook-bar-2025.md",
-        "link": "[[agentic-ai-handbook-bar-2025]]",
-        "topics": [
+          "topic/architectures",
           "topic/foundations"
-        ]
-      },
-      {
-        "path": "40_Guides/agentic-design-patterns-plain-english.md",
-        "link": "[[agentic-design-patterns-plain-english]]",
-        "topics": [
-          "topic/foundations"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/ai-agents-101-what-is-an-agent.md",
-        "link": "[[ai-agents-101-what-is-an-agent]]",
-        "topics": [
-          "topic/foundations"
-        ]
-      },
-      {
-        "path": "40_Guides/ai-agents-course-chapter-1-fundamentals.md",
-        "link": "[[ai-agents-course-chapter-1-fundamentals]]",
-        "topics": [
-          "topic/foundations"
-        ]
-      },
-      {
-        "path": "10_Sources/Books/ai-agents-illustrated-guidebook-chawla-pachaar-2025.md",
-        "link": "[[ai-agents-illustrated-guidebook-chawla-pachaar-2025]]",
-        "topics": [
-          "topic/foundations",
-          "topic/concepts"
-        ]
-      },
-      {
-        "path": "10_Sources/Books/ai-agents-in-action-lanham-2025.md",
-        "link": "[[ai-agents-in-action-lanham-2025]]",
-        "topics": [
-          "topic/foundations",
-          "topic/agent-patterns"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/anthropic-building-effective-agents.md",
-        "link": "[[anthropic-building-effective-agents]]",
-        "topics": [
-          "topic/foundations"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/how-to-build-ai-agent-from-scratch.md",
-        "link": "[[how-to-build-ai-agent-from-scratch]]",
-        "topics": [
-          "topic/foundations"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/how-to-build-an-ai-agent-from-scratch.md",
-        "link": "[[how-to-build-an-ai-agent-from-scratch]]",
-        "topics": [
-          "topic/foundations",
-          "topic/tool-use"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/karpathy-software-3-0.md",
-        "link": "[[karpathy-software-3-0]]",
-        "topics": [
-          "topic/foundations",
-          "topic/karpathy"
-        ]
-      },
-      {
-        "path": "10_Sources/Books/llms-in-100-images-bamania.md",
-        "link": "[[llms-in-100-images-bamania]]",
-        "topics": [
-          "topic/foundations",
-          "topic/concepts"
-        ]
-      },
-      {
-        "path": "30_Concepts/memory.md",
-        "link": "[[memory]]",
-        "topics": [
-          "topic/memory",
-          "topic/foundations"
-        ]
-      },
-      {
-        "path": "30_Concepts/planning-and-reasoning.md",
-        "link": "[[planning-and-reasoning]]",
-        "topics": [
-          "topic/planning",
-          "topic/foundations"
-        ]
-      },
-      {
-        "path": "30_Concepts/prompt-engineering.md",
-        "link": "[[prompt-engineering]]",
-        "topics": [
-          "topic/prompt-engineering",
-          "topic/foundations"
-        ]
-      },
-      {
-        "path": "30_Concepts/the-agent-loop.md",
-        "link": "[[the-agent-loop]]",
-        "topics": [
-          "topic/foundations",
-          "topic/architectures"
-        ]
-      },
-      {
-        "path": "30_Concepts/tool-use.md",
-        "link": "[[tool-use]]",
-        "topics": [
-          "topic/tool-use",
-          "topic/foundations"
-        ]
-      },
-      {
-        "path": "30_Concepts/what-is-an-ai-agent.md",
-        "link": "[[what-is-an-ai-agent]]",
-        "topics": [
-          "topic/foundations",
-          "topic/concepts"
-        ]
-      }
-    ],
-    "MOC - Karpathy": [
-      {
-        "path": "10_Sources/Blog/karpathy-agentic-engineering-framework.md",
-        "link": "[[karpathy-agentic-engineering-framework]]",
-        "topics": [
-          "topic/best-practices",
-          "topic/karpathy"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/karpathy-agents-md-framework.md",
-        "link": "[[karpathy-agents-md-framework]]",
-        "topics": [
-          "topic/best-practices",
-          "topic/karpathy"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/karpathy-llm-wiki-pattern.md",
-        "link": "[[karpathy-llm-wiki-pattern]]",
-        "topics": [
-          "topic/memory",
-          "topic/karpathy"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/karpathy-software-3-0.md",
-        "link": "[[karpathy-software-3-0]]",
-        "topics": [
-          "topic/foundations",
-          "topic/karpathy"
         ]
       }
     ],
     "MOC - MCP": [
       {
-        "path": "10_Sources/Docs/claude-code-playbook-mcp-server-builder.md",
-        "link": "[[claude-code-playbook-mcp-server-builder]]",
+        "path": "10_Sources/Release-Notes/claude-code-2-1-287-2026-10-01.md",
+        "link": "[[claude-code-2-1-287-2026-10-01]]",
         "topics": [
-          "topic/mcp",
-          "topic/tool-use"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/codebase-memory-mcp-guide.md",
-        "link": "[[codebase-memory-mcp-guide]]",
-        "topics": [
+          "topic/release-notes",
+          "topic/claude-code",
           "topic/mcp"
         ]
       },
       {
-        "path": "10_Sources/Blog/complete-guide-to-mcp-servers.md",
-        "link": "[[complete-guide-to-mcp-servers]]",
+        "path": "10_Sources/Release-Notes/claude-code-2-1-288-2026-10-02.md",
+        "link": "[[claude-code-2-1-288-2026-10-02]]",
         "topics": [
-          "topic/mcp",
-          "topic/best-practices"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/mcp-101-build-your-first-server.md",
-        "link": "[[mcp-101-build-your-first-server]]",
-        "topics": [
-          "topic/mcp"
-        ]
-      },
-      {
-        "path": "10_Sources/Books/mcp-illustrated-guidebook-chawla-pachaar-2025.md",
-        "link": "[[mcp-illustrated-guidebook-chawla-pachaar-2025]]",
-        "topics": [
-          "topic/mcp"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/mcp-internals-client-server.md",
-        "link": "[[mcp-internals-client-server]]",
-        "topics": [
-          "topic/mcp"
-        ]
-      },
-      {
-        "path": "10_Sources/Docs/mcp-introduction.md",
-        "link": "[[mcp-introduction]]",
-        "topics": [
-          "topic/mcp",
-          "topic/tool-use"
-        ]
-      },
-      {
-        "path": "30_Concepts/mcp.md",
-        "link": "[[mcp]]",
-        "topics": [
-          "topic/mcp",
-          "topic/tool-use"
-        ]
-      },
-      {
-        "path": "10_Sources/Repos/qmd-local-hybrid-search.md",
-        "link": "[[qmd-local-hybrid-search]]",
-        "topics": [
-          "topic/memory",
-          "topic/mcp"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/webmcp-complete-guide.md",
-        "link": "[[webmcp-complete-guide]]",
-        "topics": [
+          "topic/release-notes",
+          "topic/claude-code",
           "topic/mcp"
         ]
       }
     ],
     "MOC - Memory": [
       {
-        "path": "10_Sources/Blog/agent-memory-systems-guide.md",
-        "link": "[[agent-memory-systems-guide]]",
+        "path": "10_Sources/Papers/delegation-danger-band-hu-2026.md",
+        "link": "[[delegation-danger-band-hu-2026]]",
         "topics": [
-          "topic/memory"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/agentmemory-fix-memory-loss.md",
-        "link": "[[agentmemory-fix-memory-loss]]",
-        "topics": [
-          "topic/memory"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/ai-agents-101-memory-across-sessions.md",
-        "link": "[[ai-agents-101-memory-across-sessions]]",
-        "topics": [
-          "topic/memory"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/context-engineering-guide.md",
-        "link": "[[context-engineering-guide]]",
-        "topics": [
-          "topic/memory"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/hermes-self-hosted-agent.md",
-        "link": "[[hermes-self-hosted-agent]]",
-        "topics": [
-          "topic/memory"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/karpathy-llm-wiki-pattern.md",
-        "link": "[[karpathy-llm-wiki-pattern]]",
-        "topics": [
+          "topic/multi-agent",
           "topic/memory",
-          "topic/karpathy"
+          "topic/research-papers"
         ]
       },
       {
-        "path": "10_Sources/Papers/llm-agent-memory-evolution-survey-luo-2026.md",
-        "link": "[[llm-agent-memory-evolution-survey-luo-2026]]",
-        "topics": [
-          "topic/research-papers",
-          "topic/memory"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/llm-agent-memory-survey-du-2026.md",
-        "link": "[[llm-agent-memory-survey-du-2026]]",
+        "path": "10_Sources/Papers/generative-agents-park-2023.md",
+        "link": "[[generative-agents-park-2023]]",
         "topics": [
           "topic/memory",
           "topic/research-papers"
         ]
       },
       {
-        "path": "30_Concepts/memory.md",
-        "link": "[[memory]]",
-        "topics": [
-          "topic/memory",
-          "topic/foundations"
-        ]
-      },
-      {
-        "path": "10_Sources/Repos/qmd-local-hybrid-search.md",
-        "link": "[[qmd-local-hybrid-search]]",
-        "topics": [
-          "topic/memory",
-          "topic/mcp"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/rag-vs-long-context-vs-fine-tuning.md",
-        "link": "[[rag-vs-long-context-vs-fine-tuning]]",
-        "topics": [
-          "topic/memory"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/vizomem-liang-2026.md",
-        "link": "[[vizomem-liang-2026]]",
+        "path": "10_Sources/Papers/refcon-contrastive-memory-prathama-2026.md",
+        "link": "[[refcon-contrastive-memory-prathama-2026]]",
         "topics": [
           "topic/memory",
           "topic/research-papers"
@@ -782,140 +494,150 @@
     ],
     "MOC - Multi-Agent Systems": [
       {
-        "path": "10_Sources/Papers/agentverse-chen-2023.md",
-        "link": "[[agentverse-chen-2023]]",
+        "path": "10_Sources/Blog/anthropic-harness-design-long-running-apps.md",
+        "link": "[[anthropic-harness-design-long-running-apps]]",
         "topics": [
           "topic/multi-agent",
-          "topic/research-papers"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/ai-agents-101-multi-agent-orchestration.md",
-        "link": "[[ai-agents-101-multi-agent-orchestration]]",
-        "topics": [
-          "topic/multi-agent"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/autogen-wu-2023.md",
-        "link": "[[autogen-wu-2023]]",
-        "topics": [
-          "topic/multi-agent",
-          "topic/research-papers"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/camel-li-2023.md",
-        "link": "[[camel-li-2023]]",
-        "topics": [
-          "topic/multi-agent",
-          "topic/research-papers"
-        ]
-      },
-      {
-        "path": "10_Sources/Docs/claude-code-playbook-parallel-task-agents.md",
-        "link": "[[claude-code-playbook-parallel-task-agents]]",
-        "topics": [
-          "topic/multi-agent",
-          "topic/claude-code"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/llm-multi-agent-survey-guo-2024.md",
-        "link": "[[llm-multi-agent-survey-guo-2024]]",
-        "topics": [
-          "topic/research-papers",
-          "topic/multi-agent"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/multi-agent-system-python-tutorial.md",
-        "link": "[[multi-agent-system-python-tutorial]]",
-        "topics": [
-          "topic/multi-agent"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/six-multi-agent-architectures.md",
-        "link": "[[six-multi-agent-architectures]]",
-        "topics": [
-          "topic/multi-agent",
-          "topic/architectures"
-        ]
-      },
-      {
-        "path": "30_Concepts/supervisor-worker-multi-agent.md",
-        "link": "[[supervisor-worker-multi-agent]]",
-        "topics": [
           "topic/architectures",
-          "topic/multi-agent"
+          "topic/evaluation"
+        ]
+      },
+      {
+        "path": "10_Sources/Papers/delegation-danger-band-hu-2026.md",
+        "link": "[[delegation-danger-band-hu-2026]]",
+        "topics": [
+          "topic/multi-agent",
+          "topic/memory",
+          "topic/research-papers"
+        ]
+      },
+      {
+        "path": "10_Sources/Papers/deny-without-disabling-zhang-2026.md",
+        "link": "[[deny-without-disabling-zhang-2026]]",
+        "topics": [
+          "topic/security",
+          "topic/multi-agent",
+          "topic/research-papers"
+        ]
+      },
+      {
+        "path": "10_Sources/Papers/runtime-agent-coordination-liu-2026.md",
+        "link": "[[runtime-agent-coordination-liu-2026]]",
+        "topics": [
+          "topic/multi-agent",
+          "topic/research-papers"
+        ]
+      },
+      {
+        "path": "10_Sources/Papers/where-multi-agent-systems-fail-han-2026.md",
+        "link": "[[where-multi-agent-systems-fail-han-2026]]",
+        "topics": [
+          "topic/evaluation",
+          "topic/multi-agent",
+          "topic/research-papers"
         ]
       }
     ],
-    "MOC - Planning": [
+    "MOC - Observability": [
       {
-        "path": "10_Sources/Papers/llm-agent-paradigms-review-li-2024.md",
-        "link": "[[llm-agent-paradigms-review-li-2024]]",
+        "path": "10_Sources/Docs/claude-agent-sdk-hooks.md",
+        "link": "[[claude-agent-sdk-hooks]]",
         "topics": [
-          "topic/tool-use",
-          "topic/planning",
-          "topic/research-papers"
+          "topic/claude-sdk",
+          "topic/security",
+          "topic/observability"
         ]
       },
       {
-        "path": "10_Sources/Papers/llm-agent-planning-survey-huang-2024.md",
-        "link": "[[llm-agent-planning-survey-huang-2024]]",
-        "topics": [
-          "topic/planning",
-          "topic/research-papers"
-        ]
-      },
-      {
-        "path": "30_Concepts/plan-and-execute.md",
-        "link": "[[plan-and-execute]]",
+        "path": "10_Sources/Blog/harness-six-components.md",
+        "link": "[[harness-six-components]]",
         "topics": [
           "topic/architectures",
-          "topic/planning"
-        ]
-      },
-      {
-        "path": "30_Concepts/planning-and-reasoning.md",
-        "link": "[[planning-and-reasoning]]",
-        "topics": [
-          "topic/planning",
-          "topic/foundations"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/self-discover-zhou-2024.md",
-        "link": "[[self-discover-zhou-2024]]",
-        "topics": [
-          "topic/planning",
-          "topic/research-papers"
+          "topic/observability"
         ]
       }
     ],
     "MOC - Prompt Engineering": [
       {
-        "path": "10_Sources/Blog/prompt-engineering-techniques-2026.md",
-        "link": "[[prompt-engineering-techniques-2026]]",
+        "path": "10_Sources/Talks/boris-cherny-building-claude-code-yc-2026.md",
+        "link": "[[boris-cherny-building-claude-code-yc-2026]]",
         "topics": [
-          "topic/prompt-engineering"
-        ]
-      },
-      {
-        "path": "30_Concepts/prompt-engineering.md",
-        "link": "[[prompt-engineering]]",
-        "topics": [
+          "topic/boris-cherny",
           "topic/prompt-engineering",
-          "topic/foundations"
+          "topic/security"
         ]
       }
     ],
     "MOC - Release Notes": [
       {
-        "path": "10_Sources/Release-Notes/claude-sonnet-5-2026-06-30.md",
-        "link": "[[claude-sonnet-5-2026-06-30]]",
+        "path": "10_Sources/Repos/claude-agent-sdk-typescript.md",
+        "link": "[[claude-agent-sdk-typescript]]",
+        "topics": [
+          "topic/claude-sdk",
+          "topic/release-notes"
+        ]
+      },
+      {
+        "path": "10_Sources/Release-Notes/claude-code-2-1-285-2026-09-29.md",
+        "link": "[[claude-code-2-1-285-2026-09-29]]",
+        "topics": [
+          "topic/release-notes",
+          "topic/claude-code"
+        ]
+      },
+      {
+        "path": "10_Sources/Release-Notes/claude-code-2-1-286-2026-09-30.md",
+        "link": "[[claude-code-2-1-286-2026-09-30]]",
+        "topics": [
+          "topic/release-notes",
+          "topic/claude-code"
+        ]
+      },
+      {
+        "path": "10_Sources/Release-Notes/claude-code-2-1-287-2026-10-01.md",
+        "link": "[[claude-code-2-1-287-2026-10-01]]",
+        "topics": [
+          "topic/release-notes",
+          "topic/claude-code",
+          "topic/mcp"
+        ]
+      },
+      {
+        "path": "10_Sources/Release-Notes/claude-code-2-1-288-2026-10-02.md",
+        "link": "[[claude-code-2-1-288-2026-10-02]]",
+        "topics": [
+          "topic/release-notes",
+          "topic/claude-code",
+          "topic/mcp"
+        ]
+      },
+      {
+        "path": "10_Sources/Release-Notes/claude-code-2-1-289-2026-10-03.md",
+        "link": "[[claude-code-2-1-289-2026-10-03]]",
+        "topics": [
+          "topic/release-notes",
+          "topic/claude-code",
+          "topic/security"
+        ]
+      },
+      {
+        "path": "10_Sources/Release-Notes/claude-fable-5-1-2026-09-01.md",
+        "link": "[[claude-fable-5-1-2026-09-01]]",
+        "topics": [
+          "topic/release-notes",
+          "topic/security"
+        ]
+      },
+      {
+        "path": "10_Sources/Release-Notes/claude-opus-5-5-2026-09-22.md",
+        "link": "[[claude-opus-5-5-2026-09-22]]",
+        "topics": [
+          "topic/release-notes"
+        ]
+      },
+      {
+        "path": "10_Sources/Release-Notes/claude-sonnet-5-5-2026-09-28.md",
+        "link": "[[claude-sonnet-5-5-2026-09-28]]",
         "topics": [
           "topic/release-notes"
         ]
@@ -923,163 +645,173 @@
     ],
     "MOC - Research Papers": [
       {
-        "path": "10_Sources/Papers/agent-architectures-landscape-masterman-2024.md",
-        "link": "[[agent-architectures-landscape-masterman-2024]]",
+        "path": "10_Sources/Papers/coala-cognitive-architectures-sumers-2023.md",
+        "link": "[[coala-cognitive-architectures-sumers-2023]]",
         "topics": [
           "topic/architectures",
           "topic/research-papers"
         ]
       },
       {
-        "path": "10_Sources/Papers/agentic-ai-survey-abou-ali-2025.md",
-        "link": "[[agentic-ai-survey-abou-ali-2025]]",
+        "path": "10_Sources/Papers/delegation-danger-band-hu-2026.md",
+        "link": "[[delegation-danger-band-hu-2026]]",
         "topics": [
-          "topic/research-papers",
-          "topic/architectures"
+          "topic/multi-agent",
+          "topic/memory",
+          "topic/research-papers"
         ]
       },
       {
-        "path": "10_Sources/Papers/agentverse-chen-2023.md",
-        "link": "[[agentverse-chen-2023]]",
+        "path": "10_Sources/Papers/deny-without-disabling-zhang-2026.md",
+        "link": "[[deny-without-disabling-zhang-2026]]",
         "topics": [
+          "topic/security",
           "topic/multi-agent",
           "topic/research-papers"
         ]
       },
       {
-        "path": "10_Sources/Papers/ai-agent-systems-survey-xu-2026.md",
-        "link": "[[ai-agent-systems-survey-xu-2026]]",
-        "topics": [
-          "topic/architectures",
-          "topic/research-papers"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/autogen-wu-2023.md",
-        "link": "[[autogen-wu-2023]]",
-        "topics": [
-          "topic/multi-agent",
-          "topic/research-papers"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/camel-li-2023.md",
-        "link": "[[camel-li-2023]]",
-        "topics": [
-          "topic/multi-agent",
-          "topic/research-papers"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/legal-text-summarization-survey-vijay-kumar-2025.md",
-        "link": "[[legal-text-summarization-survey-vijay-kumar-2025]]",
-        "topics": [
-          "topic/research-papers",
-          "topic/domain-applications"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/llm-agent-evaluation-survey-yehudai-2025.md",
-        "link": "[[llm-agent-evaluation-survey-yehudai-2025]]",
-        "topics": [
-          "topic/evaluation",
-          "topic/research-papers"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/llm-agent-memory-evolution-survey-luo-2026.md",
-        "link": "[[llm-agent-memory-evolution-survey-luo-2026]]",
-        "topics": [
-          "topic/research-papers",
-          "topic/memory"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/llm-agent-memory-survey-du-2026.md",
-        "link": "[[llm-agent-memory-survey-du-2026]]",
+        "path": "10_Sources/Papers/generative-agents-park-2023.md",
+        "link": "[[generative-agents-park-2023]]",
         "topics": [
           "topic/memory",
           "topic/research-papers"
         ]
       },
       {
-        "path": "10_Sources/Papers/llm-agent-paradigms-review-li-2024.md",
-        "link": "[[llm-agent-paradigms-review-li-2024]]",
+        "path": "10_Sources/Papers/mid-harness-kang-2026.md",
+        "link": "[[mid-harness-kang-2026]]",
+        "topics": [
+          "topic/architectures",
+          "topic/tool-use",
+          "topic/research-papers"
+        ]
+      },
+      {
+        "path": "10_Sources/Papers/refcon-contrastive-memory-prathama-2026.md",
+        "link": "[[refcon-contrastive-memory-prathama-2026]]",
+        "topics": [
+          "topic/memory",
+          "topic/research-papers"
+        ]
+      },
+      {
+        "path": "10_Sources/Papers/runtime-agent-coordination-liu-2026.md",
+        "link": "[[runtime-agent-coordination-liu-2026]]",
+        "topics": [
+          "topic/multi-agent",
+          "topic/research-papers"
+        ]
+      },
+      {
+        "path": "10_Sources/Papers/swe-agent-computer-interfaces-yang-2024.md",
+        "link": "[[swe-agent-computer-interfaces-yang-2024]]",
         "topics": [
           "topic/tool-use",
-          "topic/planning",
           "topic/research-papers"
         ]
       },
       {
-        "path": "10_Sources/Papers/llm-agent-planning-survey-huang-2024.md",
-        "link": "[[llm-agent-planning-survey-huang-2024]]",
+        "path": "10_Sources/Papers/where-multi-agent-systems-fail-han-2026.md",
+        "link": "[[where-multi-agent-systems-fail-han-2026]]",
         "topics": [
-          "topic/planning",
-          "topic/research-papers"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/llm-autonomous-agents-survey-wang-2025.md",
-        "link": "[[llm-autonomous-agents-survey-wang-2025]]",
-        "topics": [
-          "topic/research-papers",
-          "topic/architectures"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/llm-multi-agent-survey-guo-2024.md",
-        "link": "[[llm-multi-agent-survey-guo-2024]]",
-        "topics": [
-          "topic/research-papers",
-          "topic/multi-agent"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/react-yao-2022.md",
-        "link": "[[react-yao-2022]]",
-        "topics": [
-          "topic/architectures",
-          "topic/research-papers"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/reflexion-shinn-2023.md",
-        "link": "[[reflexion-shinn-2023]]",
-        "topics": [
-          "topic/architectures",
-          "topic/research-papers"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/self-discover-zhou-2024.md",
-        "link": "[[self-discover-zhou-2024]]",
-        "topics": [
-          "topic/planning",
-          "topic/research-papers"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/vizomem-liang-2026.md",
-        "link": "[[vizomem-liang-2026]]",
-        "topics": [
-          "topic/memory",
-          "topic/research-papers"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/voyager-wang-2023.md",
-        "link": "[[voyager-wang-2023]]",
-        "topics": [
-          "topic/architectures",
+          "topic/evaluation",
+          "topic/multi-agent",
           "topic/research-papers"
         ]
       }
     ],
     "MOC - Security": [
       {
-        "path": "10_Sources/Blog/anthropic-how-we-contain-claude.md",
-        "link": "[[anthropic-how-we-contain-claude]]",
+        "path": "10_Sources/Blog/agent-modes-plan-default-auto.md",
+        "link": "[[agent-modes-plan-default-auto]]",
+        "topics": [
+          "topic/security",
+          "topic/claude-code"
+        ]
+      },
+      {
+        "path": "10_Sources/Blog/agent-sandbox-os-level-security.md",
+        "link": "[[agent-sandbox-os-level-security]]",
+        "topics": [
+          "topic/security",
+          "topic/deployment"
+        ]
+      },
+      {
+        "path": "10_Sources/Blog/anthropic-claude-code-auto-mode.md",
+        "link": "[[anthropic-claude-code-auto-mode]]",
+        "topics": [
+          "topic/claude-code",
+          "topic/security",
+          "topic/tool-use"
+        ]
+      },
+      {
+        "path": "10_Sources/Blog/anthropic-eval-awareness-browsecomp.md",
+        "link": "[[anthropic-eval-awareness-browsecomp]]",
+        "topics": [
+          "topic/evaluation",
+          "topic/security"
+        ]
+      },
+      {
+        "path": "10_Sources/Blog/anthropic-scaling-managed-agents.md",
+        "link": "[[anthropic-scaling-managed-agents]]",
+        "topics": [
+          "topic/architectures",
+          "topic/deployment",
+          "topic/security"
+        ]
+      },
+      {
+        "path": "10_Sources/Talks/boris-cherny-building-claude-code-yc-2026.md",
+        "link": "[[boris-cherny-building-claude-code-yc-2026]]",
+        "topics": [
+          "topic/boris-cherny",
+          "topic/prompt-engineering",
+          "topic/security"
+        ]
+      },
+      {
+        "path": "10_Sources/Docs/claude-agent-sdk-hooks.md",
+        "link": "[[claude-agent-sdk-hooks]]",
+        "topics": [
+          "topic/claude-sdk",
+          "topic/security",
+          "topic/observability"
+        ]
+      },
+      {
+        "path": "10_Sources/Docs/claude-agent-sdk-permissions.md",
+        "link": "[[claude-agent-sdk-permissions]]",
+        "topics": [
+          "topic/claude-sdk",
+          "topic/security",
+          "topic/tool-use"
+        ]
+      },
+      {
+        "path": "10_Sources/Release-Notes/claude-code-2-1-289-2026-10-03.md",
+        "link": "[[claude-code-2-1-289-2026-10-03]]",
+        "topics": [
+          "topic/release-notes",
+          "topic/claude-code",
+          "topic/security"
+        ]
+      },
+      {
+        "path": "10_Sources/Docs/claude-code-hooks-reference.md",
+        "link": "[[claude-code-hooks-reference]]",
+        "topics": [
+          "topic/claude-code",
+          "topic/security",
+          "topic/tool-use"
+        ]
+      },
+      {
+        "path": "10_Sources/Docs/claude-code-permissions.md",
+        "link": "[[claude-code-permissions]]",
         "topics": [
           "topic/security",
           "topic/claude-code",
@@ -1087,105 +819,90 @@
         ]
       },
       {
-        "path": "10_Sources/Blog/mcp-security-attack-vectors.md",
-        "link": "[[mcp-security-attack-vectors]]",
+        "path": "10_Sources/Release-Notes/claude-fable-5-1-2026-09-01.md",
+        "link": "[[claude-fable-5-1-2026-09-01]]",
         "topics": [
+          "topic/release-notes",
           "topic/security"
+        ]
+      },
+      {
+        "path": "10_Sources/Papers/deny-without-disabling-zhang-2026.md",
+        "link": "[[deny-without-disabling-zhang-2026]]",
+        "topics": [
+          "topic/security",
+          "topic/multi-agent",
+          "topic/research-papers"
+        ]
+      },
+      {
+        "path": "10_Sources/Repos/sandbox-runtime.md",
+        "link": "[[sandbox-runtime]]",
+        "topics": [
+          "topic/security",
+          "topic/deployment"
         ]
       }
     ],
     "MOC - Tool Use": [
       {
-        "path": "10_Sources/Blog/ai-agents-101-tools-in-python.md",
-        "link": "[[ai-agents-101-tools-in-python]]",
+        "path": "10_Sources/Blog/anthropic-claude-code-auto-mode.md",
+        "link": "[[anthropic-claude-code-auto-mode]]",
         "topics": [
+          "topic/claude-code",
+          "topic/security",
           "topic/tool-use"
         ]
       },
       {
-        "path": "40_Guides/ai-agents-course-chapters-2-3.md",
-        "link": "[[ai-agents-course-chapters-2-3]]",
+        "path": "10_Sources/Docs/claude-agent-sdk-permissions.md",
+        "link": "[[claude-agent-sdk-permissions]]",
         "topics": [
+          "topic/claude-sdk",
+          "topic/security",
           "topic/tool-use"
         ]
       },
       {
-        "path": "10_Sources/Docs/claude-agent-sdk-overview.md",
-        "link": "[[claude-agent-sdk-overview]]",
+        "path": "10_Sources/Repos/claude-agent-sdk-python.md",
+        "link": "[[claude-agent-sdk-python]]",
         "topics": [
           "topic/claude-sdk",
           "topic/tool-use"
         ]
       },
       {
-        "path": "10_Sources/Docs/claude-code-playbook-ai-agent-builder.md",
-        "link": "[[claude-code-playbook-ai-agent-builder]]",
+        "path": "10_Sources/Docs/claude-code-hooks-reference.md",
+        "link": "[[claude-code-hooks-reference]]",
         "topics": [
-          "topic/agent-patterns",
+          "topic/claude-code",
+          "topic/security",
           "topic/tool-use"
         ]
       },
       {
-        "path": "10_Sources/Docs/claude-code-playbook-mcp-server-builder.md",
-        "link": "[[claude-code-playbook-mcp-server-builder]]",
+        "path": "10_Sources/Papers/mid-harness-kang-2026.md",
+        "link": "[[mid-harness-kang-2026]]",
         "topics": [
-          "topic/mcp",
-          "topic/tool-use"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/function-calling-how-llms-use-tools.md",
-        "link": "[[function-calling-how-llms-use-tools]]",
-        "topics": [
-          "topic/tool-use"
-        ]
-      },
-      {
-        "path": "10_Sources/Blog/how-to-build-an-ai-agent-from-scratch.md",
-        "link": "[[how-to-build-an-ai-agent-from-scratch]]",
-        "topics": [
-          "topic/foundations",
-          "topic/tool-use"
-        ]
-      },
-      {
-        "path": "10_Sources/Papers/llm-agent-paradigms-review-li-2024.md",
-        "link": "[[llm-agent-paradigms-review-li-2024]]",
-        "topics": [
+          "topic/architectures",
           "topic/tool-use",
-          "topic/planning",
           "topic/research-papers"
         ]
       },
       {
-        "path": "10_Sources/Blog/markitdown-pdf-to-markdown.md",
-        "link": "[[markitdown-pdf-to-markdown]]",
+        "path": "10_Sources/Repos/smolagents.md",
+        "link": "[[smolagents]]",
         "topics": [
+          "topic/architectures",
           "topic/tool-use"
         ]
       },
       {
-        "path": "10_Sources/Docs/mcp-introduction.md",
-        "link": "[[mcp-introduction]]",
-        "topics": [
-          "topic/mcp",
-          "topic/tool-use"
-        ]
-      },
-      {
-        "path": "30_Concepts/mcp.md",
-        "link": "[[mcp]]",
-        "topics": [
-          "topic/mcp",
-          "topic/tool-use"
-        ]
-      },
-      {
-        "path": "30_Concepts/tool-use.md",
-        "link": "[[tool-use]]",
+        "path": "10_Sources/Papers/swe-agent-computer-interfaces-yang-2024.md",
+        "link": "[[swe-agent-computer-interfaces-yang-2024]]",
         "topics": [
           "topic/tool-use",
-          "topic/foundations"
+          "topic/research-papers"
         ]
       }
     ]

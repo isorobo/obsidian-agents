@@ -13,8 +13,8 @@ related_concepts: ["[[claude-agent-sdk]]", "[[mcp]]", "[[the-agent-loop]]"]
 anthropic: true
 af_targets:
 - af:RSCH-01/claude-code
-wiki_indexed: '2026-10-04T03:01:49Z'
-wiki_hash: 059d3aa5e412a6d44b42b344857cfb94f78b09453db281200f1ab361a7c04bb0
+wiki_indexed: '2026-10-04T03:42:35Z'
+wiki_hash: 6d9728b3c6b75f79186639426e02618850e66f18ead4e4e800db04a0ec4728df
 ---
 
 # Claude Code
@@ -50,6 +50,28 @@ Claude Code shortens tedious work: tests, lint fixes, dependency updates, and re
 - [[10_Sources/Docs/claude-code-overview|Claude Code overview]]
 - https://code.claude.com/docs/en/overview
 - [[10_Sources/Blog/anthropic-how-we-contain-claude|How we contain Claude across products]]
+- [[10_Sources/Blog/agent-modes-plan-default-auto|Plan vs Default vs Auto Mode]]
+- [[10_Sources/Blog/agent-sandbox-os-level-security|Agent Sandboxes: OS-Level Security]]
+- [[10_Sources/Blog/anthropic-april-23-postmortem|An update on recent Claude Code quality reports]]
+- [[10_Sources/Blog/anthropic-claude-code-auto-mode|How we built Claude Code auto mode]]
+- [[10_Sources/Docs/claude-code-headless-mode|Run Claude Code programmatically]]
+- [[10_Sources/Docs/claude-code-hooks-reference|Claude Code hooks reference]]
+- [[10_Sources/Docs/claude-code-permissions|Claude Code permissions]]
+- [[10_Sources/Release-Notes/claude-code-2-1-285-2026-09-29|Claude Code 2.1.285]]
+- [[10_Sources/Release-Notes/claude-code-2-1-286-2026-09-30|Claude Code 2.1.286]]
+- [[10_Sources/Release-Notes/claude-code-2-1-287-2026-10-01|Claude Code 2.1.287]]
+- [[10_Sources/Release-Notes/claude-code-2-1-288-2026-10-02|Claude Code 2.1.288]]
+- [[10_Sources/Release-Notes/claude-code-2-1-289-2026-10-03|Claude Code 2.1.289]]
+- [[10_Sources/Release-Notes/claude-opus-5-5-2026-09-22|Claude Opus 5.5]]
+- [[10_Sources/Release-Notes/claude-sonnet-5-5-2026-09-28|Claude Sonnet 5.5]]
+- [[10_Sources/Repos/anthropic-skills-repository|Anthropic Agent Skills Repository]]
+- [[10_Sources/Repos/claude-agent-sdk-python|Claude Agent SDK for Python]]
+- [[10_Sources/Repos/claude-agent-sdk-typescript|Claude Agent SDK for TypeScript]]
+- [[10_Sources/Repos/claude-code-action|Claude Code Action]]
+- [[10_Sources/Repos/learn-agent-architecture|learn-agent-architecture]]
+- [[10_Sources/Repos/sandbox-runtime|Anthropic Sandbox Runtime]]
+- [[10_Sources/Talks/boris-cherny-building-claude-code-yc-2026|Boris Cherny: Building Claude Code]]
+- [[10_Sources/Talks/boris-cherny-peterman-pod-career-claude-code|Boris Cherny on How His Career Grew]]
 
 ## See also
 
