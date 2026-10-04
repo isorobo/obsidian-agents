@@ -21,6 +21,11 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel: aibuilderclub
+af_targets:
+- af:ADR-0005
+- af:RSCH-04/Q11
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 2012ab74f7bf303c981067cb6493e6f848f51e2ea275c67c258e31e45f789671
 ---
 
 # Hermes Agent: Self-Hosted AI That Never Forgets You (2026)

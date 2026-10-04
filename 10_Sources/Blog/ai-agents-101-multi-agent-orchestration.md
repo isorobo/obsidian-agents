@@ -21,6 +21,11 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel:
+af_targets:
+- af:DELEG-01
+- af:RSCH-04/Q24
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: b2e4fd3319e37879285f31d4a81d801cdacf67a3b387e282877c3a1f215f3ac4
 ---
 
 # Multi-Agent Orchestration Patterns (AI Agents 101, Part 4)

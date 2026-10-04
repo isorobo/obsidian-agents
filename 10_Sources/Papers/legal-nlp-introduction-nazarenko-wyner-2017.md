@@ -20,6 +20,10 @@ tags: [legal-nlp, survey, legaltech, argumentation-mining, document-engineering]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: bd5891e172bbb37602049a610f7675a8ecd2e22f15d995f8b5db30968359a42e
 ---
 
 # Legal NLP Introduction

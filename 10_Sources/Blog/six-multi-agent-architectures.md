@@ -25,6 +25,10 @@ nlm_id:
 nlm_skip: false
 watchlist_channel: 
 authored_by: agens
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 65fbbf540b6c0c296bc48704d598ef7b67c3be162b6c9ade1bcf1411b1577667
 ---
 
 # 6 Multi-Agent AI Architectures Every Builder Should Understand

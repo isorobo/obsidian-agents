@@ -19,6 +19,10 @@ tags:
 - interview
 nlm_skip: false
 watchlist_channel: boris-cherny
+af_targets:
+- af:RSCH-01/claude-code
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 80c982b0c86128b3ce2a15428d61dc1f708d75000762828db4cc04d97f0ff2fa
 ---
 
 # Building Claude Code with Boris Cherny

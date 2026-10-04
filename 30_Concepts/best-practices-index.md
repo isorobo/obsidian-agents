@@ -11,6 +11,12 @@ synonyms: [engineering principles, agent best practices]
 defined_in: "[[10_Sources/Blog/anthropic-building-effective-agents|Building Effective Agents]]"
 related_concepts: ["[[anti-patterns-index]]", "[[the-agent-loop]]", "[[evaluation]]"]
 anthropic: true
+af_targets:
+- af:ADR-0006
+- af:ADR-0007
+- af:ADR-0008
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: bb77efebde25f50a0f107c3651e6702b92f3e2cb118d49b38e4c60c0dc7e31c7
 ---
 
 # Best Practices Index
@@ -56,6 +62,7 @@ Simplicity helps most tasks. A genuinely open-ended problem still needs an auton
 
 - [[10_Sources/Blog/anthropic-building-effective-agents|Building Effective Agents]] — https://www.anthropic.com/engineering/building-effective-agents
 - [[10_Sources/Interviews/boris-cherny-pragmatic-engineer|Building Claude Code with Boris Cherny]] — https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny
+- [[10_Sources/Blog/anthropic-how-we-contain-claude|How we contain Claude across products]]
 
 ## See also
 

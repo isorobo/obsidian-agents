@@ -24,6 +24,11 @@ tags: [reflexion, self-critique, memory, reinforcement]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:DELEG-03
+- af:RSCH-01/reflexion
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 9eb92afdd66520581a5afa6fbde612b34588142201fde985886f14bfc95b889c
 ---
 
 # Reflexion: Language Agents with Verbal Reinforcement Learning

@@ -18,6 +18,14 @@ tags: [prompt-chaining, multi-agent, mcp, rag, guardrails, evaluation]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:ADR-0006
+- af:ADR-0007
+- af:ADR-0008
+- af:DELEG-02
+- af:DELEG-03
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 055b23b9e13f3fafe0936f60c47d83a17c423c67abf00571ba8f8397ec95c514
 ---
 
 # Agentic Design Patterns: A Hands-On Guide to Intelligent AI Agents

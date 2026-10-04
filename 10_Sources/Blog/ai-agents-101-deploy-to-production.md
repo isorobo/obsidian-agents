@@ -22,6 +22,10 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel:
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: e3b599c34561b6be1c7cccbd2cdd824c1eddc05c198d5b3fbba1a6a9fe4e57e3
 ---
 
 # Deploy AI Agents to Production (AI Agents 101, Part 5)

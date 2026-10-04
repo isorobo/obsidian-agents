@@ -22,6 +22,10 @@ authored_by: agens
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: fed8b973b18576c3b9cee3a0d5f53d1ec061994b6a8bd550a2ec32d5d11e6dc3
 ---
 
 # The Definitive Guide to Graph Databases for the RDBMS Developer

@@ -1,0 +1,2467 @@
+{
+  "vault": "/Users/bernie/obsidian/wiki-agents",
+  "scanned_at": "2026-10-04T03:00:48Z",
+  "config": {
+    "engine": "wiki-agents",
+    "vault_name": "Agents",
+    "excluded_folders": [
+      ".obsidian",
+      ".trash",
+      ".git",
+      ".claude",
+      ".claudian",
+      ".remember",
+      ".smart-env",
+      ".workspace",
+      "_memory",
+      "00_Inbox",
+      "50_MOCs",
+      "60_Drafts",
+      "70_Research",
+      "80_Attachments",
+      "90_Templates",
+      "99_Meta/wiki-agents",
+      "99_Meta/learning",
+      "99_Meta/agent-factory-digest",
+      "CLAUDE.md",
+      "_CLAUDE.md",
+      "README.md",
+      "2026-07-10.md",
+      "Untitled.md"
+    ],
+    "confidence_threshold": 0.7,
+    "max_topics_per_note": 3,
+    "topic_depth": 3,
+    "vocabulary_version": 1,
+    "reports_dir": "99_Meta/wiki-agents/wiki",
+    "report_prefix": "wiki-",
+    "vocabulary_source": "99_Meta/schema.md#2.3",
+    "subjects_file": null,
+    "pending_file": "99_Meta/wiki-agents/wiki/wiki-pending.md",
+    "moc_mode": "suggest",
+    "moc_dir": "50_MOCs",
+    "moc_name_style": "vocab_label",
+    "structural_topics": [
+      "topic/meta",
+      "topic/learning"
+    ],
+    "tag_scope": [],
+    "tag_roles": [
+      "wiki",
+      "concept",
+      "source"
+    ],
+    "never_write": [],
+    "role_by_prefix": {},
+    "topic_moc_map": {},
+    "topic_rules": {
+      "min_topics": 1,
+      "companion_required": [
+        "topic/karpathy",
+        "topic/agent-skills",
+        "topic/retrieval",
+        "topic/domain-applications",
+        "topic/learning"
+      ]
+    }
+  },
+  "stats": {
+    "total_notes": 132,
+    "fresh": 132,
+    "modified": 0,
+    "unchanged": 0,
+    "orphans": 0,
+    "quarantined": 0,
+    "unique_topics": 25,
+    "unique_subjects": 0
+  },
+  "notes": [
+    {
+      "path": "00_Home/index.md",
+      "hash": "a9dcecc2694ff72cb44d6b8f436c59e5b2f045ee6d98f9f683c70b691aef3d24",
+      "role": "index",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/meta"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 1728,
+      "body_preview": "# wiki-agents\n\nA knowledge base on AI Agents. The Anthropic ecosystem is the primary lens;\nbroader agentic AI provides context. The vault carries the reader from beginner\nto advanced practitioner.\n\n## Navigate\n\n- [[MOC - Home]] — every topic map.\n- [[99_Meta/schema.md|Schema]] — the metadata contract.\n- [[99_Meta/roadmap.md|Roadmap]] — how the vault grows.\n\n## Learning System\n\nThe vault teaches as well as stores. `CLAUDE.md` at the vault root binds every\nsession to the teaching frame.\n\n- [[99_Me",
+      "action": "restamp",
+      "action_reason": "fresh; role index",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/agent-memory-systems-guide.md",
+      "hash": "009e1d32882b0b69ab906e034f915f702d91b712e8380e407a1de8bc72b95f0f",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/memory"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 5507,
+      "body_preview": "# Agent Memory Systems: The Complete Guide (2026)\n\n> Shirley, \"Agent Memory Systems: The Complete Guide (2026)\", AI Builder Club, Build AI Agents Course, 11 June 2026, https://www.aibuilderclub.com/blog/agent-memory-systems-guide.\n\n## Summary\n\nThis lesson deepens Part 3's memory treatment with a cognitive-science-derived taxonomy — episodic, semantic, and procedural memory — and a full write-maintain-retrieve lifecycle. Its central claim: quality is set at the write stage, not the retrieval stag",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/agent-skills-best-practices.md",
+      "hash": "f54a16a398705c5e1124c8aa1e2b8e66e72f383d7c9fc97b3fcc833f357796ba",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/best-practices",
+        "topic/agent-skills"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 5281,
+      "body_preview": "# Anthropic's 300+ Claude Code Skills: Lessons Learned\n\n> Jason Zhou, \"Anthropic's 300+ Claude Code Skills: Lessons Learned\", AI Builder Club, Build AI Agents Course, 9 June 2026, https://www.aibuilderclub.com/blog/agent-skills-best-practices-guide.\n\nCourse listing note: the course index labels this lesson \"3.4 — Why MCP is Dead & Skills Replace It\", but the article at this URL is Anthropic's internal Skills playbook, not an MCP-obituary piece. Filed under its actual published title and content.",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/agentmemory-fix-memory-loss.md",
+      "hash": "135904e4f0f69fa366da5d4b051996bdaae39fa3109de82d33dc1ff7bb95bfc3",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/memory"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4225,
+      "body_preview": "# Fix AI Agent Memory Loss in 30 Seconds (agentmemory)\n\n> AI Builder Club, \"Fix AI Agent Memory Loss in 30 Seconds (agentmemory)\", Build AI Agents Course, 14 May 2026, https://www.aibuilderclub.com/blog/ai-coding-agent-memory-agentmemory.\n\n## Summary\n\nEvery coding-agent session starts from a blank context window, which means re-explaining a project's stack, architecture, and conventions on repeat — a `CLAUDE.md` file caps out around 200 lines, and copy-pasting context does not scale. `agentmemor",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/ai-agents-101-deploy-to-production.md",
+      "hash": "e3b599c34561b6be1c7cccbd2cdd824c1eddc05c198d5b3fbba1a6a9fe4e57e3",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/deployment"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4683,
+      "body_preview": "# Deploy AI Agents to Production (AI Agents 101, Part 5)\n\n> Jason Zhou, \"Deploy AI Agents to Production (AI Agents 101, Part 5)\", AI Builder Club, Build AI Agents Course, 2 June 2026 (updated 11 June 2026), https://www.aibuilderclub.com/blog/ai-agents-101-part-5.\n\n## Summary\n\nThe closing lesson of the series argues agents fail standard deployment practice in three specific ways — unbounded execution time, non-deterministic per-call cost, and opaque failures that look complete while producing gar",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/ai-agents-101-memory-across-sessions.md",
+      "hash": "6776c49b3be5f762225b730d0eeff6f0c5136bff2afa3596905630062754326d",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/memory"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4143,
+      "body_preview": "# AI Agent Memory Across Sessions (AI Agents 101, Part 3)\n\n> AI Builder Club, \"AI Agent Memory Across Sessions (AI Agents 101, Part 3)\", Build AI Agents Course, 17 April 2026 (updated 11 June 2026), https://www.aibuilderclub.com/blog/ai-agents-101-part-3.\n\n## Summary\n\nEvery LLM API call is stateless; a model has no built-in session memory, so persistence is entirely the developer's responsibility. The lesson lays out three memory patterns of increasing durability — in-context, external file, and",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/ai-agents-101-multi-agent-orchestration.md",
+      "hash": "b2e4fd3319e37879285f31d4a81d801cdacf67a3b387e282877c3a1f215f3ac4",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/multi-agent"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4324,
+      "body_preview": "# Multi-Agent Orchestration Patterns (AI Agents 101, Part 4)\n\n> AI Builder Club, \"Multi-Agent Orchestration Patterns (AI Agents 101, Part 4)\", Build AI Agents Course, 29 May 2026 (updated 11 June 2026), https://www.aibuilderclub.com/blog/ai-agents-101-part-4.\n\n## Summary\n\nA single agent hits scaling limits on complex, multifaceted tasks: its context window fills, it loses track of earlier findings, and it works sequentially. The lesson names three orchestration patterns — pipeline, supervisor/wo",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/ai-agents-101-tools-in-python.md",
+      "hash": "9b9f6a27337f711afcca23d547aad3ab3f2fbc63131f0e9cd69a397a1e7d20aa",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/tool-use"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4440,
+      "body_preview": "# AI Agent Tools in Python (AI Agents 101, Part 2)\n\n> AI Builder Club, \"AI Agent Tools in Python (AI Agents 101, Part 2)\", Build AI Agents Course, 14 April 2026 (updated 11 June 2026), https://www.aibuilderclub.com/blog/ai-agents-101-part-2.\n\n## Summary\n\nPart 2 extends the Part 1 agent, which could only list and read local files and crashed on any tool failure, with three new tools — web search, code execution, and file writing — and a resilience layer the series calls \"the part most tutorials s",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/ai-agents-101-what-is-an-agent.md",
+      "hash": "f5651f92268494bc0f0edb73be583dadac6041ec9744b35ee9737434f9d9375c",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/foundations"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4032,
+      "body_preview": "# What Is an AI Agent? (AI Agents 101, Part 1)\n\n> AI Builder Club, \"What Is an AI Agent? (AI Agents 101, Part 1)\", Build AI Agents Course, 10 April 2026 (updated 11 June 2026), https://www.aibuilderclub.com/blog/ai-agents-101-part-1.\n\n## Summary\n\nPart 1 of a five-part course opens the definition every later lesson builds on. An agent is a software loop that uses a language model to decide what to do next, does it, checks the result, and decides again until the goal is reached. A chatbot answers ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/anthropic-building-effective-agents.md",
+      "hash": "0f27b588102290bd6be60f69ebe111b318c1041f017347fa8594ac74564f11a4",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/foundations"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2646,
+      "body_preview": "# Building Effective Agents\n\n> Erik Schluntz and Barry Zhang, \"Building Effective Agents\", Anthropic Engineering, 19 December 2024, https://www.anthropic.com/research/building-effective-agents.\n\n## Summary\n\nAnthropic distils lessons from building agents with customers across many industries. The post draws one line that governs the field. A workflow orchestrates language models and tools through fixed code paths. An agent lets the model direct its own process and tool use. The augmented language",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/anthropic-demystifying-evals.md",
+      "hash": "d2bcab89560fc8458bef6df48398e6a57890eb81c61d1d55179f7ef6dabc0672",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/evaluation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 932,
+      "body_preview": "# Demystifying Evals for AI Agents\n\n> Anthropic Engineering. A guide to designing, implementing, and maintaining\n> evaluations for AI agent systems.\n\n## Summary\n\nThe post explains how to evaluate agents. It covers evaluation types, grading\nmethods, and best practices across agent architectures.\n\n## Key Concepts\n\n- Offline eval sets measure quality before release.\n- Grading methods include exact match, LLM-as-judge, and trajectory scoring.\n- Evaluation-first development catches regressions early.",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/anthropic-how-we-contain-claude.md",
+      "hash": "fd64ab2ac37e24b2ad1e70fca4024e03597ef39b2876c13e77e8826f8cff30fe",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/security",
+        "topic/claude-code",
+        "topic/best-practices"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4691,
+      "body_preview": "# How we contain Claude across products\n\n> Max McGuinness, Mikaela Grace, Jiri De Jonghe, Jake Eaton and Abel Ribbink, \"How we contain Claude across products\", Anthropic Engineering, 25 May 2026, https://www.anthropic.com/engineering/how-we-contain-claude.\n\n## Summary\n\nThe post frames containment as an engineering problem: the more capable an agent is, the larger the damage from a failure. Anthropic compares two approaches, human-in-the-loop approval and environmental containment, and reports th",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/codebase-memory-mcp-guide.md",
+      "hash": "fcd12d24ac7b2796215305e2889769483be6c773adfe4892efe860d4abd01679",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/mcp"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4640,
+      "body_preview": "# Codebase Memory MCP: Give Your Coding Agent a Map (2026)\n\n> Jason Zhou, \"Codebase Memory MCP: Give Your Coding Agent a Map (2026)\", AI Builder Club, Build AI Agents Course, 5 July 2026, https://www.aibuilderclub.com/blog/codebase-memory-mcp-guide.\n\n## Summary\n\nChapter 3 closes where it started, with the cost of forcing a model to read raw source instead of structured meaning: a typical grep-then-read-then-reconstruct exploration loop burns roughly a hundred input tokens per output token. Codeb",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/complete-guide-to-mcp-servers.md",
+      "hash": "338995aeae65d4c39d589414dbfe476c532935fec583e804a191ab3af7f55cdb",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/mcp",
+        "topic/best-practices"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 5814,
+      "body_preview": "# The Complete Guide to MCP Servers: What They Are and How to Build One\n\n> Claude Code Playbooks, \"The Complete Guide to MCP Servers: What They Are and\n> How to Build One\", Claude Code Playbooks Blog, MCP category, Intermediate\n> level, 16 April 2026. URL TBD.\n\n## Summary\n\nThe post defines MCP, argues its value, then walks a build from install to\nrunning server. Much of the ground is covered in the vault. The USB-C\ncomparison, the three primitives, the JSON-RPC handshake, and the stdio\nagainst H",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/context-engineering-guide.md",
+      "hash": "64a128e86aec6dea298a00cd9b276fe0b1f32adac44ee65afb26c7085f182363",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/memory"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 5568,
+      "body_preview": "# Context Engineering: The Complete Guide (2026)\n\n> Shirley, \"Context Engineering: The Complete Guide (2026)\", AI Builder Club, Build AI Agents Course, 11 June 2026, https://www.aibuilderclub.com/blog/context-engineering-guide.\n\n## Summary\n\nProduction agents run roughly a hundred input tokens for every output token, so context quality, not model quality, is what most directly governs agent quality. The lesson's frame: the LLM is the CPU, the context window is RAM, and the engineer's job is memor",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/function-calling-how-llms-use-tools.md",
+      "hash": "28fe68f0c3456fa654630c97cdfd139cff94110beca5be800fd4ab27848b93b2",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/tool-use"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3997,
+      "body_preview": "# Function Calling Explained: How LLMs Actually Use Tools\n\n> Shirley, \"Function Calling Explained: How LLMs Actually Use Tools\", AI Builder Club, Build AI Agents Course, 11 June 2026, https://www.aibuilderclub.com/blog/function-calling-how-llms-use-tools.\n\n## Summary\n\nBefore 2023, builders extracted tool calls by regex-parsing freeform model output, and JSON parse failures ran 15 to 25%. Native function calling replaced this with a three-step cycle — menu, order, serve — in which the model only ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/gemma4-local-agents.md",
+      "hash": "250af577207ffd95591f7cbb4ce9bdae380d6b6e44b1f9ebbbdd86805939c3e8",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/deployment"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4319,
+      "body_preview": "# Gemma 4: Free Agentic AI on Your Laptop (Ollama Setup)\n\n> AI Builder Club, \"Gemma 4: Free Agentic AI on Your Laptop (Ollama Setup)\", Build AI Agents Course, 6 April 2026, https://www.aibuilderclub.com/blog/gemma4-local-agents.\n\n## Summary\n\nChapter 2 closes with the deployment-side counterpart to the earlier from-scratch lessons: running an agent entirely locally on Google DeepMind's open-weight Gemma 4 family (four variants, 2.3B to 31B parameters, all Apache 2.0 with no commercial or monthly-",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/google-skills-official-library.md",
+      "hash": "9fe22f62edd6122760e5487871e3508212ece58b08d88d91d37e7052633f7633",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/tool-use",
+        "topic/agent-skills"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3468,
+      "body_preview": "# google/skills: Google's Official Agent Skills Library\n\n> Jason Zhou, \"google/skills: Google's Official Agent Skills Library\", AI Builder Club, Build AI Agents Course, 9 June 2026, https://www.aibuilderclub.com/blog/google-skills-official-agent-skills-library.\n\n## Summary\n\nGoogle published an official Agent Skills repository for its Cloud products — structured knowledge packages an agent installs to gain task-specific expertise, in place of pasting documentation into a context window each time.",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/hermes-self-hosted-agent.md",
+      "hash": "2012ab74f7bf303c981067cb6493e6f848f51e2ea275c67c258e31e45f789671",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/memory"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3742,
+      "body_preview": "# Hermes Agent: Self-Hosted AI That Never Forgets You (2026)\n\n> Jason Zhou, \"Hermes Agent: Self-Hosted AI That Never Forgets You (2026)\", Build AI Agents Course, 2 June 2026, https://www.aibuilderclub.com/blog/hermes-nous-research-self-improving-agent.\n\n## Summary\n\nHermes is Nous Research's self-hosted agent, profiled here as a case study in what a session-based tool like Claude Code cannot do on its own: persist memory across sessions, run scheduled work while the user is offline, and turn its ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/how-to-build-ai-agent-from-scratch.md",
+      "hash": "c233dac680fecbb17321efc9ce94017bb4bef4cfaeece830cb3f2c0719fdbc59",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/foundations"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4127,
+      "body_preview": "# How to Build an AI Agent from Scratch in Python (2026)\n\n> AI Builder Club, \"How to Build an AI Agent from Scratch in Python (2026)\", Build AI Agents Course, 7 May 2026, https://www.aibuilderclub.com/blog/how-to-build-ai-agent-from-scratch.\n\n## Summary\n\nChapter 2 opens by rebuilding the Chapter 1 agent as a self-contained, seven-step exercise: an agent reduces to three primitives — an LLM that supports tool use, a set of Python functions as tools, and a loop tying the two together — with memory",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/how-to-build-an-ai-agent-from-scratch.md",
+      "hash": "f6e869e8928e0727caab54941360290ef3616e62bc1a2d93b4dc181bb7736b23",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/foundations",
+        "topic/tool-use"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 6046,
+      "body_preview": "# How to Build an AI Agent from Scratch: A Step-by-Step Guide\n\n> Claude Code Playbooks, \"How to Build an AI Agent from Scratch: A Step-by-Step Guide\", Claude Code Playbooks Blog, 14 April 2026. URL TBD.\n\n## Summary\n\nA seven-step tutorial for a first agent, marked TUTORIAL and Intermediate, at a\n14 minute read. The post opens with a working definition: an AI agent is an LLM\nin a loop that uses tools, reads and writes memory, and decides what to do next.\nThe steps run in order: narrow the job, pic",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/karpathy-agentic-engineering-framework.md",
+      "hash": "dd4b9339a5f0cb400562eb4e310280bba488c7a5b62b203051eb7eb9f08f9a2d",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/best-practices",
+        "topic/karpathy"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4313,
+      "body_preview": "# Agentic Engineering: Karpathy's New Framework\n\n> AI Builder Club, \"Agentic Engineering: Karpathy's New Framework\", Build AI Agents Course, 27 May 2026, https://www.aibuilderclub.com/blog/karpathy-agentic-engineering. AI Builder Club's commentary on Andrej Karpathy's 30 April 2026 Sequoia Ascent talk, not Karpathy's original words.\n\n## Summary\n\nKarpathy draws a line between vibe coding — rapid, low-oversight AI-assisted development with no quality bar — and agentic engineering, a professional d",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/karpathy-agents-md-framework.md",
+      "hash": "f79c47ad90607a8b844f7b68afcca30e89bddf5608db8db6b7e77b332903f5b0",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/best-practices",
+        "topic/karpathy"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4739,
+      "body_preview": "# Karpathy's agents.md: What It Is and Why It Matters\n\n> Jason Zhou, \"Karpathy's agents.md: What It Is and Why It Matters\", AI Builder Club, Build AI Agents Course, 9 June 2026, https://www.aibuilderclub.com/blog/karpathy-agents-md-framework. The article states plainly that Karpathy had not published an agents.md at time of writing; this is speculative analysis built from his public statements, not his own document.\n\n## Summary\n\nKarpathy's existing `claude.md` addresses AI-assisted coding under ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/karpathy-llm-wiki-pattern.md",
+      "hash": "f3ccaea3c61990e527653b090bb9a1b9ec0dac21905275cd61e68519dbc3fc80",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/memory",
+        "topic/karpathy"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 5589,
+      "body_preview": "# Karpathy's LLM Wiki: A Knowledge Base That Compounds\n\n> AI Builder Club, \"Karpathy's LLM Wiki: A Knowledge Base That Compounds\", Build AI Agents Course, 27 May 2026 (updated 29 June 2026), https://www.aibuilderclub.com/blog/karpathy-llm-wiki. AI Builder Club's commentary on Andrej Karpathy's April 2026 GitHub Gist, not Karpathy's original document.\n\n## Summary\n\nStandard RAG retrieves chunks at query time and accumulates nothing across sessions; every query re-finds and re-assembles fragments f",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/karpathy-software-3-0.md",
+      "hash": "29de5b1ce90f9708f52a678d8306949aff99cdd03d913c57ee65582d1f5f2a16",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/foundations",
+        "topic/karpathy"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4845,
+      "body_preview": "# Karpathy's Software 3.0: The Context Window Is Code\n\n> AI Builder Club, \"Karpathy's Software 3.0: The Context Window Is Code\", Build AI Agents Course, 27 May 2026, https://www.aibuilderclub.com/blog/karpathy-software-3-0. AI Builder Club's commentary on Andrej Karpathy's Sequoia Ascent 2026 talk, not Karpathy's original essay.\n\n## Summary\n\nKarpathy frames three eras of software: 1.0 is explicit deterministic code, 2.0 is network weights trained rather than written, and 3.0 is the context windo",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/last30days-real-time-research-skill.md",
+      "hash": "12ea766fa030d8f55b85195cf05786129d88af2b59c9e01a23bc055444489738",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/tool-use",
+        "topic/agent-skills"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3924,
+      "body_preview": "# last30days-skill: Real-Time Research for AI Agents\n\n> Jason Zhou, \"last30days-skill: Real-Time Research for AI Agents\", AI Builder Club, Build AI Agents Course, 9 June 2026, https://www.aibuilderclub.com/blog/last30days-skill-real-time-research.\n\n## Summary\n\n`last30days-skill` is a community-built agent skill that searches Reddit, X, YouTube, Hacker News, Polymarket, GitHub, TikTok, Instagram, and Bluesky in parallel and synthesises the results into a ranked brief by actual engagement rather t",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/markitdown-pdf-to-markdown.md",
+      "hash": "6206ae3159e4738e6a3481c8f27d4192b90fa5d75647952b21107b28dfc7c607",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/tool-use"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4449,
+      "body_preview": "# MarkItDown: PDF to Markdown for RAG Pipelines [2026 Guide]\n\n> Jason Zhou, \"MarkItDown: PDF to Markdown for RAG Pipelines [2026 Guide]\", AI Builder Club, Build AI Agents Course, 2 June 2026, https://www.aibuilderclub.com/blog/markitdown-microsoft-convert-files-markdown-llm.\n\n## Summary\n\nMicrosoft's open-source `markitdown` library converts PDFs, Office documents, and a dozen-plus other formats into Markdown that keeps its structure — headings stay headings, tables stay tables — rather than the ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/mcp-101-build-your-first-server.md",
+      "hash": "830fdcfe67fa645578d3ea411499d46842088e3b81604aec031de89c34356912",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/mcp"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3737,
+      "body_preview": "# MCP 101: Build Your First MCP Server (Step-by-Step)\n\n> AI Builder Club, \"MCP 101: Build Your First MCP Server (Step-by-Step)\", Build AI Agents Course, 16 April 2026 (updated 7 May 2026), https://www.aibuilderclub.com/blog/mcp-101-build-mcp-servers.\n\n## Summary\n\nChapter 3 opens with the standardisation problem MCP solves: before it, every AI client needed its own integration with every tool provider. MCP gives clients and servers one shared protocol — the lesson's own metaphor is \"USB-C for AI ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/mcp-internals-client-server.md",
+      "hash": "6f131aa9fbee6a32ac26e95c99683d444fbc4c44443019359d8fe91c76dfe668",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/mcp"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4256,
+      "body_preview": "# MCP Internals: STDIO, SSE, and JSON-RPC Explained\n\n> Shirley, \"MCP Internals: STDIO, SSE, and JSON-RPC Explained\", AI Builder Club, Build AI Agents Course, 11 June 2026, https://www.aibuilderclub.com/blog/mcp-internals-client-server.\n\n## Summary\n\nWhere 3.1 builds a server, this lesson opens it up: an MCP config file is a shell command disassembled into JSON, and the client reassembles and spawns it as an ordinary local process — no different in kind from anything else launched from a shell. Ev",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/mcp-security-attack-vectors.md",
+      "hash": "162ffdcc5575a37983247c0173eff14ddba7d1b8430d28e3edd64734ca1b698f",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/security"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4858,
+      "body_preview": "# MCP Security: 6 Attack Vectors and a 5-Step Audit\n\n> Shirley, \"MCP Security: 6 Attack Vectors and a 5-Step Audit\", AI Builder Club, Build AI Agents Course, 11 June 2026, https://www.aibuilderclub.com/blog/mcp-security-attack-vectors.\n\n## Summary\n\nMCP's trust model differs from ordinary supply-chain risk in one specific way: a tool description is a model-visible prompt, not just documentation for a human — malicious instructions can sit in text a person never reads but the agent always does. Co",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/mindstudio-claude-code-5-workflow-patterns.md",
+      "hash": "c00f9583d70e607ef8a5e335d89d995994d527b5558ac54c86885ce23830efce",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/concepts"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2559,
+      "body_preview": "# Claude Code 5 workflow patterns explained\n\n> MindStudio, \"Claude Code 5 workflow patterns explained\", mindstudio.ai, 2026. https://www.mindstudio.ai/blog/claude-code-5-workflow-patterns-explained\n\n## Summary\n\nThe article describes five structural approaches for organising Claude's agentic capabilities. Pattern choice drives reliability, cost efficiency, and output quality. Claude gains agentic capability through tool use, memory management, and multi-step reasoning.\n\n## Key Concepts\n\n- Sequent",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/multi-agent-system-python-tutorial.md",
+      "hash": "30989e05114b4b0bfef55b56faf71a4c668eb1012c4ea0614a2b0daa826b6af8",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/multi-agent"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4833,
+      "body_preview": "# Multi-Agent System Python Tutorial (2026)\n\n> AI Builder Club, \"Multi-Agent System Python Tutorial (2026)\", Build AI Agents Course, 7 May 2026, https://www.aibuilderclub.com/blog/multi-agent-system-python-tutorial.\n\n## Summary\n\nThe lesson builds a 200-line coordinator/worker system from first principles rather than a framework, using a concrete target: a research-and-write pipeline that produces a 500-word factual brief through a researcher, a writer, and a fact-checker. Its central argument is",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/prompt-engineering-techniques-2026.md",
+      "hash": "a3ccc3880dab5e12f4cea14a9ab0273d80241218798b640b1fd11febfc4d1f1d",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/prompt-engineering"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4867,
+      "body_preview": "# Prompt Engineering in 2026: Techniques That Work\n\n> AI Builder Club, \"Prompt Engineering in 2026: Techniques That Work\", Build AI Agents Course, 16 April 2026, https://www.aibuilderclub.com/blog/prompt-engineering-guide-2026.\n\n## Summary\n\nThe lesson treats prompt engineering as a learnable, principle-based skill rather than an intuitive knack, anchored on one mental model it calls the Door Rule: the model only knows what is in the context window, as if an expert walked into a sealed room with ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/rag-vs-long-context-vs-fine-tuning.md",
+      "hash": "95a474580c103a829327ee3f211104b2f5851007007e1fd7e70ee57d3c85cb30",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/memory"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 5074,
+      "body_preview": "# RAG vs Long Context vs Fine-Tuning: When Each Wins\n\n> Shirley, \"RAG vs Long Context vs Fine-Tuning: When Each Wins\", AI Builder Club, Build AI Agents Course, 12 June 2026, https://www.aibuilderclub.com/blog/rag-vs-long-context-vs-fine-tuning.\n\n## Summary\n\nThree ways to get a model working knowledge it was not trained on, framed through an exam analogy: long context brings the whole textbook into the room, RAG has a librarian fetch only the relevant pages, and fine-tuning internalises the mater",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/six-multi-agent-architectures.md",
+      "hash": "65fbbf540b6c0c296bc48704d598ef7b67c3be162b6c9ade1bcf1411b1577667",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/multi-agent",
+        "topic/architectures"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 5166,
+      "body_preview": "# 6 Multi-Agent AI Architectures Every Builder Should Understand\n\n> Own_Professional6525, \"6 Multi-Agent AI Architectures Every Builder Should Understand\", r/Scholarbaniya, Reddit, captured 6 April 2026, https://www.reddit.com/r/Scholarbaniya/comments/1sd08pu/6_multiagent_ai_architectures_every_builder/.\n\n## Summary\n\nAn anonymous Reddit account lists six ways to arrange multiple agents. Each entry runs to one sentence and a short bullet chain from user input to final output. The post cites no re",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Blog/webmcp-complete-guide.md",
+      "hash": "24619e3050a302f22c02fe4fbb099679b87b6f65336de16c8e3064e945519071",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/mcp"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4924,
+      "body_preview": "# WebMCP Tutorial: How Agents Use Websites as Tools\n\n> Jason Zhou, \"WebMCP Tutorial: How Agents Use Websites as Tools\", AI Builder Club, Build AI Agents Course, 5 July 2026, https://www.aibuilderclub.com/blog/webmcp-complete-guide.\n\n## Summary\n\nToday's two ways an agent interacts with a website — brittle DOM-selector automation or slow, expensive screenshot-based computer use — both force the model to infer human intent from a page built for human eyes. WebMCP proposes a third path: the page its",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Books/agentic-ai-handbook-bar-2025.md",
+      "hash": "1a6b8eea67ecd62e951df7ed384f1e7b540e7fe95e27a4d518cde85bef61b049",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/foundations"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4952,
+      "body_preview": "# The Agentic AI Handbook: Concepts, Design Patterns, and Future Directions\n\n> Full citation: Kaushik Bar. \"The Agentic AI Handbook: Concepts, Design Patterns, and Future Directions.\" 2025.\n\n## Summary\n\nThe book surveys agentic AI across five parts, moving from philosophical foundations to future research directions. Part I defines agentic AI against reactive and narrow AI, and grounds the definition in philosophy, cognitive science, and robotics, covering goals, planning, self-reflection, situa",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Books/agentic-design-patterns-gulli-2025.md",
+      "hash": "055b23b9e13f3fafe0936f60c47d83a17c423c67abf00571ba8f8397ec95c514",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/architectures"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 6822,
+      "body_preview": "# Agentic Design Patterns: A Hands-On Guide to Intelligent AI Agents\n\n> Full citation: Gulli, A. \"Agentic Design Patterns: A Hands-On Guide to Intelligent AI Agents.\" Springer, 2025.\n\n## Summary\n\nAntonio Gulli's book extracts 21 design patterns for building agentic systems, each covered in a dedicated chapter with a pattern overview, practical applications, a hands-on code example, key takeaways, and references. The chapters run from foundational workflow patterns (prompt chaining, routing, para",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Books/ai-agent-handbook-10-practical-hacks.md",
+      "hash": "cb0501a3e65691493ed52502abb8cc94cd1e2257f53fa5c7727416f6dd46edf5",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/best-practices",
+        "topic/deployment"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 7722,
+      "body_preview": "# The AI Agent Handbook: 10 practical hacks to use AI agents for business\n\n> Full citation: Google Cloud. \"The AI Agent Handbook: 10 practical hacks to use\n> AI agents for business. Work smarter, not harder.\" Executive foreword by\n> Oliver Parker, VP, Global Generative AI GTM, Google Cloud. Year not stated in\n> the extract.\n\n## Summary\n\nThis 46-page ebook is Google Cloud marketing collateral. It carries no named\nauthor, no technical architecture, and no code. Each of the 10 chapters follows\none ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Books/ai-agents-illustrated-guidebook-chawla-pachaar-2025.md",
+      "hash": "3bc5b6be386222e12b850e4f160c664c280b8a0bcb7c24797e47a388bf1a64dc",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/foundations",
+        "topic/concepts"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 8771,
+      "body_preview": "# AI Agents: The Illustrated Guidebook\n\n> Full citation: Chawla, A. and Pachaar, A. \"AI Agents: The Illustrated Guidebook\", 2025 Edition. Daily Dose of Data Science, 2025.\n\n## Summary\n\nThis 117-page illustrated guide from Daily Dose of Data Science teaches agent\nconstruction in two sections. Section one defines an AI agent, separates it\nfrom an LLM and from RAG, and sets out six building blocks: role-playing,\nfocus, tools, cooperation, guardrails, and memory. It then presents five\nagentic design",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Books/ai-agents-in-action-lanham-2025.md",
+      "hash": "a36deb558616e01f91992a55af4ba75df879a44d7dba31f86e3ce6a0b701a70c",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/foundations",
+        "topic/agent-patterns"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 8883,
+      "body_preview": "# AI Agents in Action\n\n> Full citation: Lanham, M. \"AI Agents in Action.\" Manning Publications, Shelter Island, 2025. ISBN 9781633436343.\n\n## Summary\n\nMicheal Lanham teaches agent construction through working code. The book runs\n11 chapters and two appendices. Chapter 1 defines the agent and names its five\ncomponent systems. Chapters 2 and 3 cover the OpenAI API, local models through\nLM Studio, prompt engineering, and the GPT Assistants platform. Chapter 4\nbuilds multi-agent systems on AutoGen a",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Books/claude-code-for-the-rest-of-us-munro-2026.md",
+      "hash": "aaa4f244f66ec1140801763c2c4f5c315d3190c1bf7d4159a806c1ac51419075",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/claude-code",
+        "topic/best-practices"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 10559,
+      "body_preview": "# Claude Code for the Rest of Us: A Non-Developer's Guide to AI-Powered Building\n\n> Munro, H. \"Claude Code for the Rest of Us: A Non-Developer's Guide to AI-Powered Building.\" Self-published, 2026. Copyright page: Copyright 2026 Harry Munro, first published 2026. No publisher is named. Extract held at `70_Research/_extracted/claude-code-for-the-rest-of-us.md`.\n\n## Summary\n\nHarry Munro writes for the reader who cannot code. The stated audience is product managers, designers, data analysts, operat",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Books/essential-graphrag-bratanic-2025.md",
+      "hash": "e5b062f10cb648336a82c83b3ee3ba928b584d6391a695bace0c324d523f1d4b",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/retrieval",
+        "topic/architectures"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 13762,
+      "body_preview": "# Essential GraphRAG: Knowledge Graph-Enhanced RAG\n\n> Full citation: Bratanič, T. and Hane, O. \"Essential GraphRAG: Knowledge Graph-Enhanced RAG.\" Manning Publications, Shelter Island, 2025. ISBN 9781633434394. Foreword by Paco Nathan. https://www.manning.com/books/essential-graphrag\n\n## Summary\n\nEssential GraphRAG shows how to build retrieval-augmented generation on top of a knowledge graph. Bratanič and Hane both work at Neo4j, and every chapter runs against a Neo4j instance. The book opens on",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Books/governing-ai-agents-risk-bommarito-2025.md",
+      "hash": "341b4e8556a981b4fea2ae153264f698c0b15e41ca7d2b74b978cb2a319a90fb",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/security",
+        "topic/domain-applications"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 10282,
+      "body_preview": "# Agents Part III: Governing AI Agents: Risk, Compliance, and Accountability in Law and Finance\n\n> Full citation: Bommarito, J., Katz, D.M. and Bommarito II, M.J. \"Agents Part III: Governing AI Agents: Risk, Compliance, and Accountability in Law and Finance.\" Working draft chapter, Artificial Intelligence for Law and Finance, 2025. https://github.com/mjbommar/ai-law-finance-book/\n\n## Summary\n\nThis chapter is the third part of a textbook trilogy on AI agents for law and finance. Part I defines wh",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Books/how-to-design-an-agent-bommarito-2025.md",
+      "hash": "452d4b5bbc82d1ca9f409db5ca19a1866940a7200371af7b116c93bed19ce5e1",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/architectures",
+        "topic/domain-applications"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 19124,
+      "body_preview": "# Agents Part II: How to Design an Agent: Architectures, Protocols, and Technical Evaluation\n\n> Full citation: Bommarito II, M.J., Katz, D.M. and Bommarito, J. \"Agents Part II: How to Design an Agent: Architectures, Protocols, and Technical Evaluation.\" Working draft chapter, Artificial Intelligence for Law and Finance, 2025. https://github.com/mjbommar/ai-law-finance-book/\n\n## Summary\n\nThe chapter builds agent architecture around a \"Ten Questions\" framework, a control-loop sequence running Trig",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Books/llms-in-100-images-bamania.md",
+      "hash": "b1cdd9158a71c29606928c4b9cf659d3df294688d56d0025092fe8cd1cf166e3",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/foundations",
+        "topic/concepts"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 9555,
+      "body_preview": "# LLMs in 100 Images\n\n> Full citation: Bamania, A. \"LLMs in 100 Images\". Publisher, year, and ISBN\n> absent from the extract. The closing page lists the author's Substack,\n> Medium, LinkedIn, and Gumroad store.\n\n## Summary\n\nThis book defines 100 large language model concepts, one per numbered page,\neach paired with a drawing. Ashish Bamania wrote and illustrated it. The author\nopens by stating he selected the concepts after reading hundreds of research\npapers. The format is a visual glossary. Ea",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Books/mcp-illustrated-guidebook-chawla-pachaar-2025.md",
+      "hash": "056d96da046360cd99ef58b64bdc695adf4eeb100bea9ab17369c8b111a16a82",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/mcp"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 5919,
+      "body_preview": "# MCP: The Illustrated Guidebook\n\n> Full citation: Chawla, A. and Pachaar, A. \"MCP: The Illustrated Guidebook.\" Daily Dose of Data Science, 2025.\n\n## Summary\n\nThis 74-page illustrated guide from Daily Dose of Data Science explains the Model Context Protocol (MCP) in two sections. Section one covers the protocol itself: what MCP is, why it was created, its host-client-server architecture, and its three core capabilities, tools, resources, and prompts. Section two walks through eleven worked MCP p",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Books/what-is-an-agent-bommarito-2025.md",
+      "hash": "28bdfe3c3c6c92fd49e45c2fadfdda1f3c6756df98f6dd797cc27caefeefc4b9",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/foundations",
+        "topic/domain-applications"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 7425,
+      "body_preview": "# Agents Part I: What is an Agent? A Conceptual Primer and History\n\n> Full citation: Bommarito II, M.J., Bommarito, J. and Katz, D.M. \"Agents Part I: What is an Agent? A Conceptual Primer and History.\" Working draft chapter, Artificial Intelligence for Law and Finance, 2025. https://github.com/mjbommar/ai-law-finance-book/\n\n## Summary\n\nThe chapter builds a formal definition of \"agent\" from the ground up, then traces the concept across seven decades. It opens with an intuitive framing, agents as ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Docs/claude-agent-sdk-overview.md",
+      "hash": "b0a00aaaaa489c9fd4076e953698b17671de8d00ef16a1b5b1bb57518fe785f1",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/claude-sdk",
+        "topic/tool-use"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2030,
+      "body_preview": "# Claude Agent SDK overview\n\n> Anthropic, \"Agent SDK overview\", code.claude.com, 2026. https://code.claude.com/docs/en/agent-sdk/overview\n\n## Summary\n\nThe Claude Agent SDK builds production agents with Claude Code as a library. It gives the same tools, agent loop, and context management that power Claude Code. The SDK ships in Python and TypeScript. Claude owns the loop: the SDK runs the model, executes tools, manages context, and streams messages until a final result.\n\n## Key Concepts\n\n- The SD",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Docs/claude-api-skill.md",
+      "hash": "73403228dd3aef2ba59791743908d6480ef23bd2fc97fb1758641e934ae91516",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/claude-sdk",
+        "topic/agent-skills"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4235,
+      "body_preview": "# Claude API Skill - API Reference Guidance for Claude\n\n> Anthropic, \"Claude API Skill - API Reference Guidance for Claude\", claudeskills.org (content adapted from `anthropics/skills`, MIT licence), last synced 8 July 2026 against the 1 July 2026 upstream, https://www.claudeskills.org/docs/skills-cases/claude-api.\n\n## Summary\n\nAn official Anthropic Agent Skill built to solve a specific, self-referential problem: a model's own training knowledge of its API goes stale, since model identifiers, pri",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Docs/claude-code-dynamic-workflows.md",
+      "hash": "7d34968f6148fd8b04bb4ae2d8b26f303691133b369b90c590223cd9dd76a4bb",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/concepts"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2578,
+      "body_preview": "# Claude Code dynamic workflows\n\n> Anthropic, \"Dynamic workflows\", code.claude.com, 2026. https://code.claude.com/docs/en/workflows\n\n## Summary\n\nA dynamic workflow is a JavaScript script that orchestrates subagents at scale. Claude writes the script for the task described. A runtime executes it in the background while the session stays responsive. Reach for a workflow when a task needs more agents than one conversation can coordinate, or when the orchestration should become a script to read and ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Docs/claude-code-overview.md",
+      "hash": "68486a389235e77b423c50c84cbbeb68ccee52806d5c04835d54ad508d1747fe",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/claude-code"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 1977,
+      "body_preview": "# Claude Code overview\n\n> Anthropic, \"Overview\", code.claude.com, 2026. https://code.claude.com/docs/en/overview\n\n## Summary\n\nClaude Code is an agentic coding tool. It reads a codebase, edits files, runs commands, and integrates with developer tools. It runs in the terminal, IDE, desktop app, and browser. Each surface connects to the same engine, so `CLAUDE.md` files, settings, and MCP servers work across all of them.\n\n## Key Concepts\n\n- The Terminal CLI edits files and runs commands from the co",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Docs/claude-code-playbook-ai-agent-builder.md",
+      "hash": "5120d2928dccb61fd361488a76b23f95bf08b1bf9bade5dfa930c9e569dbf530",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/agent-patterns",
+        "topic/tool-use"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2769,
+      "body_preview": "# AI Agent Builder\n\n> Community, \"AI Agent Builder\", Claude Code Playbooks, undated. URL TBD.\n\n## Summary\n\nA playbook index page from Claude Code Playbooks. The page offers a downloadable `CLAUDE.md` template for building AI agents with tools, memory, and multi-step reasoning. It carries the strapline \"Build AI agents with tools, memory, and multi-step reasoning - ChatGPT, Claude, Gemini integration patterns\". The page sits under the Developer Tools category at Advanced level and states a 10 min",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Docs/claude-code-playbook-mcp-server-builder.md",
+      "hash": "dc66fb51ac8a2b4a75130ccd2c36765371b41e8ec2c43bef7c348761e5fa2274",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/mcp",
+        "topic/tool-use"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3695,
+      "body_preview": "# MCP Server Builder\n\n> Composio, \"MCP Server Builder\", Claude Code Playbooks, undated. URL TBD.\n\n## Summary\n\nA playbook index page from Claude Code Playbooks. The page offers a downloadable `CLAUDE.md` template for building Model Context Protocol servers that let LLMs reach external services and APIs. It sits under the Developer Tools category at Advanced level and states a 30 minute time cost. The byline credits Composio. The page names sparse documentation and cryptic JSON-RPC errors as the p",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Docs/claude-code-playbook-parallel-task-agents.md",
+      "hash": "974347ce13e00e9123a16eb300e07b798cc155fa2a64989369ce6ee12d4b345c",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/multi-agent",
+        "topic/claude-code"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4588,
+      "body_preview": "# Parallel Task Agents\n\n> Community, \"Parallel Task Agents\", Claude Code Playbooks, undated. URL TBD.\n\n## Summary\n\nA playbook index page from Claude Code Playbooks. The page ships a downloadable `CLAUDE.md` template for running independent subtasks in parallel. It sits under the Academic Research category at Intermediate level and states a 5 minute time cost. The byline reads \"By community\". The page carries the tags #parallel, #agents, #concurrency, #performance, and #multi-tasking. A site foot",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Docs/graph-databases-for-rdbms-developers-neo4j-2021.md",
+      "hash": "fed8b973b18576c3b9cee3a0d5f53d1ec061994b6a8bd550a2ec32d5d11e6dc3",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/retrieval",
+        "topic/architectures"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 15741,
+      "body_preview": "# The Definitive Guide to Graph Databases for the RDBMS Developer\n\n> Full citation: Hunger, M., Boyd, R. and Lyon, W. \"The Definitive Guide to Graph Databases for the RDBMS Developer.\" Neo4j ebook, Neo Technology, 2021. neo4j.com.\n\n## Summary\n\nThis 34-page Neo4j ebook teaches graph databases to a developer who already knows relational databases. It runs in six chapters plus a conclusion. Chapter 1 sets out where the relational model strains under connected data: JOIN explosion, recursive JOINs, ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Docs/how-to-build-a-knowledge-graph-neo4j-2025.md",
+      "hash": "c3bc8f9e0593fbc3bec6e43fe732597e627dc0d1eaefeb94df8ebff71cb75ba6",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/retrieval",
+        "topic/architectures"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 11853,
+      "body_preview": "# The Developer's Guide: How to Build a Knowledge Graph\n\n> Full citation: Neo4j. \"The Developer's Guide: How to Build a Knowledge Graph.\" Neo4j ebook, 2025.\n\n## Summary\n\nThis Neo4j ebook teaches a developer to build a first knowledge graph end to end on the hosted AuraDB graph database. It opens with the failures of relational systems: information silos, costly join operations, and fixed schemas that resist change. It then defines a knowledge graph as entities and relationships in one interconne",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Docs/mcp-builder-skill.md",
+      "hash": "14fea128ce15bcf1dec489f2bf52fc5ecdc45e02fc94c33cb0ce3f47f66c983d",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/mcp",
+        "topic/agent-skills"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3785,
+      "body_preview": "# MCP Builder - Claude Skill for Building MCP Servers\n\n> Anthropic, \"MCP Builder - Claude Skill for Building MCP Servers\", claudeskills.org (content adapted from `anthropics/skills`, MIT licence), last synced 8 July 2026 against the 20 April 2026 upstream, https://www.claudeskills.org/docs/skills-cases/mcp-builder.\n\n## Summary\n\nAn official Anthropic Agent Skill that turns Claude into a guided builder of MCP servers, covering both Python (FastMCP) and Node/TypeScript (the MCP SDK). Rather than a ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Docs/mcp-introduction.md",
+      "hash": "615197cb56d0624d784c126b5f5dbc84879a3e7ba06d7aa4b84a596c67329a67",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/mcp",
+        "topic/tool-use"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 1985,
+      "body_preview": "# What is the Model Context Protocol (MCP)?\n\n> Anthropic, \"What is the Model Context Protocol (MCP)?\", modelcontextprotocol.io, 2024. https://modelcontextprotocol.io/docs/getting-started/intro\n\n## Summary\n\nThe Model Context Protocol is an open standard for connecting AI applications to external systems. Anthropic introduced it on 25 November 2024. The protocol replaces fragmented custom integrations with one interface. The docs compare MCP to a USB-C port for AI applications. A client applicatio",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Docs/semantic-advantage-graphrag-graphwise-2026.md",
+      "hash": "919462b0d45b412ad10ee9e68d21864377f8340203bd0c3f37ae25a4fcf9dffc",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/retrieval",
+        "topic/architectures"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 12509,
+      "body_preview": "# The Semantic Advantage: Scaling Enterprise-Ready GraphRAG and Trustworthy AI with Graphwise\n\n> Full citation: Graphwise. \"The Semantic Advantage: Scaling Enterprise-Ready GraphRAG and Trustworthy AI with Graphwise.\" White paper, 12 February 2026. Credited contributors: Sumit Pal (ex-Gartner VP Analyst, Data Management and Analytics) and Matilde Ladolo (Director of Creative Marketing, Graphwise).\n\n## Summary\n\nThis Graphwise white paper argues that enterprise generative AI fails at scale because",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Docs/semantic-search-ai-era-elastic-2023.md",
+      "hash": "be6a386bf31a0aef6d052051402a56b80c075a897e037a6a54ebc6063a442889",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/retrieval",
+        "topic/architectures"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 10940,
+      "body_preview": "# Semantic search: Bringing search experiences into the AI era\n\n> Full citation: Elastic. \"Semantic search: Bringing search experiences into the AI era.\" White paper, Elasticsearch B.V., 2023. Document reference wp-semanticsearch-2023-1016.\n\n## Summary\n\nThis 18-page Elastic white paper sets out two routes to semantic search and compares their fit for different teams. It opens with the failure modes of keyword search: vocabulary mismatch, semantic mismatch, and domain mismatch. It then names two ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Interviews/boris-cherny-pragmatic-engineer.md",
+      "hash": "80c982b0c86128b3ce2a15428d61dc1f708d75000762828db4cc04d97f0ff2fa",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/boris-cherny",
+        "topic/claude-code"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 982,
+      "body_preview": "# Building Claude Code with Boris Cherny\n\n> Gergely Orosz interviews Boris Cherny on the design and engineering of Claude\n> Code. The Pragmatic Engineer Newsletter.\n\n## Summary\n\nBoris Cherny describes how the Claude Code team built an agentic coding tool. He\ncovers the design choices, the engineering culture, and the principles that\nshaped the product.\n\n## Key Concepts\n\n- Small, sharp tools beat one large tool.\n- The terminal is a durable surface for an agent.\n- Fast iteration compounds when the",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/agent-architectures-landscape-masterman-2024.md",
+      "hash": "a5b2bb5292258fa31d214b38320c423be54439f301399427fb062b438366edb2",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/architectures",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 6230,
+      "body_preview": "# The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling: A Survey\n\n> Full citation: Masterman, Besen, Sawtell, Chao. \"The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling: A Survey.\" arXiv:2404.11584, 2024. https://arxiv.org/abs/2404.11584\n\n## Summary\n\nThis survey maps the post-ChatGPT shift from chat-over-documents retrieval augmented generation towards autonomous, orchestrated agent systems. It defines an AI agent as a ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/agentic-ai-survey-abou-ali-2025.md",
+      "hash": "a44cd2dd249076613879d784a472935ea93f1db32ee36982d7550c55dfb88a0b",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/research-papers",
+        "topic/architectures"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 16718,
+      "body_preview": "# Agentic AI: a comprehensive survey of architectures, applications, and future directions\n\n> Full citation: Mohamad Abou Ali, Fadi Dornaika and Jinan Charafeddine. \"Agentic AI: a comprehensive survey of architectures, applications, and future directions.\" Artificial Intelligence Review (2026) 59:11. Received 20 July 2025, accepted 7 October 2025, published online 14 November 2025. Open access under CC BY 4.0. https://doi.org/10.1007/s10462-025-11422-4\n\n## Summary\n\nThis survey splits Agentic AI ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/agentverse-chen-2023.md",
+      "hash": "4bd8df4e5f807d19da331134bc73041c507523be1ee183ccf13dc5be5d114477",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/multi-agent",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 7194,
+      "body_preview": "# AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors\n\n> Full citation: Chen, Weize, Yusheng Su, Jingwei Zuo, Cheng Yang, Chenfei Yuan, Chi-Min Chan, Heyang Yu, Yaxi Lu, Yi-Hsin Hung, Chen Qian, Yujia Qin, Xin Cong, Ruobing Xie, Zhiyuan Liu, Maosong Sun, and Jie Zhou. \"AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors.\" arXiv preprint, 2023. https://arxiv.org/abs/2308.10848\n\n## Summary\n\nAgentVerse is a general-purpose multi-agent ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/ai-agent-systems-survey-xu-2026.md",
+      "hash": "781119ec2d3451c76532611f9c51c90f8e3b3895c8f148dc73f99ed74a3690bd",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/architectures",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 7424,
+      "body_preview": "# AI Agent Systems: Architectures, Applications, and Evaluation\n\n> Full citation: Xu, B. \"AI Agent Systems: Architectures, Applications, and Evaluation.\" arXiv:2601.01743, 2026. https://arxiv.org/abs/2601.01743\n\n## Summary\n\nThis survey maps the emerging landscape of AI agent architectures, systems that combine foundation models with reasoning, planning, memory, and tool use. Xu organises prior work along three axes: deliberation and reasoning, including chain-of-thought-style decomposition, self",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/autogen-wu-2023.md",
+      "hash": "5b356e322af1566335cfbebdb1520cea72a623ac782356a0fb93d025fa521323",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/multi-agent",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 6476,
+      "body_preview": "# AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation\n\n> Full citation: Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang Zhu, Li Jiang, Xiaoyun Zhang, Shaokun Zhang, Jiale Liu, Ahmed Hassan Awadallah, Ryen W. White, Doug Burger, and Chi Wang. \"AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation.\" arXiv, 2023. https://arxiv.org/abs/2308.08155\n\n## Summary\n\nThe paper addresses two open design questions in multi-agent LLM development: how t",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/camel-li-2023.md",
+      "hash": "48343fbbf08475c959239b7b6db2eb363c3e8b00ea65a644b6074d6c2ae742a7",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/multi-agent",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 6807,
+      "body_preview": "# CAMEL: Communicative Agents for \"Mind\" Exploration of Large Language Model Society\n\n> Full citation: Guohao Li, Hasan Abed Al Kader Hammoud, Hani Itani, Dmitrii Khizbullin, and Bernard Ghanem. \"CAMEL: Communicative Agents for 'Mind' Exploration of Large Language Model Society.\" arXiv, 2023. https://arxiv.org/abs/2303.17760\n\n## Summary\n\nThe paper addresses a gap in chat-based large language models: task completion still depends on a human supplying a stream of precise prompts. The authors propo",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/civil-law-article-retrieval-tran-2017.md",
+      "hash": "325990a00717684e4722456532b513a3b56a7239e71fb6126233930d6dfed74e",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/domain-applications",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 5401,
+      "body_preview": "# Applying Deep Neural Network to Retrieve Relevant Civil Law Articles\n\n> Full citation: Tran Anh Hang, N. \"Applying Deep Neural Network to Retrieve Relevant Civil Law Articles.\" Proceedings of the Student Research Workshop associated with RANLP 2017, pages 46-48.\n\n## Summary\n\nThe paper addresses the legal information retrieval task at the Competition on Legal Information Extraction/Entailment (COLIEE) 2017. The task asks a system to find the civil law articles relevant to a yes/no bar exam ques",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/legal-nlp-introduction-nazarenko-wyner-2017.md",
+      "hash": "bd5891e172bbb37602049a610f7675a8ecd2e22f15d995f8b5db30968359a42e",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/domain-applications",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 8870,
+      "body_preview": "# Legal NLP Introduction\n\n> Full citation: Nazarenko, A. and Wyner, A. \"Legal NLP Introduction.\" TAL, Volume 58, n°2, 2017, pages 7-19.\n\n## Summary\n\nThis introduction frames legal natural language processing as a field that spans a full stack of linguistic analysis, from character-string identification through to argumentation. Nazarenko and Wyner open the special issue of TAL by arguing that language and law share a close bond, since law is fundamentally a discourse. They survey LegalTech appli",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/legal-qa-ranking-svm-cnn-do-2017.md",
+      "hash": "b0ed200132b76a4aa6cfbd53fe5ed195fb2d90852963c3b0b9fa5835e7742d57",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/domain-applications",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 6996,
+      "body_preview": "# Legal Question Answering Using Ranking SVM and Deep Convolutional Neural Network\n\n> Full citation: Phong-Khac Do, Huy-Tien Nguyen, Chien-Xuan Tran, Minh-Tien Nguyen, Minh-Le Nguyen. \"Legal Question Answering Using Ranking SVM and Deep Convolutional Neural Network.\" arXiv, 2017. https://arxiv.org/abs/1703.05320\n\n## Summary\n\nThis paper builds a two-stage pipeline for the Japanese Civil Code track of the Competition on Legal Information Extraction/Entailment (COLIEE) 2016, which pairs a legal inf",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/legal-text-classification-sulea-2017.md",
+      "hash": "34350c9aeeac486e3d18ff5e7edae687b9d767f7512d0f9e5d40cd7ed348b4c9",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/domain-applications",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 5819,
+      "body_preview": "# Exploring the Use of Text Classification in the Legal Domain\n\n> Full citation: Octavia-Maria Sulea, Marcos Zampieri, Shervin Malmasi, Mihaela Vela, Liviu P. Dinu, Josef van Genabith. \"Exploring the Use of Text Classification in the Legal Domain.\" arXiv, 2017. https://arxiv.org/abs/1710.09306\n\n## Summary\n\nThis paper applies text classification to 126,865 rulings from the French Supreme Court (Court de Cassation), spanning the 1800s to 2016. The authors train a mean probability ensemble of Suppo",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/legal-text-summarization-survey-vijay-kumar-2025.md",
+      "hash": "bf4abbe27fba8d818b0ee3b917c854b8b0ddcd9e6e05e5bb61ee6e0aa4e84112",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/research-papers",
+        "topic/domain-applications"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 12892,
+      "body_preview": "# A Comprehensive Survey of AI-Enabled Techniques for Automated Legal Text Summarization and Citation Grounding in Judicial Applications\n\n> Full citation: Vijay Kumar S B, Harihar, A., Vedanth R, Sanjana S V and Ankitha S. \"A Comprehensive Survey of AI-Enabled Techniques for Automated Legal Text Summarization and Citation Grounding in Judicial Applications.\" International Journal of Innovative Research in Technology (IJIRT), Volume 12 Issue 6, November 2025, pages 7654 to 7667. ISSN 2349-6002. P",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/llm-agent-evaluation-survey-yehudai-2025.md",
+      "hash": "7b6acf08976c648d7b84e55202f51d02e31577bae8abd0b8764c4ed760e194eb",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/evaluation",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 7760,
+      "body_preview": "# Survey on Evaluation of LLM-based Agents\n\n> Full citation: Asaf Yehudai, Lilach Eden, Alan Li, Guy Uziel, Yilun Zhao, Roy Bar-Haim, Arman Cohan, and Michal Shmueli-Scheuer. \"Survey on Evaluation of LLM-based Agents.\" arXiv, 2025. https://arxiv.org/abs/2503.16416\n\n## Summary\n\nThis paper is the first comprehensive survey of evaluation methods for LLM-based agents. The authors, from IBM Research, the Hebrew University of Jerusalem, and Yale University, argue that agents demand a different evaluat",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/llm-agent-memory-evolution-survey-luo-2026.md",
+      "hash": "8bdb1d72a142cf732a255ece7e80c25db6ed4b590883fda2321face0e7970083",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/research-papers",
+        "topic/memory"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 16276,
+      "body_preview": "# From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms\n\n> Full citation: Jinghao Luo, Yuchen Tian, Chuxue Cao, Ziyang Luo, Hongzhan Lin, Kaixin Li, Chuyi Kong, Ruichao Yang, and Jing Ma. \"From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms.\" arXiv, 2026. https://arxiv.org/abs/2605.06716\n\n## Summary\n\nThis survey organises agent memory research as an evolution in three stages. Storage preserves interaction trajectories with minimal t",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/llm-agent-memory-survey-du-2026.md",
+      "hash": "ae62542e8384511452bbdcfbea1afa5fd261b62b60642b8d542041067dd07143",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/memory",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 10242,
+      "body_preview": "# Memory for Autonomous LLM Agents: Mechanisms, Evaluation, and Emerging Frontiers\n\n> Full citation: Pengfei Du. \"Memory for Autonomous LLM Agents: Mechanisms, Evaluation, and Emerging Frontiers.\" arXiv, 2026. https://arxiv.org/abs/2603.07670\n\n## Summary\n\nThis survey covers memory research for large language model agents from 2022 through early 2026. Du formalizes agent memory as a write-manage-read loop coupled to a POMDP-style agent cycle, where memory serves as a belief state standing in for ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/llm-agent-paradigms-review-li-2024.md",
+      "hash": "1dd58d23c80c5a8ab415e89b94475e54a99b865b89f41ef965495d6122b5f8e4",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/tool-use",
+        "topic/planning",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 7343,
+      "body_preview": "# A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning\n\n> Full citation: Xinzhe Li. \"A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning.\" arXiv, 2024. https://arxiv.org/abs/2406.05804\n\n## Summary\n\nPrior surveys of LLM-based agents cover one paradigm or one domain, such as planning alone or games alone. They give no shared basis for comparing tool use, planning, and feedback lea",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/llm-agent-planning-survey-huang-2024.md",
+      "hash": "1ecb51f04ad627080962dedb8a8251a4f3359a62f20ea983ab78a17a9af4c209",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/planning",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 8414,
+      "body_preview": "# Understanding the Planning of LLM Agents: A Survey\n\n> Full citation: Xu Huang, Weiwen Liu, Xiaolong Chen, Xingmei Wang, Hao Wang, Defu Lian, Yasheng Wang, Ruiming Tang, Enhong Chen. \"Understanding the Planning of LLM Agents: A Survey.\" arXiv preprint, 2024. https://arxiv.org/abs/2402.02716\n\n## Summary\n\nThis survey gives the first systematic view of planning in LLM-based agents. The authors define planning as the generation of an action sequence from an environment, a goal, and the model's para",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/llm-autonomous-agents-survey-wang-2025.md",
+      "hash": "fd1c9c1a647a6e0c618c5bac545141fad7c0d651b70894a85f67bbddc216468b",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/research-papers",
+        "topic/architectures"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 18859,
+      "body_preview": "# A Survey on Large Language Model based Autonomous Agents\n\n> Full citation: Lei Wang, Chen Ma, Xueyang Feng, Zeyu Zhang, Hao Yang, Jingsen Zhang, Zhi-Yuan Chen, Jiakai Tang, Xu Chen, Yankai Lin, Wayne Xin Zhao, Zhewei Wei, and Ji-Rong Wen. \"A Survey on Large Language Model based Autonomous Agents.\" Frontiers of Computer Science, 2025, pages 1 to 42. https://doi.org/10.1007/s11704-024-40231-1\n\n## Summary\n\nWang and colleagues review the field of autonomous agents built on large language models. T",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/llm-multi-agent-survey-guo-2024.md",
+      "hash": "2bdca3c036b0b4bb9c981f615aed62cf89f4d17d39530dbb4492b085521c7902",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/research-papers",
+        "topic/multi-agent"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 14540,
+      "body_preview": "# Large Language Model based Multi-Agents: A Survey of Progress and Challenges\n\n> Full citation: Taicheng Guo, Xiuying Chen, Yaqi Wang, Ruidi Chang, Shichao Pei, Nitesh V. Chawla, Olaf Wiest, and Xiangliang Zhang. \"Large Language Model based Multi-Agents: A Survey of Progress and Challenges.\" arXiv:2402.01680v2, 2024. https://arxiv.org/abs/2402.01680\n\n## Summary\n\nThis survey maps the field of LLM-based multi-agent systems, which the authors abbreviate to LLM-MA. Guo and co-authors argue that mul",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/loop-engineering-huashu-2026.md",
+      "hash": "919c64597883da65b5ba97560781a2fb770656c3c88887f0c761f039bec106fb",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/agent-patterns",
+        "topic/best-practices"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 9539,
+      "body_preview": "# Loop Engineering: The Anthropic Playbook for Designing Systems That Prompt Your Agents\n\n> HuaShu, \"Loop Engineering: The Anthropic Playbook for Designing Systems That Prompt Your Agents. A Field Study of Designing Loops That Run Themselves\", 2026 Working Note on Agentic Software Engineering Practice, June 2026, https://huasheng.ai/orange-books. Reformats the open guide \"Loop Engineering: Stop Asking Me What It Is\", Orange Books, v260615.\n\n## Summary\n\nThe title claims an Anthropic playbook. The",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/react-yao-2022.md",
+      "hash": "305c74fb6ebd4dcad30c97edda6714828ff8017c08b136c4c4a395617a40c628",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/architectures",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2604,
+      "body_preview": "# ReAct: Synergizing Reasoning and Acting in Language Models\n\n> Yao, Zhao, Yu, Du, Shafran, Narasimhan, and Cao. \"ReAct: Synergizing Reasoning and Acting in Language Models.\" ICLR 2023. arXiv:2210.03629. https://arxiv.org/abs/2210.03629\n\n## Summary\n\nThe paper interleaves reasoning traces and task actions in one language model loop.\nReasoning traces plan and track the task. Actions query external sources such as a\nWikipedia API or an environment. The model reads each observation, then reasons aga",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/reflexion-shinn-2023.md",
+      "hash": "9eb92afdd66520581a5afa6fbde612b34588142201fde985886f14bfc95b889c",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/architectures",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2509,
+      "body_preview": "# Reflexion: Language Agents with Verbal Reinforcement Learning\n\n> Shinn, Cassano, Berman, Gopinath, Narasimhan, and Yao. \"Reflexion: Language Agents with Verbal Reinforcement Learning.\" NeurIPS 2023. arXiv:2303.11366. https://arxiv.org/abs/2303.11366\n\n## Summary\n\nReflexion turns task feedback into written self-critique the agent stores and reuses.\nThe agent attempts a task, receives a feedback signal, and writes a reflection on the\nfailure. It holds that reflection in an episodic memory buffer.",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/self-discover-zhou-2024.md",
+      "hash": "08505e43a89b8f401b2b36d4eded92d98addd9e702b2c6d7bec37091a5741860",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/planning",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 7505,
+      "body_preview": "# Self-Discover: Large Language Models Self-Compose Reasoning Structures\n\n> Full citation: Pei Zhou, Jay Pujara, Xiang Ren, Xinyun Chen, Heng-Tze Cheng, Quoc V. Le, Ed H. Chi, Denny Zhou, Swaroop Mishra, Huaixiu Steven Zheng. \"Self-Discover: Large Language Models Self-Compose Reasoning Structures.\" arXiv, 2024. https://arxiv.org/abs/2402.03620\n\n## Summary\n\nSelf-Discover addresses a limit in single-technique prompting methods such as chain-of-thought. Each such method imposes one fixed reasoning ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/vizomem-liang-2026.md",
+      "hash": "4c7d5381ea1b303396033f99ba4ad339b5765ad091dd26bb76a610b661b842f2",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/memory",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 10339,
+      "body_preview": "# VizoMem: A Visual-Textual Memory Framework for Efficient Long-Horizon Reasoning\n\n> Full citation: Weijie Liang, Yuanfeng Song, Xing Chen, Caleb Chen Cao, Sirui Han, Yike Guo. \"VizoMem: A Visual-Textual Memory Framework for Efficient Long-Horizon Reasoning.\" Findings of the Association for Computational Linguistics, ACL 2026. https://aclanthology.org/2026.findings-acl.365/\n\n## Summary\n\nLong-horizon agents lose accuracy and speed once textual memory outgrows the context window. VizoMem addresses",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Papers/voyager-wang-2023.md",
+      "hash": "27f99ef31934ee3e9e3928bfe632d8c974af9a311c3761a790e4854b80773953",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/architectures",
+        "topic/research-papers"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 6153,
+      "body_preview": "# Voyager: An Open-Ended Embodied Agent with Large Language Models\n\n> Full citation: Wang, Xie, Jiang, Mandlekar, Xiao, Zhu, Fan, and Anandkumar. \"Voyager: An Open-Ended Embodied Agent with Large Language Models.\" arXiv:2305.16291, 2023. https://arxiv.org/abs/2305.16291\n\n## Summary\n\nVoyager is an LLM-powered agent that plays Minecraft continuously, without a human setting its goals. The authors, working from NVIDIA with co-authors from Caltech, UT Austin, Stanford, and UW Madison, built the agen",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Release-Notes/claude-sonnet-5-2026-06-30.md",
+      "hash": "26d46b6596e6e53cffe7aeee13230de02b61f192df7dd954c7374762b101558b",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/release-notes"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2011,
+      "body_preview": "# Introducing Claude Sonnet 5\n\n> Claude Sonnet 5, model id `claude-sonnet-5`, released 30 June 2026.\n\n## Summary\n\nAnthropic released Claude Sonnet 5 on 30 June 2026. The model targets agentic coding, tool use, reasoning, and knowledge work at lower cost. Performance approaches Claude Opus 4.8. Anthropic calls it the most agentic Sonnet model, able to plan, use browsers and terminals, and run autonomously. Sonnet 5 became the default model for the Free and Pro tiers on release.\n\n## New Capabiliti",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Repos/davidondrej-skills.md",
+      "hash": "a560c252b2bc0cce058ac692d13f104ecd5d757fbcb853c81ae30e6fbb9cec56",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/best-practices",
+        "topic/agent-skills"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4703,
+      "body_preview": "# davidondrej/skills\n\n> David Ondrej, \"skills\", GitHub repository, https://github.com/davidondrej/skills. MIT licence, copyright David Ondrej 2026.\n\n## Summary\n\nA collection of 27 reusable Agent Skills for AI coding, research, and workflow agents, organised into five category folders rather than a flat list. The README's own framing: each skill \"packages a focused workflow into instructions that an agent can load when the task calls for it,\" aimed at \"improving codebases, preparing content, rese",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Repos/qmd-local-hybrid-search.md",
+      "hash": "b19ac1c2dd2580e2a1a79947e65adbacc0cc5b532f19c3a8ad86ace288fb2782",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/memory",
+        "topic/mcp"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 5074,
+      "body_preview": "# qmd: Query Markup Documents\n\n> tobi, \"qmd\", GitHub repository, https://github.com/tobi/qmd. MIT licence.\n\n## Summary\n\n`qmd` is a local, on-device search engine purpose-built for markdown vaults, meeting notes, and other personal document stores — the same tool Andrej Karpathy names as the recommended search layer once an LLM-maintained wiki grows past a few hundred pages, per [[10_Sources/Blog/karpathy-llm-wiki-pattern|the vault's earlier Karpathy LLM Wiki note]]. It combines keyword search, v",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Talks/source-slug.md",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 0,
+      "body_preview": "",
+      "action": "tag",
+      "action_reason": "fresh",
+      "stub": true
+    },
+    {
+      "path": "20_People/ai-builder-club/profile.md",
+      "hash": "52ea52851bb11b36c79c27b97fe5eb35517e6dfad5301acdd351c4666b4de81b",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/foundations"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2346,
+      "body_preview": "# AI Builder Club\n\n> A practitioner-education outlet, built by AI Jason x Inflect Labs, publishing the free \"Build AI Agents Course\" and companion blog on agent engineering fundamentals.\n\n## Role\n\nAI Builder Club publishes the \"Build AI Agents Course\", a numbered chapter-and-lesson course on the practical construction of LLM agents. Individual posts carry bylines including AI Builder Club (house byline), Shirley, and Jason Zhou. The outlet is not Anthropic primary material; it synthesises and te",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "20_People/andrej-karpathy/profile.md",
+      "hash": "89bf5a9d5773e53cc1f169e3aa38373fc1062f5b8c92c44b1481608952b252c1",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/karpathy"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3589,
+      "body_preview": "# Andrej Karpathy\n\n> Andrej Karpathy names and frames recurring ideas in agent engineering — vibe coding versus agentic engineering, Software 3.0, the LLM wiki pattern — that the field then adopts as shared vocabulary.\n\n## Role\n\nAndrej Karpathy is an independent AI researcher and educator. He co-founded OpenAI, led Tesla Autopilot's computer-vision effort as Director of AI, and later founded Eureka Labs. His 2026 public talks and posts, most prominently an April 2026 Sequoia Ascent talk, set ter",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "20_People/boris-cherny/profile.md",
+      "hash": "457d8bd72001d313298193118421f215538bd7dcabb6704bedf117deacdca44c",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/boris-cherny"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2645,
+      "body_preview": "# Boris Cherny\n\n> Boris Cherny created and leads Claude Code at Anthropic, and his engineering principles shape how the team builds agents.\n\n## Role\n\nBoris Cherny is Head of Claude Code at Anthropic. He joined in September 2024 on the Labs team and built Claude Code from a terminal prototype. He spent five years at Meta as a Principal Engineer on infrastructure and developer experience. He authored the book *Programming TypeScript*.\n\n## Contribution to Agent Engineering\n\nCherny's public talks an",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/agent-patterns-index.md",
+      "hash": "7f5448f2fee325ef3bb62cccaf86c6d251ce47ce51cfee0e8f54a8125989dd62",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/agent-patterns"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 8815,
+      "body_preview": "# Agent Patterns Index\n\n> The single lookup target for Gulli's 21 agent design patterns, each with a trigger and a trade-off.\n\n## Summary\n\nThis note consolidates the six-source `topic/agent-patterns` cluster into one lookup target. Antonio Gulli's 21 patterns form the spine. Each entry names the pattern, states its trigger condition, and states its trade-off, so a later citation quotes an independent passage per pattern. Two entries link out to a dedicated concept note for depth; the rest resolv",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/agent-vs-llm.md",
+      "hash": "e7024465e4b7ce0286abb1306413d58c4d288035069596be4028457f56323463",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/foundations",
+        "topic/concepts"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2135,
+      "body_preview": "# Agent vs LLM\n\n> A language model predicts text from a prompt; an agent wraps that model in a loop with tools and memory so it can act on the world.\n\n## Summary\n\nA bare language model answers in one shot. It reads a prompt and returns text. It holds no memory past the context window and touches nothing outside itself. An agent adds the parts the model lacks. It adds tools, a loop, and state. Anthropic calls the middle rung the augmented language model, a model enhanced with retrieval, tools, an",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/anti-patterns-index.md",
+      "hash": "f228efb7a725fd914bc4f2b82fa56e551d474aee6d0cacbf0c63a296478e46e9",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/anti-patterns"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2920,
+      "body_preview": "# Anti-Patterns Index\n\n> A curated index of the failure modes that break agents in production.\n\n## Summary\n\nThis note indexes recurring failure modes. Each entry names a symptom and points to the fix. Anthropic's core warning frames the list: added complexity buys worse debugging, not better results. Reach for a simple solution first. The wikilinks route to the practice or concept that resolves each failure.\n\n## Anti-patterns\n\n- **Overly autonomous agents** — Symptom: the agent wanders and compo",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/best-practices-index.md",
+      "hash": "bb77efebde25f50a0f107c3651e6702b92f3e2cb118d49b38e4c60c0dc7e31c7",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/best-practices"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3031,
+      "body_preview": "# Best Practices Index\n\n> A curated index of engineering principles that hold up when agents reach production.\n\n## Summary\n\nThis note indexes the principles that make agents reliable. Anthropic's guidance sets the spine: keep the design simple, make the agent transparent, and craft the agent-computer interface with care. Each principle below carries a one-line rationale and a wikilink to its fuller note. The index grows as each principle earns a dedicated page.\n\n## Principles\n\n- **Small, focused",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/claude-agent-sdk.md",
+      "hash": "51907d14e0a32b5331148ea6cc5bb37f801c294d5c4f31cdc61e43f508676c54",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/claude-sdk"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 1921,
+      "body_preview": "# Claude Agent SDK\n\n> The Claude Agent SDK is a Python and TypeScript library that runs the Claude Code agent loop inside your own process.\n\n## Summary\n\nThe Claude Agent SDK builds production agents from the components that power Claude Code. It gives the same tools, agent loop, and context management as a library. Claude owns the loop. The developer describes the task and the allowed tools. The SDK runs the model, executes tools, compacts context, and streams messages until a final result.\n\n## ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/claude-code.md",
+      "hash": "059d3aa5e412a6d44b42b344857cfb94f78b09453db281200f1ab361a7c04bb0",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/claude-code"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 1933,
+      "body_preview": "# Claude Code\n\n> Claude Code is Anthropic's agentic coding tool that reads a codebase, edits files, runs commands, and integrates with developer tools.\n\n## Summary\n\nClaude Code turns a plain-language request into working code. It plans an approach, edits across many files, and verifies the result. It runs in the terminal, IDE, desktop app, and browser. Each surface connects to the same engine. A `CLAUDE.md` file, settings, and MCP servers carry across every surface.\n\n## Key Concepts\n\n- The Termi",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/cypher-query-language.md",
+      "hash": "ad25f4b33a1fd0a609333ae7428d5ab3b9321bdec199fdf4e8185de273aa407b",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/retrieval",
+        "topic/concepts"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 9303,
+      "body_preview": "# Cypher Query Language\n\n> Cypher is the declarative query language for property graphs, and it draws the wanted pattern in ASCII art rather than naming the access path.\n\n## Summary\n\nCypher states the result a caller wants, not the route the engine takes. Neo4j\nsponsored the language, and the openCypher project widened it beyond one vendor. The 2025\nNeo4j guide names Cypher the widest adopted implementation of the ISO GQL standard. Its\npattern syntax mirrors the diagram a team draws on a whitebo",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/evaluation.md",
+      "hash": "41e069f183ae51900f99dcf9dead986549732e259a21794dffbac031f01d0e87",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/evaluation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2592,
+      "body_preview": "# Evaluation\n\n> Evaluation measures whether an agent does the right thing across a set of representative tasks.\n\n## Summary\n\nEvaluation turns agent quality from opinion into measurement. A team writes eval sets early, runs them on every change, and catches regressions before they compound. Anthropic frames three grader types and a multi-layered method. Code-based graders check outcomes. Model-based graders judge nuance. Human graders set the gold standard. Together they cover what any single met",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/glossary.md",
+      "hash": "01a5ff8ce2550d50a147cec66f63e13ac3753214a5e0cccc7656c9cb55b37d97",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/concepts"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3085,
+      "body_preview": "# Glossary\n\n> Core terms for AI agent engineering, each with a one-line definition and a link to its concept note.\n\n## Terms\n\n- **Agent** — A system that uses a model to direct its own steps toward a goal. See [[what-is-an-ai-agent]].\n- **Agent loop** — The cycle of model call, tool call, and observation that drives an agent. See [[the-agent-loop]].\n- **Agent vs LLM** — The distinction between a plain model call and a model that acts through tools. See [[agent-vs-llm]].\n- **Anti-pattern** — A re",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/graph-database.md",
+      "hash": "c1674ddcee73960223ec55ca33c898eb728097b79c3584992120a9fa4661b982",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/retrieval",
+        "topic/concepts"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 8173,
+      "body_preview": "# Graph Database\n\n> A graph database is an online database management system that runs create, read, update, and delete operations over a graph data model.\n\n## Summary\n\nHunger, Boyd, and Lyon define the category by its operations, not by its diagram. A graph\ndatabase serves transactional workloads, so it holds ACID guarantees and operational\navailability. Two properties decide whether a product earns the name: native graph\nstorage and native graph processing. A native store keeps each node besid",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/graphrag.md",
+      "hash": "705dd4b3a5a58dccefe597bcfb2800adff382bb02cc8d8dead83adbb404c49a4",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/retrieval",
+        "topic/concepts"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 8280,
+      "body_preview": "# GraphRAG\n\n> GraphRAG grounds a language model in a knowledge graph, so retrieval follows declared entities and relationships instead of text similarity alone.\n\n## Summary\n\nGraphRAG replaces the flat chunk store of plain RAG with a knowledge graph. The retriever\nreads nodes, relationships, community summaries, and the original text from one database.\nBratanič and Hane build the pattern on Neo4j across eight chapters, and Graphwise sells it\nas an enterprise semantic layer. The graph holds struct",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/index-free-adjacency.md",
+      "hash": "6c05e15b6dec209d229f740a49d1efdb019c2194d2b908458d5902a2bd0ed50c",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/retrieval",
+        "topic/concepts"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4057,
+      "body_preview": "# Index-Free Adjacency\n\n> Index-free adjacency stores a list of relationship records inside each node, so a traversal follows pointers instead of searching a global index.\n\n## Summary\n\nIndex-free adjacency names the storage and processing model behind a native graph\ndatabase. Each node holds a list of relationship records that point at its neighbours.\nA query that walks from one node to the next reads that list and reaches the connected\nnode. No index lookup sits between the two. Neo4j calls thi",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/knowledge-graph.md",
+      "hash": "466e2498d5fecb5c886d50fc94e35023727c3eed84576dbb4b76fe37ef0ba2f8",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/retrieval",
+        "topic/concepts"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 7201,
+      "body_preview": "# Knowledge Graph\n\n> A knowledge graph maps entities, which are objects, events, or concepts, and their relationships into one interconnected structure.\n\n## Summary\n\nNeo4j names three components of a knowledge graph: nodes, relationships, and organising\nprinciples. Nodes hold the entities. Relationships record how two entities interact.\nOrganising principles supply business context through hierarchies and categories. The\nstore holds structured and unstructured data together, so one system answer",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/mcp.md",
+      "hash": "aa4667d67ee36a27bd98068e9326b2d9412d014bd57896b41a57a3f287ec360c",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/mcp",
+        "topic/tool-use"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 1864,
+      "body_preview": "# Model Context Protocol (MCP)\n\n> MCP is an open standard that connects an AI application to external tools, data, and prompts through one interface.\n\n## Summary\n\nThe Model Context Protocol standardises how an agent reaches the outside world. Anthropic introduced it on 25 November 2024. Before MCP, each data source needed a custom integration. MCP replaces those point-to-point links with one protocol. An agent gains reliable access to files, databases, and services. The docs compare MCP to a USB",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/memory.md",
+      "hash": "b2d33c06af8f677ffcc1bf0978d101451e59c07e68c822b130880623609a556b",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/memory",
+        "topic/foundations"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2734,
+      "body_preview": "# Memory\n\n> Memory is the store that lets an agent carry information across turns and sessions beyond the fixed context window.\n\n## Summary\n\nA language model forgets past its context window. Memory removes that limit. An agent writes facts, results, and reflections to a store outside the prompt. It reads the relevant parts back when a task needs them. Anthropic lists memory as one of the three augmentations of the base model, beside retrieval and tools. MemGPT frames the problem as virtual conte",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/plan-and-execute.md",
+      "hash": "185da3ce34987ba9d31eeb0a05b113050cad72aaca5ad8713ba30de876726466",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/architectures",
+        "topic/planning"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3021,
+      "body_preview": "# Plan-and-Execute\n\n> Plan-and-Execute splits a task in two: a planner writes an ordered plan, then an executor runs each step.\n\n## Summary\n\nPlan-and-Execute separates planning from action. A planner reads the task and writes an\nordered list of steps. An executor runs each step, often through a ReAct loop, and\nreports the result. The plan holds the global structure the step-by-step loop lacks. The\npattern traces to Plan-and-Solve prompting by Wang and colleagues in 2023 and to agent\nframeworks t",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/planning-and-reasoning.md",
+      "hash": "5a27f8cd9963f34e625734aa7324baaf6424b897d5d5c8c27e6e1f6b6df99df1",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/planning",
+        "topic/foundations"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2281,
+      "body_preview": "# Planning and Reasoning\n\n> Planning and reasoning are the model behaviours that break a goal into steps and decide the next action from the current state.\n\n## Summary\n\nAn agent needs a plan to act well. Reasoning lets the model think through a problem before it answers. Planning lets the model break a goal into ordered steps. Chain-of-thought prompting showed that intermediate steps raise performance on hard tasks. ReAct joined reasoning to action, so the model plans and acts in one loop. Plan-",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/polyglot-persistence.md",
+      "hash": "fc67bf19444ca1523459f3abd34b2533275e5cd68ef5be03bed61f910f29750b",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/retrieval",
+        "topic/concepts"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 5498,
+      "body_preview": "# Polyglot Persistence\n\n> Polyglot persistence runs several data stores in one system, each chosen for the shape of the workload it serves.\n\n## Summary\n\nPolyglot persistence uses more than one data store, each for its strength. The Neo4j guide\nnames it as the second and third of three deployment paradigms for a graph database beside a\nrelational database. One team routes tabular workloads to the RDBMS and relationship\nworkloads to the graph. Another team duplicates all data into both stores and ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/prompt-engineering.md",
+      "hash": "da6cf71da62c4058519411aa52ed754f3ea77eef98a92bc446ccc0ff58030d8f",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/prompt-engineering",
+        "topic/foundations"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 1921,
+      "body_preview": "# Prompt Engineering\n\n> Prompt engineering shapes the instructions to a model to meet defined success criteria through structure, examples, and technique.\n\n## Summary\n\nPrompt engineering improves a model output through the prompt alone. Anthropic frames it as the step after success criteria and evaluations exist. A first draft prompt gives the baseline. Techniques then raise quality against the criteria. Not every failure suits a prompt fix; latency and cost often favour a different model.\n\n## K",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/react.md",
+      "hash": "55f5094c3f93dcc3b094b6554d975be080828478a130059730ee39aba7aad43e",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/architectures"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2917,
+      "body_preview": "# ReAct\n\n> ReAct interleaves reasoning traces and tool actions in one loop, so the model plans, acts, and reads results in turn.\n\n## Summary\n\nReAct joins reasoning and acting in a single language model loop. The model writes a\nthought, chooses an action, and reads the observation the environment returns. The\nthought plans the next action. The action fetches evidence that grounds the next thought.\nThis loop solves tasks that need both reasoning and fresh external data. Yao and\ncolleagues named th",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/reflexion.md",
+      "hash": "e37904776f36cd15367e16feaf523d4b60b4112107b97cd1ea39557469f8f040",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/architectures"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2777,
+      "body_preview": "# Reflexion\n\n> Reflexion writes a self-critique after each failed attempt, stores it in memory, and reads it on the next try.\n\n## Summary\n\nReflexion learns from failure through written self-critique. The agent attempts a task,\nreceives a feedback signal, and writes a reflection on what went wrong. It stores the\nreflection in an episodic memory buffer. The next attempt reads the reflection and\nadjusts. No weight update occurs; the language of the reflection carries the learning.\nShinn and colleag",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/retrieval-augmented-generation.md",
+      "hash": "abbd19b19ccc6e28697a6d44658d1d311b0fc9b0834cdccfee14b0503fb8caa7",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/retrieval",
+        "topic/concepts"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 8282,
+      "body_preview": "# Retrieval-Augmented Generation\n\n> Retrieval-augmented generation fetches relevant text from an external store at query time, then hands it to a language model as the context for its answer.\n\n## Summary\n\nA language model holds a fixed training corpus and a knowledge cutoff. It cannot\nread private enterprise data, and it invents facts under uncertainty. RAG closes\nthat gap without touching the model weights. A retriever searches an external\nknowledge base for text that matches the question. A ge",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/supervisor-worker-multi-agent.md",
+      "hash": "21345faaeac8ca37b582c230f4e4bd805261a9b18a802addcb501e9618888cfe",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/architectures",
+        "topic/multi-agent"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2944,
+      "body_preview": "# Supervisor-Worker Multi-Agent\n\n> A supervisor agent decomposes a task and delegates each part to a worker agent, then combines the results.\n\n## Summary\n\nThe supervisor-worker pattern splits a task across agents. A supervisor reads the task,\nbreaks it into parts, and assigns each part to a worker. Each worker runs its own loop\nwith its own tools and context. The supervisor collects the results and synthesises the\nanswer. The pattern isolates context per worker and runs independent parts in para",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/the-agent-loop.md",
+      "hash": "2a8b9df7cf71e38e40355b6195ee10cf8cff0471669381b65135d01628d08155",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/foundations",
+        "topic/architectures"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2113,
+      "body_preview": "# The Agent Loop\n\n> The agent loop is the repeating cycle in which a model reads context, chooses an action, calls a tool, and reads the result until the task closes.\n\n## Summary\n\nThe agent loop is the engine of every agent. Anthropic describes agents running in a loop, using tools based on environment feedback at each step. The environment returns ground truth, such as a tool result or code output. The model reads that truth, judges progress, and picks the next move. The loop ends at a stop con",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/tool-use.md",
+      "hash": "73bfde81534a0725a4f456de7b510657a0f5d810a861360f63ad544b5ced3804",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/tool-use",
+        "topic/foundations"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2272,
+      "body_preview": "# Tool Use\n\n> Tool use is the mechanism by which a model calls an external function, receives the result, and folds it back into its reasoning.\n\n## Summary\n\nTool use gives a model hands. The developer defines a tool with a name, a description, and a typed input schema. The model reads the definitions and emits a tool call when it needs one. The harness runs the tool and returns the result to the model. This loop lets a model fetch data, run code, and change state in the world. Tool use is the pr",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/what-is-an-ai-agent.md",
+      "hash": "a64aec7e1c8fe0c54340ec922547ff672dac8d660675cbdfc2a891e7a0569032",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/foundations",
+        "topic/concepts"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2084,
+      "body_preview": "# What Is an AI Agent\n\n> An AI agent is a system where a language model directs its own process and tool use to accomplish a task.\n\n## Summary\n\nAn AI agent turns a language model into an actor. The model reads a goal, chooses an action, calls a tool, and reads the result. It repeats this cycle until the task closes. Anthropic frames the agent against the workflow. A workflow follows fixed code paths. An agent controls its own path. This control gives flexibility and carries cost. The definition ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "30_Concepts/workflow-vs-autonomous-agent.md",
+      "hash": "2bd51c131e866ef300c91395e538adc98985d5cc54489cc15f2e84a77eaa38b1",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/architectures"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3372,
+      "body_preview": "# Workflow vs Autonomous Agent\n\n> A workflow runs LLM calls through predefined code paths; an autonomous agent directs its own process and tool use.\n\n## Summary\n\nThe distinction turns on who holds control. In a workflow, the code orchestrates the LLM\nand the tools through predefined paths. In an autonomous agent, the LLM directs its own\nprocess and its own tool use, and it keeps control over how it reaches the goal. Anthropic\ndraws this line in \"Building effective agents\" and advises the simples",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "40_Guides/agentic-design-patterns-plain-english.md",
+      "hash": "4579ded374cfe7a093712481b759b17a778e57fde20e253869ec38ca2889651e",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/foundations"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 9853,
+      "body_preview": "# Agentic Design Patterns — Plain English Guide\n\n> A plain-English map of Antonio Gulli's 21 agent design patterns, grouped into four parts, stripped of framework code.\n\n## Goal\n\nThis guide gives the reader a durable, framework-agnostic mental map of the 21\npatterns in Gulli's *Agentic Design Patterns*. Gulli separates the canvas from\nthe painting. The canvas is the framework: LangGraph, CrewAI, Google ADK,\nClaude Agent SDK. The painting is the pattern: Prompt Chaining, Routing,\nReflection, Memo",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "40_Guides/ai-agents-course-chapter-1-fundamentals.md",
+      "hash": "e86d71ba13263f26a24f881e81b0ac4d49460c8dd879bfe97f37a864782e2f18",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/foundations"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 17460,
+      "body_preview": "# AI Agents Course — Chapter 1: Fundamentals (Synthesis)\n\n> A single, synthesised map of AI Builder Club's \"Build AI Agents Course\" Chapter 1 (lessons 1.1 through 1.12), from the first agent loop to Karpathy's framing of the field.\n\n## Goal\n\nThis guide compresses twelve lessons of AI Builder Club's Chapter 1: Fundamentals\ninto one reading. A reader finishes with the same working model of an AI agent\nthat the full chapter builds lesson by lesson — what an agent is, how it calls\ntools, how it reme",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "40_Guides/ai-agents-course-chapters-2-3.md",
+      "hash": "dd63f046798da09d30e99c442842cf2aa1cfcde23fc78d6bfba76f6fe64e716e",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/tool-use"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 17395,
+      "body_preview": "# AI Agents Course — Chapters 2 & 3: From Scratch to Infrastructure (Synthesis)\n\n> A single, synthesised map of AI Builder Club's \"Build AI Agents Course\" Chapter 2 (Build From Scratch, 2.1–2.4) and Chapter 3 (Tools & Infrastructure, 3.1–3.13) — seventeen lessons compressed into one reading.\n\n## Goal\n\nChapter 1 established the four-component agent (brain, tools, memory, loop).\nThis guide covers what the course builds on top of that base: a from-scratch\nagent and a from-scratch multi-agent system",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "40_Guides/choosing-a-layer-in-the-claude-agent-stack.md",
+      "hash": "dceb68909a9a06bb0f8fe1afc39182d50b71ffab942d56af6df3491f95c05382",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/claude-sdk",
+        "topic/claude-code"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3730,
+      "body_preview": "# Choosing a Layer in the Claude Agent Stack\n\n> Pick a visual canvas for a first build, the Claude Agent SDK for production logic, and Claude Code for personal automation.\n\n## Goal\n\nAnthropic ships no drag-and-drop canvas. The stack is code-first and\ntext-first. This guide sets a rule for the reader's next build: pick the\nlayer the job needs, not the tool already open. It stops the default reflex\nof reaching for whichever surface is familiar.\n\n## Prerequisites\n\n- Familiarity with [[what-is-an-ai",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "99_Meta/NotebookLM-bridge.md",
+      "hash": "6f6dc372b89dba423d82717684ddf4bc0844c37366d224f3004a14f679cbf456",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/meta"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 1672,
+      "body_preview": "# NotebookLM Bridge\n\nNotebookLM is the primary research corpus for authoritative material. This file\nstates the round-trip contract between vault source notes and NotebookLM\nsources.\n\n## Corpus scope\n\nCollect primary sources only:\n\n- Anthropic documentation, engineering blog, news, and release notes.\n- Anthropic GitHub repositories and SDK references.\n- Conference talks and recorded presentations by named speakers.\n- Research papers and technical whitepapers.\n- API and MCP references.\n\nExclude l",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "99_Meta/agens-log.md",
+      "hash": "c7d9732b738e6c2e2e26c6cf7c5ce94ff1285539b0c86ad6956a980196f5d650",
+      "role": "meta",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/meta"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 970,
+      "body_preview": "# agens recommendation log\n\n> Agent-authored by agens. This note was written by an agent, not by hand.\n\n> [!note] Historical record\n> The agens skill is archived (2026-10-04). This log is closed and receives no\n> new entries. Pattern selection now happens in learn-agents Gate 7 directly\n> against [[agent-patterns-index]], with a cited recommendation and no log\n> entry. The `@ <12 hex>` value on each entry was a content fingerprint of the\n> cited note at the time; it does not match the current fi",
+      "action": "restamp",
+      "action_reason": "fresh; role meta",
+      "stub": false
+    },
+    {
+      "path": "99_Meta/agent-factory/af-targets.md",
+      "hash": "1be9c28b6a14723f0839c2fb8354e7cbe4d3e9e6e0e16586eea94bfd9d5ecfb8",
+      "role": "meta",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/meta"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 7540,
+      "body_preview": "# Agent-factory target vocabulary\n\nControlled list of values for the `af_targets` frontmatter field (`99_Meta/schema.md` section 2.9).\nEach value names one item in the user's agent-factory project (`af:`) or its sibling code-factory\n(`cf:`) that a vault note bears on. The `wiki-agents-monitor` sets `af_targets` on every note it\nwrites, and `/wiki-agents af-tag` sets it on notes that lack it. `/wiki-agents digest` groups notes\nby these IDs in `99_Meta/agent-factory-digest/`.\n\nInformation flows on",
+      "action": "restamp",
+      "action_reason": "fresh; role meta",
+      "stub": false
+    },
+    {
+      "path": "99_Meta/design/2026-07-10-graph-node-colour-schema.md",
+      "hash": "599aad5ab37019705e4ab8273f47a3e85397da493c8805306fec3a311b6858a3",
+      "role": "meta",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/meta"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2640,
+      "body_preview": "# Graph Node Colour Schema\n\nColour schema for graph-view nodes in **wiki-agents**. Colour marks the function\na note serves, not its rank. The schema groups nodes by top-level folder and\ndraws from a validated categorical palette.\n\nApplied in `.obsidian/graph.json` under `colorGroups`. A backup of the prior\nconfiguration sits at `.obsidian/graph.json.bak`.\n\n---\n\n## 1. Groups\n\n| Group | Folders | Role | Hue | Hex | rgb integer |\n|---|---|---|---|---|---|\n| Maps | `50_MOCs` | Navigation hubs | Blue",
+      "action": "restamp",
+      "action_reason": "fresh; role meta",
+      "stub": false
+    },
+    {
+      "path": "99_Meta/design/2026-07-10-wiki-agents-foundation-design.md",
+      "hash": "06a375633b32a9ceb382491b90bd1f202be282545ecb7ca19cb96c0dd354417b",
+      "role": "meta",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/meta"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 16438,
+      "body_preview": "# wiki-agents Foundation — Design Specification\n\nDesign for the foundation of **wiki-agents**, an Obsidian knowledge vault on AI\nAgents with the Anthropic ecosystem as the primary lens. This document is the\napproved design. It governs the first build pass and hands to an execution plan.\n\nVault path: `C:\\Users\\Simon\\Documents\\wiki-agents`.\n\n---\n\n## 1. Purpose and Desired End State\n\nThe vault answers questions across the full agent lifecycle: what an agent is,\nhow it differs from a language model,",
+      "action": "restamp",
+      "action_reason": "fresh; role meta",
+      "stub": false
+    },
+    {
+      "path": "99_Meta/plugins.md",
+      "hash": "84f6207144b0f7d46d567293fe5f6f6f8e5bd24290cbca17430c66a6534ddb6a",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/meta"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 1123,
+      "body_preview": "# Recommended Plugins\n\nThe vault depends on four community plugins. Each earns its place.\n\n| Plugin | Purpose | Why it matters here |\n|---|---|---|\n| Dataview | Queries frontmatter into live lists and tables. | Every MOC lists its topic's notes without hand-maintenance. The vault dashboard tracks stubs and orphans. |\n| Tasks | Query-driven task management over checkboxes. | The weekly-maintenance loop tracks as queryable tasks. |\n| Templater | Applies the templates in `90_Templates/`. | New note",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "99_Meta/roadmap.md",
+      "hash": "b8c44f63b744d9652bac58522b08ce0a7f6ed30e4a1334ad9763042af24fc5ae",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/meta"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 1332,
+      "body_preview": "# Roadmap for Continuous Expansion\n\nThe vault grows by accumulation. New material integrates as source notes and\nrelease notes. The structure holds; knowledge does not fragment.\n\n## Milestones\n\n| Milestone | Scope | State |\n|---|---|---|\n| M1 | Foundation: folders, schema, templates, 23 MOCs, 22 seed notes, pipeline design. | in progress |\n| M2 | Anthropic corpus depth: Claude SDK, Claude Code, MCP guides and code examples. | planned |\n| M3 | Full Boris Cherny extraction: talks, posts, interview",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "99_Meta/schema.md",
+      "hash": "e2cbde69d4960271c62c61b3dad95b76f8cb116a33cbad5de2c18b7d4d046274",
+      "role": "meta",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/meta"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 11463,
+      "body_preview": "# Vault Schema and Controlled Vocabulary\n\nThis file defines the controlled frontmatter vocabulary for **wiki-agents**.\nEvery note conforms to these fields. A new controlled value requires an update\nhere before use. The schema adapts the sibling `wiki-tokenise` pattern for the\nAI-agents domain, with the Anthropic ecosystem as the primary lens.\n\n---\n\n## 1. Folder Purpose\n\n| Folder | Purpose |\n|---|---|\n| `00_Home/` | Vault entry hub and canonical reading order. |\n| `00_Inbox/` | Unprocessed captur",
+      "action": "restamp",
+      "action_reason": "fresh; role meta",
+      "stub": false
+    }
+  ],
+  "orphans": [],
+  "quarantined": [],
+  "existing_vocabulary": {
+    "topics": [
+      "topic/agent-patterns",
+      "topic/agent-skills",
+      "topic/anti-patterns",
+      "topic/architectures",
+      "topic/best-practices",
+      "topic/boris-cherny",
+      "topic/claude-code",
+      "topic/claude-sdk",
+      "topic/concepts",
+      "topic/deployment",
+      "topic/domain-applications",
+      "topic/evaluation",
+      "topic/foundations",
+      "topic/karpathy",
+      "topic/mcp",
+      "topic/memory",
+      "topic/meta",
+      "topic/multi-agent",
+      "topic/planning",
+      "topic/prompt-engineering",
+      "topic/release-notes",
+      "topic/research-papers",
+      "topic/retrieval",
+      "topic/security",
+      "topic/tool-use"
+    ],
+    "subjects": []
+  },
+  "engine": "wiki-agents",
+  "vocabulary": {
+    "source": "99_Meta/schema.md#2.3",
+    "count": 27,
+    "error": null,
+    "depth_violations": []
+  },
+  "in_use_not_in_vocabulary": [],
+  "off_vocabulary_notes": [],
+  "targets": {
+    "tag": [
+      "10_Sources/Blog/agent-memory-systems-guide.md",
+      "10_Sources/Blog/agent-skills-best-practices.md",
+      "10_Sources/Blog/agentmemory-fix-memory-loss.md",
+      "10_Sources/Blog/ai-agents-101-deploy-to-production.md",
+      "10_Sources/Blog/ai-agents-101-memory-across-sessions.md",
+      "10_Sources/Blog/ai-agents-101-multi-agent-orchestration.md",
+      "10_Sources/Blog/ai-agents-101-tools-in-python.md",
+      "10_Sources/Blog/ai-agents-101-what-is-an-agent.md",
+      "10_Sources/Blog/anthropic-building-effective-agents.md",
+      "10_Sources/Blog/anthropic-demystifying-evals.md",
+      "10_Sources/Blog/anthropic-how-we-contain-claude.md",
+      "10_Sources/Blog/codebase-memory-mcp-guide.md",
+      "10_Sources/Blog/complete-guide-to-mcp-servers.md",
+      "10_Sources/Blog/context-engineering-guide.md",
+      "10_Sources/Blog/function-calling-how-llms-use-tools.md",
+      "10_Sources/Blog/gemma4-local-agents.md",
+      "10_Sources/Blog/google-skills-official-library.md",
+      "10_Sources/Blog/hermes-self-hosted-agent.md",
+      "10_Sources/Blog/how-to-build-ai-agent-from-scratch.md",
+      "10_Sources/Blog/how-to-build-an-ai-agent-from-scratch.md",
+      "10_Sources/Blog/karpathy-agentic-engineering-framework.md",
+      "10_Sources/Blog/karpathy-agents-md-framework.md",
+      "10_Sources/Blog/karpathy-llm-wiki-pattern.md",
+      "10_Sources/Blog/karpathy-software-3-0.md",
+      "10_Sources/Blog/last30days-real-time-research-skill.md",
+      "10_Sources/Blog/markitdown-pdf-to-markdown.md",
+      "10_Sources/Blog/mcp-101-build-your-first-server.md",
+      "10_Sources/Blog/mcp-internals-client-server.md",
+      "10_Sources/Blog/mcp-security-attack-vectors.md",
+      "10_Sources/Blog/mindstudio-claude-code-5-workflow-patterns.md",
+      "10_Sources/Blog/multi-agent-system-python-tutorial.md",
+      "10_Sources/Blog/prompt-engineering-techniques-2026.md",
+      "10_Sources/Blog/rag-vs-long-context-vs-fine-tuning.md",
+      "10_Sources/Blog/six-multi-agent-architectures.md",
+      "10_Sources/Blog/webmcp-complete-guide.md",
+      "10_Sources/Books/agentic-ai-handbook-bar-2025.md",
+      "10_Sources/Books/agentic-design-patterns-gulli-2025.md",
+      "10_Sources/Books/ai-agent-handbook-10-practical-hacks.md",
+      "10_Sources/Books/ai-agents-illustrated-guidebook-chawla-pachaar-2025.md",
+      "10_Sources/Books/ai-agents-in-action-lanham-2025.md",
+      "10_Sources/Books/claude-code-for-the-rest-of-us-munro-2026.md",
+      "10_Sources/Books/essential-graphrag-bratanic-2025.md",
+      "10_Sources/Books/governing-ai-agents-risk-bommarito-2025.md",
+      "10_Sources/Books/how-to-design-an-agent-bommarito-2025.md",
+      "10_Sources/Books/llms-in-100-images-bamania.md",
+      "10_Sources/Books/mcp-illustrated-guidebook-chawla-pachaar-2025.md",
+      "10_Sources/Books/what-is-an-agent-bommarito-2025.md",
+      "10_Sources/Docs/claude-agent-sdk-overview.md",
+      "10_Sources/Docs/claude-api-skill.md",
+      "10_Sources/Docs/claude-code-dynamic-workflows.md",
+      "10_Sources/Docs/claude-code-overview.md",
+      "10_Sources/Docs/claude-code-playbook-ai-agent-builder.md",
+      "10_Sources/Docs/claude-code-playbook-mcp-server-builder.md",
+      "10_Sources/Docs/claude-code-playbook-parallel-task-agents.md",
+      "10_Sources/Docs/graph-databases-for-rdbms-developers-neo4j-2021.md",
+      "10_Sources/Docs/how-to-build-a-knowledge-graph-neo4j-2025.md",
+      "10_Sources/Docs/mcp-builder-skill.md",
+      "10_Sources/Docs/mcp-introduction.md",
+      "10_Sources/Docs/semantic-advantage-graphrag-graphwise-2026.md",
+      "10_Sources/Docs/semantic-search-ai-era-elastic-2023.md",
+      "10_Sources/Interviews/boris-cherny-pragmatic-engineer.md",
+      "10_Sources/Papers/agent-architectures-landscape-masterman-2024.md",
+      "10_Sources/Papers/agentic-ai-survey-abou-ali-2025.md",
+      "10_Sources/Papers/agentverse-chen-2023.md",
+      "10_Sources/Papers/ai-agent-systems-survey-xu-2026.md",
+      "10_Sources/Papers/autogen-wu-2023.md",
+      "10_Sources/Papers/camel-li-2023.md",
+      "10_Sources/Papers/civil-law-article-retrieval-tran-2017.md",
+      "10_Sources/Papers/legal-nlp-introduction-nazarenko-wyner-2017.md",
+      "10_Sources/Papers/legal-qa-ranking-svm-cnn-do-2017.md",
+      "10_Sources/Papers/legal-text-classification-sulea-2017.md",
+      "10_Sources/Papers/legal-text-summarization-survey-vijay-kumar-2025.md",
+      "10_Sources/Papers/llm-agent-evaluation-survey-yehudai-2025.md",
+      "10_Sources/Papers/llm-agent-memory-evolution-survey-luo-2026.md",
+      "10_Sources/Papers/llm-agent-memory-survey-du-2026.md",
+      "10_Sources/Papers/llm-agent-paradigms-review-li-2024.md",
+      "10_Sources/Papers/llm-agent-planning-survey-huang-2024.md",
+      "10_Sources/Papers/llm-autonomous-agents-survey-wang-2025.md",
+      "10_Sources/Papers/llm-multi-agent-survey-guo-2024.md",
+      "10_Sources/Papers/loop-engineering-huashu-2026.md",
+      "10_Sources/Papers/react-yao-2022.md",
+      "10_Sources/Papers/reflexion-shinn-2023.md",
+      "10_Sources/Papers/self-discover-zhou-2024.md",
+      "10_Sources/Papers/vizomem-liang-2026.md",
+      "10_Sources/Papers/voyager-wang-2023.md",
+      "10_Sources/Release-Notes/claude-sonnet-5-2026-06-30.md",
+      "10_Sources/Repos/davidondrej-skills.md",
+      "10_Sources/Repos/qmd-local-hybrid-search.md",
+      "10_Sources/Talks/source-slug.md",
+      "20_People/ai-builder-club/profile.md",
+      "20_People/andrej-karpathy/profile.md",
+      "20_People/boris-cherny/profile.md",
+      "30_Concepts/agent-patterns-index.md",
+      "30_Concepts/agent-vs-llm.md",
+      "30_Concepts/anti-patterns-index.md",
+      "30_Concepts/best-practices-index.md",
+      "30_Concepts/claude-agent-sdk.md",
+      "30_Concepts/claude-code.md",
+      "30_Concepts/cypher-query-language.md",
+      "30_Concepts/evaluation.md",
+      "30_Concepts/glossary.md",
+      "30_Concepts/graph-database.md",
+      "30_Concepts/graphrag.md",
+      "30_Concepts/index-free-adjacency.md",
+      "30_Concepts/knowledge-graph.md",
+      "30_Concepts/mcp.md",
+      "30_Concepts/memory.md",
+      "30_Concepts/plan-and-execute.md",
+      "30_Concepts/planning-and-reasoning.md",
+      "30_Concepts/polyglot-persistence.md",
+      "30_Concepts/prompt-engineering.md",
+      "30_Concepts/react.md",
+      "30_Concepts/reflexion.md",
+      "30_Concepts/retrieval-augmented-generation.md",
+      "30_Concepts/supervisor-worker-multi-agent.md",
+      "30_Concepts/the-agent-loop.md",
+      "30_Concepts/tool-use.md",
+      "30_Concepts/what-is-an-ai-agent.md",
+      "30_Concepts/workflow-vs-autonomous-agent.md",
+      "40_Guides/agentic-design-patterns-plain-english.md",
+      "40_Guides/ai-agents-course-chapter-1-fundamentals.md",
+      "40_Guides/ai-agents-course-chapters-2-3.md",
+      "40_Guides/choosing-a-layer-in-the-claude-agent-stack.md",
+      "99_Meta/NotebookLM-bridge.md",
+      "99_Meta/plugins.md",
+      "99_Meta/roadmap.md"
+    ],
+    "restamp": [
+      "00_Home/index.md",
+      "99_Meta/agens-log.md",
+      "99_Meta/agent-factory/af-targets.md",
+      "99_Meta/design/2026-07-10-graph-node-colour-schema.md",
+      "99_Meta/design/2026-07-10-wiki-agents-foundation-design.md",
+      "99_Meta/schema.md"
+    ]
+  },
+  "never_write_present": [],
+  "stubs": [
+    "10_Sources/Talks/source-slug.md"
+  ],
+  "cap_violations": [],
+  "rule_warnings": [
+    {
+      "path": "10_Sources/Talks/source-slug.md",
+      "rule": "min_topics 1",
+      "topics": []
+    },
+    {
+      "path": "20_People/andrej-karpathy/profile.md",
+      "rule": "companion topic required",
+      "topics": [
+        "topic/karpathy"
+      ]
+    }
+  ],
+  "flags": []
+}

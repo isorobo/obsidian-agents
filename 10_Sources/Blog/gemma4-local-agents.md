@@ -21,6 +21,11 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel: aibuilderclub
+af_targets:
+- af:ADR-0003
+- af:RSCH-04/Q29
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 250af577207ffd95591f7cbb4ce9bdae380d6b6e44b1f9ebbbdd86805939c3e8
 ---
 
 # Gemma 4: Free Agentic AI on Your Laptop (Ollama Setup)

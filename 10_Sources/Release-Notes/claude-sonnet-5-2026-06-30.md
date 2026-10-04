@@ -13,6 +13,11 @@ anthropic: true
 topic:
 - topic/release-notes
 tags: [claude-sonnet-5, model-release, agentic, pricing, tool-use]
+af_targets:
+- af:ADR-0003
+- af:RSCH-04/Q29
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 26d46b6596e6e53cffe7aeee13230de02b61f192df7dd954c7374762b101558b
 ---
 
 # Introducing Claude Sonnet 5

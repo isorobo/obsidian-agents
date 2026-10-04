@@ -32,6 +32,11 @@ nlm_id:
 nlm_skip: false
 watchlist_channel: 
 authored_by: agens
+af_targets:
+- af:RSCH-04/Q01
+- af:RSCH-04/Q30
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: fd1c9c1a647a6e0c618c5bac545141fad7c0d651b70894a85f67bbddc216468b
 ---
 
 # A Survey on Large Language Model based Autonomous Agents

@@ -20,6 +20,12 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel: aibuilderclub
+af_targets:
+- af:DELEG-01
+- af:RSCH-04/Q17
+- af:RSCH-04/Q24
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 30989e05114b4b0bfef55b56faf71a4c668eb1012c4ea0614a2b0daa826b6af8
 ---
 
 # Multi-Agent System Python Tutorial (2026)

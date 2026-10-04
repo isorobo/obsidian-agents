@@ -20,6 +20,10 @@ nlm_id:
 nlm_skip: false
 watchlist_channel: 
 authored_by: agens
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: b1cdd9158a71c29606928c4b9cf659d3df294688d56d0025092fe8cd1cf166e3
 ---
 
 # LLMs in 100 Images

@@ -26,6 +26,11 @@ nlm_id:
 nlm_skip: false
 watchlist_channel:
 authored_by: agens
+af_targets:
+- af:ADR-0001
+- af:RSCH-04/Q01
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: f6e869e8928e0727caab54941360290ef3616e62bc1a2d93b4dc181bb7736b23
 ---
 
 # How to Build an AI Agent from Scratch: A Step-by-Step Guide

@@ -12,6 +12,12 @@ synonyms: [MCP, Model Context Protocol]
 defined_in: "[[10_Sources/Docs/mcp-introduction|What is MCP?]]"
 related_concepts: ["[[tool-use]]", "[[claude-agent-sdk]]", "[[claude-code]]"]
 anthropic: true
+af_targets:
+- af:DELEG-02
+- af:RSCH-01/mcp
+- af:RSCH-04/Q16
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: aa4667d67ee36a27bd98068e9326b2d9412d014bd57896b41a57a3f287ec360c
 ---
 
 # Model Context Protocol (MCP)
@@ -46,6 +52,7 @@ MCP removes integration sprawl and gives one surface for tools. The gain grows w
 
 - [[10_Sources/Docs/mcp-introduction|What is MCP?]]
 - https://www.anthropic.com/news/model-context-protocol
+- [[10_Sources/Blog/anthropic-how-we-contain-claude|How we contain Claude across products]]
 
 ## See also
 

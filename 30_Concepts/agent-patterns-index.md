@@ -11,6 +11,13 @@ synonyms: [agent design patterns, agentic patterns]
 defined_in: "[[10_Sources/Books/agentic-design-patterns-gulli-2025|Agentic Design Patterns (Gulli)]]"
 related_concepts: ["[[react]]", "[[workflow-vs-autonomous-agent]]", "[[the-agent-loop]]"]
 anthropic: false
+af_targets:
+- af:ADR-0007
+- af:DELEG-03
+- af:RSCH-04/Q30
+- af:RSCH-04/Q31
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 7f5448f2fee325ef3bb62cccaf86c6d251ce47ce51cfee0e8f54a8125989dd62
 ---
 
 # Agent Patterns Index

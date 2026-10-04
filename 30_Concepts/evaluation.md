@@ -11,6 +11,13 @@ synonyms: [evals, agent evaluation, agent testing]
 defined_in: "[[10_Sources/Blog/anthropic-demystifying-evals|Demystifying Evals for AI Agents]]"
 related_concepts: ["[[best-practices-index]]", "[[anti-patterns-index]]", "[[the-agent-loop]]"]
 anthropic: true
+af_targets:
+- af:ADR-0008
+- af:RSCH-04/Q18
+- af:RSCH-04/Q19
+- af:RSCH-04/Q20
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 41e069f183ae51900f99dcf9dead986549732e259a21794dffbac031f01d0e87
 ---
 
 # Evaluation

@@ -24,6 +24,11 @@ tags: [memory, visual-compression, long-context, retrieval, agentic-memory]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:ADR-0005
+- af:RSCH-04/Q11
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 4c7d5381ea1b303396033f99ba4ad339b5765ad091dd26bb76a610b661b842f2
 ---
 
 # VizoMem: A Visual-Textual Memory Framework for Efficient Long-Horizon Reasoning

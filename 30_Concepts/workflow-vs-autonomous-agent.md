@@ -11,6 +11,11 @@ synonyms: [workflows and agents, orchestrated vs autonomous, predefined vs dynam
 defined_in: "[[best-practices-index]]"
 related_concepts: ["[[what-is-an-ai-agent]]", "[[agent-vs-llm]]", "[[the-agent-loop]]", "[[supervisor-worker-multi-agent]]"]
 maturity: established
+af_targets:
+- af:ADR-0001
+- af:RSCH-04/Q02
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 2bd51c131e866ef300c91395e538adc98985d5cc54489cc15f2e84a77eaa38b1
 ---
 
 # Workflow vs Autonomous Agent

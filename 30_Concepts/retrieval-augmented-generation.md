@@ -12,6 +12,10 @@ synonyms: [RAG, retrieval augmented generation]
 defined_in: "[[10_Sources/Books/essential-graphrag-bratanic-2025|Essential GraphRAG]]"
 related_concepts: ["[[memory]]", "[[evaluation]]", "[[tool-use]]", "[[knowledge-graph]]", "[[graphrag]]", "[[prompt-engineering]]"]
 authored_by: agens
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: abbd19b19ccc6e28697a6d44658d1d311b0fc9b0834cdccfee14b0503fb8caa7
 ---
 
 # Retrieval-Augmented Generation

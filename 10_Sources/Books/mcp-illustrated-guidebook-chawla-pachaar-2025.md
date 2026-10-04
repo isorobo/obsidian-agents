@@ -19,6 +19,12 @@ tags: [mcp, illustrated-guide, tool-use, client-server, protocol-design]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:DELEG-02
+- af:RSCH-04/Q06
+- af:RSCH-04/Q16
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 056d96da046360cd99ef58b64bdc695adf4eeb100bea9ab17369c8b111a16a82
 ---
 
 # MCP: The Illustrated Guidebook

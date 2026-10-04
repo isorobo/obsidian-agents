@@ -20,6 +20,10 @@ related_concepts:
 - "[[the-agent-loop]]"
 - "[[react]]"
 - "[[what-is-an-ai-agent]]"
+af_targets:
+- af:RSCH-04/Q05
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 5a27f8cd9963f34e625734aa7324baaf6424b897d5d5c8c27e6e1f6b6df99df1
 ---
 
 # Planning and Reasoning

@@ -21,6 +21,12 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel:
+af_targets:
+- af:ADR-0003
+- af:ADR-0004
+- af:RSCH-04/Q16
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 28fe68f0c3456fa654630c97cdfd139cff94110beca5be800fd4ab27848b93b2
 ---
 
 # Function Calling Explained: How LLMs Actually Use Tools

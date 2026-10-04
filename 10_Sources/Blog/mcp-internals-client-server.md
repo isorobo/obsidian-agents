@@ -21,6 +21,11 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel: aibuilderclub
+af_targets:
+- af:DELEG-02
+- af:RSCH-04/Q23
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 6f131aa9fbee6a32ac26e95c99683d444fbc4c44443019359d8fe91c76dfe668
 ---
 
 # MCP Internals: STDIO, SSE, and JSON-RPC Explained

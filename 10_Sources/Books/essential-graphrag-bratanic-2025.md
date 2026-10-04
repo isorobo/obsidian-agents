@@ -21,6 +21,10 @@ nlm_id:
 nlm_skip: false
 watchlist_channel: 
 authored_by: agens
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: e5b062f10cb648336a82c83b3ee3ba928b584d6391a695bace0c324d523f1d4b
 ---
 
 # Essential GraphRAG: Knowledge Graph-Enhanced RAG

@@ -22,6 +22,11 @@ nlm_id:
 nlm_skip: false
 watchlist_channel: 
 authored_by: agens
+af_targets:
+- af:RSCH-04/Q01
+- af:RSCH-04/Q31
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: a44cd2dd249076613879d784a472935ea93f1db32ee36982d7550c55dfb88a0b
 ---
 
 # Agentic AI: a comprehensive survey of architectures, applications, and future directions

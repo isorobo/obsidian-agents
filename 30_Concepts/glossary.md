@@ -11,6 +11,10 @@ synonyms: [terms, definitions]
 defined_in: "[[10_Sources/Blog/anthropic-building-effective-agents|Building Effective Agents]]"
 related_concepts: ["[[what-is-an-ai-agent]]", "[[the-agent-loop]]", "[[best-practices-index]]"]
 anthropic: true
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 01a5ff8ce2550d50a147cec66f63e13ac3753214a5e0cccc7656c9cb55b37d97
 ---
 
 # Glossary

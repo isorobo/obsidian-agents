@@ -18,6 +18,11 @@ tags: [agent-sdk, python, typescript, agent-loop, tools]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:ADR-0004
+- af:RSCH-01/claude-code
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: b0a00aaaaa489c9fd4076e953698b17671de8d00ef16a1b5b1bb57518fe785f1
 ---
 
 # Claude Agent SDK overview

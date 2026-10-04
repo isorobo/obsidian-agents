@@ -12,6 +12,10 @@ synonyms: [native graph processing, index free adjacency, pointer-based traversa
 defined_in: "[[10_Sources/Docs/graph-databases-for-rdbms-developers-neo4j-2021|Graph Databases for the RDBMS Developer]]"
 related_concepts: ["[[graph-database]]", "[[cypher-query-language]]", "[[polyglot-persistence]]", "[[knowledge-graph]]", "[[graphrag]]"]
 authored_by: agens
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 6c05e15b6dec209d229f740a49d1efdb019c2194d2b908458d5902a2bd0ed50c
 ---
 
 # Index-Free Adjacency

@@ -21,6 +21,12 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel:
+af_targets:
+- af:ADR-0005
+- af:RSCH-04/Q09
+- af:RSCH-04/Q11
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 6776c49b3be5f762225b730d0eeff6f0c5136bff2afa3596905630062754326d
 ---
 
 # AI Agent Memory Across Sessions (AI Agents 101, Part 3)

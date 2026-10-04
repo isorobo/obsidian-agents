@@ -24,6 +24,7 @@ excluded_folders:
   - "90_Templates"
   - "99_Meta/wiki-agents"
   - "99_Meta/learning"
+  - "99_Meta/agent-factory-digest"
   - "CLAUDE.md"
   - "_CLAUDE.md"
   - "README.md"
@@ -43,10 +44,10 @@ pending_file: "99_Meta/wiki-agents/wiki/wiki-pending.md"
 moc_mode: suggest
 moc_dir: "50_MOCs"
 moc_name_style: vocab_label
-structural_topics: [topic/meta]
+structural_topics: [topic/meta, topic/learning]
 tag_scope: []
 tag_roles: [wiki, concept, source]
-never_write: []
+never_write: ["99_Meta/schema.md", "99_Meta/agent-factory/af-targets.md"]
 role_by_prefix: {}
 
 # Suggest mode derives topic -> MOC from each 50_MOCs file's `topic` frontmatter;

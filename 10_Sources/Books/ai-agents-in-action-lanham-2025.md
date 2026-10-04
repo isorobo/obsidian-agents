@@ -20,6 +20,12 @@ nlm_id:
 nlm_skip: false
 watchlist_channel: 
 authored_by: agens
+af_targets:
+- af:ADR-0001
+- af:RSCH-04/Q01
+- af:RSCH-04/Q11
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: a36deb558616e01f91992a55af4ba75df879a44d7dba31f86e3ce6a0b701a70c
 ---
 
 # AI Agents in Action

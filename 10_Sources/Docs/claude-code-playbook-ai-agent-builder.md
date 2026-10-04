@@ -19,6 +19,10 @@ nlm_id:
 nlm_skip: false
 watchlist_channel: 
 authored_by: agens
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 5120d2928dccb61fd361488a76b23f95bf08b1bf9bade5dfa930c9e569dbf530
 ---
 
 # AI Agent Builder

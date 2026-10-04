@@ -22,6 +22,11 @@ tags: [survey, taxonomy, react, reflexion, multi-agent]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:RSCH-04/Q01
+- af:RSCH-04/Q16
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: a5b2bb5292258fa31d214b38320c423be54439f301399427fb062b438366edb2
 ---
 
 # The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling: A Survey

@@ -20,6 +20,13 @@ nlm_id:
 nlm_skip: false
 watchlist_channel: 
 authored_by: agens
+af_targets:
+- af:ADR-0007
+- af:RSCH-04/Q23
+- af:RSCH-04/Q24
+- af:RSCH-04/Q28
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: aaa4f244f66ec1140801763c2c4f5c315d3190c1bf7d4159a806c1ac51419075
 ---
 
 # Claude Code for the Rest of Us: A Non-Developer's Guide to AI-Powered Building

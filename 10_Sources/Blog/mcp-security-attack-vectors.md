@@ -21,6 +21,11 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel: aibuilderclub
+af_targets:
+- af:DELEG-02
+- af:ADR-0004
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 162ffdcc5575a37983247c0173eff14ddba7d1b8430d28e3edd64734ca1b698f
 ---
 
 # MCP Security: 6 Attack Vectors and a 5-Step Audit

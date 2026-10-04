@@ -20,6 +20,13 @@ related_concepts:
 - "[[what-is-an-ai-agent]]"
 - "[[agent-vs-llm]]"
 - "[[the-agent-loop]]"
+af_targets:
+- af:ADR-0005
+- af:RSCH-04/Q09
+- af:RSCH-04/Q11
+- af:RSCH-04/Q12
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: b2d33c06af8f677ffcc1bf0978d101451e59c07e68c822b130880623609a556b
 ---
 
 # Memory

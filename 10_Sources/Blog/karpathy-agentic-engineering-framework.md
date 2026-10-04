@@ -23,6 +23,11 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel:
+af_targets:
+- af:ADR-0008
+- af:RSCH-04/Q18
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: dd4b9339a5f0cb400562eb4e310280bba488c7a5b62b203051eb7eb9f08f9a2d
 ---
 
 # Agentic Engineering: Karpathy's New Framework

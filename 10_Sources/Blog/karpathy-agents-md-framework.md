@@ -23,6 +23,12 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel:
+af_targets:
+- af:ADR-0004
+- af:ADR-0007
+- af:RSCH-04/Q28
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: f79c47ad90607a8b844f7b68afcca30e89bddf5608db8db6b7e77b332903f5b0
 ---
 
 # Karpathy's agents.md: What It Is and Why It Matters

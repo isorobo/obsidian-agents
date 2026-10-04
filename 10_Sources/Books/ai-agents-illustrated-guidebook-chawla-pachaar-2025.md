@@ -21,6 +21,12 @@ nlm_id:
 nlm_skip: false
 watchlist_channel: 
 authored_by: agens
+af_targets:
+- af:ADR-0001
+- af:RSCH-04/Q01
+- af:RSCH-04/Q02
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 3bc5b6be386222e12b850e4f160c664c280b8a0bcb7c24797e47a388bf1a64dc
 ---
 
 # AI Agents: The Illustrated Guidebook

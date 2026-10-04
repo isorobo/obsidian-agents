@@ -12,6 +12,10 @@ synonyms: [polyglot storage, multi-store persistence, best-of-breed data stores,
 defined_in: "[[10_Sources/Docs/graph-databases-for-rdbms-developers-neo4j-2021|Graph Databases for the RDBMS Developer]]"
 related_concepts: ["[[graph-database]]", "[[retrieval-augmented-generation]]", "[[tool-use]]", "[[knowledge-graph]]", "[[graphrag]]", "[[index-free-adjacency]]"]
 authored_by: agens
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: fc67bf19444ca1523459f3abd34b2533275e5cd68ef5be03bed61f910f29750b
 ---
 
 # Polyglot Persistence

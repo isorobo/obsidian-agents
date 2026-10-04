@@ -18,6 +18,12 @@ tags: [mcp, protocol, tools, resources, prompts]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:DELEG-02
+- af:RSCH-01/mcp
+- af:RSCH-04/Q16
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 615197cb56d0624d784c126b5f5dbc84879a3e7ba06d7aa4b84a596c67329a67
 ---
 
 # What is the Model Context Protocol (MCP)?

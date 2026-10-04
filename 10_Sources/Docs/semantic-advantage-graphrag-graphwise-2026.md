@@ -21,6 +21,10 @@ nlm_id:
 nlm_skip: false
 watchlist_channel: 
 authored_by: agens
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 919462b0d45b412ad10ee9e68d21864377f8340203bd0c3f37ae25a4fcf9dffc
 ---
 
 # The Semantic Advantage: Scaling Enterprise-Ready GraphRAG and Trustworthy AI with Graphwise

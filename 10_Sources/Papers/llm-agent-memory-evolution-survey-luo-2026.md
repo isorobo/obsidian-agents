@@ -28,6 +28,11 @@ nlm_id:
 nlm_skip: false
 watchlist_channel: 
 authored_by: agens
+af_targets:
+- af:ADR-0005
+- af:RSCH-04/Q11
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 8bdb1d72a142cf732a255ece7e80c25db6ed4b590883fda2321face0e7970083
 ---
 
 # From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms

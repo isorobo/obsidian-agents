@@ -21,6 +21,11 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel:
+af_targets:
+- af:ADR-0004
+- af:BI-11
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 9b9f6a27337f711afcca23d547aad3ab3f2fbc63131f0e9cd69a397a1e7d20aa
 ---
 
 # AI Agent Tools in Python (AI Agents 101, Part 2)

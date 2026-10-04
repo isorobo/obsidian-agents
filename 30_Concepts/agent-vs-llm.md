@@ -19,6 +19,11 @@ related_concepts:
 - "[[what-is-an-ai-agent]]"
 - "[[the-agent-loop]]"
 - "[[tool-use]]"
+af_targets:
+- af:ADR-0001
+- af:RSCH-04/Q02
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: e7024465e4b7ce0286abb1306413d58c4d288035069596be4028457f56323463
 ---
 
 # Agent vs LLM

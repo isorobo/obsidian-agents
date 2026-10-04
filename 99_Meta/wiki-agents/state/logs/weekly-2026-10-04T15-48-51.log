@@ -1,0 +1,262 @@
+=== wiki-agents weekly refresh ===
+started: 2026-10-04T15:48:51+13:00
+vault:   /Users/bernie/obsidian/wiki-agents
+claude:  /opt/homebrew/bin/claude
+engine:  /Users/bernie/code/coding-tools/wiki-engine
+
+--- stage: units ---
+run   anthropic-engineering (target 5)
+skip  anthropic-news: not selected (--units)
+skip  anthropic-docs: not selected (--units)
+skip  anthropic-github: not selected (--units)
+skip  claude-code-changelog: not selected (--units)
+skip  arxiv-agents: not selected (--units)
+skip  boris-cherny: not selected (--units)
+skip  aibuilderclub: not selected (--units)
+skip  af-corpus-repos: not selected (--units)
+skip  af-corpus-papers: not selected (--units)
+
+--- stage: /wiki-agents run anthropic-engineering ---
+Permission allow rule (../../code/coding-tools/wiki-engine/vaults/agents.settings.json): Bash(git -C * diff --stat*) has a wildcard before the rest of the command, so it also matches any options inserted at that position and approves them without a prompt. For git, options such as -c and --exec-path can run arbitrary commands. Replace that * with the exact value you mean, or only use * after the subcommand (for example Bash(git status *)).
+context-bar: hooks module not loaded: only managed plugins and built-in plugins run (allowManagedHooksOnly / disableAllHooks)
+Boundary clean (new changes only under `10_Sources/` and `state/`).
+
+# /wiki-agents run anthropic-engineering 2026-10-04
+
+| channel | total | added | dry rounds | result |
+|---|---|---|---|---|
+| anthropic-engineering | 3 | 1 | 0 | ok |
+
+## Monitor report
+Channel: anthropic-engineering, FORWARD, cap 1 (target_per_run 5). One round, target met. Added `10_Sources/Blog/anthropic-how-we-contain-claude.md` (topics: security, claude-code, best-practices; af_targets: RSCH-04/Q23, ADR-0004, ADR-0007, RSCH-04/Q28). 0 rejected. Verify: 0 errors, 0 warnings. 22 unseen back-catalogue posts remain.
+
+## What changed
+- New source note above.
+- State `anthropic-engineering.json` stamped (`last_run_at` 2026-10-04T02:52:00Z, count 3 = disk 3).
+- Query log `state/logs/anthropic-engineering-queries.md`.
+
+## Flags
+- **Cadence**: 22 unseen posts remain. Run at the full cap of 5, newest first (april-23-postmortem, managed-agents, claude-code-auto-mode).
+- **Other**: the `building-effective-agents` entry in `retrieved_urls` is the /research/ URL, but the listing uses /engineering/. A later run may see it as unseen, and the title index should catch it.
+- **Other**: the monitor had no Grep or Glob, so its duplicate check used `ls` and state arrays only.
+- **Other**: reconcile reported `sources_added` as 2 but the state file read 0. The monitor synced the legacy `total_sources` key to 3 by hand, and verify passed.
+- **Other**: `pilot-gate-bypassed:anthropic-engineering`, because a named channel overrides the gate (anthropic-news has no history entry).
+
+## Link work queued
+- Backlink `30_Concepts/claude-code.md`, `30_Concepts/tool-use.md` and `30_Concepts/mcp.md` to the new note (for `wiki-refresh`).
+
+## Pending your decision
+- Missing concept note: `agent-security-and-sandboxing`.
+- Promote the pilot once anthropic-news has a clean cycle.
+- First `/wiki apply` on this vault.
+- Watchlist and topic edits: none recommended this run.
+- Auto-commit: nothing was committed. Uncommitted work remains in the tree, including your own edits.
+
+WIKI_RESULT {"engine":"wiki-agents","stage":"run","unit":"anthropic-engineering","ok":true,"added":1,"flags":["pilot-gate-bypassed:anthropic-engineering","cadence:anthropic-engineering->run-at-cap-5","backfill:anthropic-engineering:22","missing-concept:agent-security-and-sandboxing","state-count-sync:anthropic-engineering","url-variant:building-effective-agents"]}
+stage exit code: 0  (1.6 min)
+
+--- stage: postconditions ---
+| unit | ran | ok | added | state | disk | last_run_at |
+|---|---|---|---|---|---|---|
+| anthropic-engineering | yes | yes | 1 | 3 | 3 | 2026-10-04T02:52:00Z |
+
+--- stage: /wiki-agents wiki-refresh --headless ---
+Permission allow rule (../../code/coding-tools/wiki-engine/vaults/agents.settings.json): Bash(git -C * diff --stat*) has a wildcard before the rest of the command, so it also matches any options inserted at that position and approves them without a prompt. For git, options such as -c and --exec-path can run arbitrary commands. Replace that * with the exact value you mean, or only use * after the subcommand (for example Bash(git status *)).
+context-bar: hooks module not loaded: only managed plugins and built-in plugins run (allowManagedHooksOnly / disableAllHooks)
+# /wiki-agents wiki-refresh 2026-10-04
+
+| Part | Result |
+|---|---|
+| A. Linking pass | Done: 4 append-only edits |
+| B. `/wiki refresh` hand-off | Skipped: required config keys missing |
+
+## What changed
+
+Part A covered one source note: `10_Sources/Blog/anthropic-how-we-contain-claude.md`, from `anthropic-engineering`, created today. I appended `- [[10_Sources/Blog/anthropic-how-we-contain-claude|How we contain Claude across products]]` as the last bullet of the `## Sources` section in:
+- `30_Concepts/claude-code.md`
+- `30_Concepts/tool-use.md`
+- `30_Concepts/mcp.md`
+- `30_Concepts/best-practices-index.md`
+
+The other monitor notes are older. The Boris Cherny interview has no `watchlist_channel` and the aibuilderclub notes date from July, so neither is in scope. No profile links or release notes were in scope. The MOCs need no edits because they are Dataview queries, and the note's topics (`security`, `claude-code`, `best-practices`) are not checked against the MOC set in this run.
+
+Part B did not run, so there was no scan, vocabulary check, apply, MOC suggestions, verify or `wiki-refresh-2026-10-04.md` report.
+
+## Flags
+
+- `config:wiki-refresh-keys-missing`. `.wiki-config.yaml` has `structural_topics: [topic/meta]`, which lacks `topic/learning`. Its `excluded_folders` omits `99_Meta/agent-factory-digest`. Every other required key is present and correct.
+- Grep and Glob were unavailable and the headless allow list has no grep. I found the Part A inputs from the snapshot, the state files and `ls`.
+- The vault already has uncommitted changes from before this run. Only the four concept files above are from this run.
+
+## Pending your decision
+
+- Add `topic/learning` to `structural_topics` and `99_Meta/agent-factory-digest` to `excluded_folders`, then re-run Part B.
+- First `/wiki apply` on this vault. No note carries `wiki_hash` yet, as the config header says, so the first stamp is yours to approve.
+- Promote the pilot. `anthropic-news` has no automated run, so the pilot gate is still closed.
+- Missing-concept and topic-candidate lists are empty this run.
+- Auto-commit on or off.
+
+Ledger: tool-use -> not-started | Gap: none (maintenance run, no learning evidence; Simon restating it would advance it to `explained`)
+WIKI_RESULT {"engine":"wiki-agents","stage":"wiki-refresh","unit":null,"ok":false,"added":0,"flags":["config:wiki-refresh-keys-missing","wiki-refresh:part-b-skipped","link-edits:4","uncommitted-preexisting"]}
+stage exit code: 0
+
+--- stage: /wiki-agents digest --headless ---
+Permission allow rule (../../code/coding-tools/wiki-engine/vaults/agents.settings.json): Bash(git -C * diff --stat*) has a wildcard before the rest of the command, so it also matches any options inserted at that position and approves them without a prompt. For git, options such as -c and --exec-path can run arbitrary commands. Replace that * with the exact value you mean, or only use * after the subcommand (for example Bash(git status *)).
+context-bar: hooks module not loaded: only managed plugins and built-in plugins run (allowManagedHooksOnly / disableAllHooks)
+# /wiki-agents digest 2026-10-04
+
+| item | result |
+|---|---|
+| digest file | `99_Meta/agent-factory-digest/2026-10-04.md` (first digest, 334 lines) |
+| notes covered | 119 (1 created this period, 118 older notes af-tagged this run) |
+| tagged `none` | 31 |
+| notes with an `af_targets` ID | 88 |
+| RSCH-01 items with a study note | 4 of 9 |
+| RSCH-04 questions with a supporting note | 24 of 33 |
+
+## What changed
+- Added `af_targets` to 118 notes, frontmatter only. Each edit went in just before the closing `---`.
+- `10_Sources/Blog/anthropic-how-we-contain-claude.md` already had `af_targets`, so I left it alone.
+- Skipped `10_Sources/Talks/source-slug.md` (empty stub).
+- Wrote the digest file.
+- Read-only subagents proposed the IDs. I did all the writing.
+- The tagging used three hand-edit conventions:
+  - Each note's last frontmatter key was matched by hand.
+  - The IDs are the subagents' proposals, applied unreviewed.
+  - Each note's frontmatter ends in a different place, so edits were matched per note.
+
+## Flags
+- `digest:2026-10-04`
+- `af-tagged:118`
+- `rsch01-missing:5`
+- `rsch04-covered:24/33`
+- **Schema gaps:** `ADR-0002`, `ADR-0009`, `REAL-*` and `SUBS-01` have no notes.
+- **Tool limits:** Glob and Grep were not available, so I could not run the digest's dash and wikilink checks. I built every wikilink from the scan inventory and avoided em and en dashes while writing. A manual pass would be worth doing.
+- **Tool writes:** `wiki_tool.py scan` and `verify` wrote `99_Meta/wiki-agents/wiki/wiki-scan-2026-10-04.json` and `...-verify.json`. `verify` reported `ok:false` only because no `/wiki apply` has run yet. It found 0 quarantined notes, so the edited frontmatter still parses.
+- **RSCH-01 gaps:** missing study notes for 12-Factor Agents, learn-agent-architecture, mini-SWE-agent, smolagents and Generative Agents.
+- **RSCH-04 gaps:** Q03, Q04, Q10, Q21, Q22, Q26, Q27, Q32 and Q33 have no supporting note.
+- **Provenance:** `loop-engineering-huashu-2026` has a title claiming an Anthropic playbook that its own body disputes. I noted this in the digest.
+- **Injection text:** none found in any note body.
+
+## Pending your decision
+- Digest by-target section: RSCH-01 and RSCH-04 IDs sit in their coverage tables rather than as one `###` each, to keep the file readable. Say if you want them expanded.
+- Review the 118 proposed `af_targets` assignments. They are unreviewed model judgements.
+- Promote the pilot channel once it has a clean cycle. `anthropic-news` has no automated run yet.
+- First `/wiki apply` on this vault (no note has `wiki_hash` yet).
+- The seven suggested GSD todos in the digest are yours to paste or ignore. Nothing was filed.
+
+WIKI_RESULT {"engine":"wiki-agents","stage":"digest","unit":null,"ok":true,"added":0,"flags":["digest:2026-10-04","af-tagged:118","rsch01-missing:5","rsch04-covered:24/33","tools:glob-grep-unavailable","first-apply-pending"]}
+stage exit code: 0
+
+--- stage: wiki_vault.py status ---
+{
+  "vault": "/Users/bernie/obsidian/wiki-agents",
+  "engine": "wiki-agents",
+  "index": "99_Meta/wiki-agents/index.md",
+  "changed": true,
+  "written": true,
+  "units": {
+    "anthropic-news": {
+      "last_run_at": null,
+      "state_count": 0,
+      "disk_count": 0,
+      "status": "pilot",
+      "target": 5,
+      "has_state": true
+    },
+    "anthropic-engineering": {
+      "last_run_at": "2026-10-04T02:52:00Z",
+      "state_count": 3,
+      "disk_count": 3,
+      "status": "active",
+      "target": 5,
+      "has_state": true
+    },
+    "anthropic-docs": {
+      "last_run_at": null,
+      "state_count": 0,
+      "disk_count": 0,
+      "status": "active",
+      "target": 5,
+      "has_state": true
+    },
+    "anthropic-github": {
+      "last_run_at": null,
+      "state_count": 0,
+      "disk_count": 0,
+      "status": "active",
+      "target": 6,
+      "has_state": true
+    },
+    "claude-code-changelog": {
+      "last_run_at": null,
+      "state_count": 0,
+      "disk_count": 0,
+      "status": "active",
+      "target": 5,
+      "has_state": true
+    },
+    "arxiv-agents": {
+      "last_run_at": null,
+      "state_count": 0,
+      "disk_count": 0,
+      "status": "active",
+      "target": 6,
+      "has_state": true
+    },
+    "boris-cherny": {
+      "last_run_at": null,
+      "state_count": 1,
+      "disk_count": 1,
+      "status": "active",
+      "target": 3,
+      "has_state": true
+    },
+    "aibuilderclub": {
+      "last_run_at": "2026-07-11",
+      "state_count": 28,
+      "disk_count": 28,
+      "status": "active",
+      "target": 5,
+      "has_state": true
+    },
+    "af-corpus-repos": {
+      "last_run_at": null,
+      "state_count": 0,
+      "disk_count": 0,
+      "status": "active",
+      "target": 4,
+      "has_state": true
+    },
+    "af-corpus-papers": {
+      "last_run_at": null,
+      "state_count": 0,
+      "disk_count": 0,
+      "status": "active",
+      "target": 3,
+      "has_state": true
+    }
+  }
+}
+stage exit code: 0
+
+--- stage: wiki_vault.py verify ---
+wiki_vault verify: wiki-agents at /Users/bernie/obsidian/wiki-agents
+since 2026-10-04 (notes created on/after are strict ERRORs)  scope: all units
+checked: notes 89, states 10
+
+WARN   R3-frontmatter  (1)
+    10_Sources/Talks/source-slug.md  empty file (stub; report, never delete)
+WARN   R13-dup-url  (2)
+    10_Sources/Books/how-to-design-an-agent-bommarito-2025.md  == 10_Sources/Books/governing-ai-agents-risk-bommarito-2025.md
+    10_Sources/Books/what-is-an-agent-bommarito-2025.md  == 10_Sources/Books/governing-ai-agents-risk-bommarito-2025.md
+WARN   R14-state  (1)
+    99_Meta/wiki-agents/state/aibuilderclub.json  last_run_at '2026-07-11' not YYYY-MM-DDTHH:MM:SSZ
+skipped: R15-boundary: monitor boundary check runs only with --unit (end of a monitor run)
+
+Summary: 0 ERROR, 4 WARN
+stage exit code: 0
+
+summary: added=1 unit_failures=[] failed_stages=['wiki-refresh'] verify_errors=False
+finished: 2026-10-04T15:59:34+13:00
+exit code: 1

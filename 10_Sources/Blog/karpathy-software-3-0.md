@@ -23,6 +23,11 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel:
+af_targets:
+- af:ADR-0008
+- af:RSCH-04/Q12
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 29de5b1ce90f9708f52a678d8306949aff99cdd03d913c57ee65582d1f5f2a16
 ---
 
 # Karpathy's Software 3.0: The Context Window Is Code

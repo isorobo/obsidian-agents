@@ -1,0 +1,227 @@
+=== wiki-agents weekly refresh ===
+started: 2026-10-04T15:42:14+13:00
+vault:   /Users/bernie/obsidian/wiki-agents
+claude:  /opt/homebrew/bin/claude
+engine:  /Users/bernie/code/coding-tools/wiki-engine
+
+--- stage: units ---
+run   anthropic-engineering (target 5)
+skip  anthropic-news: status pilot (--all)
+skip  anthropic-docs: status active (--all)
+skip  anthropic-github: status active (--all)
+skip  claude-code-changelog: status active (--all)
+skip  arxiv-agents: status active (--all)
+skip  boris-cherny: status active (--all)
+skip  aibuilderclub: status active (--all)
+skip  af-corpus-repos: status active (--all)
+skip  af-corpus-papers: status active (--all)
+
+--- stage: /wiki-agents run anthropic-engineering ---
+context-bar: hooks module not loaded: only managed plugins and built-in plugins run (allowManagedHooksOnly / disableAllHooks)
+# /wiki-agents run anthropic-engineering 2026-10-04
+
+I couldn't run this. Bash was denied because the session is in don't-ask mode. Every step of `run <channel>` needs it. That covers the `wiki_vault.py` calls (`units`, `reconcile`, `snapshot`, `verify`), the monitor's own `wiki_vault.py` calls, and the `git status` boundary check. I didn't try to work around the denial.
+
+## Result
+
+| channel | added | result |
+|---|---|---|
+| anthropic-engineering | 0 | FAILED (Bash denied) |
+
+## What changed
+
+Nothing. I wrote no files, dispatched no monitor, and changed no state.
+
+## Flags
+
+- `permission-denied:bash`. The `run` stage can't start without Bash.
+- I didn't resolve the vault or check the pilot gate, so I don't know whether `anthropic-engineering` is eligible.
+- Several MCP servers need authorising before use. The claude.ai connectors (CoCounsel Legal, Definely, Kiwi.com, Mermaid Chart) need it through your claude.ai connector settings. The plugin servers (daloopa, design, finance, legal, marketing) need it through `claude mcp` or `/mcp` in an interactive session. None of them is needed for this run.
+- The `unreal` MCP server failed to connect (ECONNREFUSED). This run doesn't use it.
+
+## Pending your decision
+
+- Allow Bash for this headless run. For example, add allow rules for `uv run --script ~/.claude/skills/wiki/scripts/*`, `git -C * status --porcelain`, and `git status`. Or run it in a permission mode that permits them. Then re-run `/wiki-agents run anthropic-engineering --target-cap 1 --headless`.
+- The standing choices are unchanged:
+  - Promote the pilot channel once it has a clean cycle.
+  - Run the first `/wiki apply` on this vault.
+  - Review the watchlist and topic candidates.
+
+Ledger: workflow-vs-autonomous-agent -> not-started | Gap: none (no evidence this session; Simon restating the concept in his own words would advance it to `explained`)
+
+WIKI_RESULT {"engine":"wiki-agents","stage":"run","unit":"anthropic-engineering","ok":false,"added":0,"flags":["permission-denied:bash","not-completed:anthropic-engineering"]}
+stage exit code: 0  (0.3 min)
+
+--- stage: postconditions ---
+| unit | ran | ok | added | state | disk | last_run_at |
+|---|---|---|---|---|---|---|
+| anthropic-engineering | NO | NO | 0 | 2 | 2 | None |
+
+--- stage: /wiki-agents wiki-refresh --headless ---
+context-bar: hooks module not loaded: only managed plugins and built-in plugins run (allowManagedHooksOnly / disableAllHooks)
+# /wiki-agents wiki-refresh 2026-10-04
+
+| stage | result |
+|---|---|
+| Vault resolution | not attempted |
+| Part A (linking pass) | not run |
+| Part B (`/wiki refresh` hand-off) | not run |
+
+## What changed
+
+Nothing. The first Bash call was denied because Claude Code is in don't-ask mode. I made no other attempt and wrote no files.
+
+## Flags
+
+- **permission-denied:** the skill reaches the vault only through `uv run --script ~/.claude/skills/wiki/scripts/wiki_vault.py` and `wiki_tool.py`. Those calls cover `scan`, `vocab`, `plan-check`, `apply`, `moc` and `verify`, and the contract forbids bypassing them. Part A also needs the git state, which only Bash can read. I did not try Read or Edit as a substitute. It would skip `apply`'s dry-run and `verify`, and the part that edits frontmatter would be unsafe unattended.
+- `.wiki-config.yaml` keys were not checked, so `config:engine-key-missing` and `config:wiki-refresh-keys-missing` are unknown.
+
+## Pending your decision
+
+- Allow Bash for `uv run --script ~/.claude/skills/wiki/scripts/*`, `git -C <vault> status`, and `date`, or run the job in a mode that permits them. Then re-run `/wiki-agents wiki-refresh --headless`.
+- These standing choices are still open, because I could not check them this run:
+  - promoting the pilot channel;
+  - the first `/wiki apply` on this vault;
+  - missing `.wiki-config.yaml` keys;
+  - topic candidates;
+  - release-driven concept edits;
+  - missing concept notes;
+  - auto-commit on or off.
+
+Ledger: claude-agent-sdk -> not-started | Gap: none. No evidence was produced this session. Simon restating the concept in his own words would advance it to `explained`.
+
+WIKI_RESULT {"engine":"wiki-agents","stage":"wiki-refresh","unit":null,"ok":false,"added":0,"flags":["permission-denied:bash","wiki-refresh:not-run"]}
+stage exit code: 0
+
+--- stage: /wiki-agents digest --headless ---
+context-bar: hooks module not loaded: only managed plugins and built-in plugins run (allowManagedHooksOnly / disableAllHooks)
+Bash is denied in this session (don't-ask mode), so I can't run `digest`. I did not try to work around it.
+
+The digest needs three things that depend on Bash:
+- **Resolving the vault and date.** It runs `wiki_vault.py` and `wiki_tool.py` through `uv run --script`, and it needs `TZ=Pacific/Auckland date`.
+- **Enumerating notes.** It has to scan `10_Sources/`, `30_Concepts/` and `40_Guides/` for notes with and without `af_targets`. I have no Glob or Grep tool here.
+- **The `af-tag` pre-step.** It needs those listings and a post-edit frontmatter check before the digest is written.
+
+Nothing was written or changed.
+
+To fix this, allow Bash in the headless runner's permission settings. `uv run --script ~/.claude/skills/wiki/scripts/*`, `git -C <vault> status`, and `date` would cover it. Alternatively, run the digest interactively. Then re-run `/wiki-agents digest --headless`.
+
+## Pending your decision
+- Grant Bash permission to the headless runner.
+- The standing choices still open (pilot promotion, first `/wiki apply`, and the rest) can't be checked without Bash.
+
+WIKI_RESULT {"engine":"wiki-agents","stage":"digest","unit":null,"ok":false,"added":0,"flags":["permission-denied:Bash","digest:not-written"]}
+stage exit code: 0
+
+--- stage: wiki_vault.py status ---
+{
+  "vault": "/Users/bernie/obsidian/wiki-agents",
+  "engine": "wiki-agents",
+  "index": "99_Meta/wiki-agents/index.md",
+  "changed": true,
+  "written": true,
+  "units": {
+    "anthropic-news": {
+      "last_run_at": null,
+      "state_count": 0,
+      "disk_count": 0,
+      "status": "pilot",
+      "target": 5,
+      "has_state": true
+    },
+    "anthropic-engineering": {
+      "last_run_at": null,
+      "state_count": 2,
+      "disk_count": 2,
+      "status": "active",
+      "target": 5,
+      "has_state": true
+    },
+    "anthropic-docs": {
+      "last_run_at": null,
+      "state_count": 0,
+      "disk_count": 0,
+      "status": "active",
+      "target": 5,
+      "has_state": true
+    },
+    "anthropic-github": {
+      "last_run_at": null,
+      "state_count": 0,
+      "disk_count": 0,
+      "status": "active",
+      "target": 6,
+      "has_state": true
+    },
+    "claude-code-changelog": {
+      "last_run_at": null,
+      "state_count": 0,
+      "disk_count": 0,
+      "status": "active",
+      "target": 5,
+      "has_state": true
+    },
+    "arxiv-agents": {
+      "last_run_at": null,
+      "state_count": 0,
+      "disk_count": 0,
+      "status": "active",
+      "target": 6,
+      "has_state": true
+    },
+    "boris-cherny": {
+      "last_run_at": null,
+      "state_count": 1,
+      "disk_count": 1,
+      "status": "active",
+      "target": 3,
+      "has_state": true
+    },
+    "aibuilderclub": {
+      "last_run_at": "2026-07-11",
+      "state_count": 28,
+      "disk_count": 28,
+      "status": "active",
+      "target": 5,
+      "has_state": true
+    },
+    "af-corpus-repos": {
+      "last_run_at": null,
+      "state_count": 0,
+      "disk_count": 0,
+      "status": "active",
+      "target": 4,
+      "has_state": true
+    },
+    "af-corpus-papers": {
+      "last_run_at": null,
+      "state_count": 0,
+      "disk_count": 0,
+      "status": "active",
+      "target": 3,
+      "has_state": true
+    }
+  }
+}
+stage exit code: 0
+
+--- stage: wiki_vault.py verify ---
+wiki_vault verify: wiki-agents at /Users/bernie/obsidian/wiki-agents
+since 2026-10-04 (notes created on/after are strict ERRORs)  scope: all units
+checked: notes 88, states 10
+
+WARN   R3-frontmatter  (1)
+    10_Sources/Talks/source-slug.md  empty file (stub; report, never delete)
+WARN   R13-dup-url  (2)
+    10_Sources/Books/how-to-design-an-agent-bommarito-2025.md  == 10_Sources/Books/governing-ai-agents-risk-bommarito-2025.md
+    10_Sources/Books/what-is-an-agent-bommarito-2025.md  == 10_Sources/Books/governing-ai-agents-risk-bommarito-2025.md
+WARN   R14-state  (1)
+    99_Meta/wiki-agents/state/aibuilderclub.json  last_run_at '2026-07-11' not YYYY-MM-DDTHH:MM:SSZ
+skipped: R15-boundary: monitor boundary check runs only with --unit (end of a monitor run)
+
+Summary: 0 ERROR, 4 WARN
+stage exit code: 0
+
+summary: added=0 unit_failures=['anthropic-engineering'] failed_stages=['units', 'wiki-refresh', 'digest'] verify_errors=False
+finished: 2026-10-04T15:43:06+13:00
+exit code: 1

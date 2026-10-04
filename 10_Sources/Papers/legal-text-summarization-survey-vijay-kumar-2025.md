@@ -24,6 +24,10 @@ nlm_id:
 nlm_skip: false
 watchlist_channel: 
 authored_by: agens
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: bf4abbe27fba8d818b0ee3b917c854b8b0ddcd9e6e05e5bb61ee6e0aa4e84112
 ---
 
 # A Comprehensive Survey of AI-Enabled Techniques for Automated Legal Text Summarization and Citation Grounding in Judicial Applications

@@ -24,6 +24,10 @@ related_concepts:
 - "[[memory]]"
 - "[[tool-use]]"
 authored_by: agens
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 466e2498d5fecb5c886d50fc94e35023727c3eed84576dbb4b76fe37ef0ba2f8
 ---
 
 # Knowledge Graph

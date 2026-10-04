@@ -26,6 +26,12 @@ tags: [evaluation, benchmarks, agent-metrics, survey, agent-harness]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:ADR-0008
+- af:RSCH-04/Q18
+- af:RSCH-04/Q20
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 7b6acf08976c648d7b84e55202f51d02e31577bae8abd0b8764c4ed760e194eb
 ---
 
 # Survey on Evaluation of LLM-based Agents

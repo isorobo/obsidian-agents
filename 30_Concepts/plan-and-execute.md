@@ -12,6 +12,11 @@ synonyms: [plan-and-solve, planner-executor, plan then execute]
 defined_in: "[[10_Sources/Papers/react-yao-2022|ReAct (Yao et al., 2022)]]"
 related_concepts: ["[[planning-and-reasoning]]", "[[react]]", "[[supervisor-worker-multi-agent]]", "[[the-agent-loop]]"]
 maturity: established
+af_targets:
+- af:RSCH-04/Q29
+- af:RSCH-04/Q31
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 185da3ce34987ba9d31eeb0a05b113050cad72aaca5ad8713ba30de876726466
 ---
 
 # Plan-and-Execute

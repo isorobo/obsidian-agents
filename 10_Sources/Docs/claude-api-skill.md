@@ -21,6 +21,10 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel:
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 73403228dd3aef2ba59791743908d6480ef23bd2fc97fb1758641e934ae91516
 ---
 
 # Claude API Skill - API Reference Guidance for Claude

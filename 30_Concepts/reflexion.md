@@ -11,6 +11,11 @@ synonyms: [verbal reinforcement, self-reflection loop, reflect-and-retry]
 defined_in: "[[10_Sources/Papers/reflexion-shinn-2023|Reflexion (Shinn et al., 2023)]]"
 related_concepts: ["[[react]]", "[[memory]]", "[[planning-and-reasoning]]", "[[evaluation]]"]
 maturity: established
+af_targets:
+- af:DELEG-03
+- af:RSCH-01/reflexion
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: e37904776f36cd15367e16feaf523d4b60b4112107b97cd1ea39557469f8f040
 ---
 
 # Reflexion

@@ -19,6 +19,10 @@ nlm_id:
 nlm_skip: false
 watchlist_channel: 
 authored_by: agens
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: be6a386bf31a0aef6d052051402a56b80c075a897e037a6a54ebc6063a442889
 ---
 
 # Semantic search: Bringing search experiences into the AI era

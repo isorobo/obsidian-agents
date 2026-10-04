@@ -11,6 +11,10 @@ synonyms: [Claude Agent SDK, Agent SDK]
 defined_in: "[[10_Sources/Docs/claude-agent-sdk-overview|Agent SDK overview]]"
 related_concepts: ["[[the-agent-loop]]", "[[tool-use]]", "[[claude-code]]"]
 anthropic: true
+af_targets:
+- af:RSCH-01/claude-code
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 51907d14e0a32b5331148ea6cc5bb37f801c294d5c4f31cdc61e43f508676c54
 ---
 
 # Claude Agent SDK

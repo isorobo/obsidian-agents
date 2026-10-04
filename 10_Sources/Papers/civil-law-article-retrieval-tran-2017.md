@@ -19,6 +19,10 @@ tags: [legal-nlp, coliee, information-retrieval, word2vec, legal-tech]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 325990a00717684e4722456532b513a3b56a7239e71fb6126233930d6dfed74e
 ---
 
 # Applying Deep Neural Network to Retrieve Relevant Civil Law Articles

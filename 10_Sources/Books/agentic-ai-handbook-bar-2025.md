@@ -18,6 +18,11 @@ tags: [agentic-ai, cognitive-architecture, agent-design-patterns, multi-agent-sy
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:ADR-0001
+- af:RSCH-04/Q01
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 1a6b8eea67ecd62e951df7ed384f1e7b540e7fe95e27a4d518cde85bef61b049
 ---
 
 # The Agentic AI Handbook: Concepts, Design Patterns, and Future Directions

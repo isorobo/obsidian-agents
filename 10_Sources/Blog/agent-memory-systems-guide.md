@@ -21,6 +21,12 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel:
+af_targets:
+- af:ADR-0005
+- af:RSCH-04/Q11
+- af:RSCH-04/Q12
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 009e1d32882b0b69ab906e034f915f702d91b712e8380e407a1de8bc72b95f0f
 ---
 
 # Agent Memory Systems: The Complete Guide (2026)

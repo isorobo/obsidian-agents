@@ -21,6 +21,10 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel:
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: a560c252b2bc0cce058ac692d13f104ecd5d757fbcb853c81ae30e6fbb9cec56
 ---
 
 # davidondrej/skills

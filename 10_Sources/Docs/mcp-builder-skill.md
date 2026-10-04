@@ -22,6 +22,11 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel:
+af_targets:
+- af:RSCH-04/Q16
+- af:RSCH-04/Q20
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 14fea128ce15bcf1dec489f2bf52fc5ecdc45e02fc94c33cb0ce3f47f66c983d
 ---
 
 # MCP Builder - Claude Skill for Building MCP Servers

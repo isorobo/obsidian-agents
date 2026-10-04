@@ -12,6 +12,12 @@ synonyms: [orchestrator-workers, supervisor pattern, lead-and-subagents, hierarc
 defined_in: "[[10_Sources/Papers/react-yao-2022|ReAct (Yao et al., 2022)]]"
 related_concepts: ["[[plan-and-execute]]", "[[workflow-vs-autonomous-agent]]", "[[claude-agent-sdk]]", "[[the-agent-loop]]"]
 maturity: emerging
+af_targets:
+- af:DELEG-01
+- af:RSCH-04/Q17
+- af:RSCH-04/Q25
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 21345faaeac8ca37b582c230f4e4bd805261a9b18a802addcb501e9618888cfe
 ---
 
 # Supervisor-Worker Multi-Agent

@@ -34,6 +34,10 @@ tags: [multi-agent, emergent-behaviour, collaboration, dynamic-recruitment, mine
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:RSCH-04/Q24
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 4bd8df4e5f807d19da331134bc73041c507523be1ee183ccf13dc5be5d114477
 ---
 
 # AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors

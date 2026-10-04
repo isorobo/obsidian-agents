@@ -24,6 +24,10 @@ tags: [legal-nlp, text-classification, french-supreme-court, svm, ensemble-metho
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 34350c9aeeac486e3d18ff5e7edae687b9d767f7512d0f9e5d40cd7ed348b4c9
 ---
 
 # Exploring the Use of Text Classification in the Legal Domain

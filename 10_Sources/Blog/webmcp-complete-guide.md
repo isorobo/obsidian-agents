@@ -21,6 +21,10 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel: aibuilderclub
+af_targets:
+- af:ADR-0004
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 24619e3050a302f22c02fe4fbb099679b87b6f65336de16c8e3064e945519071
 ---
 
 # WebMCP Tutorial: How Agents Use Websites as Tools

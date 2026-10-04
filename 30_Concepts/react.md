@@ -11,6 +11,12 @@ synonyms: [reason-and-act, reasoning and acting, thought-action-observation]
 defined_in: "[[10_Sources/Papers/react-yao-2022|ReAct (Yao et al., 2022)]]"
 related_concepts: ["[[the-agent-loop]]", "[[tool-use]]", "[[reflexion]]", "[[planning-and-reasoning]]"]
 maturity: established
+af_targets:
+- af:RSCH-01/react
+- af:RSCH-04/Q13
+- af:RSCH-04/Q14
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 55f5094c3f93dcc3b094b6554d975be080828478a130059730ee39aba7aad43e
 ---
 
 # ReAct

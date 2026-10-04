@@ -21,6 +21,10 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel: aibuilderclub
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 6206ae3159e4738e6a3481c8f27d4192b90fa5d75647952b21107b28dfc7c607
 ---
 
 # MarkItDown: PDF to Markdown for RAG Pipelines [2026 Guide]

@@ -11,6 +11,8 @@ topic:
 - topic/foundations
 tags: [education, course, agent-engineering]
 key_sources: []
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 52ea52851bb11b36c79c27b97fe5eb35517e6dfad5301acdd351c4666b4de81b
 ---
 
 # AI Builder Club

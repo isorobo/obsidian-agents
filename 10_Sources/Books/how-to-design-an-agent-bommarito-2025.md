@@ -21,6 +21,13 @@ tags: [mcp, a2a, agent-architecture, technical-evaluation, multi-agent, legal-ai
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:ADR-0004
+- af:ADR-0007
+- af:RSCH-04/Q15
+- af:RSCH-04/Q17
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 452d4b5bbc82d1ca9f409db5ca19a1866940a7200371af7b116c93bed19ce5e1
 ---
 
 # Agents Part II: How to Design an Agent: Architectures, Protocols, and Technical Evaluation

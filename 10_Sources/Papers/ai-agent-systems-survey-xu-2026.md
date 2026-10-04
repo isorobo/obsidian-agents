@@ -19,6 +19,12 @@ tags: [survey, taxonomy, orchestration, evaluation]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:RSCH-04/Q01
+- af:RSCH-04/Q20
+- af:RSCH-04/Q30
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 781119ec2d3451c76532611f9c51c90f8e3b3895c8f148dc73f99ed74a3690bd
 ---
 
 # AI Agent Systems: Architectures, Applications, and Evaluation

@@ -22,6 +22,10 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel: aibuilderclub
+af_targets:
+- cf:ADR-0012
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: f54a16a398705c5e1124c8aa1e2b8e66e72f383d7c9fc97b3fcc833f357796ba
 ---
 
 # Anthropic's 300+ Claude Code Skills: Lessons Learned

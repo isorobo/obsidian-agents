@@ -25,6 +25,12 @@ tags: [react, reasoning, tool-use, agent-loop]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:RSCH-01/react
+- af:RSCH-04/Q13
+- af:RSCH-04/Q14
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 305c74fb6ebd4dcad30c97edda6714828ff8017c08b136c4c4a395617a40c628
 ---
 
 # ReAct: Synergizing Reasoning and Acting in Language Models

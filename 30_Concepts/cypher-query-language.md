@@ -12,6 +12,10 @@ synonyms: [Cypher, openCypher, GQL]
 defined_in: "[[10_Sources/Docs/graph-databases-for-rdbms-developers-neo4j-2021|Graph Databases for the RDBMS Developer]]"
 related_concepts: ["[[graph-database]]", "[[knowledge-graph]]", "[[graphrag]]", "[[tool-use]]", "[[index-free-adjacency]]", "[[polyglot-persistence]]"]
 authored_by: agens
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: ad25f4b33a1fd0a609333ae7428d5ab3b9321bdec199fdf4e8185de273aa407b
 ---
 
 # Cypher Query Language

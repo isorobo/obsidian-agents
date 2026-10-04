@@ -21,6 +21,10 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel: aibuilderclub
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: fcd12d24ac7b2796215305e2889769483be6c773adfe4892efe860d4abd01679
 ---
 
 # Codebase Memory MCP: Give Your Coding Agent a Map (2026)

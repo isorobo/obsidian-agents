@@ -17,6 +17,12 @@ tags: []
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:DELEG-01
+- af:RSCH-01/claude-code
+- af:RSCH-04/Q05
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 7d34968f6148fd8b04bb4ae2d8b26f303691133b369b90c590223cd9dd76a4bb
 ---
 
 # Claude Code dynamic workflows

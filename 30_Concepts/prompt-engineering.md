@@ -12,6 +12,10 @@ synonyms: [Prompt Engineering, Prompting]
 defined_in: "[[10_Sources/Docs/claude-agent-sdk-overview|Agent SDK overview]]"
 related_concepts: ["[[tool-use]]", "[[claude-code]]", "[[best-practices-index]]"]
 anthropic: true
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: da6cf71da62c4058519411aa52ed754f3ea77eef98a92bc446ccc0ff58030d8f
 ---
 
 # Prompt Engineering

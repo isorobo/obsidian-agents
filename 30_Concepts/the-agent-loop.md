@@ -20,6 +20,12 @@ related_concepts:
 - "[[what-is-an-ai-agent]]"
 - "[[tool-use]]"
 - "[[react]]"
+af_targets:
+- af:ADR-0001
+- af:RSCH-04/Q01
+- af:RSCH-04/Q13
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 2a8b9df7cf71e38e40355b6195ee10cf8cff0471669381b65135d01628d08155
 ---
 
 # The Agent Loop

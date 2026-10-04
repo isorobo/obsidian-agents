@@ -23,6 +23,10 @@ tags: [role-playing, multi-agent, cooperation, inception-prompting, instruction-
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:RSCH-04/Q24
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 48343fbbf08475c959239b7b6db2eb363c3e8b00ea65a644b6074d6c2ae742a7
 ---
 
 # CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society

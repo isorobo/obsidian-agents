@@ -27,6 +27,11 @@ nlm_id:
 nlm_skip: false
 watchlist_channel: 
 authored_by: agens
+af_targets:
+- af:RSCH-04/Q17
+- af:RSCH-04/Q24
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 2bdca3c036b0b4bb9c981f615aed62cf89f4d17d39530dbb4492b085521c7902
 ---
 
 # Large Language Model based Multi-Agents: A Survey of Progress and Challenges

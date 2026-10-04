@@ -21,6 +21,11 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel: aibuilderclub
+af_targets:
+- af:ADR-0005
+- af:RSCH-04/Q12
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 64a128e86aec6dea298a00cd9b276fe0b1f32adac44ee65afb26c7085f182363
 ---
 
 # Context Engineering: The Complete Guide (2026)

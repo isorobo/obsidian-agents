@@ -22,6 +22,12 @@ tags:
 nlm_id: 
 nlm_skip: false
 watchlist_channel: anthropic-engineering
+af_targets:
+- af:ADR-0001
+- af:RSCH-04/Q01
+- af:RSCH-04/Q02
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 0f27b588102290bd6be60f69ebe111b318c1041f017347fa8594ac74564f11a4
 ---
 
 # Building Effective Agents

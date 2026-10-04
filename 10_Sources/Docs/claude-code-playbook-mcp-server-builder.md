@@ -20,6 +20,10 @@ nlm_id:
 nlm_skip: false
 watchlist_channel: 
 authored_by: agens
+af_targets:
+- af:RSCH-04/Q16
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: dc66fb51ac8a2b4a75130ccd2c36765371b41e8ec2c43bef7c348761e5fa2274
 ---
 
 # MCP Server Builder

@@ -21,6 +21,11 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel: aibuilderclub
+af_targets:
+- af:ADR-0005
+- af:RSCH-04/Q12
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 95a474580c103a829327ee3f211104b2f5851007007e1fd7e70ee57d3c85cb30
 ---
 
 # RAG vs Long Context vs Fine-Tuning: When Each Wins

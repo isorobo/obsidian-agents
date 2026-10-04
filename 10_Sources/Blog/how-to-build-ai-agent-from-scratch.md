@@ -20,6 +20,11 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel: aibuilderclub
+af_targets:
+- af:ADR-0001
+- af:RSCH-04/Q01
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: c233dac680fecbb17321efc9ce94017bb4bef4cfaeece830cb3f2c0719fdbc59
 ---
 
 # How to Build an AI Agent from Scratch in Python (2026)

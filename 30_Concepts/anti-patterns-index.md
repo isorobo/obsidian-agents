@@ -11,6 +11,11 @@ synonyms: [failure modes, agent anti-patterns]
 defined_in: "[[10_Sources/Blog/anthropic-building-effective-agents|Building Effective Agents]]"
 related_concepts: ["[[best-practices-index]]", "[[evaluation]]", "[[the-agent-loop]]"]
 anthropic: true
+af_targets:
+- af:ADR-0005
+- af:ADR-0008
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: f228efb7a725fd914bc4f2b82fa56e551d474aee6d0cacbf0c63a296478e46e9
 ---
 
 # Anti-Patterns Index

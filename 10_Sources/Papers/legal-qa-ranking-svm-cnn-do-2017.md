@@ -23,6 +23,10 @@ tags: [legal-nlp, question-answering, coliee, ranking-svm, convolutional-neural-
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: b0ed200132b76a4aa6cfbd53fe5ed195fb2d90852963c3b0b9fa5835e7742d57
 ---
 
 # Legal Question Answering Using Ranking SVM and Deep Convolutional Neural Network

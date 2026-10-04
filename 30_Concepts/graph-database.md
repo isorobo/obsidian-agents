@@ -25,6 +25,10 @@ related_concepts:
 - "[[knowledge-graph]]"
 - "[[graphrag]]"
 authored_by: agens
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: c1674ddcee73960223ec55ca33c898eb728097b79c3584992120a9fa4661b982
 ---
 
 # Graph Database

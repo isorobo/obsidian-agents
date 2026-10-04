@@ -21,6 +21,11 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel: aibuilderclub
+af_targets:
+- af:ADR-0005
+- af:RSCH-04/Q11
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 135904e4f0f69fa366da5d4b051996bdaae39fa3109de82d33dc1ff7bb95bfc3
 ---
 
 # Fix AI Agent Memory Loss in 30 Seconds (agentmemory)

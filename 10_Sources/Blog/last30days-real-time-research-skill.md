@@ -22,6 +22,10 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel: aibuilderclub
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 12ea766fa030d8f55b85195cf05786129d88af2b59c9e01a23bc055444489738
 ---
 
 # last30days-skill: Real-Time Research for AI Agents

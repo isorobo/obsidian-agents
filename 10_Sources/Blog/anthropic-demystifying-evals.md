@@ -17,6 +17,11 @@ tags:
 - evals
 nlm_skip: false
 watchlist_channel: anthropic-engineering
+af_targets:
+- af:ADR-0008
+- af:RSCH-04/Q20
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: d2bcab89560fc8458bef6df48398e6a57890eb81c61d1d55179f7ef6dabc0672
 ---
 
 # Demystifying Evals for AI Agents

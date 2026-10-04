@@ -21,6 +21,13 @@ tags: [governance, compliance, risk, accountability, regulation]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:ADR-0007
+- af:RSCH-04/Q07
+- af:RSCH-04/Q08
+- af:RSCH-04/Q28
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 341b4e8556a981b4fea2ae153264f698c0b15e41ca7d2b74b978cb2a319a90fb
 ---
 
 # Agents Part III: Governing AI Agents: Risk, Compliance, and Accountability in Law and Finance

@@ -21,6 +21,12 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel:
+af_targets:
+- af:ADR-0001
+- af:RSCH-04/Q01
+- af:RSCH-04/Q02
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: f5651f92268494bc0f0edb73be583dadac6041ec9744b35ee9737434f9d9375c
 ---
 
 # What Is an AI Agent? (AI Agents 101, Part 1)

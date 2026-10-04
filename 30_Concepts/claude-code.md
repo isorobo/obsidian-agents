@@ -11,6 +11,10 @@ synonyms: [Claude Code]
 defined_in: "[[10_Sources/Docs/claude-code-overview|Claude Code overview]]"
 related_concepts: ["[[claude-agent-sdk]]", "[[mcp]]", "[[the-agent-loop]]"]
 anthropic: true
+af_targets:
+- af:RSCH-01/claude-code
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 059d3aa5e412a6d44b42b344857cfb94f78b09453db281200f1ab361a7c04bb0
 ---
 
 # Claude Code
@@ -45,6 +49,7 @@ Claude Code shortens tedious work: tests, lint fixes, dependency updates, and re
 
 - [[10_Sources/Docs/claude-code-overview|Claude Code overview]]
 - https://code.claude.com/docs/en/overview
+- [[10_Sources/Blog/anthropic-how-we-contain-claude|How we contain Claude across products]]
 
 ## See also
 

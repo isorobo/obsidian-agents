@@ -20,6 +20,11 @@ tags: [tool-use, rag, feedback-learning, taxonomy, planning]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:RSCH-04/Q16
+- af:RSCH-04/Q31
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 1dd58d23c80c5a8ab415e89b94475e54a99b865b89f41ef965495d6122b5f8e4
 ---
 
 # A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning

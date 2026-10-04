@@ -20,6 +20,12 @@ related_concepts:
 - "[[the-agent-loop]]"
 - "[[what-is-an-ai-agent]]"
 - "[[mcp]]"
+af_targets:
+- af:ADR-0004
+- af:RSCH-04/Q06
+- af:RSCH-04/Q16
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 73bfde81534a0725a4f456de7b510657a0f5d810a861360f63ad544b5ced3804
 ---
 
 # Tool Use
@@ -59,6 +65,7 @@ Tools extend a model past text into live data and action. They also widen the at
 - [[10_Sources/Blog/anthropic-building-effective-agents|Building Effective Agents]]
 - Writing effective tools for AI agents — https://www.anthropic.com/engineering/writing-tools-for-agents
 - What is the Model Context Protocol — https://docs.anthropic.com/en/docs/agents-and-tools/mcp
+- [[10_Sources/Blog/anthropic-how-we-contain-claude|How we contain Claude across products]]
 
 ## See also
 

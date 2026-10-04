@@ -21,6 +21,12 @@ tags: [agent-taxonomy, legal-ai, primer, history, agency-law]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:ADR-0001
+- af:RSCH-04/Q01
+- af:RSCH-04/Q02
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 28bdfe3c3c6c92fd49e45c2fadfdda1f3c6756df98f6dd797cc27caefeefc4b9
 ---
 
 # Agents Part I: What is an Agent? A Conceptual Primer and History

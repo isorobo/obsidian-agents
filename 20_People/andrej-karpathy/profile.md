@@ -9,8 +9,11 @@ role: Independent AI researcher and educator; former Director of AI, Tesla; foun
 affiliations: [OpenAI, Tesla, Eureka Labs]
 topic:
 - topic/karpathy
+- topic/best-practices
 tags: [karpathy, agentic-engineering, software-3.0]
 key_sources: ["[[10_Sources/Blog/karpathy-agentic-engineering-framework|Agentic Engineering: Karpathy's New Framework]]"]
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 89bf5a9d5773e53cc1f169e3aa38373fc1062f5b8c92c44b1481608952b252c1
 ---
 
 # Andrej Karpathy

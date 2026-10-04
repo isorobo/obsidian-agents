@@ -1,20 +1,26 @@
 {
   "channel": "anthropic-engineering",
-  "last_run_at": null,
+  "last_run_at": "2026-10-04T02:52:00Z",
   "target_per_run": 5,
-  "sources_added": 0,
-  "last_status": "pending",
-  "history": [],
+  "sources_added": 3,
+  "last_status": "ok",
+  "last_run_summary": "2026-10-04: added 1 of cap 1 (How we contain Claude across products, 25 May 2026). Listing fetched fine, 25 posts, 23 unseen. Recommend further runs to clear the back catalogue newest first, starting with april-23-postmortem and managed-agents.",
+  "since_date": "2024-01-01",
+  "history": [
+    {"run_at": "2026-10-04T02:52:00Z", "sources_added": 1, "status": "ok", "note": "Capped at 1 by target_cap. Took newest unseen post; 22 unseen posts remain."}
+  ],
   "retrieved_urls": [
     "https://www.anthropic.com/research/building-effective-agents",
-    "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents"
+    "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+    "https://www.anthropic.com/engineering/how-we-contain-claude"
   ],
   "retrieved_arxiv_ids": [],
   "title_index": [
     "Building Effective Agents",
-    "Demystifying Evals for AI Agents"
+    "Demystifying Evals for AI Agents",
+    "How we contain Claude across products"
   ],
   "rejected": [],
   "rounds_without_yield": 0,
-  "total_sources": 2
+  "total_sources": 3
 }

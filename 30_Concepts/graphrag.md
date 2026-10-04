@@ -12,6 +12,10 @@ synonyms: [graph rag, knowledge graph enhanced rag, graph retrieval augmented ge
 defined_in: "[[10_Sources/Books/essential-graphrag-bratanic-2025|Essential GraphRAG]]"
 related_concepts: ["[[knowledge-graph]]", "[[retrieval-augmented-generation]]", "[[react]]", "[[the-agent-loop]]", "[[tool-use]]", "[[evaluation]]"]
 authored_by: agens
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 705dd4b3a5a58dccefe597bcfb2800adff382bb02cc8d8dead83adbb404c49a4
 ---
 
 # GraphRAG

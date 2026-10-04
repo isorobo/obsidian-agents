@@ -19,6 +19,10 @@ nlm_id:
 nlm_skip: false
 watchlist_channel: 
 authored_by: agens
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: c3bc8f9e0593fbc3bec6e43fe732597e627dc0d1eaefeb94df8ebff71cb75ba6
 ---
 
 # The Developer's Guide: How to Build a Knowledge Graph

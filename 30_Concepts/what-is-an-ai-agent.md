@@ -19,6 +19,12 @@ related_concepts:
 - "[[agent-vs-llm]]"
 - "[[the-agent-loop]]"
 - "[[workflow-vs-autonomous-agent]]"
+af_targets:
+- af:ADR-0001
+- af:RSCH-04/Q01
+- af:RSCH-04/Q02
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: a64aec7e1c8fe0c54340ec922547ff672dac8d660675cbdfc2a891e7a0569032
 ---
 
 # What Is an AI Agent

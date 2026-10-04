@@ -19,6 +19,10 @@ nlm_id:
 nlm_skip: false
 watchlist_channel: 
 authored_by: agens
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: cb0501a3e65691493ed52502abb8cc94cd1e2257f53fa5c7727416f6dd46edf5
 ---
 
 # The AI Agent Handbook: 10 practical hacks to use AI agents for business

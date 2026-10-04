@@ -20,6 +20,10 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel: aibuilderclub
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: a3ccc3880dab5e12f4cea14a9ab0273d80241218798b640b1fd11febfc4d1f1d
 ---
 
 # Prompt Engineering in 2026: Techniques That Work

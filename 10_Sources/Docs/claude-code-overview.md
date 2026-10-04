@@ -17,6 +17,11 @@ tags: [claude-code, cli, ide, mcp, hooks, subagents]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:RSCH-01/claude-code
+- af:RSCH-04/Q11
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 68486a389235e77b423c50c84cbbeb68ccee52806d5c04835d54ad508d1747fe
 ---
 
 # Claude Code overview

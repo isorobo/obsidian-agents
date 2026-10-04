@@ -20,6 +20,11 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel: aibuilderclub
+af_targets:
+- af:DELEG-02
+- af:ADR-0004
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 830fdcfe67fa645578d3ea411499d46842088e3b81604aec031de89c34356912
 ---
 
 # MCP 101: Build Your First MCP Server (Step-by-Step)

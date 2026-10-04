@@ -19,6 +19,11 @@ nlm_id:
 nlm_skip: false
 watchlist_channel: 
 authored_by: agens
+af_targets:
+- af:DELEG-02
+- af:RSCH-04/Q16
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 338995aeae65d4c39d589414dbfe476c532935fec583e804a191ab3af7f55cdb
 ---
 
 # The Complete Guide to MCP Servers: What They Are and How to Build One

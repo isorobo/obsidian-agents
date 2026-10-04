@@ -27,6 +27,11 @@ tags: [planning, survey, task-decomposition, reflection, memory]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:DELEG-03
+- af:RSCH-04/Q05
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 1ecb51f04ad627080962dedb8a8251a4f3359a62f20ea983ab78a17a9af4c209
 ---
 
 # Understanding the Planning of LLM Agents: A Survey

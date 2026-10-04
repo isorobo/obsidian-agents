@@ -32,6 +32,11 @@ tags: [multi-agent, conversation, framework, orchestration, tool-use]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:RSCH-04/Q08
+- af:RSCH-04/Q24
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 5b356e322af1566335cfbebdb1520cea72a623ac782356a0fb93d025fa521323
 ---
 
 # AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation

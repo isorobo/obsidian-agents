@@ -26,6 +26,11 @@ tags: [embodied-agent, skill-library, curriculum, minecraft, code-generation]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:RSCH-04/Q09
+- af:RSCH-04/Q11
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 27f99ef31934ee3e9e3928bfe632d8c974af9a311c3761a790e4854b80773953
 ---
 
 # Voyager: An Open-Ended Embodied Agent with Large Language Models

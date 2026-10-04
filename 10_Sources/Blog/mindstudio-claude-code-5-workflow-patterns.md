@@ -17,6 +17,11 @@ tags: []
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:DELEG-01
+- af:RSCH-04/Q17
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: c00f9583d70e607ef8a5e335d89d995994d527b5558ac54c86885ce23830efce
 ---
 
 # Claude Code 5 workflow patterns explained

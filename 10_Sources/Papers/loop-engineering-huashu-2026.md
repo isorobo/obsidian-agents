@@ -25,6 +25,12 @@ nlm_id:
 nlm_skip: false
 watchlist_channel: 
 authored_by: agens
+af_targets:
+- af:ADR-0008
+- af:RSCH-04/Q20
+- af:RSCH-04/Q23
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 919c64597883da65b5ba97560781a2fb770656c3c88887f0c761f039bec106fb
 ---
 
 # Loop Engineering: The Anthropic Playbook for Designing Systems That Prompt Your Agents

@@ -23,6 +23,11 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel:
+af_targets:
+- af:ADR-0005
+- af:RSCH-04/Q11
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: f3ccaea3c61990e527653b090bb9a1b9ec0dac21905275cd61e68519dbc3fc80
 ---
 
 # Karpathy's LLM Wiki: A Knowledge Base That Compounds

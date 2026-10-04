@@ -22,6 +22,10 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel:
+af_targets:
+- af:DELEG-02
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: b19ac1c2dd2580e2a1a79947e65adbacc0cc5b532f19c3a8ad86ace288fb2782
 ---
 
 # qmd: Query Markup Documents

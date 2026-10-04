@@ -19,6 +19,12 @@ tags: [memory, survey, retrieval, consolidation, evaluation]
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- af:ADR-0005
+- af:RSCH-04/Q11
+- af:RSCH-04/Q12
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: ae62542e8384511452bbdcfbea1afa5fd261b62b60642b8d542041067dd07143
 ---
 
 # Memory for Autonomous LLM Agents: Mechanisms, Evaluation, and Emerging Frontiers

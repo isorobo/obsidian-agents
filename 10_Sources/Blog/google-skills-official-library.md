@@ -22,6 +22,10 @@ tags:
 nlm_id:
 nlm_skip: false
 watchlist_channel: aibuilderclub
+af_targets:
+- cf:ADR-0011
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 9fe22f62edd6122760e5487871e3508212ece58b08d88d91d37e7052633f7633
 ---
 
 # google/skills: Google's Official Agent Skills Library

@@ -28,6 +28,10 @@ tags: [reasoning, self-composition, prompting, meta-reasoning, structured-reason
 nlm_id: 
 nlm_skip: false
 watchlist_channel: 
+af_targets:
+- none
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 08505e43a89b8f401b2b36d4eded92d98addd9e702b2c6d7bec37091a5741860
 ---
 
 # Self-Discover: Large Language Models Self-Compose Reasoning Structures
