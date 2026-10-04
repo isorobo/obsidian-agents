@@ -7,7 +7,12 @@
   "last_run_summary": "2026-10-04: added 3 release notes (Opus 5.5, Sonnet 5.5, Fable 5.1 and Mythos 5.1) from the news listing; rejected 12 non-agent posts by title. No Claude Code, MCP or SDK posts dated after the 2026-06-01 floor appeared in the listing. Recommend weekly cadence stays.",
   "since_date": "2026-06-01",
   "history": [
-    {"run_at": "2026-10-04T03:32:00Z", "sources_added": 3, "status": "ok", "note": "Three model release notes added; listing showed only 15 recent items, rest were policy, customer or company news."}
+    {
+      "run_at": "2026-10-04T03:32:00Z",
+      "sources_added": 3,
+      "status": "ok",
+      "note": "Three model release notes added; listing showed only 15 recent items, rest were policy, customer or company news."
+    }
   ],
   "retrieved_urls": [
     "https://www.anthropic.com/claude-opus-5-5",
@@ -21,18 +26,91 @@
     "Introducing Claude Fable 5.1 and Claude Mythos 5.1"
   ],
   "rejected": [
-    {"url": "https://www.anthropic.com/news/claude-frontier-academy", "id": null, "title": "Anthropic invests $100 million to train 10,000 engineers", "reason": "company news, no agent-engineering content", "date": "2026-10-04"},
-    {"url": "https://www.anthropic.com/news/barclays-scales-claude", "id": null, "title": "Barclays scales Claude", "reason": "customer story", "date": "2026-10-04"},
-    {"url": "https://www.anthropic.com/features/ebola-response", "id": null, "title": "The Situation Report", "reason": "feature story outside agent engineering", "date": "2026-10-04"},
-    {"url": "https://www.anthropic.com/threat-intelligence-report-september-2026", "id": null, "title": "Detecting and countering misuse of AI: September 2026", "reason": "policy and threat report, not agent engineering", "date": "2026-10-04"},
-    {"url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system", "id": null, "title": "Claude discovers a novel enzyme system", "reason": "science result, no agent-engineering content", "date": "2026-10-04"},
-    {"url": "https://www.anthropic.com/news/accenture-embedded-evaluation", "id": null, "title": "Partnering with Accenture on embedded evaluation", "reason": "partnership news", "date": "2026-10-04"},
-    {"url": "https://www.anthropic.com/news/life-sciences-verification-program", "id": null, "title": "Introducing the Life Sciences Verification Program", "reason": "access programme, policy", "date": "2026-10-04"},
-    {"url": "https://www.anthropic.com/news/enterprise-frontier-safeguards", "id": null, "title": "Developing Enterprise Frontier Safeguards with our customers", "reason": "customer and policy news; covered in the Fable 5.1 note", "date": "2026-10-04"},
-    {"url": "https://www.anthropic.com/news/improving-alignment-security-efforts", "id": null, "title": "Improving our alignment and security efforts", "reason": "company safety news", "date": "2026-10-04"},
-    {"url": "https://www.anthropic.com/news/model-hardware-standard-research-preview", "id": null, "title": "Previewing the Model Hardware Standard", "reason": "policy, no agent-engineering content", "date": "2026-10-04"},
-    {"url": "https://www.anthropic.com/news/expanding-support-for-scientists", "id": null, "title": "Expanding our support for scientists", "reason": "programme news", "date": "2026-10-04"},
-    {"url": "https://www.anthropic.com/news/wellbeing-research-grants", "id": null, "title": "Funding better evaluations of AI's impact on wellbeing", "reason": "grants, societal impact", "date": "2026-10-04"}
+    {
+      "url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "id": null,
+      "title": "Anthropic invests $100 million to train 10,000 engineers",
+      "reason": "company news, no agent-engineering content",
+      "date": "2026-10-04"
+    },
+    {
+      "url": "https://www.anthropic.com/news/barclays-scales-claude",
+      "id": null,
+      "title": "Barclays scales Claude",
+      "reason": "customer story",
+      "date": "2026-10-04"
+    },
+    {
+      "url": "https://www.anthropic.com/features/ebola-response",
+      "id": null,
+      "title": "The Situation Report",
+      "reason": "feature story outside agent engineering",
+      "date": "2026-10-04"
+    },
+    {
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "id": null,
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "reason": "policy and threat report, not agent engineering",
+      "date": "2026-10-04"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "id": null,
+      "title": "Claude discovers a novel enzyme system",
+      "reason": "science result, no agent-engineering content",
+      "date": "2026-10-04"
+    },
+    {
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "id": null,
+      "title": "Partnering with Accenture on embedded evaluation",
+      "reason": "partnership news",
+      "date": "2026-10-04"
+    },
+    {
+      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+      "id": null,
+      "title": "Introducing the Life Sciences Verification Program",
+      "reason": "access programme, policy",
+      "date": "2026-10-04"
+    },
+    {
+      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "id": null,
+      "title": "Developing Enterprise Frontier Safeguards with our customers",
+      "reason": "customer and policy news; covered in the Fable 5.1 note",
+      "date": "2026-10-04"
+    },
+    {
+      "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "id": null,
+      "title": "Improving our alignment and security efforts",
+      "reason": "company safety news",
+      "date": "2026-10-04"
+    },
+    {
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "id": null,
+      "title": "Previewing the Model Hardware Standard",
+      "reason": "policy, no agent-engineering content",
+      "date": "2026-10-04"
+    },
+    {
+      "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "id": null,
+      "title": "Expanding our support for scientists",
+      "reason": "programme news",
+      "date": "2026-10-04"
+    },
+    {
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "id": null,
+      "title": "Funding better evaluations of AI's impact on wellbeing",
+      "reason": "grants, societal impact",
+      "date": "2026-10-04"
+    }
   ],
-  "rounds_without_yield": 1
+  "rounds_without_yield": 1,
+  "total_sources": 3
 }
