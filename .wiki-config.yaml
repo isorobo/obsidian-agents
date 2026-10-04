@@ -1,0 +1,59 @@
+# Wiki skill configuration for the Agents vault.
+# Created 2026-10-04 for the rebuilt wiki engine (wiki-engine specs/wiki.md
+# sections 2.3 and 7). Run `/wiki scan` first: the first apply stamps every
+# in-scope note (about 180) for the first time.
+
+engine: wiki-agents
+vault_name: "Agents"
+
+excluded_folders:
+  - ".obsidian"
+  - ".trash"
+  - ".git"
+  - ".claude"
+  - ".claudian"
+  - ".remember"
+  - ".smart-env"
+  - ".workspace"
+  - "_memory"
+  - "00_Inbox"
+  - "50_MOCs"
+  - "60_Drafts"
+  - "70_Research"
+  - "80_Attachments"
+  - "90_Templates"
+  - "99_Meta/wiki-agents"
+  - "99_Meta/learning"
+  - "CLAUDE.md"
+  - "_CLAUDE.md"
+  - "README.md"
+  - "2026-07-10.md"
+  - "Untitled.md"
+
+confidence_threshold: 0.7
+max_topics_per_note: 3
+topic_depth: 3
+vocabulary_version: 1
+
+reports_dir: "99_Meta/wiki-agents/wiki"
+report_prefix: "wiki-"
+vocabulary_source: "99_Meta/schema.md#2.3"
+subjects_file: null
+pending_file: "99_Meta/wiki-agents/wiki/wiki-pending.md"
+moc_mode: suggest
+moc_dir: "50_MOCs"
+moc_name_style: vocab_label
+structural_topics: [topic/meta]
+tag_scope: []
+tag_roles: [wiki, concept, source]
+never_write: []
+role_by_prefix: {}
+
+# Suggest mode derives topic -> MOC from each 50_MOCs file's `topic` frontmatter;
+# entries here override that derivation.
+topic_moc_map: {}
+
+# Schema 2.3: at least one topic; band topics need a second, general topic.
+topic_rules:
+  min_topics: 1
+  companion_required: [topic/karpathy, topic/agent-skills, topic/retrieval, topic/domain-applications, topic/learning]

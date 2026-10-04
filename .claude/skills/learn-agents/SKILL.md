@@ -72,11 +72,18 @@ agent does not plan, say so, and say what supplies the order instead.
 
 ### Gate 7. Tools and pattern
 
-Call `Skill(agens)` for the pattern recommendation. Do not select a pattern
-here. Agens owns pattern selection, cites
-`30_Concepts/agent-patterns-index.md`, and logs to `99_Meta/agens-log.md`.
-Two systems answering the same question is the defect this gate exists to
-prevent.
+Select the pattern from `30_Concepts/agent-patterns-index.md` and nowhere else.
+Read the index, match the design's goal, workflow shape, data sensitivity and
+latency from Gates 1 to 6 against each entry's trigger, and recommend one
+pattern (at most one alternative). Cite the index entry by name, quote its
+trigger and its trade-off, and state why the trade-off is acceptable here. Where
+the index links a dedicated concept note (for example [[react]] or
+[[workflow-vs-autonomous-agent]]), cite that note as well. Where no entry's
+trigger fits, say so and recommend no pattern; do not invent one. The agens
+skill that once owned this step is archived: do not call it, and log nothing to
+`99_Meta/agens-log.md`, which is a historical record. Two systems answering the
+same question is the defect this gate exists to prevent, so the index is the
+only source of the recommendation.
 
 List each tool the agent needs. For each: what it does, what it returns, and
 what it costs if it is wrong. Cite [[tool-use]]. A tool with no failure mode

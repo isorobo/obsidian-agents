@@ -1,8 +1,14 @@
 {
   "channel": "anthropic-github",
   "last_run_at": null,
-  "target_per_run": 5,
+  "target_per_run": 6,
   "sources_added": 0,
   "last_status": "pending",
-  "history": []
+  "history": [],
+  "retrieved_urls": [],
+  "retrieved_arxiv_ids": [],
+  "title_index": [],
+  "rejected": [],
+  "rounds_without_yield": 0,
+  "total_sources": 0
 }

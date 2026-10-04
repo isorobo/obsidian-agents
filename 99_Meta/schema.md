@@ -178,11 +178,33 @@ Set by tooling. Not edited by hand.
 
 ### 2.8 Agent-authorship marker
 
-Set by an agent on any note it writes. Absent on human-authored notes.
+Set by the agens skill on the notes it wrote. agens is archived (2026-10-04), so
+no new note carries this marker. The `wiki-agents-monitor` does not set it: its
+notes are marked by `watchlist_channel` (section 2.7). Absent on human-authored
+notes.
 
 | Field | Enum values | Notes |
 |---|---|---|
 | `authored_by` | `agens` | Present only on agent-written notes; its presence alone marks a note as agent-authored. Absent on a note written by hand. |
+
+### 2.9 Agent-factory targets
+
+Links a note to the items in the user's agent-factory project (and its sibling
+code-factory) that the note bears on. It feeds the weekly digest in
+`99_Meta/agent-factory-digest/`. The flow is one way: agent-factory never reads
+this vault and never depends on it.
+
+| Field | Enum or format | Notes |
+|---|---|---|
+| `af_targets` | list of IDs from `99_Meta/agent-factory/af-targets.md` | Controlled. Each value is one ID from that note, for example `af:ADR-0004`, `af:RSCH-01/smolagents`, `af:RSCH-04/Q16`, `cf:adapter/claude-code`. `none` alone (written `[none]` or as a one-item block list) when nothing applies. At most five IDs. |
+
+The `wiki-agents-monitor` sets `af_targets` on every note it writes, and
+`/wiki-agents af-tag` sets it on notes that lack it, frontmatter only. Both
+follow the assignment rules in `af-targets.md`. A note that already carries the
+field is never retagged by tooling, so a hand correction stands. A new ID
+requires an edit to `af-targets.md` first, by Simon, exactly as a new topic
+requires an update to section 2.3. The field is optional on notes written before
+2026-10-04 and expected on every source note written from then on.
 
 ---
 

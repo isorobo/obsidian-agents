@@ -1,8 +1,18 @@
 {
   "channel": "boris-cherny",
   "last_run_at": null,
-  "target_per_run": 5,
+  "target_per_run": 3,
   "sources_added": 0,
   "last_status": "pending",
-  "history": []
+  "history": [],
+  "retrieved_urls": [
+    "https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny"
+  ],
+  "retrieved_arxiv_ids": [],
+  "title_index": [
+    "Building Claude Code with Boris Cherny"
+  ],
+  "rejected": [],
+  "rounds_without_yield": 0,
+  "total_sources": 1
 }

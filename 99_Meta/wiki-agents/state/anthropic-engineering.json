@@ -4,5 +4,17 @@
   "target_per_run": 5,
   "sources_added": 0,
   "last_status": "pending",
-  "history": []
+  "history": [],
+  "retrieved_urls": [
+    "https://www.anthropic.com/research/building-effective-agents",
+    "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents"
+  ],
+  "retrieved_arxiv_ids": [],
+  "title_index": [
+    "Building Effective Agents",
+    "Demystifying Evals for AI Agents"
+  ],
+  "rejected": [],
+  "rounds_without_yield": 0,
+  "total_sources": 2
 }

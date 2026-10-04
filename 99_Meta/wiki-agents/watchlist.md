@@ -37,6 +37,8 @@ The monitor reads this table on every `run all` and `weekly-refresh`.
 | arxiv-agents | arXiv cs.AI and cs.MA agent tags | Papers | weekly | 6 | active |
 | boris-cherny | Boris Cherny talks, posts, interviews | Talks | irregular | 3 | active |
 | aibuilderclub | AI Builder Club — Build AI Agents Course and blog | Blog | irregular | 5 | active |
+| af-corpus-repos | Agent-factory corpus repositories (12-Factor Agents, learn-agent-architecture, mini-SWE-agent, smolagents) | Repos | irregular | 4 | active |
+| af-corpus-papers | Agent-factory corpus papers (Generative Agents and agent-architecture papers) | Papers | irregular | 3 | active |
 
 ## Promote to active
 
@@ -66,3 +68,39 @@ ships one clean cycle, promote `anthropic-engineering` and `anthropic-docs`.
   addition to their general topic, per `99_Meta/schema.md` section 2.3. Watch
   for new numbered chapters and standalone posts; skip video-only lessons with
   no companion article.
+- **af-corpus-repos** - the four repositories in agent-factory's RSCH-01 research
+  corpus, and nothing else: `https://github.com/humanlayer/12-factor-agents`,
+  `https://github.com/hardness1020/learn-agent-architecture`,
+  `https://github.com/SWE-agent/mini-swe-agent`, and
+  `https://github.com/huggingface/smolagents`. Watch the README, the docs and
+  content folders inside each repository, and releases. Every note is a
+  `source_type: repo` note whose `url` points into one of the four repositories.
+  First pass: one overview note per repository. Then the docs parts that explain
+  the loop, tools, state, memory, context, delegation, permissions, recovery and
+  evaluation, then releases that change the architecture. Set `af_targets` with
+  the matching `af:RSCH-01/<item>` ID.
+- **af-corpus-papers** - papers for agent-factory's RSCH-01 corpus and its 33
+  research questions (RSCH-04). Start with Generative Agents (Park et al. 2023,
+  arXiv 2304.03442), then the numbered seed list in `queries/af-corpus-papers.md`,
+  then arXiv searches on the plan's question keywords. Papers already in the vault
+  (ReAct, Reflexion, Voyager, AutoGen, CAMEL, AgentVerse and the surveys) are
+  duplicates. Tag `topic/research-papers` plus a general topic.
+
+## State reconciliation (2026-10-04)
+
+This table is authoritative for `target_per_run`. On 2026-10-04 three state files
+disagreed with it: `anthropic-github` (state 5, table 6), `arxiv-agents` (state 5,
+table 6) and `boris-cherny` (state 5, table 3). `/wiki-agents init` runs
+`wiki_vault.py reconcile --write` for every channel, which copies the table value
+into state, extends each state file to the monitor schema (dedupe arrays, rejected
+list, dry-round counter, run summary), and sets the source count from disk. The
+first-run date floor for each channel (`since_date`) comes from the `## Window`
+section of its query plan.
+
+The pilot gate stays in force: until `anthropic-news` has one clean automated run,
+`run all` runs only the pilot, unless it is called with `--all` (authorised for the
+rebuild). Naming a channel (`run <channel>`) runs it regardless.
+
+The two `af-corpus-*` channels feed the agent-factory digest in
+`99_Meta/agent-factory-digest/`. The feed is one way: agent-factory never reads
+this vault.
