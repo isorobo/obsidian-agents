@@ -6,6 +6,8 @@ created: 2026-07-10
 topic:
 - topic/meta
 tags: []
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 6f6dc372b89dba423d82717684ddf4bc0844c37366d224f3004a14f679cbf456
 ---
 
 # NotebookLM Bridge

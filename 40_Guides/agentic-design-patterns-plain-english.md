@@ -14,6 +14,11 @@ related_concepts:
 - "[[memory]]"
 - "[[supervisor-worker-multi-agent]]"
 - "[[mcp]]"
+af_targets:
+- af:RSCH-04/Q30
+- af:RSCH-04/Q31
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 4579ded374cfe7a093712481b759b17a778e57fde20e253869ec38ca2889651e
 ---
 
 # Agentic Design Patterns — Plain English Guide

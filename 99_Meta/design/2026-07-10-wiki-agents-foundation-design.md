@@ -6,6 +6,8 @@ created: 2026-07-10
 topic:
 - topic/meta
 wiki_role: meta
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 06a375633b32a9ceb382491b90bd1f202be282545ecb7ca19cb96c0dd354417b
 ---
 
 # wiki-agents Foundation — Design Specification

@@ -6,6 +6,8 @@ created: 2026-07-10
 topic:
 - topic/meta
 wiki_role: meta
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 599aad5ab37019705e4ab8273f47a3e85397da493c8805306fec3a311b6858a3
 ---
 
 # Graph Node Colour Schema

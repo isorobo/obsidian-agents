@@ -17,6 +17,12 @@ related_concepts:
 - "[[supervisor-worker-multi-agent]]"
 - "[[claude-code]]"
 - "[[mcp]]"
+af_targets:
+- af:ADR-0001
+- af:RSCH-04/Q01
+- af:RSCH-04/Q02
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: e86d71ba13263f26a24f881e81b0ac4d49460c8dd879bfe97f37a864782e2f18
 ---
 
 # AI Agents Course — Chapter 1: Fundamentals (Synthesis)

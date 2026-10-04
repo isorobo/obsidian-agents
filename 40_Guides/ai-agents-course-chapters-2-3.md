@@ -17,6 +17,11 @@ related_concepts:
 - "[[mcp]]"
 - "[[claude-code]]"
 - "[[prompt-engineering]]"
+af_targets:
+- af:DELEG-02
+- af:RSCH-04/Q24
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: dd63f046798da09d30e99c442842cf2aa1cfcde23fc78d6bfba76f6fe64e716e
 ---
 
 # AI Agents Course — Chapters 2 & 3: From Scratch to Infrastructure (Synthesis)

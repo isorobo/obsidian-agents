@@ -6,6 +6,8 @@ created: 2026-07-10
 topic:
 - topic/meta
 tags: []
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: 84f6207144b0f7d46d567293fe5f6f6f8e5bd24290cbca17430c66a6534ddb6a
 ---
 
 # Recommended Plugins

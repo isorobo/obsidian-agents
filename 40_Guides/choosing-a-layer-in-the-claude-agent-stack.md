@@ -13,6 +13,11 @@ related_concepts:
 - "[[claude-agent-sdk]]"
 - "[[claude-code]]"
 - "[[mcp]]"
+af_targets:
+- af:ADR-0003
+- af:RSCH-04/Q29
+wiki_indexed: '2026-10-04T03:01:49Z'
+wiki_hash: dceb68909a9a06bb0f8fe1afc39182d50b71ffab942d56af6df3491f95c05382
 ---
 
 # Choosing a Layer in the Claude Agent Stack
